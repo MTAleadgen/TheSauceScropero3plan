@@ -1,0 +1,21 @@
+CREATE TABLE "metro" (
+	"metro_id" serial PRIMARY KEY NOT NULL,
+	"geonameid" integer NOT NULL,
+	"name" text,
+	"asciiname" text,
+	"alternatenames" text,
+	"country_iso2" char(2),
+	"population" integer,
+	"timezone" text,
+	"tz_offset_min" integer,
+	"metro_tier" integer,
+	"latitude" double precision NOT NULL,
+	"longitude" double precision NOT NULL,
+	"slug" text,
+	"bbox_wkt" text,
+	"geom" GEOGRAPHY(POINT, 4326),
+	"bbox" GEOGRAPHY(POLYGON, 4326),
+	"created_at" timestamp with time zone DEFAULT now() NOT NULL,
+	"updated_at" timestamp with time zone DEFAULT now() NOT NULL,
+	CONSTRAINT "metro_geonameid_unique" UNIQUE("geonameid")
+);

@@ -1,0 +1,49 @@
+# Node.js / npm / pnpm / yarn
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # Often committed, but can be ignored if causing too many merge conflicts; include if you want deterministic installs
+pnpm-lock.yaml    # Same as above for pnpm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Supabase / Drizzle specific (if any local dumps or sensitive outputs)
+# (none specific come to mind immediately unless you generate local DB dumps not meant for repo)
+
+# Editor / OS specific
+.DS_Store
+Thumbs.db
+.vscode/ # Can be committed if you want to share settings, or ignored
+.idea/
+
+# Secrets / Environment variables
+.env.local
+.env.*.local
+*.env
+!/.env.example # It's good practice to have an example env file
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Data files (if large or derived)
+# cities15000.txt # Consider if this large raw data file should be in git
+# geonames_top1000.csv
+# geonames_top1000_enriched.csv
+# *.zip
+
+# Comment out the data files above if you *do* want to version them.
+# For large raw data files, Git LFS (Large File Storage) is often a better solution. 
