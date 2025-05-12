@@ -1,0 +1,200 @@
+{
+  "keyword": "(salsa OR bachata) in \"New York\"",
+  "type": "organic",
+  "se_domain": "google.com",
+  "location_code": 1023191,
+  "language_code": "en",
+  "check_url": "https://www.google.com/search?q=%28salsa%20OR%20bachata%29%20in%20%22New%20York%22&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+  "datetime": "2025-05-09 23:27:18 +00:00",
+  "spell": null,
+  "refinement_chips": {
+    "type": "refinement_chips",
+    "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "items": [
+      {
+        "type": "refinement_chips_element",
+        "title": "Today",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+New+York+today&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfElfLOuuqqqw3-JPGx7VHimY6IRVAdTMo5h6AaiIx4rg8Zfj-CnDpNyfh3mTMX3dyr1E_QFRcwDw0JolIQ8HvvPa-H3WtqJJ9OHT4fz1hbWJuUPajKPLt0pNTPws6ZC7IB9tyXb23QDMQHUmUE-B_A-7TyaFFprc7kS7S45SbV3Y78IXqyvtCTRdB5onlOHy6N-i-7W9Qggx1G2JqsV0mAdgXMXn&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIGhAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Calendar",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+New+York+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXbpeEMey_Q4pR6vhuQVBuo44zTPkI-4sRcIRpA7eZfqoPwrXm_Co4mHF65pCd4ImWkOHeYVQ--YcZ0b1XYY101ZHbJ3pFfySVW9nx8h24vIW9gI_GVijMK22XaK87h7wOL5jF7Ls9UOGCVu6Tuk8JYVYO7y1Z1ioHnoFmm26HrBOgsfVHN14ikQGMHwOcUQj89fk9qJns86onSW96HPIhsmrxHXJzDw-IxgLGUHztg5wn2DD&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIGxAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Open now",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=(salsa+bachata)+in+%22New+York%22+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRNOSFgQPMdcJvrtgIu4Xo0tTcYorl0VC-xDV0ra2O68e7cIQKDQiPnpNNOXwk3RPa4jsVkw8FoOPe4bj0exV5vbcUmStPv9idV03yV4hqBNtj1o004LGnYdsNkX2UoD9uiX_Gcm8h5TuXClUfknWaSTjbJ9G4hE21qMV2vp0bfhDwmKJf43hdAuaasumkMxRensUN8wPGjxcH-O2XWtvDLkQTzoE&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIFhAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Online classes",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+(salsa+bachata)+in+%22New+York%22&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRAFTy6xDxIETHzoXyWXL15Xtx8vts7CXsVImNkPUZZT2zRGeL4psjAl7YY_SsBy4qyxEVn0Pl0plCxvaboe3ZsXEYGHizppN2yDZippQYDi73-IkCVBTo9KSLWwH4lUUEF7FjkRx0zugXJ0_A-tf8wciusu9GVFQWOW2NdiQJnF3PXMakK1VNjywHQ5RaSCqZ_3acFX5I_T6eK3-Iohgnr9OTy8LN0cbb15758lXvD4E5m_GMa_S8w9KlL0oZzdJDIdXB5A&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIFRAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Top rated",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+(salsa+bachata)+in+%22New+York%22&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRj6Rf12M6Gawrxdbl5TakBYb-3nmZPC4ZuoDaKU3Bo1YIqKmdZeCPsRZLhu4Sb0nltRaecD0cjDaGF9HEBLhIKC_wCumA4mzP7q4YqrPOLwUoMFynn5zcWuk2c6aTyv8kTvfRy5sQSxK01hP7TibIhzGDSXF24zq4KNFhpsA31OvMp4xcPlmi1SXpOoO0FHXC-bODwONDlPsmQqsEznqqM7F5OQM&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIFBAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Congress",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+Congress+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXbpeEMey_Q4pR6vhuQVBuo44zTPkI-4sRcIRpA7eZfqoPwrXm_Co4mHF65pCd4ImzHgI5NGCEPc7s4djFVImDe0ZEy7eXsO3BvWbrCsTO-pW-8tcGrDQlUQGMj2APYolpTP4H2NJz-XYIHGzoNIwXIyUNJBP8asft8IWSzWXEAC7E6tD0dbmQtqHjK8LVJ6zkMUcmW5fXfI_ruwzhSkKRP8Ofs0HwwHzQlga6Jv-3pJgDYiu&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIPBAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Commercial",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=New+York+Salsa+commercial&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpy6D5K1hLI3VVAhLmymzGk9GzXrDV60FS9FFU_rT9kmY1902ehLyrfzuCZd2zLa88tdzZO8Wj3g65fa1GYItEdBYtKLyECVPP5r3WMN9OwkDP9UkT7Hq8RYbpXOQkwr-DaZgjeb-wJJFplIEU9_ohI_6rOioldKvAkj2uLKze6lJNmkW_PLocmXcb3NBGUWmVJaNC02OD-kh056Hvoyn4ME3FCmIQx2xxCjFJZawcrhbHw8b&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIORAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Festival",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=New+York+Salsa+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXbpeEMey_Q4pR6vhuQVBuo44zTPkI-4sRcIRpA7eZfqoPwrXm_Co4mHF65pCd4Imorkb6ANMLJFbP3s7V1DC7jjQaTt7PXI6Xm60G-ynlK2ePUSEc_59GzIsayl8_hmK4Bdb2xngou5IAR5t2YQohhsig0PtDGu8B4wdbLgAaL2giUX1jSHEQhYh3fIVyCuked5XSEtZR5hK5ttBkfARd3r4TItBsRKdT8piMvLeSv20JQYU&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIOBAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      },
+      {
+        "type": "refinement_chips_element",
+        "title": "Walk",
+        "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=New+York+walk+Salsa&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr5O9efQ5bsYFKZ1dChUDcCus-psl6OzSgjwRb6QohE-nBTS-2JtzWnmL_73CsioR0OGgS-z85SoghhG06exNn1r0LZVbsxlOmLurtGNnUOzWM-8ORkM2F9JbvpJfLKq9kBl-BYiw4M6Kp71F60RVGsfUk5Xe3Cl402Y6J-ZbtTfZFsfXgSUMUSSWXlDtNdfBuv6W8qgmodHneO22mWWX_VagBsY1&sa=X&ved=2ahUKEwiMh570xJeNAxWv78kDHe-dJ3sQxKsJegQIOxAB&ictx=0",
+        "domain": "www.google.com",
+        "options": null
+      }
+    ]
+  },
+  "item_types": [
+    "video",
+    "local_pack",
+    "related_searches"
+  ],
+  "se_results_count": 47700000,
+  "items_count": 5,
+  "items": [
+    {
+      "type": "video",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "items": [
+        {
+          "type": "video_element",
+          "source": "Instagram",
+          "title": "New York Bucket List | Salsa Social returns Washington ...",
+          "timestamp": "2025-05-02 23:27:18 +00:00",
+          "url": "https://www.instagram.com/reel/DJCJPZ8xV_e/"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube",
+          "title": "How To Dance Salsa On2 | Salsa New York Style | Mambo",
+          "timestamp": "2021-01-06 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=sPGVPh5DmxY"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube",
+          "title": "How to Dance Salsa On2 NY Style - Basic Step",
+          "timestamp": "2024-07-06 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=rDsmAHwKn6I"
+        }
+      ],
+      "rectangle": null
+    },
+    {
+      "type": "local_pack",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+      "title": "Salsa Sabrosa",
+      "description": "410-412 8th Ave 4th Floor \nOpen \u22c5 Closes 11\u202fPM \n\" Salsa Sabrosa is a great school for Cuban Salsa and bachata .\" \n",
+      "domain": "salsasabrosaschool.com",
+      "phone": null,
+      "url": "https://salsasabrosaschool.com/",
+      "is_paid": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 269,
+        "rating_max": 5
+      },
+      "cid": "4932675944286440137",
+      "rectangle": null
+    },
+    {
+      "type": "local_pack",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+      "title": "Gonzalez y Gonzalez",
+      "description": "192 Mercer St \nOpen \u22c5 Closes 4\u202fAM \n\"Great atmosphere, live salsa , merengue , cumbia and bachata .\" \n",
+      "domain": "gygnyc.com",
+      "phone": "(844) 536-8637",
+      "url": "http://gygnyc.com/",
+      "is_paid": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.1,
+        "votes_count": 1900,
+        "rating_max": 5
+      },
+      "cid": "5911709644558449139",
+      "rectangle": null
+    },
+    {
+      "type": "local_pack",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+      "title": "KS Bachata Sensual",
+      "description": "7+ years in business \u00b7 38W W 32nd St #405 \nOpen \u22c5 Closes 11\u202fPM \n\"The people were amazingly friendly and danced bachata sensual beautifully.\" \n",
+      "domain": "www.bachatanyc.com",
+      "phone": "(917) 969-8129",
+      "url": "https://www.bachatanyc.com/",
+      "is_paid": false,
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 193,
+        "rating_max": 5
+      },
+      "cid": "15490072797722449774",
+      "rectangle": null
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "position": "left",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+      "items": [
+        "Salsa Dancing NYC tonight",
+        "Best salsa bachata in new york",
+        "Free Salsa dancing NYC",
+        "Salsa in New York history",
+        "Bachata Social NYC",
+        "Salsa dancing NYC Saturday night",
+        "Salsa events NYC",
+        "Salsa dancing classes NYC"
+      ],
+      "rectangle": null
+    }
+  ]
+}

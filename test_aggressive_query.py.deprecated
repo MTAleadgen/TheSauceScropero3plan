@@ -1,0 +1,353 @@
+#!/usr/bin/env python3
+"""
+Aggressive DataForSEO test that combines multiple APIs and extraction techniques
+to maximize URL collection similar to SerpAPI.
+"""
+import os
+import json
+import base64
+import requests
+import logging
+import time
+from pathlib import Path
+from dotenv import load_dotenv
+from urllib.parse import urlparse
+
+# Load environment variables
+load_dotenv(override=True)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATA_RAW_DIR = "./data_raw/aggressive"
+
+# Ensure data directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+# Track all found URLs across all methods
+ALL_URLS = set()
+URL_SOURCES = {}
+
+def make_api_request(endpoint, data):
+    """Make a request to the DataForSEO API with proper authentication"""
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    response = requests.post(endpoint, json=data, headers=headers)
+    response.raise_for_status()
+    return response.json()
+
+def extract_urls_from_item(item, source_type="unknown", parent_type=None):
+    """Recursively extract all URLs from a result item"""
+    found_urls = []
+    
+    # Base case: item is None or not a dict
+    if item is None or not isinstance(item, dict):
+        return found_urls
+    
+    # Get direct URL if available
+    if 'url' in item and item['url']:
+        url = item['url']
+        if url.startswith('http'):
+            found_urls.append((url, f"{source_type}"))
+    
+    # Get domain URL if available
+    if 'domain' in item and item['domain']:
+        domain = item['domain']
+        domain_url = f"https://{domain}" if not domain.startswith('http') else domain
+        found_urls.append((domain_url, f"{source_type}_domain"))
+    
+    # Look for links
+    if 'links' in item and isinstance(item['links'], list):
+        for link in item['links']:
+            if isinstance(link, dict) and 'url' in link and link['url']:
+                url = link['url']
+                if url.startswith('http'):
+                    found_urls.append((url, f"link_from_{source_type}"))
+    
+    # Look for items array
+    if 'items' in item and isinstance(item['items'], list):
+        for sub_item in item['items']:
+            sub_results = extract_urls_from_item(sub_item, f"{source_type}_item", source_type)
+            found_urls.extend(sub_results)
+    
+    # Check all other dictionaries recursively (but avoid infinite recursion)
+    for key, value in item.items():
+        if key not in ['url', 'domain', 'links', 'items'] and isinstance(value, dict):
+            sub_results = extract_urls_from_item(value, f"{key}", source_type)
+            found_urls.extend(sub_results)
+        elif key not in ['url', 'domain', 'links', 'items'] and isinstance(value, list):
+            for sub_item in value:
+                if isinstance(sub_item, dict):
+                    sub_results = extract_urls_from_item(sub_item, f"{key}_item", source_type)
+                    found_urls.extend(sub_results)
+    
+    return found_urls
+
+def process_results(result, context="unknown"):
+    """Process API response and extract all URLs"""
+    global ALL_URLS, URL_SOURCES
+    local_urls = []
+    
+    try:
+        if result.get('status_code') == 20000:  # Success
+            tasks = result.get('tasks', [])
+            
+            for task in tasks:
+                task_id = task.get('id')
+                logger.info(f"Processing task ID: {task_id} ({context})")
+                
+                if 'result' in task and task['result']:
+                    for i, item in enumerate(task['result']):
+                        # Start with standard items
+                        items = item.get('items', [])
+                        
+                        # Process all item types
+                        for result_item in items:
+                            item_type = result_item.get('type', 'unknown')
+                            # Extract all URLs from this item through recursive function
+                            extracted_urls = extract_urls_from_item(result_item, item_type)
+                            
+                            for url, source in extracted_urls:
+                                if url not in local_urls:
+                                    local_urls.append(url)
+                                
+                                # Add to global tracking
+                                ALL_URLS.add(url)
+                                URL_SOURCES[url] = f"{context}:{source}"
+                        
+                        # Also check if there are direct URLs in the result (not in items)
+                        direct_extracted = extract_urls_from_item(item, "direct_result")
+                        for url, source in direct_extracted:
+                            if url not in local_urls:
+                                local_urls.append(url)
+                            
+                            # Add to global tracking
+                            ALL_URLS.add(url)
+                            URL_SOURCES[url] = f"{context}:{source}"
+        else:
+            logger.warning(f"API request failed ({context}): {result.get('status_message')}")
+        
+        return local_urls
+    
+    except Exception as e:
+        logger.error(f"Error processing results ({context}): {e}")
+        return []
+
+def query_organic_search(keyword, location="New York,New York,United States"):
+    """Query the DataForSEO organic search endpoint"""
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    data = [{
+        "keyword": keyword,
+        "location_name": location,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "se_results_count": 100,
+        "include_serp_info": True
+    }]
+    
+    try:
+        logger.info(f"Querying organic search: '{keyword}' in {location}")
+        result = make_api_request(endpoint, data)
+        
+        # Save raw response
+        keyword_slug = keyword.replace(" ", "_").lower()
+        raw_path = os.path.join(DATA_RAW_DIR, f"organic_{keyword_slug}.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        # Process and extract URLs
+        urls = process_results(result, f"organic:{keyword}")
+        logger.info(f"Found {len(urls)} URLs from organic search for '{keyword}'")
+        
+        return urls
+    
+    except Exception as e:
+        logger.error(f"Error in organic search for '{keyword}': {e}")
+        return []
+
+def query_google_local(keyword, location="New York,New York,United States"):
+    """Query the DataForSEO Google Local API endpoint"""
+    endpoint = "https://api.dataforseo.com/v3/serp/google/local_pack/live/advanced"
+    
+    data = [{
+        "keyword": keyword,
+        "location_name": location,
+        "language_name": "English",
+        "depth": 1
+    }]
+    
+    try:
+        logger.info(f"Querying Google Local: '{keyword}' in {location}")
+        result = make_api_request(endpoint, data)
+        
+        # Save raw response
+        keyword_slug = keyword.replace(" ", "_").lower()
+        raw_path = os.path.join(DATA_RAW_DIR, f"local_{keyword_slug}.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        # Process and extract URLs
+        urls = process_results(result, f"local:{keyword}")
+        logger.info(f"Found {len(urls)} URLs from Google Local for '{keyword}'")
+        
+        return urls
+    
+    except Exception as e:
+        logger.error(f"Error in Google Local search for '{keyword}': {e}")
+        return []
+
+def query_google_maps(keyword, location="New York,New York,United States"):
+    """Query the DataForSEO Google Maps API endpoint"""
+    endpoint = "https://api.dataforseo.com/v3/serp/google/maps/live/advanced"
+    
+    data = [{
+        "keyword": keyword,
+        "location_name": location,
+        "language_name": "English",
+        "depth": 1
+    }]
+    
+    try:
+        logger.info(f"Querying Google Maps: '{keyword}' in {location}")
+        result = make_api_request(endpoint, data)
+        
+        # Save raw response
+        keyword_slug = keyword.replace(" ", "_").lower()
+        raw_path = os.path.join(DATA_RAW_DIR, f"maps_{keyword_slug}.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        # Process and extract URLs
+        urls = process_results(result, f"maps:{keyword}")
+        logger.info(f"Found {len(urls)} URLs from Google Maps for '{keyword}'")
+        
+        return urls
+    
+    except Exception as e:
+        logger.error(f"Error in Google Maps search for '{keyword}': {e}")
+        return []
+
+def run_aggressive_search():
+    """Run a very aggressive search using multiple APIs and queries"""
+    global ALL_URLS, URL_SOURCES
+    ALL_URLS = set()
+    URL_SOURCES = {}
+    
+    # Define search queries - wide variety to maximize coverage
+    queries = [
+        "salsa dance classes in new york",
+        "latin dance in new york",
+        "salsa dance new york",
+        "new york salsa dancing",
+        "bachata classes nyc",
+        "dance studios new york",
+        "salsa clubs nyc",
+        "dance events in new york"
+    ]
+    
+    # Locations - testing different location formats
+    locations = [
+        "New York,New York,United States",
+        "Manhattan,New York,United States",
+        "Brooklyn,New York,United States",
+        "United States"
+    ]
+    
+    # Search for each query in each location
+    # Note: To conserve credits, we'll only use a subset of combinations
+    total_combinations = len(queries) * len(locations)
+    logger.info(f"Planning to run {total_combinations} query combinations.")
+    logger.info("To save credits, only running a subset of important combinations.")
+    
+    # Track URLs from different search types
+    organic_urls = []
+    local_urls = []
+    maps_urls = []
+    
+    # Organic search for all queries in New York
+    for query in queries:
+        # Add delay to avoid rate limiting
+        time.sleep(0.5)
+        
+        urls = query_organic_search(query)
+        organic_urls.extend(urls)
+    
+    # Local search for all queries in Manhattan (just a subset)
+    for query in queries[:4]:  # Only first 4 queries
+        # Add delay to avoid rate limiting
+        time.sleep(0.5)
+        
+        urls = query_google_local(query, "Manhattan,New York,United States")
+        local_urls.extend(urls)
+    
+    # Maps search for first 2 queries in different locations
+    for query in queries[:2]:  # Only first 2 queries
+        for location in locations[:2]:  # Only first 2 locations
+            # Add delay to avoid rate limiting
+            time.sleep(0.5)
+            
+            urls = query_google_maps(query, location)
+            maps_urls.extend(urls)
+    
+    # Save all URLs to a file with their sources
+    urls_path = os.path.join(DATA_RAW_DIR, "all_urls.txt")
+    with open(urls_path, 'w') as f:
+        f.write(f"Total unique URLs found: {len(ALL_URLS)}\n\n")
+        
+        for i, url in enumerate(ALL_URLS, 1):
+            source = URL_SOURCES.get(url, "unknown")
+            f.write(f"{i}. [{source}] {url}\n")
+    
+    # Save structured data to JSON
+    data_path = os.path.join(DATA_RAW_DIR, "all_urls.json")
+    with open(data_path, 'w') as f:
+        json.dump({
+            'total_unique_urls': len(ALL_URLS),
+            'urls_by_source': {source: [url for url, src in URL_SOURCES.items() 
+                                      if src.startswith(source.split(':')[0])] 
+                             for source in set([s.split(':')[0] for s in URL_SOURCES.values()])},
+            'all_urls': list(ALL_URLS)
+        }, f, indent=2)
+    
+    # Compute statistics
+    source_counts = {}
+    for source in URL_SOURCES.values():
+        source_type = source.split(':')[0]
+        source_counts[source_type] = source_counts.get(source_type, 0) + 1
+    
+    logger.info("\n=== URL Counts by Source ===")
+    for source, count in source_counts.items():
+        logger.info(f"{source}: {count} URLs")
+    
+    logger.info(f"\nTotal unique URLs: {len(ALL_URLS)}")
+    logger.info(f"Results saved to {urls_path} and {data_path}")
+    
+    return len(ALL_URLS)
+
+if __name__ == "__main__":
+    logger.info("Starting aggressive DataForSEO search")
+    total_urls = run_aggressive_search()
+    
+    # Compare with expected SerpAPI results
+    logger.info("\n=== Results Summary ===")
+    logger.info(f"SerpAPI baseline (reported): 42 URLs")
+    logger.info(f"DataForSEO aggressive search: {total_urls} unique URLs")
+    
+    if total_urls >= 42:
+        logger.info("SUCCESS: Aggressive approach meets or exceeds SerpAPI baseline!")
+    else:
+        logger.info(f"Found {total_urls}/{42} URLs ({(total_urls/42)*100:.1f}% of SerpAPI baseline)") 

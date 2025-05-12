@@ -1,0 +1,342 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.9507 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101619-9976-0139-0000-045d3f8ed5ab",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.8440 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in New York",
+        "location_code": 2840,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2025-05-10 13:19:05 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Today",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+New+York+today&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xC9H6rE0Gcp-RxfD0wMMUWXyyFrvsZPdRpYjyt1HFRcAQyNrpm6MwHibbmckzq9MxHEfoQZ8fPAQRjgAPvjDRutfyf-Alx58LDiAE6E2UmBG__QY9_qIlkZIGMyo3nRwEAPiTxkyXDlTqI9ieYmRMpIsVoQVrtIeKceF55NBl6IwODeuivIIuwSSlpjnloOHARo202s&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQIGBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=salsa+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khRMhzTACM3G9LHg63QOTXP8l3RFjrZazU3exoKQzRBAtmwMm0HoqsUag4w3zLVTsnloYPV6OcvYs5q5wCyDAqKwp_hIuSDEgEECJH8VbgnWtwxF0GHGAw_HADy9YNkAjqSlITtA63rHggACnzJJwXsPu97WL&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Artists",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=New+York+salsa+artists&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr8U0WSamEd1MU1SuujVDCyQBZD15MuZNucepPTcHEG0K9ibiPuygdYyMq1cI3T4HNwtEq9mPmkDwmTQLM2-6lEwZfh1yk-IwgdZhI-7hwDhJZ7JqcmWcUasGGr7yHLZIyJVk-11fTdC893fmmQnfE7Rf28MwRFkD5cBF5PDm1Wmxxrtq8WaMMCprKG-wSUOa0XyBQeo&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+New+York+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfMA9mgrRSr-mjkSUC66yGhGZaP6Cwn5NelkTUi-R1JSXhgxLu7JXEIw4Sfov6uPraoSu6RYXPDIgZQx_79PwIGNa5xZiIXi5sjvw5NH-fla0UkWcsU8-JPPJkQweZDkeF6wBjhFX_ecjt0zyy-gIBJL_YAFE-VQVOUtkEeObdN3QT06pe6UbmpVrMRHU7tNKqZQIk-w&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Club",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+club+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4d1EaEilrsF32MAquSYEGyfrBtvcXxWP4OmEMvJiah0C-1JvP_KQihmAx_QtYq8-loIMs9xAZj73Te0Q71Rym6anScWDeXKuA3R7J5ez069Lt2U90xCPNGieaOJEvXpY37UjA9BYp7uZ1FYnGSM-s_ki-7C7q2OUOtQo_sOKqyyZWb7emSXMReq0x3wIbH262U65f8s&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Congress",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+Congress+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfMA9mgrRSr-mjkSUC66yGhHRS8tqsCkEmbxwd0IWpNe4X7p3EYmwMCwdIVMYM9r6taSnXEglF_UDOUTeNgEfov0eHe7Lay008Ge7vstcgpoDCPYVRPAMdLyCzw-1XfSpFkDDZh49EeBDfoiMgpZ3s0PJ2BSzE15ey7nCSMaMOTKMfRiVG61CbUjQq6AdNUBqWBFsErI&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQISxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+salsa+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnFAASpKAt2FbIRnDyP4rjSOtnkoHcFa044YVURdpkNc6750GWxvPSeqd6lxDSTQBVGw6EdVZG16jkvq5kLJJFUtTLW1o22CjMC5SUtBupPXrDAP1vHcxIgFXLPL7KDSclNZxJ3Rf4QKniaqHb5e6-RnQO719O6fNDqE82IZAzzvC8jhYaOSs1k3kVPYE0zzVro4Sy7srEz5ydkzuxxAKzZBlwRylvYKFhdyuPAM3HkjwlKSW&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQIRxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+salsa+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-hr_6l-QnjlapskfZR7OtKpIdcNdfryZrVBrUHyRYA1lbJYhLFIf73mpsxiJmFzp3DdKtfpUvqNdcB5s0tiGtHEH-MqRtqubUaMnpyAOPuzXLLyPecETPkiq3OZv79BpZ2L6iOxRFx8w3sxMGs5XzdSSIRwizh13YY7H7XUtq7n-z77i&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQIShAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=New+York+Salsa+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfMA9mgrRSr-mjkSUC66yGhHnsfsiaoVsh8aU-poZ2YiRUG4knel97keqopr8FpIatOYG1fw_qzcY1YAPQu-ZSNJaOdSD2RTRGpkpZ8ee3hQLJZ2uAIfoWvlCPuRMbBSLgOz-unym_zsVSv0fws_RxmNhdH3G_HDkNSCRv6Fv7Wn34dBJdAF9M38K5nmOM6_DX31a3hQ&sa=X&ved=2ahUKEwjQ7Ibq_piNAxUKElkFHTj9C1oQxKsJegQISBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "events",
+            "related_searches"
+          ],
+          "se_results_count": 107000000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.salsanewyork.com",
+              "title": "Salsa New York Calendar | The best salsa events in NY",
+              "url": "https://www.salsanewyork.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.salsanewyork.com",
+              "website_name": "Salsa New York Calendar",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A website about New York Style mambo dancing. Find the best salsa events.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Find the best salsa events"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "List your online class",
+                  "description": null,
+                  "url": "https://www.salsanewyork.com/list-class",
+                  "domain": "www.salsanewyork.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Join the team",
+                  "description": null,
+                  "url": "https://www.salsanewyork.com/volunteer",
+                  "domain": "www.salsanewyork.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Contact",
+                  "description": null,
+                  "url": "https://www.salsanewyork.com/contact",
+                  "domain": "www.salsanewyork.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsa Sabrosa",
+              "description": "410-412 8th Ave 4th Floor \nOpen ⋅ Closes 11 PM \n\"They help making first steps in salsa fun and easy!\" \n",
+              "domain": "salsasabrosaschool.com",
+              "phone": null,
+              "url": "https://salsasabrosaschool.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 269,
+                "rating_max": 5
+              },
+              "cid": "4932675944286440137",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Gonzalez y Gonzalez",
+              "description": "192 Mercer St \nClosed ⋅ Opens 4 PM \n\"Live salsa band, cheap margarita pitchers, excellent music.\" \n",
+              "domain": "gygnyc.com",
+              "phone": "(844) 536-8637",
+              "url": "http://gygnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 1900,
+                "rating_max": 5
+              },
+              "cid": "5911709644558449139",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Salsa Con Fuego",
+              "description": "Bronx, NY \nClosed ⋅ Opens 4 PM \n\" Salsa is accessible via public transportation (bus).\" \n",
+              "domain": "www.salsaconfuego.com",
+              "phone": "(718) 701-8199",
+              "url": "http://www.salsaconfuego.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 5900,
+                "rating_max": 5
+              },
+              "cid": "3976813005307159670",
+              "rectangle": null
+            },
+            {
+              "type": "events",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "title": "Events",
+              "url": null,
+              "items": [
+                {
+                  "type": "events_element",
+                  "title": "La Vieja Guardia Salsa Social At Sos",
+                  "snippet": "May 11, 7:00 PM Stepping Out Studios New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Free Monthly Social @ Salsa Salsa Dance Studio",
+                  "snippet": "May 18, 7:00 PM Salsa Salsa Dance Studio New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "New York International Salsa Congress",
+                  "snippet": "Aug 27, 8:00 PM New York Marriott Marquis New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Cuban Salsa Brunch At Palomas Bk",
+                  "snippet": "May 10, 12:00 PM Palomas Bk New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Cuban Salsa & Rueda de Casino Classes!",
+                  "snippet": "May 14, 10:00 PM Adelante Studios New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "FREE Salsa Dance Class NYC",
+                  "snippet": "May 17, 7:00 PM Dance Fever Studios New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Mother's Day Salsa Class",
+                  "snippet": "May 11, 3:00 PM Cucala Dance Company - New York City Salsa Classes New York, NY $23",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SALSA DANCE FESTIVAL AT THE EMPIRE OUTLETS",
+                  "snippet": "Jun 28, 1:00 PM Empire Outlets - Northwell Covid Vaccine POD New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Salsa Groove Fridays: Free Salsa Dance Lessons & Happy Hour",
+                  "snippet": "May 16, 6:00 PM Sounds Of Brazil New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Noche De Descarga Salsa Social  - Stepping Out Studios",
+                  "snippet": "May 21, 10:00 PM Stepping Out Studios New York, NY",
+                  "url": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa in new york today",
+                "Salsa dancing NYC Saturday night",
+                "Live Salsa NYC",
+                "Free Salsa dancing NYC",
+                "Best salsa in new york",
+                "Salsa in New York history",
+                "Free Salsa dancing NYC Pier",
+                "Bachata Social NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

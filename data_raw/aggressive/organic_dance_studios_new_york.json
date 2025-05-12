@@ -1,0 +1,228 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "8.9665 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100254-9976-0139-0000-0b16e6e53779",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "8.9271 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "dance studios new york",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "dance studios new york",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=dance%20studios%20new%20york&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:54:59 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Hip hop",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Hip+hop+dance+studios+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRIOBWF0gqlQAe2Sylu3hZen-1pGFHiYncZSyWJ7eRJGDZAlNa1dH3q5RpVHQH-mcfjDShtZ1vlOzPMkRdsCjZxK5eXoNg4bO2GpeZa4m27x2uEysPzHHoT7xwod8AN5lz_beLcAL94KRvlghqtfukka-Mqf69_e_DjN29odCuY3TtCly-qGmdJy7Ez90PU8tF5ULDNYVJbvKCRv2mp8H67C2Q78TNn9UpSR5QZIIUSCJsCBj4&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=dance+studios+new+york+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-Mw9Z_0bfRRQUeQvp0a_cCPVowiO0w49VPVt8zDh2HiymvNEeUfrA9bGOMBtuobe__LYvi2PSiVFLU9dIXO_yGqm2EtTlEhSQIynB7geezeTDrFJ1ulFlUSg8s5lx7Kz05Jg_HdpNqZZGfwwgq7wR4QZ2LNUZZSfHiNppXQxRTVNvarCq_VvmzsuC0OCXb0HA_wkLQ&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIGxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "In Brooklyn",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Dance+studios+in+Brooklyn+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR4vT_jst3FNPSseSaNZzK_938_12_5Xu997Zfdi0ejbvidThOeiHJ-gpgXcin3v0IK3MOTyXbTt2lHCAPQTV7sjBUs-_6L7K_pjlfu85iJyhg8Ge7Bqvh34xmYQfBLXJ-BoiB917aqQQzSZDszNgRsOw5ab4eY1kjRGds-1PVyREqB7ATv0MzezAyKFrGUyWdFriZgYj6ZVuy3wA6CNbxLIzpv8sxuJxVzn_kGhG94PCgN-pq&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reviews",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Dance+studios+new+york+reviews&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0sQUzW3Tu350XIpBlEAqCCxIuJs8_u_bWopo1MsC_l5BOEMkvX0l-2Ze2cSfucbprktYyvL9bhJuxGgz5kKvVD6-H8DkgsliRPMsty-hXHCRs6Yy10I9HAEeBpE-b8ekMry6M29CtvssI-d7X0_A_uRtMkVnaOBOpUkYNfvwa2M5V5SzJi7PnOFNDRES7WcVYm-ifSn8XJuophgd5CQ5sNEPcqo&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "In Queens",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Dance+Studios+in+Queens+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1H1XMf1JwovFYwBm0EcUheBjzk3GDXY08zuzGEEwXRMntnF0pmsiunCaYlH6LAea8fWPljlcwfoXDYgodAJ6E2gfhdqZH_-y6Ko9_l8V5mJQmjCAj71qaQv7BNDz1nf_8vv3oq0dAimcXPoqHD3QjtIjTmA_mu-BRdJiDReyBzHBAZ1TTHQlL2fLFklcPRou0EcV0YzxT17y9dBAS3l_MdaEwRTLGye-LnJ94DnM_g-v6qSU&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+dance+studios+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRwy10Tt-nJhbf-JAfG9KFrDjYky4uIeNHa6mPxy_hoouiGDFiSk16AqN67xMxAznY_jalCFvBwQ_heBHTKRaNkQCC3gkntj9UoCxkcGdiF2Ed-ODMpBrxwuZv3uFntv3e2AzJzpGNobT-G0EnEBNlbyPlmi3c-pBSAnSE1Eb1DvLE4pfGMncss2qdjJR8gCP8WPlsRDXV9VpynDBWh6Wo3Zo_PiPvaeUkXDzfzoLhUkdYkYz_eSoL_Jdk7O5H0-cVQscxOg&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "In albany",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=dance+studios+in+albany+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1H1XMf1JwovFYwBm0EcUheBjzk3GDXY08zuzGEEwXRMntnF0pmsiunCaYlH6LAeaTl2yGuxU9eJOszMcwun6k2juVap9MFbmdqUcfve3AtqdSmpy7Qe1H2f64Ahexy_mIPuK5ECnfuvvPMjljDZCd07nJOQJ2D65QILIrJzCvizCLLtIEaV9ZM2XbpsUWAgEufvH20qf-xypJ-VgD7DvIjmFSgA&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIPBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+dance+studios+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRq2V85jaTzTjoxFPjNzn1QLZjhSnEPaxtsqwxgnEQ_QB-lx1AgRiq219S1uubufkA_XoNSz4fs5PdG1LQi4kbY4dE3VL47_DQc13KYtpfa7Ha6YRtRy3WRQM_ZW9mYu_Qyi_C5mNzDHVh2cDYMtfOIv5mS4YWnQoTUJs10oc04P5m-Z1YodWhxZHRLYgaM8N3BYdlsQ&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Competitive",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Competitive+dance+studios+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRKQVqy61X331JXZSOBqpJXR-a9cI3LoWPz0ZXnrHbV8aBNY-nUhiS-afi5vl4za9iOokcu5gWoettsM18eXKx7R1Ucw0XLdr3nEHs1-GheMva5yZ32GsAKxGFeWSxaaHstxsk7fD3h8-nLysrR_dAXkCWGxC8b7X_FuI6P4TBfgPDoJY3BX-hlJ1PbXFTD-fKLHBl37Kwp9--_BNg9EYwhI1e9YwLPyhcqkcszG1in4cpF_CI&sa=X&ved=2ahUKEwil6KGMy5eNAxWUcfUHHRtcCKgQxKsJegQIPxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 174000000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Fred Astaire Dance Studios",
+              "description": "7+ years in business \u00b7 291 Broadway suite 900 \nOpen \u22c5 Closes 10\u202fPM \n\"The space is great and the group classes and parties are fun.\" \n",
+              "domain": "www.fredastaire.com",
+              "phone": "(917) 442-4522",
+              "url": "https://www.fredastaire.com/ny-downtown/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 148,
+                "rating_max": 5
+              },
+              "cid": "11854448245724858625",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "PMT House of Dance",
+              "description": "10+ years in business \u00b7 28 W 25th St 2nd floor \nOpen \u22c5 Closes 11\u202fPM \n\"They have great classes , awesome studios and such a welcoming environment.\" \n",
+              "domain": "www.pmthouseofdance.com",
+              "phone": "(212) 924-5694",
+              "url": "http://www.pmthouseofdance.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 113,
+                "rating_max": 5
+              },
+              "cid": "4902630501976009398",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Broadway Dance Center",
+              "description": "40+ years in business \u00b7 322 W 45th St \nOpen \u22c5 Closes 9:30\u202fPM \n\"Very organized with the app and great selection of teachers!\" \n",
+              "domain": "broadwaydancecenter.com",
+              "phone": "(212) 582-9304",
+              "url": "http://broadwaydancecenter.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.4,
+                "votes_count": 263,
+                "rating_max": 5
+              },
+              "cid": "8937374022216239401",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Steps On Broadway",
+                "Broadway Dance Center",
+                "Peridance Center",
+                "PMT House of Dance",
+                "Joffrey Ballet School",
+                "The Ailey Studios"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Broadway Dance Center",
+                "Dance classes NYC for adults",
+                "Famous dance School in New York",
+                "Dance studios new york reviews",
+                "Best dance studios in New York",
+                "Hip hop dance classes NYC",
+                "Dance classes NYC beginners",
+                "Contemporary dance classes NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

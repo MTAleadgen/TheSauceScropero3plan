@@ -1,0 +1,99 @@
+{
+  "cost": 0.002,
+  "time": "5.8160 sec.",
+  "tasks": [
+    {
+      "id": "05101545-9976-0139-0000-486f9821f268",
+      "cost": 0.002,
+      "data": {
+        "os": "windows",
+        "se": "google",
+        "api": "serp",
+        "depth": 1,
+        "device": "desktop",
+        "keyword": "salsa in New York",
+        "se_type": "organic",
+        "function": "live",
+        "se_domain": "google.com",
+        "language_name": "English",
+        "location_code": 2840
+      },
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "time": "5.7346 sec.",
+      "result": [
+        {
+          "type": "organic",
+          "items": [
+            {
+              "url": "https://www.salsanewyork.com/",
+              "type": "organic",
+              "title": "Salsa New York Calendar | The best salsa events in NY",
+              "domain": "www.salsanewyork.com",
+              "description": "A website about New York Style mambo dancing. Find the best salsa events."
+            }
+          ]
+        },
+        {
+          "type": "local_pack",
+          "title": "Salsa Sabrosa",
+          "domain": "salsasabrosaschool.com",
+          "description": "410-412 8th Ave 4th Floor \nOpens soon \u22c5 9 AM \n\"They help making first steps in salsa fun and easy!\" \n",
+          "rating": {
+            "value": 4.9,
+            "rating_max": 5,
+            "rating_type": "Max5",
+            "votes_count": 269
+          }
+        },
+        {
+          "type": "events",
+          "items": [
+            {
+              "type": "events_element",
+              "title": "La Vieja Guardia Salsa Social At Sos",
+              "snippet": "May 11, 7:00 PM Stepping Out Studios New York, NY"
+            },
+            {
+              "type": "events_element",
+              "title": "Free Monthly Social @ Salsa Salsa Dance Studio",
+              "snippet": "May 18, 7:00 PM Salsa Salsa Dance Studio New York, NY"
+            },
+            {
+              "type": "events_element",
+              "title": "New York International Salsa Congress",
+              "snippet": "Aug 27, 8:00 PM New York Marriott Marquis New York, NY"
+            },
+            {
+              "type": "events_element",
+              "title": "Cuban Salsa Brunch At Palomas Bk",
+              "snippet": "May 10, 12:00 PM Palomas Bk New York, NY"
+            },
+            {
+              "type": "events_element",
+              "title": "Cuban Salsa & Rueda de Casino Classes!",
+              "snippet": "May 14, 10:00 PM Adelante Studios New York, NY"
+            }
+          ],
+          "title": "Events",
+          "position": "left",
+          "rank_group": 1,
+          "rank_absolute": 5
+        }
+      ],
+      "status_code": 20000,
+      "status_message": "Ok"
+    }
+  ],
+  "_script_discovery_metadata": {
+    "script_city_name": "New York",
+    "script_dance_style": "salsa",
+    "script_file_type": "dataforseo_raw_response"
+  }
+}

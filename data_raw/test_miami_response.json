@@ -1,0 +1,248 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.0581 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100239-9976-0139-0000-ca740ee808ff",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.0125 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa bachata dance classes in Miami",
+        "location_name": "Miami,Florida,United States",
+        "language_name": "English",
+        "depth": 2,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa bachata dance classes in Miami",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1015116,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20bachata%20dance%20classes%20in%20Miami&num=2&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRHByA6isNmIEWVPrd1x8pb_",
+          "datetime": "2025-05-09 23:39:51 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+bachata+dance+classes+in+miami+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRGklg1jdw9kfY6bGTLwukIM7SqsjHUK_0pG2KQK4qRs3bfg-SVBcnQ1ZmHjWcQ7IVx-KojMa1JSTvqw8i-3j4NBpdZR8huTSYdWVAl6xzH_trAZOn3a6d9JRmLWKiFGM65zlH8EkBAPVm4lWfkWkuF0OGLo099vkdV3cO26uDTW4FOJcbyXGESm3svGWRm5BKzSfuIpvm3X7DoRDOF14f-zPpeKw5km5rCKxHqL79DJRPqaOY65FaNkz0DsYHC7qgKhS90Q&sa=X&ved=2ahUKEwi4pf3bx5eNAxVaUaQEHVysE_MQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+bachata+dance+classes+in+miami+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRN1MOlw2B7s0ZiCSbA9fsi6NPRKGFdBM6dlmnbfWJHQCQLz1uzCYG9qgAxiDt_X1c9csPQxNGc8egW_QwyfQ_THZvKwE5hbJgrXp8paXe0GJwmqS8jzP1E5BtpoiSncPWe5Y3DfUjX28wvXBXyPQDhCUjiphOxnb2MM4RNh-mkyP_0VsjL6j7GCURFoJS-8Pi7UYmCLo-aJ9WYHkKIVanVjpWsv4TCBmd2Q809ad-d-tNd8SzwZgJMxUB0uMsdt0W1pDAyA&sa=X&ved=2ahUKEwi4pf3bx5eNAxVaUaQEHVysE_MQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=salsa+bachata+dance+classes+in+Miami+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhE-E2mt6UTqI1R6XmCzV5FssrxHvGVJFDmE1c5bSiLJyVwfpcPuXyznvkcYEeWbFMjtV4sYjsAQ_9qA_v29A_u12619HRG7bDMepkF-aFzvGbBNNYmu9AqN06Xz5yGO29qJdXbt0I-zX9LI5BMuCQpwvmTUBpbOTgW2MUnSIYP8DArTah6Mh-UsGJWQP5JfDhwRSevXPBMJqjvZhqZNA0DzQtCo&sa=X&ved=2ahUKEwi4pf3bx5eNAxVaUaQEHVysE_MQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Free+salsa+bachata+dance+classes+in+miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRU3mv5rlJWsM7dkQwInUBh4ATr6hKocXJF2N-mZXegLk-jy5pfgpUiNKMpcyDD5DOmIK4rJqIaVWK7dNukTaT6tkaWmHsBdihzdyU_qYY3liC8q-PhTMSzQ1jSJuPOiR58AGYFmZm9QKGcQlmh5CfWs-zTzmszBsqtF_28zxt61ZNOSHgHXWbHYHjq0MVA1Og1ORrKBHXRD-MICDkigFerhhhjW8DHFbcDnng5HImuaTl_Z-I&sa=X&ved=2ahUKEwi4pf3bx5eNAxVaUaQEHVysE_MQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+salsa+bachata+dance+classes+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRT_ywygmteFOZIGszr7QK-b1Xx_Sy_psy-52zQ-4kjd1LCk3_tb8bj_ksnV0pUFw_6sG_Pbsa-uuUjAa4ehWtccCxL73XA_WKJfQ5ZJFfydlEKrN9SvWqVPeWJrJdASta74S9VGNAmmUW316JG4Z1ew1NwUkjamViDFGzN_lqSzcVZRc_47N4BraqGwBRvQRPyogl5Sifx6999hB5eMLT_dhB2DE5Ixh6TyeaSwgiCziCocCQoxV4NKfN2v9WbBc-EinqxQ&sa=X&ved=2ahUKEwi4pf3bx5eNAxVaUaQEHVysE_MQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "organic",
+            "related_searches"
+          ],
+          "se_results_count": 1700000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Dance Awakening",
+              "description": "7+ years in business \u00b7 1791 SW 3rd Ave \nClosed \u22c5 Opens 1\u202fPM Sun \n\"Sergio teaches the detail required to create layers in my dance .\" \n",
+              "domain": "www.danceawakening.org",
+              "phone": "(305) 979-4316",
+              "url": "http://www.danceawakening.org/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 61,
+                "rating_max": 5
+              },
+              "cid": "9952816914730187414",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Miami Baila Dance Studio",
+              "description": "3+ years in business \u00b7 760 SW 10th Ave \nOpen \u22c5 Closes 9:30\u202fPM \n\"They teach details that are changing my entire dancing experience.\" \n",
+              "domain": "www.miamibaila.com",
+              "phone": "(305) 502-3641",
+              "url": "https://www.miamibaila.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 51,
+                "rating_max": 5
+              },
+              "cid": "12627475732821696684",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Miami Sensual Bachata",
+              "description": "7+ years in business \u00b7 387 NE 59th St \nClosed \u22c5 Opens 9\u202fPM Sat \n\"The private lessons were fun, organized, easy to follow, and thorough.\" \n",
+              "domain": "lnk.bio",
+              "phone": "(786) 213-0975",
+              "url": "https://lnk.bio/miamisensualbachata",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 51,
+                "rating_max": 5
+              },
+              "cid": "328392135990783720",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+              "domain": "www.miamibaila.com",
+              "title": "Classes & Prices | Miami Baila Dance Studio | Miami",
+              "url": "https://www.miamibaila.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.miamibaila.com",
+              "website_name": "Miami Baila Dance Studio",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Welcome. Miami Baila Dance Studio offers Dance Classes in Salsa, Bachata, Swing, A-Tango, Adult Beginner Ballet and more. Join our fun dance classes at our\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Miami Baila Dance Studio offers Dance Classes in Salsa, Bachata"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Saturday Classes",
+                  "description": null,
+                  "url": "https://www.miamibaila.com/saturdayclasses",
+                  "domain": "www.miamibaila.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Classes & Prices",
+                  "description": null,
+                  "url": "https://www.miamibaila.com/pt",
+                  "domain": "www.miamibaila.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Dance Studios Near Me",
+                  "description": null,
+                  "url": "https://www.miamibaila.com/dance-studios-near-me",
+                  "domain": "www.miamibaila.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Services",
+                  "description": null,
+                  "url": "https://www.miamibaila.com/salsa-classes-near-me/privatedancelessons",
+                  "domain": "www.miamibaila.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa bachata dance classes in miami for adults",
+                "Salsa bachata dance classes in miami for beginners",
+                "Free salsa bachata dance classes in miami",
+                "Best salsa bachata dance classes in miami",
+                "Salsa classes Miami",
+                "Salsa dancing Miami Beach",
+                "Best salsa classes in Miami",
+                "Private Salsa lessons Miami"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

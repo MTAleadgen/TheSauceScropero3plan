@@ -1,0 +1,210 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "8.9158 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100336-9976-0139-0000-8d4f7ddbf5a4",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "8.8791 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "hustle in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "hustle in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hustle%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:36:18 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "7v7",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=New+york+hustle+7v7&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4Ql_kUwkaFQs4XPbgBR2ebLi92A4IGr0ZSWa3DUMNHrLV1-9lqJKhCmn5MwkmVjgX4c1UHCHJMfI2Jwa4rZLvvCPhJ7Ny2HIeR8QJb7reIE4QsrcN0rGlXprK-etHbmgUtWPHcgw3QPlxgDANE3x0rgyzNrunCfp7gPuYkUPdl5_NdufYum4V36xNjdJti0tLJ70W1g&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=hustle+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRkJOlbywV14DlTFW-fr5V3qdOFejfYRj30QF-xURPYn3BuVWr8cruYb5UWNg94MlvP0tZ-6uk3adrfVEWG0zJj5Olgos0bFoppXKvPZvrkM8CXFjmSkEVjbwH3JWygAESvp40x_18045G8nU65pQbmQA0oJf6Hsa8FOKPc7oI_-omI4PP&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQIGBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reddit",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Hustle+in+new+york+reddit&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRLshVusH3-xlsZDlkUSQLRfNyi0HZE2Wq4pqJryfhlJQ9CXZFIraVwHCvjuyhvKMrRHLCgC5iMWfFrUIFELhg1dfl9mOjlqibljNJc5uRPwpfNySmMyi2Px83WvTDNUGDHd_FqxOmDzWKL-TF6T2dOktOTlucW-T4vNzVcb2ir5GiOA3aKl9DkFS-S0_RYfI6KjHBgY6fpqjn83Xo7gHz2Q0nP7w&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQIGxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Best side",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Best+side+hustle+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRKi4kgrqjt5bPRec7O9xci9OqJonebed73VUlEUQJ__TXN33eWA-AH_5RoZhRAbcV9OhypEvyJfEANJz6Kb9zgLYLDnBZcAEK84Fi_V-KcmCpbXN4lFPOKN3qjnDCh2IQCH_UXWAOdCtHzUu7L0TRFKIBpTbL8uv5AMvSKkJLKzigFIm6IUivK2bY_E5pkybGEFSLENYMHvOw8aP81dF3NTRbZub0anDOvLWq_ceuyFor_PdT&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Quotes",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=New+York+hustle+quotes&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr_rAtRTMzGKV6Byj2qR2hxljZlmhI46UCMj7Uub6S0Otlfh6cGKCwEc23UGMkT-JHomI0G7dnwGoQs2RfMJlMgCm5rMIWQuAX6mwjGcDCGZi85rHyBzwaVbQfGLqvtUePL3H5C5FNYihS5YOp3QAf-cjZQ2OEXTnJ9p95MfUwi81mFpvRFA9E0KaLhmTM3yCQCkQp8c&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Dance",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=New+York+Hustle+dance&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk92eNdCapnox7WMzRkhnn_cBAXi-hSBJn_AQ5UAFoyzn5LvPAo-dplUf37JrwLfBwBDY4QUwBgGyxh6G1aTRw385nKvryHo44quj2f-lkvgkgnYDSH6ILJebfMWGwRVBRy9mTBiNWXTvY2Pqz1gcY6PN-0wbDvLo98zjp3s3K3uRg49ZktfHXb0pfj586NrC5A66Jl4&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQINRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Club",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Hustle+Club+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xGm3aRQ3SHo3NCrj2yvQLSUVBvHtjbGzSE6EV7h_72j5ONAPA4OBGVEi3d1M_9j4UFq2Va_rt321FwjeoXhcP4ZQe4t0_Yihqn9ZC_o9TAa6xps2O2_itCr2KxqGx910OWejk-6ZVMhgWNIa3G2Az1H1HzGpU76wSo6BFJJX8ZTch7TF5evaN5rUSb1vFqo667_NEmw&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQINBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Walk",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Hustle+New+York+Walk&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xGm3aRQ3SHo3NCrj2yvQLSVIvYul7rd1ffkToG7tyhRMptcaxM4x26J4FFyigkmlmV9gW9qUbmoS87ElxO8MQ-6HFKfPdB25-lB211wMsdIGJOCD6CeBbvYzML4fTuBnDnOjX1lVPkl8R1OXIZhS5O0jjJVfqGngYK4jhO5Ubs99D4vxjX2MTCxkBS3PC4rUKQP08uc&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQIMxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hoodie",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=hustle+new+york+hoodie&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr_rAtRTMzGKV6Byj2qR2hxl1C_5rRCo8WObTgppco2jx5H1P1Jt4udK6KdlS0zhs28LPpiIT_4yMuE9fOSLJk0oCX_Fa7rRSHnVZAZ_aHl5H_9p7FDz5IG2f-8qNgJFWsOr0lBC0pYwYvMAk8Eg5yHSwt5IFKe7Tr6miySi_r7IOVxjxMlYii0oIWteNXVB9CACz3CM&sa=X&ved=2ahUKEwi5s_Oq1JeNAxUn2QIHHZTOB_wQxKsJegQIMhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 30600000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Larry Flynt's Hustler Club New York | Best NYC Strip Club",
+              "description": "641 W 51st St \u00b7 (212) 247-2460 \nOpen \u22c5 Closes 4\u202fAM \n\"If you are looking for a unique experience.\" \n",
+              "domain": "hustlerny.com",
+              "phone": "(212) 247-2460",
+              "url": "https://hustlerny.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 69,
+                "rating_max": 5
+              },
+              "cid": "13022894467705872501",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "HUSTLER\u00ae Hollywood",
+              "description": "41 W 8th St \u00b7 (646) 998-4572 \nOpen \u22c5 Closes 12\u202fAM \n\"Excellent service.\" \n",
+              "domain": "hustlerhollywood.com",
+              "phone": "(646) 998-4572",
+              "url": "https://hustlerhollywood.com/pages/store-new-york-new-york?utm_source=gmb&utm_medium=maps",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 45,
+                "rating_max": 5
+              },
+              "cid": "13956107709123032337",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Hustle Butter Tattoo Art Gallery",
+              "description": "10+ years in business \u00b7 132 Crosby St 4th floor \u00b7 (212) 529-3222 \nClosed \u22c5 Opens 11\u202fAM Sat \n\"10/10 highly recommend!!!\" \n",
+              "domain": "hustlebuttertattoogallery.com",
+              "phone": "(212) 529-3222",
+              "url": "https://hustlebuttertattoogallery.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 131,
+                "rating_max": 5
+              },
+              "cid": "2158661263415948735",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "The Hustle NYC instagram",
+                "The Hustle auditions",
+                "The Hustle dance",
+                "The Hustle Audition calendar",
+                "When is audition season in NYC",
+                "NYC Auditions",
+                "Hustle Magazine",
+                "Cabaret auditions NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

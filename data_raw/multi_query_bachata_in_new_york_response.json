@@ -1,0 +1,292 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.6355 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100252-9976-0139-0000-f10ce46fe63c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5702 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in new york",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in new york",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20new%20york&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:52:45 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=bachata+in+new+york+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDMxgRE1ajimVLN1HciBu3Usw8V4i1wInnRxLl4FLton8A0wZWgBR-Y5TM--uCUwvDQqOuGVlGuDJE-sR8DKO6qTba7F659ylnUH3Cy65C0DBIiOmt-zMFKlow7s7Yw2P11ojF8W4Etqdw-sALntVw-0443N_63F_6oOQK3AvKW1VHFal&sa=X&ved=2ahUKEwi6gMTMypeNAxX3na8BHZ1tFNsQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=online+classes+bachata+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRxaMrPplYHAz8rGpk9QQdx2H-E06dkeD6tjfojecooANp5BEnpbPlnv-T47Fq94RDSQC8BgOaqS_IhBIhSK3ySgtxmUh2P08gGUIWG0tkdie_q1-zEU8dUcp-pHXCVs-lAmtmVX5n8rV8w3Qv8o-39o8MXiN9ed6YW2JFh2rrRWSOM08InPg61ZqJpKEIQoBRm02KpyHXUg56k5eYwS-L1mt3kfnXvU7h6klgtPHsc6HsSzc0&sa=X&ved=2ahUKEwi6gMTMypeNAxX3na8BHZ1tFNsQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+bachata+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnBL0ko9_DIBC_iyaWT1OhpS08GQRNZfNyHgPc5b8wgZ3rtF2Y-g72lO7nf_6GBjX9YNucTatkNjpF_xC3kZ1AxBuWsTyooIuTyAFmu_qaTJP280ESGnqePVHqixUfJdUBz-qy9WB_obZswXmV7IyuX2zrFopNaWdSoevWA6KR0M5HMaJ&sa=X&ved=2ahUKEwi6gMTMypeNAxX3na8BHZ1tFNsQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "events",
+            "local_pack",
+            "organic",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 5480000,
+          "items_count": 7,
+          "items": [
+            {
+              "type": "events",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Events",
+              "url": null,
+              "items": [
+                {
+                  "type": "events_element",
+                  "title": "Angeles De La Bachata",
+                  "snippet": "May 10, 10:00\u202fPM Mehanata Bulgarian Bar New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Bachata Sensual NYC Social Dance",
+                  "snippet": "May 17, 9:00\u202fPM KTown Dance Studio New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "PURE THE ALL WHITE SEAPORT EDITION",
+                  "snippet": "Jun 14, 10:00\u202fPM Pier 15 East River Esplanade New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Bachata 4 week - Performance Challenge \u2014 Somos Latin Dance",
+                  "snippet": "May 12, 7:30\u202fPM Somos Latin Dance New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Beginner Bachata - BK",
+                  "snippet": "May 14, 6:00\u202fPM Nieves Latin Dance Studio New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SALSA MEETS BACHATA at The Rose each and every Thursday",
+                  "snippet": "May 22, 9:00\u202fPM The Rose New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Noche De Ritmo Social",
+                  "snippet": "May 15, 8:00\u202fPM Aftermath NYC New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Bachata Class - SUNDAY",
+                  "snippet": "May 11, 7:00\u202fPM Active Studios NYC New York, NY $29",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Beginner Bachata - BK",
+                  "snippet": "May 21, 6:00\u202fPM Nieves Latin Dance Studio New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "La Vieja Guardia Salsa Social At Sos",
+                  "snippet": "May 11, 7:00\u202fPM Stepping Out Studios New York, NY",
+                  "url": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "KS Bachata Sensual",
+              "description": "7+ years in business \u00b7 38W W 32nd St #405 \nOpen \u22c5 Closes 11\u202fPM \nOnsite services \u00b7 Online classes \n",
+              "domain": "www.bachatanyc.com",
+              "phone": "(917) 969-8129",
+              "url": "https://www.bachatanyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 193,
+                "rating_max": 5
+              },
+              "cid": "15490072797722449774",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Sensual Movemnet New York | Bachata Sensual NYC | Bachata Classes | Bachata Dance Classes | Bachata Social",
+              "description": "7+ years in business \u00b7 224 W 35th St \nOpen \u22c5 Closes 11\u202fPM \nOnsite services \u00b7 Online classes \n",
+              "domain": "sensualmovementusa.com",
+              "phone": "(929) 376-8884",
+              "url": "https://sensualmovementusa.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 104,
+                "rating_max": 5
+              },
+              "cid": "17939223690208294838",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Bachata Soul NYC",
+              "description": "Pearl Studios NYC, 500 8th Ave \nClosed \u22c5 Opens 6:30\u202fPM Mon \nOnsite services \n",
+              "domain": "bachatasoulnyc.com",
+              "phone": "(646) 503-0311",
+              "url": "https://bachatasoulnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 109,
+                "rating_max": 5
+              },
+              "cid": "9440330241756164668",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "domain": "www.eventbrite.com",
+              "title": "Discover Bachata Events & Activities in New York, NY",
+              "url": "https://www.eventbrite.com/d/ny--new-york/bachata/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.eventbrite.com \u203a ... \u203a Bachata Events",
+              "website_name": "Eventbrite",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Perreo on the Pier - Aventura & Bachata Latin Party [ Open - Air ]. Sat, May 31 \u2022 9:00 PM. Pier 15 East River Esplanade. Check ticket price on event.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Perreo on the Pier - Aventura & Bachata Latin Party"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Bachata Social NYC",
+                "Bachata classes NYC",
+                "Bachata NYC tonight",
+                "Salsa Dancing NYC tonight",
+                "Where to dance bachata in NYC",
+                "Go Latin Dance NYC",
+                "Bachata classes near me",
+                "Free Bachata classes NYC"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJecvYgq5ZwokRbhcwvSPL99Y",
+              "feature": "0x89c259ae82d8cb79:0xd6f7cb23bd30176e",
+              "cid": "15490072797722449774",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

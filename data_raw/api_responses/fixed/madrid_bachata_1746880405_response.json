@@ -1,0 +1,508 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.2636 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101533-9976-0139-0000-8443d04fecd8",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.1545 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in Madrid",
+        "location_code": 1005493,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in Madrid",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1005493,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20Madrid&num=1&hl=en&gl=ES&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCYE8CoCXKUINEWkijGHB3jbE",
+          "datetime": "2025-05-10 12:33:24 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=bachata+in+Madrid+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khQtcyyjwztBeNkbBWxmhJ3pbRmoCqGOa94jcex5FInhjtEYk1_-mDCX1X2KBJL-PKSpn7M_Z7dDoOocq3Juc547Htn8sxlHzqKaXKfx3nObdL4QCO95XKGyPDjDrXfWndJjVyxCgFSxj7gX91WqWAv4jWNU3&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=online+classes+bachata+in+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnFAASpKAt2FbIRnDyP4rjc9u1IZli9hBXTGEvDshrUsfQR0dJ6TG7GdUzDMBXi1sr-vUMDVOC7mwyNv0Otc7G4D11gb8CJNcZOtF_rGauaTduIWHrIfD3elpvW7nLCwRVcfaw10bBasItdLRWpNJKhpI6FtXyem-qiWWz8uUbedXe3PxvP4bKqPd148WiMH09kfNqLr6wuZeUk0xXp61U6yAo2XvV8EKi457SrQpkQpULlzU&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Best",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Best+bachata+in+madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhE-E2mt6UTqI1R6XmCzV5HCXAJe2us5R6X7xkbdFhgIUit8_P-8amBn41yT5dJn98-tWGxF_JVOUUAxPhlyY0gnv7xc3jSoorE4YYsgQ2AGWpakR3aNDCIiUOgGrmNfEo0RP_CfgUuJWkSQCq6aWlR6JR4c9lTlVXVfvDAjF4AgrZ92Bm-5o3IyaWhchSkU6PhOSIhLVsfSamkDTBg07LKyYLU8&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Madrid+Bachata+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfOhcW4_UGX_Wfqt8fALbCCAoKDqJzNzJqLpBraB0pLs0IdRi7ZYwTZYgrjUabPMOAqyXdBYeyF69dSFYaJrdNCgOZDyA4kLBB40cwLhLkah9inxGTnnVHtofa4s37dd0nfC22zQEUTu3R7s-BL394ht-OhhvRrhuK3-B1APvwTamItW6z1omcyvXDxWmnRHzGayaCD4&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Step",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Bachata+Madrid+step&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4acwLp7HRpuUubjIHvAd3jSE6BaOLgEun3yIReNlFgZYFmBRY2c7nphtKxkr5oAhM4Mazg1MLnHDa-V5b4Y6dOjyK5rEDKU97YaqAp2nd79dxc2KVa-Ar-Y1n7M9AFno5XxnEQ3yjCZuPouf3fyAOJNnLE4jg6Q4kqDz-KG5stuK6l-btceDxY9888bxGh2CskcjWNo&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Esencia",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Esencia+bachata+madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr6p4DQ95Pjpm-Kv1TFZqDMK8zYmrp4ORWVsGL1-7IH7m0dTt5MzXk-6-ApEWzvonJOQ9Or0Jo7w9aEb4-nM0aNnJJlkO7FVRkwypYfc77Hff5bpRdnujiSyoDs_enhe4aKl8KqBfOP3WWPWtAslOPN8Jzbz1q4aZrQjs9XweU06rC7odI9ScgJNpxjmIinPzUrGRiNo&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQITxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "The Host",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=The+Host+Madrid+bachata&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfOhcW4_UGX_Wfqt8fALbCCCUvUWLNuXIenoZIzpjTmD8aLCxqAGoV9gaZFNt90LXXffdJQ1j5Blo29CLc9UoXq0kkIRPSFQDPS7hrqCGbV4-vX47Ub5MT0LesEWSmcM2CEdtBmt6ra20wqBDlxRsvwwnj_rCKq27E62RvvVMDfNmUsSPej9FQrT1A0z6zpDPb-BMaQ4&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQISBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "JOWKE",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=JOWKE+madrid+bachata&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xIV1wKt-wR-fjskUrsyjNpl_IYz_Zta9379M52QTOWxnTGjc2FGHBfuM8ZqDjdW9IapjjBEhuL8FJRLYiUthmi5i9Fk9YG3x808iZnbZKERs6eajzHhNPHIEqpYfq4Y8wMBsPb4tFm-9_DjbYXCdGxJnxZNUN3L-wPv8JagHSSXcoCd-s3fn7JxrN1oU9bXnFA7BIfk&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0QxKsJegQIRhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "compare_sites",
+            "local_pack",
+            "organic",
+            "images",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 4820000,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "SALSA BACHATA - MADRID",
+                  "url": "https://www.facebook.com/groups/507058619697940/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:0",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Madrid: Salsa, Bachata, Merengue & Party",
+                  "url": "https://www.meetup.com/es-ES/bailes-latinos-salsa-merengue-bachata-en-madrid/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:1",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "The place where to go dancing salsa or bachata in Madrid",
+                  "url": "https://www.tripadvisor.com/ShowUserReviews-g187514-d11611788-r466974329-Tropical_House-Madrid.html",
+                  "domain": "www.tripadvisor.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:2",
+                  "source": "Tripadvisor"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Madrid, Spain Bachata Dance Clubs",
+                  "url": "https://m.yelp.com/search?find_desc=Bachata+Dance+Clubs&find_loc=Madrid",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:3",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "10 discotecas para bailar BACHATA en Madrid",
+                  "url": "https://www.salir.com/discotecas-para-bailar-bachata-en-madrid-art-288.html",
+                  "domain": "www.salir.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PEjHIelRB2biRmaMl3QVkn6p0keZEec&s=0",
+                  "source": "Salir.com"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Clases de Bachata y Salsa en La Latina Madrid Centro Tickets, Wed, May 14, 2025 at 7:30 PM",
+                  "url": "https://www.eventbrite.es/e/clases-de-bachata-y-salsa-en-la-latina-madrid-centro-tickets-1340576653859",
+                  "domain": "www.eventbrite.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:4",
+                  "source": "Eventbrite"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Actividades - Atrapalo.com",
+                  "url": "https://www.atrapalo.com/actividades/",
+                  "domain": "www.atrapalo.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:5",
+                  "source": "Atrapalo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Prince Royce: “Es un momento difícil para los latinos en EEUU, pero lo vamos a superar”",
+                  "url": "https://www.abc.es/cultura/musica/prince-royce-momento-dificil-latinos-eeuu-vamos-20250502124806-vi.html",
+                  "domain": "www.abc.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypuLbaFSTy8AgP5dxMBGKbS-gPrbC4jw&s=0",
+                  "source": "ABC"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsabachata Sol",
+              "description": "3+ years in business · Calle del Conde de Romanones, 10 \nClosed ⋅ Opens 5:30 pm \nOn-site services · Online classes \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 597,
+                "rating_max": 5
+              },
+              "cid": "4897037689195369261",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Discoteca El Son",
+              "description": "C. de la Victoria, 6 \nClosed ⋅ Opens 9:30 pm \nLatin-themed nightclub with DJ dancing \n",
+              "domain": null,
+              "phone": "671 05 67 91",
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 34000,
+                "rating_max": 5
+              },
+              "cid": "5860788032793224470",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "DANCES WITH STYLE / CUBAN SALSA CLASSES IN MADRID",
+              "description": "C. de Carretas, 14, 5º F \nClosed ⋅ Opens 8 pm Mon \n",
+              "domain": "www.bailaconestilo.com",
+              "phone": "650 90 60 63",
+              "url": "https://www.bailaconestilo.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 33,
+                "rating_max": 5
+              },
+              "cid": "4275713517418661558",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "salsabachata.es",
+              "title": "Salsabachata - Escuela de baile en Madrid",
+              "url": "https://salsabachata.es/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://salsabachata.es",
+              "website_name": "Salsabachata Escuela de baile",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Ofrece talleres de salsa, bachata, y otros estilos, seguidos de fiestas nocturnas. Los participantes podrán aprender, practicar y disfrutar del baile en un ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "bachata in Madrid from salsabachata.es",
+                  "url": "https://salsabachata.es/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:6"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ofrece talleres de salsa, bachata, y otros estilos"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Clases de Bachata",
+                  "description": null,
+                  "url": "https://salsabachata.es/clases-de-baile/clases-de-bachata",
+                  "domain": "salsabachata.es"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Clases de baile en Madrid",
+                  "description": null,
+                  "url": "https://salsabachata.es/clases-de-baile",
+                  "domain": "salsabachata.es"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Clases de Bachata dominicana",
+                  "description": null,
+                  "url": "https://salsabachata.es/clases-de-baile/clases-bachata-dominicana-en-madrid",
+                  "domain": "salsabachata.es"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=bachata+in+Madrid&udm=2&source=univ&fir=v9r01MK1TgPGuM%252CYv1r_CzZBSAh-M%252C_%253B5bItJZPXRxMdUM%252CL_V-14oTFDTOBM%252C_%253ByXYBBONtBQ8vEM%252CYv1r_CzZBSAh-M%252C_%253BNBRaDy4fSroLvM%252CAUCU6niSMK7clM%252C_%253ByQsrzoCSQt8hiM%252C2c0nsh7YsvdTUM%252C_%253BxpnVxWQYIERWAM%252Cv8hcWRcoqKRdHM%252C_%253Bd2lrROjPrDhZ2M%252CCWWnFD3r-AVqnM%252C_%253BN-d8qoiYpshkHM%252C_WmGmCsTBUhUqM%252C_%253BVVqc0fm0-rvLhM%252CR5iMt6xi_ySZaM%252C_&usg=AI4_-kRT0Ov3MbHnPaLWl-s2EmeGyxDRTA&sa=X&ved=2ahUKEwinrMvP9JiNAxUEMUQIHeR0Nn0Q7Al6BAg6EAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Where to Dance Bachata and Salsa in Madrid - Naked ...",
+                  "url": "https://www.nakedmadrid.com/2016/09/28/where-to-dance-bachata-and-salsa-in-madrid/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:7"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "BÁSICO #11 \"Paso Madrid\"\" | Bachata Para Principiantes | Juan Garcia",
+                  "url": "https://www.youtube.com/watch?v=1u-03lZRteo",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:8"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Where to Dance Bachata and Salsa in Madrid - Naked ...",
+                  "url": "https://www.nakedmadrid.com/2016/09/28/where-to-dance-bachata-and-salsa-in-madrid/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-8443d04fecd8:9"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Discover the Salsa and Bachata culture in Madrid",
+                  "url": "https://nightlifemadrid.com/salsa-bachata-madrid/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqWkkfa9RruoEw7LKqEi00xzd3qO2x-022zXvK3kkDDHLBFIlZeOm3P3M&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "15 EASY Bachata Moves in The Madrid Step!",
+                  "url": "https://www.youtube.com/watch?v=DSPNWkxeQeU",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7rkpg4KPq8gv047iKeDyTd2_PgMitpuLrCo55uaOXvPQQYoV4kwHaRm4&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Clases de salsa y bachata en Madrid | Premiundance",
+                  "url": "https://www.clasesdesalsaybachata.com/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQivypZT0ic4FhRi26U8MNXx3rDNTr1ITDDcoX3ClIY-v8E1ozA1rI91XA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Dónde bailar HOY en Madrid? (Clases, Sesiones, Fiestas, Eventos)",
+                  "url": "https://www.facebook.com/groups/358248954664755/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7llRJgr0nsFKyqpJI9APE9z-0OmyVkPAbKqvrFC4E66rQ3Ecu3BlEsB8&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "How To Do The Madrid Step In Bachata Correctly - Dance With Rasa",
+                  "url": "https://www.youtube.com/watch?v=j3kpMPMxoPM",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1-BYi2-sSYqpRG0N2Ed82F2KGL6NgL4iIRssaT_YKwGrWzIsa4odc8K4&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "LaSalsaDelBaile - Bachata Day Madrid - Sábado 15 de Marzo",
+                  "url": "https://lasalsadelbaile.com/bachataday",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHKn8H7lS31-pF7NKUEIA__tpZ6d2FGGUEmSWeLwW3JNnfUz6F4AeQqeo&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "The Host Club",
+              "description": "C. de Ferraz, 38 \nClosed ⋅ Opens 11:55 pm \nOn-site services \n",
+              "domain": "www.thehostclub.es",
+              "phone": "636 07 78 27",
+              "url": "http://www.thehostclub.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 12000,
+                "rating_max": 5
+              },
+              "cid": "6839615085731015215",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Salsabachata Quevedo",
+              "description": "7+ years in business · C. de Cercedilla, 3 \nClosed ⋅ Opens 5 pm \nOn-site services \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 996,
+                "rating_max": 5
+              },
+              "cid": "7194772954732538477",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "RLDance Madrid",
+              "description": "3+ years in business · Calle de la Magdalena, 7 \nClosed ⋅ Opens 6:30 pm Mon \nOn-site services · Online classes \n",
+              "domain": "rldancemadrid.my.canva.site",
+              "phone": "635 12 16 38",
+              "url": "https://rldancemadrid.my.canva.site/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 89,
+                "rating_max": 5
+              },
+              "cid": "15073277212355115832",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Evolution Dance School Esc...",
+                "BSK DANCE VISTA ALEGRE",
+                "WOSAP Dance School",
+                "Salsabacha... Quevedo",
+                "Salsabacha... Avenida de América",
+                "Premiumda... Clases De Salsa y Bac..."
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Bachata Madrid hoy",
+                "Best bachata in madrid",
+                "Bachata social Madrid",
+                "Bachata classes Madrid",
+                "Best salsa clubs in Madrid",
+                "Clases de baile Madrid para adultos",
+                "Salsa classes Madrid",
+                "Where to dance salsa in Madrid"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJPY6OMNEpQg0RLZMwLNXF9UM",
+              "feature": "0x0d4229d1308e8e3d:0x43f5c5d52c30932d",
+              "cid": "4897037689195369261",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

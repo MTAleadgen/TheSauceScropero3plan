@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+"""
+Debug the event parser on a specific event_raw record.
+Shows detailed output of each step in the extraction process.
+"""
+import os
+import sys
+import json
+import psycopg2
+from dotenv import load_dotenv
+from event_parser import extract_events_from_json
+
+# Load environment variables
+load_dotenv()
+
+# Get database connection string
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+def debug_parser(record_id):
+    """Run the parser on a specific record with debug output"""
+    try:
+        # Connect to the database
+        conn = psycopg2.connect(DATABASE_URL)
+        
+        # Fetch the record
+        with conn.cursor() as cur:
+            print(f"Fetching event_raw record {record_id}...")
+            cur.execute(
+                "SELECT id, source, source_event_id, metro_id, raw_json FROM event_raw WHERE id = %s",
+                (record_id,)
+            )
+            raw_record = cur.fetchone()
+            
+            if not raw_record:
+                print(f"No record found with ID {record_id}")
+                return
+            
+            event_raw_id, source, source_event_id, metro_id, raw_json = raw_record
+            print(f"Record found: ID={event_raw_id}, Source={source}, Metro ID={metro_id}")
+            
+            # Parse raw JSON
+            if isinstance(raw_json, str):
+                data = json.loads(raw_json)
+            else:
+                data = raw_json
+            
+            # Get metadata
+            metadata = data.get("_script_discovery_metadata", {})
+            city_name = metadata.get("script_city_name", "")
+            dance_style = metadata.get("script_dance_style", "")
+            print(f"Metadata: City={city_name}, Dance Style={dance_style}")
+            
+            # Extract tasks
+            tasks = data.get("tasks", [])
+            if not tasks:
+                print("No tasks found in record.")
+                return
+            
+            # Get result items
+            result = tasks[0].get("result", [])
+            if not result:
+                print("No result found in task.")
+                return
+            
+            # Print result item types
+            print("\nResult contains the following item types:")
+            for i, item in enumerate(result):
+                item_type = item.get("type", "unknown")
+                print(f"  {i+1}. {item_type}")
+                
+                # If this is an events section, print info about events
+                if item_type == "events":
+                    events_items = item.get("items", [])
+                    print(f"     Contains {len(events_items)} events:")
+                    for j, event in enumerate(events_items[:3]):  # Show first 3 events
+                        print(f"     - Event {j+1}: {event.get('title', '(no title)')}")
+                        print(f"       Snippet: {event.get('snippet', '(no snippet)')}")
+                    if len(events_items) > 3:
+                        print(f"     ... and {len(events_items) - 3} more events")
+                
+                # If this is an organic section, look for potential event resources
+                elif item_type == "organic":
+                    organic_items = item.get("items", [])
+                    print(f"     Contains {len(organic_items)} organic results")
+                    for j, organic in enumerate(organic_items[:3]):  # Show first 3 items
+                        title = organic.get("title", "")
+                        url = organic.get("url", "")
+                        if ((dance_style in title.lower()) and
+                            ("event" in title.lower() or "calendar" in title.lower())):
+                            print(f"     - {j+1}: [POTENTIAL EVENT RESOURCE] {title}")
+                        else:
+                            print(f"     - {j+1}: {title}")
+                    if len(organic_items) > 3:
+                        print(f"     ... and {len(organic_items) - 3} more items")
+                
+                # If this is a local_pack, look for venues
+                elif item_type == "local_pack":
+                    title = item.get("title", "")
+                    if "salsa" in title.lower() or "dance" in title.lower():
+                        print(f"     - [POTENTIAL VENUE] {title}")
+                    else:
+                        print(f"     - {title}")
+            
+            # Run the extraction process
+            print("\nExtracting events...")
+            extracted_events = extract_events_from_json(raw_record)
+            
+            # Display results
+            if extracted_events:
+                print(f"\nSuccessfully extracted {len(extracted_events)} events:")
+                for i, event in enumerate(extracted_events):
+                    print(f"\nEvent {i+1}:")
+                    print(f"  Title: {event['title']}")
+                    print(f"  Description: {event['description']}")
+                    print(f"  Venue: {event['venue_name']}")
+                    print(f"  Address: {event['venue_address']}")
+                    print(f"  Start: {event['start_ts']}")
+                    print(f"  End: {event['end_ts']}")
+                    print(f"  Tags: {event['tags']}")
+                    print(f"  Quality Score: {event['quality_score']}")
+                    print(f"  Fingerprint: {event['fingerprint'][:10]}...")
+            else:
+                print("No events extracted.")
+        
+        conn.close()
+        
+    except Exception as e:
+        print(f"Error: {e}")
+
+def main():
+    """Parse command line arguments and execute the debug process"""
+    if len(sys.argv) != 2:
+        print("Usage: python debug_parser.py RECORD_ID")
+        return
+    
+    try:
+        record_id = int(sys.argv[1])
+        debug_parser(record_id)
+    except ValueError:
+        print("ERROR: Record ID must be an integer")
+
+if __name__ == "__main__":
+    main() 

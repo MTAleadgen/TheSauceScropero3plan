@@ -1,0 +1,386 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.4092 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-560c42335477",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.3408 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in Paris",
+        "location_code": 1006094,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in Paris",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006094,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20Paris&num=1&hl=en&gl=FR&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQ-34gYfbuZHEWCUjGjDggsE",
+          "datetime": "2025-05-10 12:32:15 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=salsa+in+Paris+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRNZGV-tJ4hEUTVn7NU7dnyrDN2bo_Dpcyk52AYwoNX-PXAjBrlZIoWTlPDIhqbUpJFeT1FGoFTTSxXQkJh4gx5XLnoAkz3OlBidtd-t0iFUNbPdoR2zVKu9xE0EEB4XgfVklvt9Zzn3QYUEduzGYpMFyPo6Cr_5BQvD4W9nWl5ZUs4aea&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Tickets",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Salsa+in+paris+tickets&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRBvpp1ulDcVf7ufGjs2e0V9ATmGDuqmHnvs3xIVshSfwASDIPL2yiLyAEjl7z-__C5PILxB7IK2HO8A-LJYUnzNVa6tbQ8f5Mhuvr--3x2g2RMz5_MJxVQLqVtYmjT2aRo3jHOGRzYvS6VdttYD7eaqsi2PuPr7nvhueaYg5PMfI590tta1Mw_cXA6nArqHyNNyIjem9uhXHse06KAR_8cnW1un8&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Cafe",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Caf%C3%A9+Paris+salsa&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRaamsAUqme1iarDPCxNwasIUiHu4D3BF8A3-cxhKTNwfbAR_ErVlGBmfgGhX0JbAsLX39jpksVHL8I_jHasYR0fz7A1_0nVTscih0Gst50ysvjDJm0s6FPbApwAj-n8SbamZ3Ox_fGu1srpjs5RQhS5CNT3ZFNMtvJtIwbkFTrp7ZOCAOcAGJa-rk2F1_BUn1iqHnlf616eEaV79cSK7KItpaG_g&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Best",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Best+salsa+in+paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRyj7h9M9mmbDm1JtrbQsjzOVOY07ROEhPKM1O9gHHMJSwPaviajP7AA6UKQ0KK_PcYrFuiHvn2HgYTcdrhCEA1Cqhbwo2t3mOcXJqvSfxN4_--6oo9S7SPjq6KI5pYyBo6QlXPQuYxBbexKmBrzdIGMtYmOI2Cjb2xDx1XVvUSKtOUxeaOdiYJgHrr0zV4hCG3I3MOCUV6O8FUjPWJHtk18YlUqU&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bachata",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Salsa,+Bachata+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRvgBNTbUYkaUNkTOYX2exwEDwxfcC6hZOC8-6UxCuBPdNyxrEMOVBLn0X8grJ1U3qo8U4A1Ez8sPjlpGOrcHybyn9qq3SsXO_6rJdJB7sfpensOJu65ThUG4E6_dec8cHtRhs6k4bAKSezwNN_dWzTIzeK9wq6o0JjP8UrY8hySoVaBHyFYclxXKbQ6EQEUfYgpB9vJJbTBYoWzs0UTKLGd49Nfo&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Congress",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Paris+Salsa+Congress&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xOxBkLnU2LvbwWIiH-5z1pVq1kbG5ZXFvmzyY3ixKI-ia0swd2wpKoYhxlMX35-Pt9S3hs6jXlhj15Zaqx6uKJHtYb7c93S9ksCKyg6IbK3QIhbubaAZrEMvIe9U0AwOQhcsdDdrclVNA79saHgKLSWlT6_m1I8bX_mbJFWmYdlbK4jpXmAcsMuf8GNIKRvPx5HT5PQ&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIPxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Cuban",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Cuban+salsa+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRYo6i2EMDW575sLmJkl9tcA7T46IWY3WKAPvWKuCR8n-tsRjzGAW1Qp9DDX4dMrI0mnTbdRESgLJRjQ98aPVYHla3Bw7-_pDlo1VrB1WNEo43GucsECs5Or24Q240YpdKaHk9brmGrWJKtEJLy7vN2Ewhte9tuzsayPkfv_WHyAgU3vprY6wV9O56183_8kR3Dg_Ai_0Wpv5f97MB-8-wUvMAbTA&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIPRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Marathon",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Paris+Salsa+Marathon&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xOxBkLnU2LvbwWIiH-5z1pWzQmM6VUkXJKdTxXLtk3Ab18npj-Tx0zbWk5eAyjkQGVyhCHBo5AjLBM6Wq0CpgELHjMEd-NUt3DUuG96HfPODk1Bx_vQ3YXj3bLnYf4qsJBEh9BcZD9XV6YpkRTYJeGErgmW1eZI9qOOvuCGwIcRCEobqPyk20ciEt3dr0R-zBcXA-dg&sa=X&ved=2ahUKEwixqLKu9JiNAxWaXKQEHUX_KZsQxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "compare_sites",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 43800000,
+          "items_count": 8,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.danceus.org",
+              "title": "Paris Salsa & Bachata Dancing Calendar: Events, Latin ...",
+              "url": "https://www.danceus.org/events/salsa/paris-france-salsa-calendar/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.danceus.org › events › paris-france-salsa-c...",
+              "website_name": "DanceUs.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Best Bachata, Latin, Salsa Clubs in Paris, France · La Pachanga · Le Cubana Café (Cuban Cafe) · O'Sullivans By The Mill · Havanita · Loft Lechapelais · The ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "La Pachanga"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Saturday, May 10",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/paris-france-salsa-calendar/#saturday,may10",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Sunday, May 11",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/paris-france-salsa-calendar/#sunday,may11",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Tuesday, May 13",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/paris-france-salsa-calendar/#tuesday,may13",
+                  "domain": "www.danceus.org"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "La Pachanga",
+              "description": "8 Rue Vandamme · 01 40 47 63 69 \nClosed ⋅ Opens 7 pm \nDine-in · No takeaway · No delivery \n",
+              "domain": "www.lapachanga.fr",
+              "phone": "01 40 47 63 69",
+              "url": "http://www.lapachanga.fr/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.7,
+                "votes_count": 652,
+                "rating_max": 5
+              },
+              "cid": "6235795653876558961",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Salsabor Paris",
+              "description": "31 Rue Chapon · 01 42 71 61 61 \nOpen ⋅ Closes 7:30 pm \nOn-site services \n",
+              "domain": "salsabor.fr",
+              "phone": "01 42 71 61 61",
+              "url": "https://salsabor.fr/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 136,
+                "rating_max": 5
+              },
+              "cid": "1084228738579254306",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Salsero",
+              "description": "9 Rue du Petit Pont · 06 50 16 74 76 \nClosed ⋅ Opens 5 pm \nNo takeaway · No delivery \n",
+              "domain": null,
+              "phone": "06 50 16 74 76",
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.7,
+                "votes_count": 11000,
+                "rating_max": 5
+              },
+              "cid": "16738275298765275813",
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Discover Salsa Dancing Events & Activities in Paris, France",
+                  "url": "https://www.eventbrite.com/d/france--paris/salsa-dancing/",
+                  "domain": "www.eventbrite.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-560c42335477:0",
+                  "source": "Eventbrite"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Paris, France Salsa Club",
+                  "url": "https://m.yelp.com/search?find_desc=Salsa+Club&find_loc=Paris",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-560c42335477:1",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa Paris Official Group",
+                  "url": "https://www.facebook.com/groups/480026722138495/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-560c42335477:2",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa in Paris: Café Oz's free evening every Thursday night",
+                  "url": "https://www.sortiraparis.com/en/where-to-party-in-paris/articles/309375-paris-latino-the-free-salsa-night-every-thursday-at-cafe-oz",
+                  "domain": "www.sortiraparis.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-560c42335477:3",
+                  "source": "Sortir à Paris"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "The Best Salsa Dancing Venues In Paris",
+                  "url": "https://theculturetrip.com/europe/france/paris/articles/the-best-venues-for-salsa-dancing-in-paris",
+                  "domain": "theculturetrip.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwfbUu8P86DljLUAL5ZzH7V18vxE6kucI&s=0",
+                  "source": "Culture Trip"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Apprendre à danser la Salsa",
+                  "url": "https://dancenter.fr/apprendre-a-danser-la-salsa/",
+                  "domain": "dancenter.fr",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQY-9lFIcchHUJtlxzHk8ngjBnzwOGGQ&s=0",
+                  "source": "Dancenter Paris"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Danse salsa",
+                  "url": "https://www.paris.fr/activites/danse-salsa-252",
+                  "domain": "www.paris.fr",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAztBpbjSqKwFvt8gMlFB1BsVuPlNtPT8&s=0",
+                  "source": "Ville de Paris"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Find Events & Groups in Paris, FR",
+                  "url": "https://www.meetup.com/fr-FR/find/fr--paris/salsa/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-560c42335477:4",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "2025 Dancing salsa and bachata in Paris - with Reviews",
+                  "url": "https://www.tripadvisor.com/AttractionProductReview-g187147-d19759243-Dancing_salsa_and_bachata_in_Paris-Paris_Ile_de_France.html",
+                  "domain": "www.tripadvisor.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrzz1jQ7HDCPl9AXogPL1mXGlVZjI6n8g&s=0",
+                  "source": "Tripadvisor"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "La Hummer Party Kizomba Salsa Bachata (Paris By Night en Hummer) - Le Khao Suay | Billet Réduc'",
+                  "url": "https://www.billetreduc.com/68849/evt.htm",
+                  "domain": "www.billetreduc.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRfWo8_-oRsI8EEs-z4oZFLpbX6iBKCGM&s=0",
+                  "source": "Billetreduc"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "O'Sullivans Pigalle, Bar / Pub By The...",
+                "Concorde Atlantique boat",
+                "Cubana Café , Soirées Salsa, Bar...",
+                "Studio Massaro ‑ School Dan...",
+                "La Bellevilloise",
+                "Le Balajo"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa in paris tickets",
+                "Best salsa in paris",
+                "Soirée Salsa Paris",
+                "Salsa dancing Paris tonight",
+                "Cuban salsa Paris",
+                "La Pachanga, Paris",
+                "Salsabor Paris",
+                "Salsa nueva Paris"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJgV-NBctx5kcRcaw8yRv_iVY",
+              "feature": "0x47e671cb058d5f81:0x5689ff1bc93cac71",
+              "cid": "6235795653876558961",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

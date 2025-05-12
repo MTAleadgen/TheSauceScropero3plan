@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+"""
+Find the correct DataForSEO location codes for our cities
+"""
+import json
+import os
+from pathlib import Path
+
+# Path to the saved locations data
+LOCATIONS_FILE = "./data_raw/api_responses/location_data/google_locations.json"
+
+# Cities we want to find
+CITIES = [
+    "Istanbul",
+    "Rio de Janeiro",
+    "São Paulo",
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Miami",
+    "London",
+    "Paris",
+    "Berlin",
+    "Madrid",
+    "Moscow",
+    "Saint Petersburg"
+]
+
+def main():
+    # Check if locations file exists
+    if not os.path.exists(LOCATIONS_FILE):
+        print(f"Error: Location data file not found: {LOCATIONS_FILE}")
+        print("Please run fix_dataforseo_locations.py first to get location data")
+        return
+    
+    # Load location data
+    try:
+        with open(LOCATIONS_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Get the list of locations
+        locations = data['tasks'][0]['result']
+        print(f"Loaded {len(locations)} locations from the data file")
+        
+        # Search for each city
+        for city in CITIES:
+            city_lower = city.lower()
+            matches = []
+            
+            # Find all matches
+            for loc in locations:
+                loc_name = loc.get('location_name', '').lower()
+                country = loc.get('country_name', '')
+                
+                if city_lower in loc_name:
+                    matches.append((
+                        loc.get('location_code'),
+                        loc.get('location_name'),
+                        country,
+                        loc.get('location_type')
+                    ))
+            
+            # Print results
+            if matches:
+                print(f"\nFound {len(matches)} matches for '{city}':")
+                for code, name, country, loc_type in matches:
+                    print(f"  {code}: {name}, {country} (Type: {loc_type})")
+            else:
+                print(f"\nNo matches found for '{city}'")
+        
+    except Exception as e:
+        print(f"Error processing location data: {e}")
+
+if __name__ == "__main__":
+    main() 

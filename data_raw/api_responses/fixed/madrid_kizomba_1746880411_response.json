@@ -1,0 +1,346 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.5056 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101533-9976-0139-0000-f2f8d982574a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.4619 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in Madrid",
+        "location_code": 1005493,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in Madrid",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1005493,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20Madrid&num=1&hl=en&gl=ES&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCYE8CoCXKUINEWkijGHB3jbE",
+          "datetime": "2025-05-10 12:33:31 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=kizomba+in+Madrid+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khZIk6Uk3Jt5zQPK8PYMMzzKfmRI_G5gcZdup0JfLLBQzSfsCk6EAOWmiRbaeWojPxLJTVdN835WJAPcqnpnlVdQ8NgmChr9ZmbOSGN0jGPD6KRZDnr7SRDNR_R3vj-sxpiNkEK2dv9SY16AYKQm_UGefsTYk&sa=X&ved=2ahUKEwiowaXS9JiNAxVGrYkEHWYGO5QQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=online+classes+kizomba+in+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnFAASpKAt2FbIRnDyP4rjXtNMyrxy3MoBojYq5S0uuuQDH_z4HBCWfmJAtxrkcGYEvSWsD2b47SgKMtQA0G3GqbivfDXZmUZrp7pX2L066shRxuplom77O_0fILAPL4gg2e0YYDfH6alZ20JxA8m2LsJE7mwr4f38gHF4qaztdhTl32cRd9uPPY2QCWNwurnw9HSADyZ9b3qnZXvX2VXLdJLt_Z3cRQL3H6JhBNh_NY1dGhy&sa=X&ved=2ahUKEwiowaXS9JiNAxVGrYkEHWYGO5QQxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=top+rated+kizomba+in+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-hr_6l-QnjlapskfZR7OtNVs0950fVN3F0lUWMjc41RxTwOwuRyIps_2zIWfyOpI9zDf8yAlvi-jvX98THslqXM4KdAwCEp-dhO1PYhOkrun3EGHQprcSB-FhSTQjlKSl_1MyOGduzZXtnREhh4721G2tMPjKNlABJ0IxcAGdVzGzXZo&sa=X&ved=2ahUKEwiowaXS9JiNAxVGrYkEHWYGO5QQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "compare_sites",
+            "local_pack",
+            "organic",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 278000,
+          "items_count": 10,
+          "items": [
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "MADRID KIZOMBA ADDICTION",
+                  "url": "https://www.facebook.com/groups/1453691784951798/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-f2f8d982574a:0",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Solo kizomba - Opiniones de viajeros sobre The Host Club, Madrid",
+                  "url": "https://www.tripadvisor.es/ShowUserReviews-g187514-d8571872-r406374859-The_Host_Club-Madrid.html",
+                  "domain": "www.tripadvisor.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-f2f8d982574a:1",
+                  "source": "Tripadvisor"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Los mejores 40 Instructores de Kizomba en Madrid",
+                  "url": "https://prontopro.es/madrid-clases-de-kizomba",
+                  "domain": "prontopro.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-f2f8d982574a:2",
+                  "source": "ProntoPro"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Madrid. Salsa Bachata. Sábados. Aprende y diviértete.",
+                  "url": "https://www.meetup.com/es-ES/madrid-bailar-divertirse-y-hacer-nuevas-amistades/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-f2f8d982574a:3",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Escuelas de baile clases de kizomba en madrid en Madrid",
+                  "url": "https://www.milanuncios.com/escuelas-de-baile-en-madrid/clases-de-kizomba-en-madrid.htm",
+                  "domain": "www.milanuncios.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-f2f8d982574a:4",
+                  "source": "Milanuncios"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Clases de Bachata y Salsa en La Latina Madrid Centro Tickets, Wed, May 14, 2025 at 7:30 PM",
+                  "url": "https://www.eventbrite.es/e/clases-de-bachata-y-salsa-en-la-latina-madrid-centro-tickets-1340576653859",
+                  "domain": "www.eventbrite.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-f2f8d982574a:5",
+                  "source": "Eventbrite"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Evenia Hotels ® ❤️【Web Oficial】",
+                  "url": "https://es.eveniahotels.com/",
+                  "domain": "es.eveniahotels.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-f2f8d982574a:6",
+                  "source": "Evenia Hotels"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Damián Kizomba Crazykizz",
+              "description": "5+ years in business · C. del Conde de Vistahermosa, 9 \nOpen 24 hours \n",
+              "domain": "damiankizomba.com",
+              "phone": "639 33 12 45",
+              "url": "https://damiankizomba.com/curso-intensivo/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 128,
+                "rating_max": 5
+              },
+              "cid": "3296644343047404272",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "NuKiz - Madrid Kizomba Revolution",
+              "description": "C. Paulina Odiaga, 1 \n\n",
+              "domain": "nukiz.org",
+              "phone": "677 85 78 71",
+              "url": "https://nukiz.org/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 26,
+                "rating_max": 5
+              },
+              "cid": "14270112672335211832",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Salsabachata Sol",
+              "description": "3+ years in business · Calle del Conde de Romanones, 10 \nClosed ⋅ Opens 5:30 pm \nOn-site services · Online classes \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 597,
+                "rating_max": 5
+              },
+              "cid": "4897037689195369261",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "nukiz.org",
+              "title": "Madrid Kizomba Revolution% - nukiz.org",
+              "url": "https://nukiz.org/en/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://nukiz.org › ...",
+              "website_name": "nukiz.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Welcome to NuKiz. We organize workshops, intensives and events of Kizomba (Urban Kiz & Fusion) in Madrid and with change (if you dare) of role.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Kizomba",
+                "Madrid"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "DANCES WITH STYLE / CUBAN SALSA CLASSES IN MADRID",
+              "description": "C. de Carretas, 14, 5º F \nClosed ⋅ Opens 8 pm Mon \n",
+              "domain": "www.bailaconestilo.com",
+              "phone": "650 90 60 63",
+              "url": "https://www.bailaconestilo.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 33,
+                "rating_max": 5
+              },
+              "cid": "4275713517418661558",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Salsabachata Avenida de América",
+              "description": "7+ years in business · C. de Coslada, 19 \nClosed ⋅ Opens 5:30 pm \nOn-site services \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 1000,
+                "rating_max": 5
+              },
+              "cid": "904181048474371093",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "The Host Club",
+              "description": "C. de Ferraz, 38 \nClosed ⋅ Opens 11:55 pm \nOn-site services \n",
+              "domain": "www.thehostclub.es",
+              "phone": "636 07 78 27",
+              "url": "http://www.thehostclub.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 12000,
+                "rating_max": 5
+              },
+              "cid": "6839615085731015215",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Kizomba Open Festival 2025",
+                "Kizomba baile",
+                "Madrid Dance Center"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJm9wWnD4nQg0R8DokSpAIwC0",
+              "feature": "0x0d42273e9c16dc9b:0x2dc008904a243af0",
+              "cid": "3296644343047404272",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.1815 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101621-9976-0139-0000-13834f18dac2",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.0932 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in Miami",
+        "location_code": 1015116,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in Miami",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1015116,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20Miami&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRHByA6isNmIEWVPrd1x8pb_",
+          "datetime": "2025-05-10 13:21:08 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "google_flights",
+            "google_reviews",
+            "knowledge_graph"
+          ],
+          "se_results_count": 4760000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "stellaguan.com",
+              "title": "Best Places to Dance Bachata in Miami",
+              "url": "https://stellaguan.com/best-places-to-dance-bachata-in-miami/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://stellaguan.com › best-places-to-dance-bachata-in...",
+              "website_name": "Stella Guan",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Best Places to Dance Bachata in Miami · 1. Bachata Overdose · 2. Bachata Dreams by Miami Sensual Bachata · 3. Ball and Chain · 4. Bachata ...",
+              "pre_snippet": "12/17/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Bachata Overdose"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "1. Bachata Overdose",
+                  "description": null,
+                  "url": "https://stellaguan.com/best-places-to-dance-bachata-in-miami/",
+                  "domain": "stellaguan.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "2. Bachata Dreams By Miami...",
+                  "description": null,
+                  "url": "https://stellaguan.com/best-places-to-dance-bachata-in-miami/",
+                  "domain": "stellaguan.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "7. Sensual Movement Miami",
+                  "description": null,
+                  "url": "https://stellaguan.com/best-places-to-dance-bachata-in-miami/",
+                  "domain": "stellaguan.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-12-17 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "google_flights",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+              "title": "People also search for",
+              "url": null,
+              "items": [
+                {
+                  "type": "google_flights_element",
+                  "description": "Traditional bachata in miami",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Traditional+bachata+in+miami&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg2EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Best bachata in miami",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Best+bachata+in+miami&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg9EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Miami Bachata Social",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Miami+Bachata+Social&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg-EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Bachata clubs Miami",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Bachata+clubs+Miami&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg8EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Salsa dancing Miami Beach",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+dancing+Miami+Beach&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg6EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Salsa Miami tonight",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+Miami+tonight&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg4EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Best salsa clubs in Miami",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Best+salsa+clubs+in+Miami&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg5EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Miami Salsa scene",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Miami+Salsa+scene&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ1QJ6BAg7EAE"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]",
+              "title": "Miami Sensual Bachata",
+              "subtitle": "Dance school",
+              "description": "From Miami Sensual Bachata \"Miami Sensual Bachata is the pioneer of Sensual Bachata in Florida. We have been teaching bachata and salsa for over 7 years through group and private classes, as well as organizing social dancing and events.\nWe have multiple locations, so please... More",
+              "card_id": null,
+              "url": "https://lnk.bio/miamisensualbachata",
+              "image_url": null,
+              "logo_url": null,
+              "cid": "328392135990783720",
+              "items": [
+                {
+                  "type": "knowledge_graph_description_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "text": "From Miami Sensual Bachata \"Miami Sensual Bachata is the pioneer of Sensual Bachata in Florida. We have been teaching bachata and salsa for over 7 years through group and private classes, as well as organizing social dancing and events.\nWe have multiple locations, so please... More",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "More",
+                      "url": "https://www.google.com/#",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/c-wiz[1]/div[1]/div[2]/div[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_images_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101621-9976-0139-0000-13834f18dac2:0",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": "https://www.google.com/maps/place/Miami+Sensual+Bachata/data=!4m2!3m1!1s0x0:0x48eaee864c32ee8?sa=X&ved=1t:2428&hl=en&gl=US&ictx=111",
+                      "domain": "www.google.com",
+                      "alt": "Map of Miami Sensual Bachata",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101621-9976-0139-0000-13834f18dac2:1",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": "https://www.google.com/maps/uv?pb=!1s0x88d9b7d74c434a47:0x48eaee864c32ee8!3m1!7e115!4s/maps/place/bachata%2Bin%2BMiami/@25.8299079,-80.1882234,3a,75y,351.02h,90t/data%3D*213m4*211e1*213m2*211sKogpEJ3hed6h8mPMKIgOQA*212e0*214m2*213m1*211s0x88d9b7d74c434a47:0x48eaee864c32ee8?sa%3DX%26ved%3D2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQpx96BAgVEAA%26hl%3Den%26gl%3DUS!5sbachata+in+Miami+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e2!2sKogpEJ3hed6h8mPMKIgOQA&cr=le_a7&hl=en&ved=1t:206134&ictx=111",
+                      "domain": "www.google.com",
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101621-9976-0139-0000-13834f18dac2:2",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_row_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "title": "Address",
+                  "data_attrid": "kc:/location/location:address",
+                  "text": "Address : 387 NE 59th St, Miami, FL 33137",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Address",
+                      "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=miami+sensual+bachata+address&ludocid=328392135990783720&sa=X&ved=2ahUKEwinsP-k_5iNAxU9UaQEHVYQGCwQ6BN6BAgzEAI",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_row_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "title": "Phone",
+                  "data_attrid": "kc:/local:alt phone",
+                  "text": "Phone : (786) 213-0975",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "(786) 213-0975",
+                      "url": "https://www.google.com/#",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_carousel_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "title": "Profiles",
+                  "data_attrid": "kc:/common/topic:social media presence",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Facebook",
+                      "subtitle": null,
+                      "url": "https://www.facebook.com/miamibachata",
+                      "domain": "www.facebook.com",
+                      "image_url": "https://ssl.gstatic.com/kpui/social/fb_32x32.png",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/g-link[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Instagram",
+                      "subtitle": null,
+                      "url": "https://www.instagram.com/miamisensualbachata/",
+                      "domain": "www.instagram.com",
+                      "image_url": "https://ssl.gstatic.com/kpui/social/instagram_32x32.png",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/g-link[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/span[3]/span[1]/a[1]",
+              "reviews_count": 51,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 51,
+                "rating_max": 5
+              },
+              "place_id": "ChIJR0pDTNe32YgR6C7DZOiujgQ",
+              "feature": "0x88d9b7d74c434a47:0x048eaee864c32ee8",
+              "cid": "328392135990783720",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

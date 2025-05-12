@@ -1,0 +1,478 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.4073 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100240-9976-0139-0000-825b53510d05",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.2664 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa bachata dance classes in Madrid",
+        "location_name": "Madrid,Community of Madrid,Spain",
+        "language_name": "English",
+        "depth": 2,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa bachata dance classes in Madrid",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1005493,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20bachata%20dance%20classes%20in%20Madrid&num=2&hl=en&gl=ES&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCYE8CoCXKUINEWkijGHB3jbE",
+          "datetime": "2025-05-09 23:40:12 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=ES&glp=1&q=Salsa+bachata+dance+classes+in+madrid+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpq1-QGiXHCIwmPo1sg73HKKHFjBpKTbdHxG1bnHGQy-WdaC3ihM0KlPXzifCkW9wdB08NngcTdNMIokivdaEksmlwnV7cqN_qASzglIWclHNu-raImF9LtfvxPjTRdjxPhdIRxyLAn-hk5URJ1SYNK7HmRoWbMjLEmc3tRQMqJTy1xZipoNsGLVBqcRq-UYRdB3cQxixULfrGraFwvvMkduKV8dOgOonM3PChcTi7K9UnmsBItTVVJX9MUEsGnWNiolcog&sa=X&ved=2ahUKEwjo3enkx5eNAxWtF1kFHfySCfoQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=ES&glp=1&q=salsa+bachata+dance+classes+in+Madrid+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhVEh5Zney_fvH191l7fOQ5yrr83BTFBYrg-c74dd3unI5yeC0je-Sn2mdeil_vkCa5QM_uSgxNTyhW9S1DEjy0Rqy_7U-QrZPew7hE7tgPfqY_68GxchCy1yP6a8snNCG13hm2GRA2NmQgWKk8-nNNVTfIBvgzvwHpiidvbQkFQWYpIY1VXLr37LdRtO82Qd-4G8RHp2U3HkcI0ASzE7Pb6GJ1k&sa=X&ved=2ahUKEwjo3enkx5eNAxWtF1kFHfySCfoQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=ES&glp=1&q=Free+salsa+bachata+dance+classes+in+madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRCQ-T2PVM3EUzJuSlfTj9DdmNUkKUdACWqNK9XJyoJgDQ0Kh9q1aLMZw7zPetNuv2uCTa1rbHpox1GIeedGmNxXSzMHowRMC17va8YCDEoURU9RBnW731LUqovsH8RR6LvEvNMoSz52MScfT3Y4CEtihXCUoqn8GMkEo93od3Jn57WHvwG3FkzjfJ5M_box0jvl-c0SafN4-c6V_JoxGdizEnGHPFMCA6I6JG-ci5M2iQIbzf&sa=X&ved=2ahUKEwjo3enkx5eNAxWtF1kFHfySCfoQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=ES&glp=1&q=online+classes+salsa+bachata+dance+classes+in+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRlbwMutRhpw1-LLU8EfrRGG5oXXAxLjvLLVzOnGbqCMksEJ4adhCQ51b6lLMtSV0Bem3D0cajjagO6En5R0W4Cc5i9yd1gfxv-H_hco7dC1SjfC50NloSN5oCKHImga__ylhQ5iKBIh-x050UW7ZwPMMO4obBNOIEhMnCc1XdU0hzD73UuSxJnEp8I9iF3tnV62oLqVdFJS0on5dorybW0IvIqga169LNExqvW1H2uITagdhBM_EQOStO0NCQyzPISta5lA&sa=X&ved=2ahUKEwjo3enkx5eNAxWtF1kFHfySCfoQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "compare_sites",
+            "local_pack",
+            "organic",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 296000,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Book Salsa, Bachata and Merengue Dance Classes in Madrid",
+                  "url": "https://www.viator.com/tours/Madrid/Meet-and-Dance/d566-29599P1",
+                  "domain": "www.viator.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:0",
+                  "source": "Viator"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Madrid: Salsa, Bachata, Merengue & Party",
+                  "url": "https://www.meetup.com/bailes-latinos-salsa-merengue-bachata-en-madrid/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:1",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "2025 Salsa, Bachata and Merengue Dance Classes in Madrid",
+                  "url": "https://www.tripadvisor.com/AttractionProductReview-g187514-d11474227-Salsa_Bachata_and_Merengue_Dance_Classes_in_Madrid-Madrid.html",
+                  "domain": "www.tripadvisor.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:2",
+                  "source": "Tripadvisor"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Madrid: Latin Dance & Salsa Class Experience",
+                  "url": "https://www.getyourguide.com/madrid-l46/madrid-latin-dance-salsa-class-experience-t609271/",
+                  "domain": "www.getyourguide.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:3",
+                  "source": "GetYourGuide"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "SALSA BACHATA - MADRID",
+                  "url": "https://www.facebook.com/groups/507058619697940/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVRPK6PjeCW-Qagjpg-woOS72oJtS8uoA&s=0",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Madrid, Spain Salsa Dancing",
+                  "url": "https://m.yelp.com/search?find_desc=Salsa+Dancing&find_loc=Madrid",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:4",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Latin dance and salsa class in Madrid Experience (Private Groups) Tickets, Multiple Dates",
+                  "url": "https://www.eventbrite.es/e/latin-dance-and-salsa-class-in-madrid-experience-private-groups-tickets-830138615947",
+                  "domain": "www.eventbrite.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:5",
+                  "source": "Eventbrite"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Madrid Latin Dance and Salsa Class",
+                  "url": "https://www.hellotickets.com/spain/madrid/latin-dance-salsa-class/a/pa-9417",
+                  "domain": "www.hellotickets.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7coa_v2fcLZBPsDn0dCqJ_LeDY4EYcSs&s=0",
+                  "source": "Hellotickets"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Azucar",
+                  "url": "https://www.esmadrid.com/en/nightlife/azucar",
+                  "domain": "www.esmadrid.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:6",
+                  "source": "Turismo Madrid"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Time Out Market New York",
+                  "url": "https://www.timeout.com/time-out-market-new-york",
+                  "domain": "www.timeout.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz4NOUWZwv4bs-5c1b-038PjjtAlcO0tw&s=0",
+                  "source": "Time Out"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsabachata Sol",
+              "description": "3+ years in business \u00b7 Calle del Conde de Romanones, 10 \nClosed \u22c5 Opens 11\u202fam \nOn-site services \u00b7 Online classes \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 597,
+                "rating_max": 5
+              },
+              "cid": "4897037689195369261",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "DANCES WITH STYLE / CUBAN SALSA CLASSES IN MADRID",
+              "description": "C. de Carretas, 14, 5\u00ba F \nClosed \u22c5 Opens 8\u202fpm Mon \n",
+              "domain": "www.bailaconestilo.com",
+              "phone": "650 90 60 63",
+              "url": "https://www.bailaconestilo.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 33,
+                "rating_max": 5
+              },
+              "cid": "4275713517418661558",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "RLDance Madrid",
+              "description": "3+ years in business \u00b7 Calle de la Magdalena, 7 \nClosed \u22c5 Opens 6:30\u202fpm Mon \nOn-site services \u00b7 Online classes \n",
+              "domain": "rldancemadrid.my.canva.site",
+              "phone": "635 12 16 38",
+              "url": "https://rldancemadrid.my.canva.site/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 89,
+                "rating_max": 5
+              },
+              "cid": "15073277212355115832",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "salsabachata.es",
+              "title": "Salsabachata - Escuela de baile en Madrid",
+              "url": "https://salsabachata.es/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://salsabachata.es",
+              "website_name": "Salsabachata Escuela de baile",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Ofrece talleres de salsa, bachata, y otros estilos, seguidos de fiestas nocturnas. Los participantes podr\u00e1n aprender, practicar y disfrutar del baile en un\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "salsa bachata dance classes in Madrid from salsabachata.es",
+                  "url": "https://salsabachata.es/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:7"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ofrece talleres de salsa, bachata, y otros estilos"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Clases de Salsa cubana",
+                  "description": null,
+                  "url": "https://salsabachata.es/clases-de-baile/clases-salsa-cubana-madrid",
+                  "domain": "salsabachata.es"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Salsabachata Sol",
+                  "description": null,
+                  "url": "https://salsabachata.es/centros-escuela-de-baile/madrid-sol",
+                  "domain": "salsabachata.es"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Clases de Bachata",
+                  "description": null,
+                  "url": "https://salsabachata.es/clases-de-baile/clases-de-bachata",
+                  "domain": "salsabachata.es"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Donde estamos",
+                  "description": null,
+                  "url": "https://salsabachata.es/donde-estamos",
+                  "domain": "salsabachata.es"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "nightlifemadrid.com",
+              "title": "Discover the Salsa and Bachata culture in Madrid",
+              "url": "https://nightlifemadrid.com/salsa-bachata-madrid/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://nightlifemadrid.com \u203a salsa-bachata-madrid",
+              "website_name": "Nightlife Madrid",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Tropical House Madrid is a great place to dance Salsa, Bachata and Kizomba on the weekends. On Fridays and Saturdays they open two floors. On the main floor\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "salsa bachata dance classes in Madrid from nightlifemadrid.com",
+                  "url": "https://nightlifemadrid.com/salsa-bachata-madrid/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100240-9976-0139-0000-825b53510d05:8"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Tropical House Madrid"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsabachata Avenida de Am\u00e9rica",
+              "description": "7+ years in business \u00b7 C. de Coslada, 19 \nClosed \u22c5 Opens 5:30\u202fpm \nOn-site services \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 1000,
+                "rating_max": 5
+              },
+              "cid": "904181048474371093",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Premiumdance Clases De Salsa y Bachata",
+              "description": "3+ years in business \u00b7 C. de Ambr\u00f3s, 34 \nClosed \u22c5 Opens 5:30\u202fpm \nOn-site services \u00b7 Online classes \n",
+              "domain": "www.clasesdesalsaybachata.com",
+              "phone": "608 78 89 42",
+              "url": "http://www.clasesdesalsaybachata.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 451,
+                "rating_max": 5
+              },
+              "cid": "3088707801599362157",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Salsabachata Quevedo",
+              "description": "7+ years in business \u00b7 C. de Cercedilla, 3 \nClosed \u22c5 Opens 5\u202fpm \nOn-site services \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 995,
+                "rating_max": 5
+              },
+              "cid": "7194772954732538477",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Evolution Dance School Esc...",
+                "BSK DANCE VISTA ALEGRE",
+                "WOSAP Dance School",
+                "Salsabacha... Quevedo",
+                "Salsabacha... Avenida de Am\u00e9rica",
+                "Premiumda... Clases De Salsa y Bac..."
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa bachata dance classes in madrid for adults",
+                "Free salsa bachata dance classes in madrid",
+                "Best salsa bachata dance classes in madrid",
+                "Where to dance salsa in Madrid",
+                "Best salsa clubs in Madrid",
+                "Bachata classes Madrid",
+                "Clases de baile Madrid para adultos",
+                "Bachata Madrid hoy"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJPY6OMNEpQg0RLZMwLNXF9UM",
+              "feature": "0x0d4229d1308e8e3d:0x43f5c5d52c30932d",
+              "cid": "4897037689195369261",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+transformers>=4.40.0
+torch>=2.0.0 --index-url https://download.pytorch.org/whl/cu118
+accelerate>=0.25.0
+auto-gptq>=0.7.2
+optimum>=1.17.0
+sentencepiece
+pydantic typing_extensions # Ensure compatible pydantic/typing_extensions for FastAPI and Transformers 

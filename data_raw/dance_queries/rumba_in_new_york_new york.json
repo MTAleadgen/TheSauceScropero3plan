@@ -1,0 +1,328 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.8682 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100310-9976-0139-0000-614748fdd746",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.8110 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "rumba in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "rumba in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=rumba%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:10:08 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRcUIDaD9s3o3PZ2zO8QnakNkAQXxQ9KimV66OMGuGqypPRdCPmdxsptKxYkQNW7-RJUlnssRQFV7k2gGT4lteoB4cD-3utDvZpbYbiel45Oz9v6MLVZRtyyMnro74UapkNe6W23x0USBtox0ayR15mp-UD16BdcjHxSi5Cz6-iJe8_z0PzHQKzYd25pFozztQ5lvpXzt09UUh5fpy2GIAerhKRIkOMdI7qh-VWI0Eonrd8CVGP2-w9Tb-_5b3HQHDP4foFA7U6_1n_hkUS6mBe-DDSsBMG5jgraUrxaB1_f5SHSdgwETQVZndssxkb5eUIaJbFh8TQ8-K1nKxmyxb2jqt0QfuII1uRMLwv-BjyJziFHqh6mN4M1ngFyaJgN6z3d_TdFvQ1ZQTJ_rkY5A1Fw-vl590ohuN6TVOoNqA4AA5kwsZzeHMJDkKILe_h8AKost7aw&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+rumba+in+New+York&uds=ABqPDvzvqLYFzz-AxCAGiD56CaK3Io2zAyt7fldloWyQvfSWybS74Ay-piUO7C4cUY5FhSybTWY0ZajauznhJ15rbhN7_FWZt0tFBHqhYOoG_P-NOqvqiV7d1HuvJrqmQ1Ux_zMjEuVWdekIX7MBuEz6qX-T1vc_Ho5fJX-T5gVvK2doqxOoA1TNAwBDAYlS9ZWe26MzeqlwAxAlT3fzqJQO2Z2rmaYenjglok46jhajTzZoOJ2MsKQAQA32p17ZugYMzZ716lDKZQjkz-RkcjULbEHZNlZttIlPKPTlbX-lJS2J9Njx6gaMwpcAZc0ReZmDZpJ2B4NN_PIW-_migaHr0Hm-gLGAihiZSVyC2xFQHbC62VNqLCZQxcaXCpLkiF9GMu4pCmELpOp4Uh_dXsvNE-QaUy89tMUcqDWfhxc_gfXGnTczdJypACVECGHD9hx1Xu8gcTqiYt2jSNqbmkiJ7lryMi72_g&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRcUIDaD9s3o3PZ2zO8QnakNkAQXxQ9KimV66OMGuGqyq6m9Dig_8vt5pXh_vknN_BdxZeGoLNJJYXUfYwB3ty2OS9PItCtsEb9jU06nDm4cOfkA2CsjIQ8Vka8AH9NmgUbkzGwPxPniD-dbtdFMJPtcPsLGD5cLPHSRhBozOnUtP9sQRXTa4q9zABJmIAjb4F8w_J_e-zWCnTBQ3X6S7_nbaBpPCRRn0jYPMX6i-fnR-3F9FZ4m1SniOjsgL-mZ8ODy-uA2_Y5KiJypUyGrahFiPTn5ORtgO_lx1z9bWvNHNPUfkOkVpOnpjJrw6s2CQK56de__bOuJDG4-hOoes-OmSs7ywTI9rWcvauVATaEre13LX0wMeAP0YUI5mg1tOn53g7_qeXsWbTQDiGjFwFhDEfwlaJmVJMDcGax3jr1mchZQSPY4DN3P9NeJZTmXfHzXB6W7gJJLaa-eLZeRg-k3POSe4&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRAKshq77Snz0p497vn6IDFuYh-pzTUwkdQVktEbzFmxMTcZv_AyrEuEGq9zgE_ADD1uEEFth8-q4VfzBIvwsK-yrLT7EcT8v4nh4MtjocIPi1IW_PFdXd11ob2y0UwWNl-HvVtbKQzsuN-uxsvN0ufzV0KGhUCASfduB2AJf4vrQq2Zt4sD6RHNlXaltuGWuam76XwmyupSly9x-aocCCjnWlBrjenGkf_EJYie0-pOemc8fcWJE1tDDaePJ-U4h8gPymzwq-F-Lm0QMnD519gXKUsJijLt4F5Nad1ol--VjG3tgWLm1jeAnAlHV07yL5e1RZ0-Fnkx3wYgvP8Y3KnEduTPa9fheoETxCYWoqEc2RJh0Z000Agm0pA3gj3IdOsOL-GJULARzHtBHOV7AeI_lBsCYbeASEPE9V5EqVMLyvV-vt_g7CoNu98SmL5_eoTOlMwA&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRcUIDaD9s3o3PZ2zO8QnakNkAQXxQ9KimV66OMGuGqypPRdCPmdxsptKxYkQNW7-RJUlnssRQFV7k2gGT4lteoB4cD-3utDvZpbYbiel45Oz9v6MLVZRtyyMnro74UapkNe6W23x0USBtox0ayR15mp-UD16BdcjHxSi5Cz6-iJe8_z0PzHQKzYd25pFozztQ5lvpXzt09UUh5fpy2GIAerhKRIkOMdI7qh-VWI0Eonrd8CVGP2-w9Tb-_5b3HQHDP4foFA7U6_1n_hkUS6mBe-DDSsBMG5jgraUrxaB1_f5SHSdgwETQVZndssxkb5eUIaJbFh8TQ8-K1nKxmyxb2jqt0QfuII1uRMLwv-BjyJziFHqh6mN4M1ngFyaJgN6z3d_TdFvQ1ZQTJ_rkY5A1Fw-vl590ohuN6TVOoNqA4AA5kwsZzeHMJDkKILe_h8AKost7aw&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+rumba+in+New+York&uds=ABqPDvzvqLYFzz-AxCAGiD56CaK3Io2zAyt7fldloWyQvfSWybS74Ay-piUO7C4cUY5FhSybTWY0ZajauznhJ15rbhN7_FWZt0tFBHqhYOoG_P-NOqvqiV7d1HuvJrqmQ1Ux_zMjEuVWdekIX7MBuEz6qX-T1vc_Ho5fJX-T5gVvK2doqxOoA1TNAwBDAYlS9ZWe26MzeqlwAxAlT3fzqJQO2Z2rmaYenjglok46jhajTzZoOJ2MsKQAQA32p17ZugYMzZ716lDKZQjkz-RkcjULbEHZNlZttIlPKPTlbX-lJS2J9Njx6gaMwpcAZc0ReZmDZpJ2B4NN_PIW-_migaHr0Hm-gLGAihiZSVyC2xFQHbC62VNqLCZQxcaXCpLkiF9GMu4pCmELpOp4Uh_dXsvNE-QaUy89tMUcqDWfhxc_gfXGnTczdJypACVECGHD9hx1Xu8gcTqiYt2jSNqbmkiJ7lryMi72_g&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRcUIDaD9s3o3PZ2zO8QnakNkAQXxQ9KimV66OMGuGqyq6m9Dig_8vt5pXh_vknN_BdxZeGoLNJJYXUfYwB3ty2OS9PItCtsEb9jU06nDm4cOfkA2CsjIQ8Vka8AH9NmgUbkzGwPxPniD-dbtdFMJPtcPsLGD5cLPHSRhBozOnUtP9sQRXTa4q9zABJmIAjb4F8w_J_e-zWCnTBQ3X6S7_nbaBpPCRRn0jYPMX6i-fnR-3F9FZ4m1SniOjsgL-mZ8ODy-uA2_Y5KiJypUyGrahFiPTn5ORtgO_lx1z9bWvNHNPUfkOkVpOnpjJrw6s2CQK56de__bOuJDG4-hOoes-OmSs7ywTI9rWcvauVATaEre13LX0wMeAP0YUI5mg1tOn53g7_qeXsWbTQDiGjFwFhDEfwlaJmVJMDcGax3jr1mchZQSPY4DN3P9NeJZTmXfHzXB6W7gJJLaa-eLZeRg-k3POSe4&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRAKshq77Snz0p497vn6IDFuYh-pzTUwkdQVktEbzFmxMTcZv_AyrEuEGq9zgE_ADD1uEEFth8-q4VfzBIvwsK-yrLT7EcT8v4nh4MtjocIPi1IW_PFdXd11ob2y0UwWNl-HvVtbKQzsuN-uxsvN0ufzV0KGhUCASfduB2AJf4vrQq2Zt4sD6RHNlXaltuGWuam76XwmyupSly9x-aocCCjnWlBrjenGkf_EJYie0-pOemc8fcWJE1tDDaePJ-U4h8gPymzwq-F-Lm0QMnD519gXKUsJijLt4F5Nad1ol--VjG3tgWLm1jeAnAlHV07yL5e1RZ0-Fnkx3wYgvP8Y3KnEduTPa9fheoETxCYWoqEc2RJh0Z000Agm0pA3gj3IdOsOL-GJULARzHtBHOV7AeI_lBsCYbeASEPE9V5EqVMLyvV-vt_g7CoNu98SmL5_eoTOlMwA&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QkbEKegQIIBAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reviews",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Rumba+in+new+york+reviews&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRLshVusH3-xlsZDlkUSQLRQfg5nW-o8J8jqEP90TKwxxUUkl-HuxERF7BU78gUD2Gq6MNNDQP0pCFC7n2pRDkTeR2SN83-awWK0MHZApB35yozQp2_267KZhZ1-oa4Oc8X6MJWS8bW0GgAExmcEsSY33EO9kaYxIVmZDjfP86oWgCvoh-CrXyxTt6nX7TWJ_5vq7W09ryb9L6VMf_mDriG9uwzyM&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=rumba+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khSc9ufMGQRRQRiDUXQ9-8Pgf5_Tnr01JBXZ_rD7iGR1HYRHWx0VOH-uV0OtBNvS5o_s10H7OULWW_fDJcvFATP8wK_03CgHRB626eo-ihVhXgNELFDTTHp5QZt0EZbBrFa_x1oR3GiXJvJrfRdQaJQxfB6Pj&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIGxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "2021",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Rumba+in+new+york+2021&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRBvpp1ulDcVf7ufGjs2e0V0-1y-rV5ZHXKGTvkWG5WfdpdXMcNMCfaMLn2jR6xdsTHksmVckMnYSL3knRwj_7GsC8qcAlMlhSUPDaPpAPTYndC1v8Zlw5IpiZNGrUHhfYWfKtB5bas7pNrymckHZOV2da8Bv9rXk2G6FbZXeOGjw_QOPPHdIF1PsZC0czMP60I5DrG8QnMPnwAVpcDWro6zKJfBk&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Takeout",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=takeout+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpKU13g6YKT5N-ljSed6g1S6T3f1d91qO2b9E_R9_WmwjLn5QShp2dlGRbpfUedptsM_goVIimlxPMap4c7PZVcH-5F_xl8dpmKTS5Gypf_axjtHUWz-2J3qGPxhiJWbD5vp-pstL51080jZ2G9S4kJts-oNmGO6qVJe-Qz-sHcU8WlpuYotCnFhwOYyTK2EbqUe4ZlyA1o6dc7nuDcrex-zsJciQLl17oa8OSVGoKmiFXqmc&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Accepts reservations",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=accepts+reservations+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0sQUzW3Tu350XIpBlEAqCDnmg4q52SmvQLX_DClHcKasEE9xmjinftUZ-1juwLXmpYoLaAIHFpbSwdPq-Vy9y2wlC0f5jVH1rIH-SL7RQSH9qh-isfvIC5gdAtL9al70bVE8t7roieNymA0xvlFff2gkUD5_StHZ3NpA_iQ01Bn5QTyaSTkIXlCUgL8pLw7XUJtDNL4nnm-3MrE80CMZqSnQ_eyuaWhzRuUClsQDJzxfs20L&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIPxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Delivery",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=delivery+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR9k1vcX8nQENlB_ST8PB-ecPO8AeE3xLI93eP3-5puiChws9TziG1nCaclgZvajgHBf8vQS18t0in7L5mLgFGlV9z1f4MYt4k7lIA7Mb3vZunHYBpndZKanc8DeZKtE0-pVRn7Le12wvZX8DUo_dqRGPlzO0MPRpS8aFh81JFKxjcFquf1N0Fx0HNfXo-60o_s9WQ6l_VxsOL6ebMyltKD3LmGwRDARZn5KdfPVQU_hACuOMO&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Recently opened",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=recently+opened+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR_OMdcD_eToyWqY3bfTFTz7YrdFNJJFR22FaAKsSRwAI81MTCvysI9D-qHAl6WEvUEuOaNUMGZ7N1lwOtpME5B4G-rs1gFxh-3EzaIMcGy9brZuxwZ157jP1zyKl2fllJICNaxspgoXic7aXQZIF2Q6JkMAwLoFq5VXln-6QapOx0KZCakL_p_1RivnEri6e2YgNWWw&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIPRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+rumba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-hr_6l-QnjlapskfZR7OtLCfjGarF6B8buzGyTWDy-jFggZNac2MIkAyIcAh387Kkm9areSuG2233gl9zMtZ9Y1WV4WwRoZ695VWyNIaiLZb3CjdvXsci2K1QYKeI3ogDU5ta-YtCnv_3s-EdnEXf7Zrp9ybQWV59RObDc6hPWmBNDys&sa=X&ved=2ahUKEwiD1Ye-zpeNAxXSH0QIHTOqBR8QxKsJegQIPBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 3430000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "tasterumba.com",
+              "title": "RUMBA: Home",
+              "url": "https://tasterumba.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://tasterumba.com",
+              "website_name": "tasterumba.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "At RUMBA, every dish is your passport to paradise, blending bold, fresh island flavors with a modern twist. Vibrant plates, handcrafted rum cocktails, and the\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "RUMBA"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Our Locations",
+                  "description": null,
+                  "url": "https://tasterumba.com/our-locations/",
+                  "domain": "tasterumba.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Catering",
+                  "description": null,
+                  "url": "https://tasterumba.com/#catering",
+                  "domain": "tasterumba.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Gift Cards",
+                  "description": null,
+                  "url": "https://tasterumba.com/#gift-cards",
+                  "domain": "tasterumba.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Contact",
+                  "description": null,
+                  "url": "https://tasterumba.com/#contact",
+                  "domain": "tasterumba.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Rumba Latina",
+              "description": "Corona, NY \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.8,
+                "votes_count": 12,
+                "rating_max": 5
+              },
+              "cid": "8740628576754632502",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "La Rumba Social",
+              "description": "No reviews \u00b7 Dance restaurant \n91 Baxter St \nDine-in \u00b7 Takeout \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": null,
+              "cid": "3114396704094197598",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Rumba Cubana - Guttenberg",
+              "description": "Guttenberg, NJ \nFestive stop for Cuban food & cocktails \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 5500,
+                "rating_max": 5
+              },
+              "cid": "4785175623164438847",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Rumba in new york reviews",
+                "Rumba in new york 2021",
+                "Rumba Hampton Bays menu",
+                "Rumba menu",
+                "Rumba Cubana menu",
+                "Rumba Metairie menu",
+                "Cowfish rumba",
+                "RUMBA patchogue"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

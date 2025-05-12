@@ -1,0 +1,251 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "12.0920 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100311-9976-0139-0000-075cb3bd9a25",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "12.0295 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "forro in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "forro in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=forro%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:11:29 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches",
+            "knowledge_graph"
+          ],
+          "se_results_count": 5500000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]",
+              "domain": "www.forronewyork.com",
+              "title": "Forr\u00f3 New York | Brazilian Dance Classes and Events",
+              "url": "https://www.forronewyork.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.forronewyork.com",
+              "website_name": "Forr\u00f3 New York",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The classes are held in English, with an excellent instructor, Rafael, from Brazil, so they're perfect for Brazilians and non-Brazilians alike!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "forro in New York from www.forronewyork.com",
+                  "url": "https://www.forronewyork.com/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100311-9976-0139-0000-075cb3bd9a25:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The classes are held in English"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "New York Forr\u00f3 Festival",
+              "description": "7+ years in business \u00b7 411 W 146th St suit #4 \u00b7 (646) 318-6929 \n",
+              "domain": null,
+              "phone": "(646) 318-6929",
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "cid": "17791308978267539327",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Forr\u00f3 Brooklyn",
+              "description": "Brooklyn, NY \nClosed \u22c5 Opens 7:45\u202fPM Mon \n",
+              "domain": "esquinabrooklyn.com",
+              "phone": null,
+              "url": "http://esquinabrooklyn.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "cid": "6897629027253129181",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Beija Flor",
+              "description": "Long Island City, NY \u00b7 (718) 606-2468 \nOpen \u22c5 Closes 3\u202fAM \n\"Replace great with OUTSTANDING!\" \n",
+              "domain": "www.beijaflor.nyc",
+              "phone": "(718) 606-2468",
+              "url": "https://www.beijaflor.nyc/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.4,
+                "votes_count": 988,
+                "rating_max": 5
+              },
+              "cid": "16088296539020470489",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Forro in new york for adults",
+                "Forro in new york reddit",
+                "Forr\u00f3 New York weekend",
+                "Samba NYC",
+                "Aula de forr\u00f3 near me"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]",
+              "title": "Forro New York",
+              "subtitle": null,
+              "description": "Brazilian dance and culture. Join us for forr\u00f3 classes, workshops, parties and concerts in New York City.\u00a0Here you will find information about forro music and dance in NYC.",
+              "card_id": null,
+              "url": "https://www.forronewyork.com/",
+              "image_url": null,
+              "logo_url": null,
+              "cid": null,
+              "items": [
+                {
+                  "type": "knowledge_graph_description_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "text": "Brazilian dance and culture. Join us for forr\u00f3 classes, workshops, parties and concerts in New York City.\u00a0Here you will find information about forro music and dance in NYC. Summarized from the website... Summarized from the website",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "\u00a0Summarized from the website",
+                      "url": "https://support.google.com/merchants/answer/14113862",
+                      "domain": "support.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1]"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "...\u00a0Summarized from the website",
+                      "url": "https://support.google.com/merchants/answer/14113862",
+                      "domain": "support.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_list_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+                  "title": "Ratings",
+                  "data_attrid": "ShoppingMerchantTrustRatings",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_list_element",
+                      "title": "APIVoid",
+                      "subtitle": "100%",
+                      "url": "https://www.apivoid.com/tools/website-trust-score/?domain=forronewyork.com",
+                      "domain": "www.apivoid.com",
+                      "image_url": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

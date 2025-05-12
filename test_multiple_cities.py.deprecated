@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+"""
+Test script for DataForSEO API with multiple cities using proper location formats
+"""
+import os
+import json
+import base64
+import requests
+import logging
+import time
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv(override=True)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATA_RAW_DIR = "./data_raw"
+
+# Ensure data_raw directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+# City mapping with proper DataForSEO location formats
+CITY_MAPPING = {
+    "New York": "New York,New York,United States",
+    "Los Angeles": "Los Angeles,California,United States",
+    "Chicago": "Chicago,Illinois,United States",
+    "Miami": "Miami,Florida,United States",
+    "London": "London,England,United Kingdom",
+    "Paris": "Paris,Ile-de-France,France",
+    "Berlin": "Berlin,Berlin,Germany",
+    "Madrid": "Madrid,Community of Madrid,Spain"
+}
+
+def test_city_with_proper_format(city_name, location_format, depth=2):
+    """Test a specific city with the proper location format"""
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials not set.")
+        return False
+    
+    # DataForSEO API endpoint for Google Organic Search
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task
+    search_query = f"salsa bachata dance classes in {city_name}"
+    data = [{
+        "keyword": search_query,
+        "location_name": location_format,
+        "language_name": "English",
+        "depth": depth,
+        "se_domain": "google.com"
+    }]
+    
+    try:
+        # Make the API request
+        logger.info(f"Making API request for {city_name} ({location_format}) with depth={depth}")
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the entire response
+        raw_path = os.path.join(DATA_RAW_DIR, f"test_{city_name.lower().replace(' ', '_')}_response.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        logger.info(f"Saved raw API response to {raw_path}")
+        
+        # Process results if available
+        if result.get('status_code') == 20000:  # Success code
+            tasks = result.get('tasks', [])
+            
+            total_organic_results = 0
+            
+            for task in tasks:
+                task_id = task.get('id')
+                logger.info(f"Processing task ID: {task_id}")
+                
+                if 'result' in task and task['result']:
+                    for i, item in enumerate(task['result']):
+                        # Save each result item separately
+                        result_path = os.path.join(DATA_RAW_DIR, f"test_{city_name.lower().replace(' ', '_')}_{i}.json")
+                        with open(result_path, 'w') as f:
+                            json.dump(item, f, indent=2)
+                        
+                        # Count organic results
+                        items = item.get('items', [])
+                        organic_count = sum(1 for result_item in items if result_item.get('type') == 'organic')
+                        total_organic_results += organic_count
+                        
+                        logger.info(f"{city_name} result page {i} has {organic_count} organic results")
+                else:
+                    logger.warning(f"No results found for {city_name} in task {task_id}")
+            
+            logger.info(f"Total organic results for {city_name}: {total_organic_results}")
+            return total_organic_results
+        else:
+            error_message = result.get('status_message', 'Unknown error')
+            logger.error(f"API request failed for {city_name}: {error_message}")
+            return 0
+    
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Request failed for {city_name}: {e}")
+        return 0
+    
+    except Exception as e:
+        logger.error(f"Unexpected error for {city_name}: {e}")
+        return 0
+
+def main():
+    """Test multiple cities with proper location formats"""
+    logger.info("Starting DataForSEO API test with multiple cities")
+    
+    city_results = {}
+    total_results = 0
+    
+    for city_name, location_format in CITY_MAPPING.items():
+        # Add a delay between requests to avoid rate limiting
+        time.sleep(1)
+        
+        organic_count = test_city_with_proper_format(city_name, location_format)
+        city_results[city_name] = organic_count
+        total_results += organic_count
+    
+    # Print summary
+    logger.info("=== Results Summary ===")
+    for city, count in city_results.items():
+        logger.info(f"{city}: {count} organic results")
+    logger.info(f"Total organic results across all cities: {total_results}")
+    
+    # Save results to file
+    summary_path = os.path.join(DATA_RAW_DIR, "test_cities_summary.json")
+    with open(summary_path, 'w') as f:
+        json.dump(city_results, f, indent=2)
+    logger.info(f"Saved results summary to {summary_path}")
+    
+    return True
+
+if __name__ == "__main__":
+    main() 

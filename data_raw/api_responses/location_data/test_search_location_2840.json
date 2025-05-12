@@ -1,0 +1,407 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "14.1383 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101526-9976-0139-0000-f552444ad0bb",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "14.0398 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa dance",
+        "location_code": "2840",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa dance",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20dance&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2025-05-10 12:27:07 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "video",
+            "organic",
+            "product_considerations",
+            "discussions_and_forums",
+            "perspectives",
+            "related_searches",
+            "knowledge_graph"
+          ],
+          "se_results_count": 91100000,
+          "items_count": 7,
+          "items": [
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Beginner's Guide: How To Salsa Dance (No Experience ...",
+                  "timestamp": "2019-01-27 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=C4MAFLeWY7c"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Marc Anthony - Mala | Salsa Dancing | Daniel Rosas & Ece ...",
+                  "timestamp": "2022-07-09 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Df9GrBwgyjQ"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Salsa Dancing Beginner Basics Tutorial Video",
+                  "timestamp": "2020-09-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jpIJMKjxkQ0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "How to Salsa Dance With More Flow",
+                  "timestamp": "2025-04-10 12:27:07 +00:00",
+                  "url": "https://www.youtube.com/watch?v=GC3UnguZdu0"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "en.wikipedia.org",
+              "title": "Salsa (dance)",
+              "url": "https://en.wikipedia.org/wiki/Salsa_(dance)",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://en.wikipedia.org › wiki › Salsa_(dance)",
+              "website_name": "Wikipedia",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Salsa is one of the most popular types of Latin dance that is practiced worldwide, and is typically danced with a partner, although there are elements of solo ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "salsa dance from en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/Salsa_(dance)",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101526-9976-0139-0000-f552444ad0bb:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Salsa is one of the most popular types of Latin dance"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "product_considerations",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": "Things to know",
+              "items": [
+                {
+                  "type": "product_considerations_element",
+                  "title": "Origin of salsa dance",
+                  "consideration_category": "Origin",
+                  "expanded_element": null
+                },
+                {
+                  "type": "product_considerations_element",
+                  "title": "How to dance the salsa?",
+                  "consideration_category": "Dance Instructions",
+                  "expanded_element": {
+                    "type": "product_considerations_expanded_element",
+                    "title": "Learn to Salsa Dance in 30 seconds! - YouTube",
+                    "featured_title": null,
+                    "breadcrumb": "https://www.youtube.com › watch",
+                    "snippet": "A part of the suggested span transcript after expanded is Together right foot together once we have those foot patterns we can start to add turns. For the ladies. And guys leaders and followers.",
+                    "domain": "www.google.com",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=how+to+dance+salsa&sa=X&ved=2ahUKEwjL7eKb85iNAxXEIkQIHRkUAeoQrooIegQIGRAP",
+                    "timestamp": null,
+                    "related_searches": [
+                      "How to dance the salsa?"
+                    ],
+                    "about_this_result": null
+                  }
+                },
+                {
+                  "type": "product_considerations_element",
+                  "title": "types of salsa dancing",
+                  "consideration_category": "Types",
+                  "expanded_element": {
+                    "type": "product_considerations_expanded_element",
+                    "title": "The Different Styles Of Salsa - Toronto Dance Salsa",
+                    "featured_title": "The Different Styles Of Salsa",
+                    "breadcrumb": "https://torontodancesalsa.ca › blog › the-different-styles-...",
+                    "snippet": "Colombian Style Salsa (Cumbia) ...\nCuban Style Salsa. ...\nMiami Style Salsa (Classico Cubano, Casino) ...\nCasino Rueda Style Salsa (Rueda de Casino, Salsa Rueda) ...\nNew York Style Salsa (Dancing “On 2”, Mambo Salsa, Eddie Torres Style) ...\nPuerto Rican Style Salsa. ...\nSalsa Shines. ...\nSalsa Styling.",
+                    "domain": "www.google.com",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=types+of+salsa+dancing&sa=X&ved=2ahUKEwjL7eKb85iNAxXEIkQIHRkUAeoQrooIegQIGRAV",
+                    "timestamp": null,
+                    "related_searches": [
+                      "types of salsa dancing"
+                    ],
+                    "about_this_result": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Why do you dance Salsa",
+                  "url": "https://www.reddit.com/r/Salsa/comments/17k1gbf/why_do_you_dance_salsa/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2024-05-10 12:27:07 +00:00",
+                  "posts_count": 40
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Salsa dance-moves library (with user-uploads and pre-built moves)...",
+                  "url": "https://www.reddit.com/r/Salsa/comments/193dytx/salsa_dancemoves_library_with_useruploads_and/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2024-05-10 12:27:07 +00:00",
+                  "posts_count": 30
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "How easy is it to dance salsa on your first class?",
+                  "url": "https://www.quora.com/How-easy-is-it-to-dance-salsa-on-your-first-class",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2024-05-10 12:27:07 +00:00",
+                  "posts_count": 2
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "perspectives",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "title": "What people are saying",
+              "items": [
+                {
+                  "type": "perspectives_element",
+                  "title": "HOW DOES HE DO THAT⁉️😭🕺\n\n-\n\nHere’s a simple, step-by-step guide to doing the basic **Salsa dance step** (for beginners):\n\n—\n\n### **Basic Salsa Step (Leader’s Part)**\n\n*If you’re following, do the opposite foot.*\n\n1. **Step 1:** Step forward with your **left foot**.\n\n2. **Step 2:** Step in place with your **right foot**.\n\n3. **Step 3:** Step back to center with your **left foot**.\n\n4. **Pause:** Wait one beat.\n\n5. **Step 4:** Step back with your **right foot**.\n\n6. **Step 5:** Step in place with your **left foot**.\n\n7. **Step 6:** Step forward to center with your **right foot**.\n\n8. **Pause:** Wait one beat.\n\n—\n\n### **Tips:**\n\n* Count the steps as: **1, 2, 3, pause, 5, 6, 7, pause**.\n* Keep your knees slightly bent.\n* Stay light on your feet and shift your weight with each step.\n* Practice to salsa music with a steady beat.",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DJdPp3ftFBK/",
+                  "domain": "www.instagram.com",
+                  "date": "10 hours ago",
+                  "source": "bepiz.man",
+                  "timestamp": "2025-05-10 02:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Bad Bunny - Baile inolvidable | Salsa Dance by Daniel Rosas & Elisabel Arnelas",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=8GbwJX63n4U",
+                  "domain": "www.youtube.com",
+                  "date": "1 week ago",
+                  "source": "Daniel Rosas",
+                  "timestamp": "2025-05-03 12:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "✨🎶Join us for First Saturdays! 🎶✨ \nSalsa Dancing, Local vendors, Live Music, Art Galleries & Food💃🛍️ 🎤🎺🪘🪇\n\n📅 When: 05/03/2025 -First Saturday of every month \n🕔 Dance Lessons: 6PM-7PM\n🛍️ Market Hours: 5PM - 9PM \n🎶 Live Music: 7PM - 10PM \n\nCome explore vibrant markets featuring unique goods from local vendors, learn to salsa dance with @dancemakerstexas , and enjoy captivating live music on the plaza, featuring @fusionlatinamusic \n\nBring your friends and family for a fun-filled evening of culture, music, and dance! Mark your calendars and experience the community vibes! \n\n#sundancesquare #fortworth #texas #FirstSaturday #SalsaDance #LocalVendors #LiveMusic #FoodTrucks #CommunityVibes #supportlocal #selena #cultura #latinmusic #latinoamérica #dancing #shopping #salsadancing #salsa #market",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DJHsOGzR-Hf/",
+                  "domain": "www.instagram.com",
+                  "date": "1 week ago",
+                  "source": "dkwann_",
+                  "timestamp": "2025-05-03 12:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "#salsa #rpcdanceworld #salsapractice #salsadancing #salsacubana #salsadance #salsas #duygusalsahneler #salsamusic #salsanight #salsation #salsadancer #salsaparty #mangosalsa #salsaybachata #salsaromantica #salsacycles #ilovesalsa #salsabrava #salsafestival #salsalovers #salsapatna #salsamania #salsacaleña #homemadesalsa #patnasalsaacadamy#igersalsace #casalsafado",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DJJLRj5qiGl/",
+                  "domain": "www.instagram.com",
+                  "date": "1 week ago",
+                  "source": "rpcdesire",
+                  "timestamp": "2025-05-03 12:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Beginner Salsa Dance With Tricks! 😁 #salsadance #alexandrosiacovides",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=10OalMJlAlY",
+                  "domain": "www.youtube.com",
+                  "date": "6 days ago",
+                  "source": "Salsa and Bachata Lessons",
+                  "timestamp": "2025-05-04 12:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Warning: You’ll Use This Salsa Move in Every Dance",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=6CoOFZQngn8",
+                  "domain": "www.youtube.com",
+                  "date": "2 weeks ago",
+                  "source": "Baila Productions Salsa Dance School",
+                  "timestamp": "2025-04-26 12:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Level 5 Warm-Up 🔥 Between the spins and the fancy moves, try to connect with your partner! Eye contact, a smile, or a laugh makes all the difference! 😊✨\n\nSee you this weekend for The Salsa Beat Social 🎊 Can't wait to dance with you!! 😍\n\n💻 Check us out online for access to the full pattern breakdown. This pattern can be found under our 10-min warm up of Level 5B, Day 5! 🙌\n\n#salsaonline #dance #salsaon2 #sandiegodance #salsa @studiokdanceandfitness",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DJVBkpJBXQl/",
+                  "domain": "www.instagram.com",
+                  "date": "3 days ago",
+                  "source": "thesalsabeat",
+                  "timestamp": "2025-05-07 12:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Summer ready - 🦩ElinaDanilova.com - #salsa #dance #tutorial #behappy #elinadanilova #wellnessprofessional #wellness",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DJMrOFLMYGN/",
+                  "domain": "www.instagram.com",
+                  "date": "6 days ago",
+                  "source": "elina.danilova7",
+                  "timestamp": "2025-05-04 12:27:07 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "10-Min Salsa Dance Practice & Workout (All Levels)",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=WhUPImmJOjw",
+                  "domain": "www.youtube.com",
+                  "date": "3 weeks ago",
+                  "source": "Passion4dancing",
+                  "timestamp": "2025-04-19 12:27:07 +00:00"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa dance near me",
+                "Salsa Dance youtube",
+                "Salsa dance history",
+                "Salsa Dance song",
+                "Salsa dance video",
+                "Salsa dance Performance",
+                "Salsa dance for beginners",
+                "Salsa dance facts"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]",
+              "title": "Salsa",
+              "subtitle": "Dance",
+              "description": "Salsa is the name for Latin American dances that are danced to salsa music. Salsa is one of the most popular types of Latin dance that is practiced worldwide, and is typically danced with a partner, although there are elements of solo footwork as well.",
+              "card_id": null,
+              "url": null,
+              "image_url": null,
+              "logo_url": null,
+              "cid": null,
+              "items": [
+                {
+                  "type": "knowledge_graph_description_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "text": "Salsa is the name for Latin American dances that are danced to salsa music. Salsa is one of the most popular types of Latin dance that is practiced worldwide, and is typically danced with a partner, although there are elements of solo footwork as well. Wikipedia... Wikipedia",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": " Wikipedia",
+                      "url": "https://en.wikipedia.org/wiki/Salsa_(dance)",
+                      "domain": "en.wikipedia.org",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1]"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "... Wikipedia",
+                      "url": "https://en.wikipedia.org/wiki/Salsa_(dance)",
+                      "domain": "en.wikipedia.org",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

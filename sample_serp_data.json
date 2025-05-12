@@ -1,0 +1,69 @@
+{
+  "organic_results": [
+    {
+      "title": "Salsa Classes in New York - Dance With Me Studios",
+      "link": "https://dancewithme.com/salsa-classes-new-york/",
+      "snippet": "Join our beginner salsa classes every Monday and Wednesday at 7 PM. Learn the basics of salsa dancing in a fun, supportive environment. No partner or experience needed! $20 per class or $150 for a 10-class package.",
+      "rich_snippet": {
+        "top": "Next class: Monday, May 11, 2025 at 7:00 PM | Instructor: Carlos Rodriguez"
+      }
+    },
+    {
+      "title": "Bachata Nights - Stepping Out Studios NYC",
+      "link": "https://steppingoutstudios.com/events/bachata-nights/",
+      "snippet": "Experience the best bachata dance classes in NYC. Every Thursday from 8-10 PM, followed by social dancing until midnight. All levels welcome. Learn authentic Dominican bachata with our expert instructors.",
+      "rich_snippet": {
+        "top": "Weekly event | $25 entry | 8:00 PM - 12:00 AM | 37 W 26th St"
+      }
+    },
+    {
+      "title": "Latin Dance Classes & Events Calendar - NYC Dance Scene",
+      "link": "https://nycdancescene.com/calendar",
+      "snippet": "Comprehensive calendar of salsa, bachata, and kizomba classes and events throughout New York City. Find the perfect dance class for your schedule and skill level.",
+      "rich_snippet": {}
+    },
+    {
+      "title": "Beginner Ballroom Dance Classes - Waltz, Tango & More - Arthur Murray Dance Center",
+      "link": "https://arthurmurray.com/locations/new-york/classes/beginner",
+      "snippet": "Start your dance journey with our beginner-friendly ballroom classes. Learn waltz, foxtrot, tango and more in our welcoming studio. Private and group lessons available. First lesson free!",
+      "rich_snippet": {
+        "top": "New student special: 3 private lessons for $99"
+      }
+    },
+    {
+      "title": "Kizomba Fusion - Weekly Dance Classes in Brooklyn",
+      "link": "https://brooklyndancecollective.com/kizomba",
+      "snippet": "Join our Kizomba Fusion classes every Tuesday at 8 PM in Williamsburg. Learn this sensual Angolan dance style with influences of semba and zouk. All levels welcome, no partner required.",
+      "rich_snippet": {
+        "top": "Tuesdays at 8:00 PM | $20 per class | Beginner-friendly"
+      }
+    },
+    {
+      "title": "Weekend Salsa & Bachata Boot Camp - Piel Canela Dance Company",
+      "link": "https://pielcaneladance.com/boot-camp",
+      "snippet": "Intensive weekend workshop covering salsa and bachata fundamentals. Perfect for beginners and improvers looking to rapidly develop their skills. Saturday and Sunday, June 15-16, 2025, from 2-6 PM each day.",
+      "rich_snippet": {
+        "top": "June 15-16, 2025 | $199 for full weekend | Early bird: $159 until May 15"
+      }
+    },
+    {
+      "title": "Dance Schools in NYC - Yelp",
+      "link": "https://www.yelp.com/search?find_desc=Dance+Classes&find_loc=New+York%2C+NY",
+      "snippet": "Top-rated dance schools and studios in New York City. Read reviews, compare prices, and find the perfect class for you.",
+      "rich_snippet": {}
+    },
+    {
+      "title": "Intermediate Bachata Technique & Styling - Dancesport Academy",
+      "link": "https://dancesportny.com/classes/bachata-technique",
+      "snippet": "Take your bachata to the next level with our intermediate technique and styling class. Focus on body movement, musicality, and partnership. Previous bachata experience required.",
+      "rich_snippet": {
+        "top": "Wednesdays 7:30 PM | $25 drop-in | 10-class card: $200"
+      }
+    }
+  ],
+  "search_metadata": {
+    "query": "(\"salsa\" OR \"bachata\" OR \"kizomba\" OR \"lambada\" OR \"zouk\" OR \"waltz\" OR \"cha cha\" OR chacha OR tango OR foxtrot OR rumba OR merengue OR samba OR bolero OR quickstep OR hustle OR \"lindy hop\" OR \"coast swing\" OR milonga OR \"rueda de casino\" OR \"paso doble\" OR polka OR \"two step\" OR balboa OR shag OR jive OR tarraxinha) \"dance class\" \"in\" \"New York\"",
+    "location": "New York, NY, United States",
+    "total_results": 156
+  }
+} 

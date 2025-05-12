@@ -1,0 +1,210 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.3679 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101531-9976-0139-0000-d2d381e0dfea",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.3245 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in Miami",
+        "location_code": 1015116,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in Miami",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1015116,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20Miami&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRHByA6isNmIEWVPrd1x8pb_",
+          "datetime": "2025-05-10 12:31:14 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Miami+Tango+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xPOFSz-JSkXfYZAk0XAisWf34p-OvS8PLsxEd2hg4nZrHAs4fALx9pAsaK0u9TIGAtf3lMJhb5VSGksoIsPJmh0jFD12mAjOYj4F-W3UtosUry6vwQZwkw5QrKvDFKLLUGccuM_bmYQ3NWdGUtaNrXNXJwOSocYCC8f5Dot2dSdcfh_Zfwpg44fn_JXSDz7RKj-p24s&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+Classes+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4ViA8VNs3l6w41GFFdShw0nfjyjS-TUbNk3aHer6AblNzQh4tKSnBrml6A2KUCYijke0zpdD1P-SaGQjI_snM2yhx2n3qb4GXMYmOKNwW5B17XwF0LjxymBVsm7OWVZR6gCytGuIU2fMBMEbyo2X54e5Y_zzCsaMdqb4a2f9RpgIGjoBmC8Xc0zJCSCRcrgH-Dl9VU0&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIIRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=tango+in+Miami+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRNZGV-tJ4hEUTVn7NU7dnytfwCfSgvrE2Y2tbE06hDxRw3amebG8RdG4v7chy-66USVuWSmFfxnUlGpxvSCF1hu3C7r-PZWkjTjVPml0xf4w26uIRmKnmD6Ww5q9a2cLaRBSKd6SLTEZGmVhQ0otoiuKsCZJFmpkKfZRyZvBl6STwqFyn&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Near me",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+in+miami+near+me&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRBvpp1ulDcVf7ufGjs2e0V69PT7CaeoUVec8Xp_lg4EZgvO9zuwbuviDn8Zklui6W0PCo1ZOxzPHfBa4IxefN9PU-5Me4JUJ5plLGiteWjMySHh8wvJjqp4Tov7FT9QSPvJeGsiHI4yf5Kbg7ZBZZg9cXzZ5EWhOcouNAafYX7AyCq-Xj9fOOh4es2ga-jTg096rzHTUlQuReMaMZKnaQIzUqlyI&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+in+miami+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRLshVusH3-xlsZDlkUSQLRYuq4eBY14ygLO9a1O6cdQ8l604ZA8eCimLH8PhjSYGUku-4qLGm0XdQ_GneSrO1hbMMc9lNjHsdJPxzdCg1HiEqmIo8sGCeo2NwQbDpRdq1lYHBjqSk9yer8-HNW7WtNiJ_kMCIPoO4vcQtiXRYXQ32eKepRe5jtbx2uuly9I0F1kMcDWkwcdr6OfriPspJmq79FOI&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+in+miami+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRewvedP6E73DGKs_vdafGCTEJkNYvae5LEfAZh_15hWHSFYCdO7R8PrA_foSg4Pi7mbo_w7hv9mAVTWW8hrZEzIC4cV6LTX6RU9K_2zqs5r82gm7v81M4D-MCFf9oKfQMZuTcLIRwX8aTIlI6i5Cj-hqggrOiwugCuDBYeudEfEXQ-YB2V2zavE1bsfS7aRn3vkpyD6n4FrUsjJ6X0iHtFWpq5vc&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Argentine",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Argentine+tango+in+miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRB7ZU7zrR_KQGldZlzNxkFyiwSMsiPREukKUnbmxfncvhklUTyXAX0lSCkDXcrLEphLT03JnM-Hh8eWT5UDxbuUSsP_VAXpPUhwRvJJZTAnCDX44LmuGJiatgTmJqG1YlCRkYLsb-Vb0oYPczHBu27JKyJpwBsNQ1NRYBuaB0XVBUv-hGSt9PTK1gy17jnFPZ5fRUk5sVPKkPw4YdcDb8fbVAUMU&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIPxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Miami+tango+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xPOFSz-JSkXfYZAk0XAisWd9YNY7cGnui5CifiJmHXnBHH2VOgyY6IkMkyRuhGD_gGSkTbt-wxTzIcwdcROrOIkIQ7VsJ6zT351KZZm-8ug1yKHgsEhGpozjNQNtvHpr1ThTYcBNQkHeh7QWXy3SNrSO9aKxGkYENDVDCyMmADLtNBz2KLdqGimohmK1rxBNZhcRSXY&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Beach",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+Miami+Beach&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRYo6i2EMDW575sLmJkl9tcGM-29G7DTTY4pB-051MYMdzbSCh7JW0-Gxl5Ew-58_UzUqj-nrvYLEJZ04Cx60qXuM6AXCMXFRXx726Vyer6peSm_JsYTxNuqf5Xxqx8iz33G5HF-t1qzaOYEyzUNMqBsfe0TVC_GOE4lz5tNKl9UAzUThoyqeMZlgA-kyyiJAGqyTq-Vje4PqZ9zEQcXvRVyApoJw&sa=X&ved=2ahUKEwj114-R9JiNAxVhD0QIHTtMCkkQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 18200000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Tango in Miami Beach",
+              "description": "7+ years in business · North Miami, FL \nOpen 24 hours \n\" Tango Lessons in Miami!!!!\" \n",
+              "domain": "www.diegosantanatango.com",
+              "phone": "(786) 355-0882",
+              "url": "http://www.diegosantanatango.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "cid": "9893193703452292093",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Arigatango Miami",
+              "description": "3246 N Miami Ave suite b \nClosed ⋅ Opens 8:30 PM Tue \nDine-in · Curbside pickup · Delivery \n",
+              "domain": "www.diegosantanatango.com",
+              "phone": "(786) 355-0882",
+              "url": "http://www.diegosantanatango.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "cid": "2230831347052345134",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Tanda Tango & Social Club",
+              "description": "North Miami, FL \nClosed ⋅ Opens 6 PM \n\"Great clases and fantastic instructors.\" \n",
+              "domain": "tanda.us",
+              "phone": "(305) 646-1998",
+              "url": "https://tanda.us/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 25,
+                "rating_max": 5
+              },
+              "cid": "3450974522008430771",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Miami Tango calendar",
+                "Best tango in miami",
+                "Argentine tango in miami",
+                "Tango in miami for adults",
+                "Tango in miami near me",
+                "Tango in miami for beginners",
+                "Tango Mango Miami",
+                "Tango show Miami"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

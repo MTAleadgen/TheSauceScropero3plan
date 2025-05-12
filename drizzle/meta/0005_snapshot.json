@@ -1,0 +1,150 @@
+{
+  "id": "14eec6d1-e611-4298-abb0-ae722d5d4885",
+  "prevId": "22820887-7d6c-4e10-9206-9d81c34c25fd",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.metro": {
+      "name": "metro",
+      "schema": "",
+      "columns": {
+        "metro_id": {
+          "name": "metro_id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "geonameid": {
+          "name": "geonameid",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "asciiname": {
+          "name": "asciiname",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "alternatenames": {
+          "name": "alternatenames",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "country_iso2": {
+          "name": "country_iso2",
+          "type": "char(2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "population": {
+          "name": "population",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "timezone": {
+          "name": "timezone",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tz_offset_min": {
+          "name": "tz_offset_min",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "metro_tier": {
+          "name": "metro_tier",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "latitude": {
+          "name": "latitude",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "longitude": {
+          "name": "longitude",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bbox_wkt": {
+          "name": "bbox_wkt",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "geom": {
+          "name": "geom",
+          "type": "GEOGRAPHY(POINT, 4326)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bbox": {
+          "name": "bbox",
+          "type": "GEOGRAPHY(POLYGON, 4326)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "metro_geonameid_unique": {
+          "name": "metro_geonameid_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "geonameid"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

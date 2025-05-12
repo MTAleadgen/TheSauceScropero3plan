@@ -1,0 +1,462 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.4354 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-687346468e7b",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "6.3926 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in Berlin",
+        "location_code": 1003854,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in Berlin",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1003854,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20Berlin&num=1&hl=en&gl=DE&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQFZAz83TqhHEXA7XltGICEE",
+          "datetime": "2025-05-10 12:32:45 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Today",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Salsa+in+berlin+today&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSI9a6s3sbRTjZxWqejWV0hxwEf-AvD1CTcPhkOjPqeAmKdN2g5sdTyJ2jQUxq_LR9CyuaxZwzDM1wZpefxPM7nfbZOtK4Nec-aL3z6GQ6NaR448s5ioil_oqQjYhmYNJjj-kyuddCStjxE-NClD00mG_3DPPswAkKDp8ii_FuPYrMwFt7Q6bi9hWifM9MSetO77wD9A&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Tickets",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Salsa+in+berlin+tickets&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhVEh5Zney_fvH191l7fOQ-IdLREZ-y7xr2IHhsw6IRxsr29018DCB2DOTm8awFLTsPPMNuAXZJ1l-xbRSM184NAjYkf2aj89E6JOLZ6cr9lDTfC-ao9_AHVlhndv_ZGj3GPPYqM4Y9RE-RfuK8TD7eWPoFW9KOOwca3uLyvO6lK_7ZQAaV5JEyQAAoekbwJ3vdv5_7FUKAVFYtRXiCrM0owM6y0&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=salsa+in+Berlin+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1-RonypZnhFpBUhojFIV1ul_0EWdRHmhz_6Q54fEVMraC70QfXL26thpXVZJQ0pNnYFaU7F7zTnFAFiBNmtl7P7pBl7WjHlu0KUPTu8NBDyFkTDLO05sMQP52894tMI3MLOvDneQ9EDPa_jBwqRUQKxgyc66kvRlE_wEmTYHn3wsEfRn&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open Air",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Open+Air+Salsa+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk3BIboYShZ35i0-ESdfd-TOVVXZQFTYgiRtcH8Yya8WvGddOBYxUWe1fnDIKS1V1demzFsWOXkaLUcLzMiNekoLxnHUUeRo3c4lp67ptOqApb7sgE4FyotGGTXaxL0OhJsJAQG6It_nMJDzxKiK11NprWaT4APjjmHWT0u14M-9idPQe9iOFFwMAeq0RrVNtthuYzjo&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Salsa+classes+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xLZbpe7HktUDKBDxo2JbZ-nsEcmV7XhgmWWY6QAZoiqd-_yTrn5bVcnbxdSL5WbQBFSqm5QBrjM34jvWWtSF1NcyQkj4wbg9-zLvcvMB7kwB3AM_953R_UooZ0sEe8c7fxnYEDhIXNSFuwBu20tG6OCTzN6DcerBOLjzsafT_LdBA5mybAexzVWnk9xVRpbNmPg7Bw0&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bachata",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Salsa,+Bachata+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSAGgGu8ZdeRNAzBvEqjZUxBZ_LkJt3FKQMfd1SNRFgzJVbiBlehBC5CO25p-ZcmWI5LQTdUrDoao3gB9-bW083yMoaGH8-ESIumImpumiv1-iDQCjARn21rbgQWZ13pRrzGuY4N9mAl_XLIKcL6TX05NVZm4amtahp4T6jCUZi2eKI80zq7PM_75u66Xvengo7EibtI&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQIRxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hauptbahnhof",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Salsa+Hauptbahnhof+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR99LVz1gK4y22uRCaGw7Q1-Q2a_Vr4NkFHGRPjNuxaSOU6cU7uKVpKBtIPs05346jFTnYYcwb68JucSx_H4ZZAd8ugrwNldemH_G72XY-QprdeIvyAKTdW1xYOy96gUcLDt48kVWfTXtOLqSt67TyggQbbddgV6iodK9YI-PCSWMjrp3b18B86vAp_UU12UVdq_BzopLcvvhFnPrB8UYacbTOUGY&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQIRhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Congress",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Berlin+Salsa+congress&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk3BIboYShZ35i0-ESdfd-TMquDpS-fExxA4w9HgzoZN5fnU0qJ4yHKaoBz037AOO2n-AXsxj6ICmdzfzRcgXxhPNRmAhM067RQocS-tUPb6AELjRKEBKT1j6zOtea446Qp87LfGxhdStKN2N4eIojSloDwyHGkFdvA3K5cfxk0y7ZQScTzGSGWYFFD4CI5P6Huqll-4&sa=X&ved=2ahUKEwjazdu89JiNAxV9hf0HHbuVDw8QxKsJegQISBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "compare_sites",
+            "top_sights",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 12900000,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.salsa-berlin.de",
+              "title": "Berliner Salsa Kalender - Salsa Events in Berlin",
+              "url": "https://www.salsa-berlin.de/kalender/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.salsa-berlin.de › kalender",
+              "website_name": "Salsa-Berlin.de",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Every Monday 75 minutes of social / practica of Easygoing Salsa music. A teacher is present for tips. La Candela Salsa, Invalidenstrasse 158, 10115, Berlin ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "salsa in Berlin from www.salsa-berlin.de",
+                  "url": "https://www.salsa-berlin.de/kalender/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-687346468e7b:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Every Monday 75 minutes of social / practica of Easygoing Salsa music"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Cumbancha \"LaFamilia\" -Salsa Tanzschule - Berlin",
+              "description": "10+ years in business · Möckernstraße 68 \nOpen ⋅ Closes 6 pm \nOn-site services · Online classes \n",
+              "domain": "www.cumbancha.de",
+              "phone": "0173 6554433",
+              "url": "https://www.cumbancha.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 201,
+                "rating_max": 5
+              },
+              "cid": "14367320317274941685",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Salsa4Water Berlin",
+              "description": "7+ years in business · Fischerinsel 3 \nOn-site services \n",
+              "domain": "www.4water.org",
+              "phone": null,
+              "url": "http://www.4water.org/berlin/salsa",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 73,
+                "rating_max": 5
+              },
+              "cid": "10553085096014801776",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "La Mambita Salsa Dance School",
+              "description": "30+ years in business · Eingang Gewerbe über Privatstraße, Kolonnenstraße 29/3.Hinterhof 2.Aufgang 1.Etage \nOpen ⋅ Closes 10 pm \nOn-site services \n",
+              "domain": "www.mambita.de",
+              "phone": "030 23615779",
+              "url": "https://www.mambita.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 226,
+                "rating_max": 5
+              },
+              "cid": "16516570785211317043",
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa Clubs und Kurse",
+                  "url": "https://www.top10berlin.de/de/cat/nachtleben-269/salsa-clubs-und-kurse-1398",
+                  "domain": "www.top10berlin.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-687346468e7b:1",
+                  "source": "Top10 Berlin"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa Party - Salsa + Bachata",
+                  "url": "https://www.visitberlin.de/de/event/salsa-party-salsa-bachata",
+                  "domain": "www.visitberlin.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-687346468e7b:2",
+                  "source": "visitBerlin.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "SALSA KALENDER BERLIN",
+                  "url": "https://www.facebook.com/groups/salsaybachata.berlin/?locale=de_DE",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-687346468e7b:3",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Entdecke Events der Kategorie \"Salsa Party\" und Aktivitäten in Berlin, Deutschland",
+                  "url": "https://www.eventbrite.de/d/germany--berlin/salsa-party/",
+                  "domain": "www.eventbrite.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-687346468e7b:4",
+                  "source": "Eventbrite"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa Fusion - DNA Art Club",
+                  "url": "https://www.berlin.de/tickets/tanz/salsa-fusion-dna-art-club-a30f1005-feed-43a8-8b3e-d9d533e3f7cf/?redirect=expired",
+                  "domain": "www.berlin.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-687346468e7b:5",
+                  "source": "Berlin.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Da Giovanni",
+                  "url": "https://wolt.com/de/deu/berlin/restaurant/da-giovanni",
+                  "domain": "wolt.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRowAmC6NXIVcM1e8A0YW20U2MqA7KGWTo&s=0",
+                  "source": "Wolt"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "top_sights",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+              "title": "Activities and tours",
+              "items": [
+                {
+                  "type": "top_sights_element",
+                  "title": "Dance course – Salsa",
+                  "url": "https://www.groupon.de/deals/sprache-des-tangos-2-1?promoApplied=1&utm_source=google&source=&surface=search&funnel=cat&utm_medium=cpc&utm_campaign=de_dt_sea_ggl_txt_GTTD_sr_cbp_ch1_nbr_s*",
+                  "description": "Groupon",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Berlin 4-Course Sunset Dinner Cruise Including Drinks",
+                  "url": "https://www.viator.com/Berlin/d488-ttd/p-16409P4?googlettd=true&src=papi&campaign=&surface=search&funnel=cat",
+                  "description": "Viator",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Berlin Sunset Dinner Cruise",
+                  "url": "https://www.viator.com/Berlin/d488-ttd/p-16409P10?googlettd=true&src=papi&campaign=&surface=search&funnel=cat",
+                  "description": "Viator",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.2,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Berlin: 2.5-Hr Dinner Cruise on the MS Der Fliegende Holländer + Audio Guide",
+                  "url": "https://www.tiqets.com/en-DE/berlin-attractions-c65144/tickets-for-berlin-dinner-cruise-p978867/?tq_source=ttd_product_feed&utm_source=&surface=search&funnel=cat&ttd_user_currency=EUR&google_ads_click_source=",
+                  "description": "Tiqets",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Bailaconsol - Bachata Berlin",
+              "description": "3+ years in business · Klosterstraße 44 \nOpen ⋅ Closes 9 pm \nOn-site services · Online classes \n",
+              "domain": "www.bailaconsol.com",
+              "phone": "0176 56784458",
+              "url": "http://www.bailaconsol.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 51,
+                "rating_max": 5
+              },
+              "cid": "8836954390094528338",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Havanna",
+              "description": "Hauptstraße 30 \n\nHigh-energy hangout for Latin dancing \n",
+              "domain": "www.havanna-berlin.de",
+              "phone": "030 78899655",
+              "url": "https://www.havanna-berlin.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": 1500,
+                "rating_max": 5
+              },
+              "cid": "7247209095277466243",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Zapatissimo | Salsa, Bachata kurs berlin",
+              "description": "15+ years in business · Kolonnenstraße 29 \nOpen ⋅ Closes 6 pm \nOn-site services \n",
+              "domain": "zapatissimo.de",
+              "phone": "0176 20470772",
+              "url": "https://zapatissimo.de/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 75,
+                "rating_max": 5
+              },
+              "cid": "9790870095956310328",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Havanna",
+                "Soda Club Berlin",
+                "Clärchens Ballroom",
+                "CK Ballhaus Berlin",
+                "The Pearl",
+                "Maxxim"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa in berlin today",
+                "Salsa in berlin tickets",
+                "Salsa Party Berlin",
+                "Salsa Cubana Berlin",
+                "Free Salsa classes Berlin",
+                "Mi Salsa berlin",
+                "Cumbancha Berlin",
+                "Berlin Salsa Charts"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJX3OibiVQqEcR9ehsDbX5Ysc",
+              "feature": "0x47a850256ea2735f:0xc762f9b50d6ce8f5",
+              "cid": "14367320317274941685",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

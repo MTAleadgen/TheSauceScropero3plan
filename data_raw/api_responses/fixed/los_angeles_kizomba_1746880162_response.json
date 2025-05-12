@@ -1,0 +1,180 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.7499 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101529-9976-0139-0000-41d6cd24b360",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.6846 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in Los Angeles",
+        "location_code": 1013962,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in Los Angeles",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1013962,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20Los%20Angeles&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRPaJ9xdx8KAEfQIRiVv3y_i",
+          "datetime": "2025-05-10 12:29:22 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+in+los+angeles+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRws5hkS8t4Z_jXmbwclCbYdYmkmsFm5j2iRSYvYkaBnoFiTjZN5HlwwgwBJu3SqkB83MCEq6WFYk82afe_b6FBfNUlOWt_rKE_95Vg7R00L5-5gh1rM-dA1yaxuZ95Nx6dzidLKKf5tlcKSI7V9dPIJiMEYBnSUIxPuijlgMGdHrkgOSD8df-jE2GdJl9bnqWfaiuG4xUYjUpmo1KnAuRxhhKv0kV9m1MHU5EbWkkCoroUCTx&sa=X&ved=2ahUKEwihrd7b85iNAxXZ-LsIHWT8HiUQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+in+los+angeles+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpLQmohipmaTB8lor1Z0qYaWsn04nWJj8YUXl71U9OPMpdmivsVWWewwuU3I810xqWofQTP40f3CRYZ7qurCOXxwdncIbxDt5ZMm-yFe0lWsC9EPNPsqrsh40BvbmS9chsVnVcNSl93V3l4aDG7nRODnSrU6aAZO_dS4qw6ApmKww3G5d-kPH3RaQxAtKDUGk2CNk92vICKaMQdGaUM9vWm9tkyFY33G0jPpqIeUuZC7Bu8rB&sa=X&ved=2ahUKEwihrd7b85iNAxXZ-LsIHWT8HiUQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=kizomba+in+Los+Angeles+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-Mw9Z_0bfRRQUeQvp0a_cMBPCOqfDkHTp7hXYOoiekjREEf7nXsDAPz-gLUcBRFWMek2ArJn_4zuHnibrOdodqoIvXOgSwJlXowAfN1hQ4TT-Tso_oR7c05qxJJ-bZnkSbaw3f6gzzYMv3Ra_6kHR3KB4f9wQ2jQPBKyWeyEKaCj3ifJTlZXFl8EKpX8wV1HmIVVyg&sa=X&ved=2ahUKEwihrd7b85iNAxXZ-LsIHWT8HiUQxKsJegQIGBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Free+kizomba+in+los+angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-U7ulYFJvOEfk2azzLH_P6qGq38dBeXo1sTiBwW-F22znxoBr0YXWQGkk-Y4Hda1z6uOVZJyFQIcKxrex42rNQ18accgTG-okTOHEnXt6L1cSZ7r0DkH76Ug7IQBwgwtNWS-YGjcD1PIuS-YQbGwp4kdcxLqaLb08ldJnDqHpycpgZxJ8mdYwpPD6c_3TCMSpUjQcfG1W_BdZjFYGAEYy6WNarc&sa=X&ved=2ahUKEwihrd7b85iNAxXZ-LsIHWT8HiUQxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+kizomba+in+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRwy10Tt-nJhbf-JAfG9KFrIMYO_kXkhaZ_gaOknJX2EniuGhXOn5W1sr7zrDASqyetMpHijg7yNCgNwdCUc95ZjcvQgpf9-WWKbJYREhI4mwd8OKe-UP23GPqjrldnNufORn9AvR44kMXzIxVHHaw8oXjmgSF5ETlhTlD4rrHijI2M1btqL0lkiXXZtKfr2liInNq8bsld5fWugUlqgyaN7ngs871kPH3T_FcLOE7X8LNWxQdXCa4GhGd8W6sMenbmyW1hw&sa=X&ved=2ahUKEwihrd7b85iNAxXZ-LsIHWT8HiUQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 141000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Bachata Dance Academy",
+              "description": "7+ years in business · Commerce, CA \nClosed ⋅ Opens 8 PM Sun \n\"I highly recommend the Beginners and Intermediate Masters courses.\" \n",
+              "domain": "www.bachatadanceacademy.com",
+              "phone": "(562) 641-5327",
+              "url": "http://www.bachatadanceacademy.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 304,
+                "rating_max": 5
+              },
+              "cid": "341841362775153990",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "3rd Street Dance",
+              "description": "45+ years in business · Los Angeles, CA \nClosed ⋅ Opens 10 AM \n\"Thank you for such an inspiring and transformative experience!\" \n",
+              "domain": "www.thirdstreetdance.com",
+              "phone": "(310) 275-4683",
+              "url": "http://www.thirdstreetdance.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 38,
+                "rating_max": 5
+              },
+              "cid": "11502339250341338428",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Liz Lira Dance Academy",
+              "description": "Los Angeles, CA \nClosed ⋅ Opens 11 AM \n\"Amazing teachers who actually teach technique, not just patterns.\" \n",
+              "domain": "www.lizliradanceacademy.com",
+              "phone": "(818) 929-5472",
+              "url": "https://www.lizliradanceacademy.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 54,
+                "rating_max": 5
+              },
+              "cid": "1546621619279524026",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Kizomba in los angeles for adults",
+                "Kizomba in los angeles for beginners",
+                "Best kizomba in los angeles",
+                "Free kizomba in los angeles",
+                "Kizomba classes near me",
+                "Kizomba dance"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

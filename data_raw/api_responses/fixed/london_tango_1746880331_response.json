@@ -1,0 +1,342 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.6093 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-71b434b31582",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "6.5554 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in London",
+        "location_code": 1006886,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in London",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006886,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20London&num=1&hl=en&gl=GB&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS",
+          "datetime": "2025-05-10 12:32:10 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=tango+in+London+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1-RonypZnhFpBUhojFIV1qa_--7K4FsZsYDt44aWm4nXns3_dKnk0UEKrGt6nOCZCrOR1xrwiQCO1noSpJeAxxwyfMmk3wShjLI8Oynf6Flv8WGYnHjEeTGdwa5I_GDUg6wmPz_VhGgH97-nWvNXxBtwSI76LSsj5XomUKqc9mfpR4yR&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=online+classes+tango+in+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDmKf5IWthln8uSqXS56mPdbpa1BHonenCdqILgnmpxAggEBJW3aIEnfthcXY0-r3Km-BJZ1VxCkbqtwD5pumKeK8BA8JNa1v-KKbPKE4g64ziKeXg3XdT5CPFfNWm0SU6YlI-otIiWIhz3MF2JJehWvyVgcAhFwnwYcshFlnLKmIaGQVBpuFaQy-um4VthlkIuCzNJsljuJunawPXG-N5RGjkElkJ6xEvBModZbOT1CXCGRR&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=London+Tango+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk8J5YghXsp325uH2tZWqbg_pfUulLxE1Utiw_yFsiaSBdHNotEqwlx5uMYMDISzO46zd7mjpq2CCf22kAxkEJVV_SvzoLiGwdLARqkKH_OeJU194rTxcj9DHSxKosCsWNj_dIUFK7V0YnjXCrVuKzU1ftwE7cxwLS9N3GbDLG8MdZHR42de9jE2M_wX5TChEUKbmeyE&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=top+rated+tango+in+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRV8y_C2X_FCyL36R43E9QOJJen3mrZuOjm6ov48P0ndcSCEweT7QuDyWPRLl2zvxDauRmi5Oa9EP133VtAwMGdnrgfSIhRCLGYNjvNS5fre_xcpubdh_2e_DuYHi4Mmk2apvLU9Y8WY_wHyNPOrrJYyGVO48eXfO4xVs_812oxlVSJ4-I&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Club",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Tango+club+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRYo6i2EMDW575sLmJkl9tcFmhYEt_awZoCQLnQgzLx1j1jnEL2o_qBBYE_sKs530sdsoMlPLxlnLRlLLTS7yurJNljtCHZqV-xuyJKpT75LBz5XAlpWB0oDHb38ItcdIJ0B_qr71lwpj3DMURpCTi5CV6N13mmCRDfqsG39PI3pJisWIrdTRV4603v5TQ2ad78gP4UCZ6ZPHJFkUAUIeizortzZ0&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Argentine",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Argentine+tango+in+london&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRE0hdwbQg6OOqzlkhQXnwA82TnrreEu2nmbcXtnnOAPr099ejg6nicv9AHHaX2qnHRw7MJO4Tl-3GfetuF3Q6oun9XxRTCz1EhxNbniK0MaLh9w0ndzB04Y6Pu8xaXUgQ5WCe9cfcpSyQDdonn9Fx22t2kh0XBZwIwp82ITBmgsEunl-hYwj65iYC8e2v4WDbOnHBGPvp7o6Xr0QKmwcz-VoaDMk&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIPBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Today",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Tango+London+today&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJkg0ZDdFNzx4sFXyfIelLfx827MFEF9Pzc4ya_5i29ogO7fBFO1vyGF61rlUE5GKMiRjuwjhIPCPW2X5LJ63_G0REJgLgcjL8ZvzwLxVNqOvFewX9g5N_ARnDGpbT7Y0Rrors801vArJvhvjfAMO6FHfzpfq7pJNa-safEKxF05T2nom5rGVG0Afb4MnhiIMsFu_jnprcx8uItgn-MXLOTNFf0U&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIPRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Milonga",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Tango+Milonga+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xCwg8ZkGK9qadWui_60SQKbG4-UVKHBPCQEHNbwwbgLgTA-Wr-qxAuhw-bEhgy0n2fVKnUtKASV--BUdfzJSKCmMK5ODgUy8NQRWXP3DSbvaEbr3njnUPfLWobuLsy4UUoJWtY4dclmYGFxdBVdeyCl0XPR0_vynT1EaecqRFTKhatOd02fT6E8lmpJKQWXH8JoVRxg&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIOBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Shoes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Tango+shoes+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJkg0ZDdFNzx4sFXyfIelLfx827MFEF9Pzc4ya_5i29p6QdngZamoCKw8S75zoM3AcaX6lIaPrgTLYN4RrGeVn2NTWmKzwIA9ZlQvO1IqBFIPK5W23GxXKEcMWchyoVsFg9Q7uaUWhwAXNDLBVinzNOUEUPELkBEibyt_BhziP7KN6rF8ruYS8uCmaEDfjEgd2ejRt7cXwweqLhhcL00T-K-vBk4&sa=X&ved=2ahUKEwjBxZKs9JiNAxV8RvEDHVRiGoMQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "paid",
+            "related_searches"
+          ],
+          "se_results_count": 36900000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "londonmilongas.co.uk",
+              "title": "London milongas and tango. Welcome to the home of Tango ...",
+              "url": "https://londonmilongas.co.uk/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://londonmilongas.co.uk",
+              "website_name": "London Milongas",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Your easy guide to London milongas and tango dancing. Enjoy your evenings, find your friends, and reconnect with London milongas and tango.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "London milongas and tango dancing"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "London Tango Calendar",
+                  "description": null,
+                  "url": "https://londonmilongas.co.uk/calendar/",
+                  "domain": "londonmilongas.co.uk"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Where to dance this week",
+                  "description": null,
+                  "url": "https://londonmilongas.co.uk/this-week/",
+                  "domain": "londonmilongas.co.uk"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Today",
+                  "description": null,
+                  "url": "https://londonmilongas.co.uk/today/",
+                  "domain": "londonmilongas.co.uk"
+                },
+                {
+                  "type": "link_element",
+                  "title": "London Goes Tango",
+                  "description": null,
+                  "url": "https://londonmilongas.co.uk/events/london-goes-tango/",
+                  "domain": "londonmilongas.co.uk"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "London Tango Academy",
+              "description": "20+ years in business · 9 Endell St \nOpen ⋅ Closes 10 pm \nOn-site services · Online classes \n",
+              "domain": "www.tangoacademy.co.uk",
+              "phone": "07967 488391",
+              "url": "http://www.tangoacademy.co.uk/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 308,
+                "rating_max": 5
+              },
+              "cid": "8576256947332886098",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Tango Space - Argentine Tango School",
+              "description": "7+ years in business · Mondays, 7 Langley St \nOpen ⋅ Closes 3 am \n",
+              "domain": "www.tango-space.com",
+              "phone": "07799 535140",
+              "url": "http://www.tango-space.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 92,
+                "rating_max": 5
+              },
+              "cid": "5812580837846305420",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "The Argentine Tango School",
+              "description": "King's Sport & Wellness - Strand Gym, Aldwych \nOpen ⋅ Closes 10 pm \nOn-site services · Online classes \n",
+              "domain": "theargentinetangoschool.com",
+              "phone": "07939 863266",
+              "url": "https://theargentinetangoschool.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 245,
+                "rating_max": 5
+              },
+              "cid": "493798407822685543",
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Milonga london - Argentine Tango: Drop-In Now",
+              "domain": "tanguito.co.uk",
+              "website_name": "tanguito.co.uk",
+              "breadcrumb": "https://www.tanguito.co.uk › beginners › classes",
+              "is_image": true,
+              "is_video": false,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "Image from tanguito.co.uk",
+                  "url": "https://www.google.com/aclk?sa=l&ai=DChcSEwjVnJms9JiNAxVEQUECHR6TBi0YABAKGgJ3cw",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-71b434b31582:0"
+                }
+              ],
+              "url": "https://tanguito.co.uk/tango-beginner-classes/",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChcSEwjVnJms9JiNAxVEQUECHR6TBi0YABAAGgJ3cw"
+              },
+              "description": "Learn Tango today, progress quickly, surprise yourself and make friends in the process. Be Active, Social & Enjoy Dancing With The Tango Experts. Call Now & Book Your Class.",
+              "description_rows": null,
+              "links": [
+                {
+                  "type": "ad_link_element",
+                  "title": "Tango Drop-In Classes Near You",
+                  "description": null,
+                  "url": "https://google.com/aclk?sa=l&ai=DChcSEwjVnJms9JiNAxVEQUECHR6TBi0YABAnGgJ3cw",
+                  "domain": null,
+                  "ad_aclk": "DChcSEwjVnJms9JiNAxVEQUECHR6TBi0YABAnGgJ3cw"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "See our Prices & Offers",
+                  "description": null,
+                  "url": "https://www.tanguito.co.uk/tanguito-prices-offers/",
+                  "domain": null,
+                  "ad_aclk": "DChcSEwjVnJms9JiNAxVEQUECHR6TBi0YABABGgJ3cw"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Prices And Offers",
+                  "description": null,
+                  "url": "https://www.tanguito.co.uk/tanguito-prices-offers/",
+                  "domain": null,
+                  "ad_aclk": "DChcSEwjVnJms9JiNAxVEQUECHR6TBi0YABAmGgJ3cw"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "E-Classes",
+                  "description": null,
+                  "url": "https://www.tanguito.co.uk/classes-video-library/",
+                  "domain": null,
+                  "ad_aclk": "DChcSEwjVnJms9JiNAxVEQUECHR6TBi0YABACGgJ3cw"
+                }
+              ],
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "London Tango calendar",
+                "Best tango in london",
+                "Argentine tango in london",
+                "Tango in London this week",
+                "Tango London today",
+                "Tango classes London beginners",
+                "Tango Wednesday London",
+                "Queer Tango London"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

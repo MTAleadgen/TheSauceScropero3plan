@@ -1,0 +1,418 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.0690 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101533-9976-0139-0000-3e3030ff1bed",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.0221 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in Madrid",
+        "location_code": 1005493,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in Madrid",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1005493,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20Madrid&num=1&hl=en&gl=ES&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCYE8CoCXKUINEWkijGHB3jbE",
+          "datetime": "2025-05-10 12:33:19 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=salsa+in+Madrid+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1-RonypZnhFpBUhojFIV1hrxaX2mG9eXj20cMjHDQtXbXeD6vP241VWIvbSHj8ZFkpBseJuMDavZEzUyxVvcr2edt8RUmgkD4S7Nj9wgyJotK1ltK63_tREUkbk70fIaWA_-0Cs5kCUfNHGV_IrLM34ILZyN9JKwOZRiFU2lmXw6VQn-&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=online+classes+salsa+in+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDmKf5IWthln8uSqXS56mPdxjaHPttCZLnWuPDAA-hod3EXZp7e6R1d0PXIqoPuEaGL6MAopM4hG6R_dRtnGUwAIYfKFd7o6OWEvFErBHMXyd7pGynCFoPNgrWAkOzv5SvHB2KcgmbPxCL7dctfvfKL7edqNlwsi0df-a6YBZBqzsoanYedCopEIFbFHcjI7zvgaDUKUlww2uojMgofD6jsI0Vc-bVYyEonSGIYOtd7MIxe6d&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bachata",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Salsa,+bachata+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSAGgGu8ZdeRNAzBvEqjZUxDiqDgPuoYFJJPVOG_D_6FJVjgXDIRDNqwV9R6vRPXG1X0kg6BFQmNdvijanfx-Bb_vlYe-wKhkK7fHEK03kb7xnEn_xFFvjUL71BZehe1pxWOA32xHkJMJKjSUnloFbkgj98Z0301JxwdBschC4kUsbpor7ged-8kpr3A_PqEPzCCL2ws&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Best",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Best+salsa+in+madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpKU13g6YKT5N-ljSed6g1Yst6PQaFbYbCmUKQzaClQpudptIQASVWXkT4gpCtq2cvhtE18ic357XgpQ4ldVAFvWqhzS5gfTijMOoLtLDPfmSIm1QGZyj0nUHxNM4Wz6B6E3Rz0QXB8vNeOCgDQZkNi03bY8xHiR1wZnSfIVeTwfN1B6k6ZlEsFtx4NjcIdR_0uVoK_1GvdM84FMmI8kkRJydeu4&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Cubana",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Salsa+cubana+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4a1rCEvmqmaNO8r9tlR4-4HP3ukizoN2FbRP-bBsOlrJeaQtc1f2gHAdp6tx7uQmS-rxFMWYkvd7cSadlPUYtQkgtaFkEPu_BYhK5_S69PwcpZ1qiKLMjxl0-NXhzNqg3b6_bOEW9Z_NZQTTAPqam3Vf2_u1yBaQ7_r85m_h0_VJkGzceBuXtqPb_NtqWZCLERoh2zA&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Madrid+Salsa+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk3BIboYShZ35i0-ESdfd-TPjk8mbsRxv9dNK6PcggrNU5Yq2BBj2lvuvEA9-LU925HYIR9Y4g418bpVfkz3lcIbRl1FLYYNMZnipN4Q2IirzX-FlKQICsXAPKh35j3HTcnzGv1VRL2Hq6yZ_6pJ7xoF4-Lpde3MTGW6-SV2SbjQWVM0r2d5KILjac2kpCoWXWnpivjQ&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIQxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Azucar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Az%C3%BAcar+Madrid+salsa&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpKU13g6YKT5N-ljSed6g1Yst6PQaFbYbCmUKQzaClQr9K0LcskxB0yRp5VDNLm2jIL2qZ_GXgQIryEu7sxrnrv3fB3dAAHzxn-KthlKgjaaubKBkXVQ1grzi7Fp2XU2qhzoAV2gXTEPCJeNgbgDe40CtKzVUZR0GralmVCvzUSp-Ja1H47wK7apfxra7-yPXQsENotUw3y47NmlMN0Z634bHuLE&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIQRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Social",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Salsa+Social+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4a1rCEvmqmaNO8r9tlR4-4Hdo4FyIh3hdZV23L9wF9mVV2Y6twsOu2O-zQrkn06k-gmGln6avKFmncHEsgryAHytSuimC-wnitqgdWlyGbE0_Ee5gVFABxKWzA9QiGz3HwRM50N7c1xr37JbY1Hy520pKYD6wfw_INWg3R6y1j19SL6NAfJ-EpYoNNtqddi0SJ3NsAI&sa=X&ved=2ahUKEwiCsfTM9JiNAxV4ODQIHWXpIZMQxKsJegQIQhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "compare_sites",
+            "local_pack",
+            "organic",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 59000000,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa Madrid",
+                  "url": "https://www.facebook.com/groups/114421032755/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-3e3030ff1bed:0",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Descubrir eventos y actividades de Salsa Dancing en Madrid, España",
+                  "url": "https://www.eventbrite.es/d/spain--madrid/salsa-dancing/",
+                  "domain": "www.eventbrite.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-3e3030ff1bed:1",
+                  "source": "Eventbrite"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Madrid, Spain Salsa Dancing",
+                  "url": "https://m.yelp.com/search?find_desc=Salsa+Dancing&find_loc=Madrid",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-3e3030ff1bed:2",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Madrid: Salsa, Bachata, Merengue & Party",
+                  "url": "https://www.meetup.com/es-ES/bailes-latinos-salsa-merengue-bachata-en-madrid/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-3e3030ff1bed:3",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "SALSA MADRID CENTRO - Qué SABER antes de ir ... - Tripadvisor",
+                  "url": "https://www.tripadvisor.es/Attraction_Review-g187514-d7797401-Reviews-Salsa_Madrid_Centro-Madrid.html",
+                  "domain": "www.tripadvisor.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-3e3030ff1bed:4",
+                  "source": "Tripadvisor"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Clases de salsa madrid",
+                  "url": "https://www.milanuncios.com/anuncios/clases-de-salsa-madrid.htm",
+                  "domain": "www.milanuncios.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-3e3030ff1bed:5",
+                  "source": "Milanuncios"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Discotecas para bailar salsa en Madrid",
+                  "url": "https://www.salir.com/discotecas-para-bailar-salsa-en-madrid-art-286.html",
+                  "domain": "www.salir.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHz4D1t2JVgb1LDRkVGXOr9gGqfdFhfGc&s=0",
+                  "source": "Salir.com"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "El templo del sake aterriza en este hotel de Madrid",
+                  "url": "https://www.timeout.es/madrid/es/noticias/madrid-celebra-su-primer-gran-festival-japones-dedicado-al-sake-mas-de-30-bodegas-tradicionales-vienen-de-japon-050825",
+                  "domain": "www.timeout.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnc2Vm5bfScxbN4Hocny0AJqGYqzVlcM4&s=0",
+                  "source": "Time Out"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "DANCES WITH STYLE / CUBAN SALSA CLASSES IN MADRID",
+              "description": "C. de Carretas, 14, 5º F · 650 90 60 63 \nClosed ⋅ Opens 8 pm Mon \n",
+              "domain": "www.bailaconestilo.com",
+              "phone": "650 90 60 63",
+              "url": "https://www.bailaconestilo.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 33,
+                "rating_max": 5
+              },
+              "cid": "4275713517418661558",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Calle Son: escuela especializada en Casino (salsa cubana)",
+              "description": "C. de la Esgrima, 11, Centro · 657 54 54 53 \n",
+              "domain": "www.calleson.es",
+              "phone": "657 54 54 53",
+              "url": "http://www.calleson.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 86,
+                "rating_max": 5
+              },
+              "cid": "1201987243590862770",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Discoteca El Son",
+              "description": "C. de la Victoria, 6 · 671 05 67 91 \nClosed ⋅ Opens 9:30 pm \nLatin-themed nightclub with DJ dancing \n",
+              "domain": null,
+              "phone": "671 05 67 91",
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 34000,
+                "rating_max": 5
+              },
+              "cid": "5860788032793224470",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "salsanomada.com",
+              "title": "LOS 6 MEJORES SITIOS PARA BAILAR SALSA EN ...",
+              "url": "https://salsanomada.com/los-6-mejores-sitios-para-bailar-salsa-en-madrid/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://salsanomada.com › los-6-m...",
+              "website_name": "Salsa Nómada",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "LOS 6 MEJORES SITIOS PARA BAILAR SALSA EN MADRID · 1.- LA NEGRA TOMASA (LUNES). (Calle de Cádiz, 9, Madrid) · 2.- BONGOS «SALA TEMPLO» (MARTES).",
+              "pre_snippet": "10/18/2024 00:00:00",
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "salsa in Madrid from salsanomada.com",
+                  "url": "https://salsanomada.com/los-6-mejores-sitios-para-bailar-salsa-en-madrid/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-3e3030ff1bed:6"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1.- LA NEGRA TOMASA (LUNES). (Calle de Cádiz, 9, Madrid"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-18 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsabachata Sol",
+              "description": "3+ years in business · Calle del Conde de Romanones, 10 · 911 80 52 23 \nClosed ⋅ Opens 5:30 pm \nOn-site services · Online classes \n",
+              "domain": "salsabachata.es",
+              "phone": "911 80 52 23",
+              "url": "https://salsabachata.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 597,
+                "rating_max": 5
+              },
+              "cid": "4897037689195369261",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "SALSA JEANS",
+              "description": "Gran Vía, 27 · 664 49 90 33 \nOpen ⋅ Closes 10 pm \nIn-store shopping · In-store pick-up \n",
+              "domain": "www.salsajeans.com",
+              "phone": "664 49 90 33",
+              "url": "https://www.salsajeans.com/es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.3,
+                "votes_count": 160,
+                "rating_max": 5
+              },
+              "cid": "5918424127843139465",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Discoteca Azúcar",
+              "description": "C. de Atocha, 107 · 690 79 33 31 \nClosed ⋅ Opens 11:30 pm \n",
+              "domain": "www.azucarsalsadisco.com",
+              "phone": "690 79 33 31",
+              "url": "http://www.azucarsalsadisco.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.8,
+                "votes_count": 506,
+                "rating_max": 5
+              },
+              "cid": "9425307189484778345",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Discoteca Azúcar",
+                "The Host Club",
+                "Sala Templo",
+                "JOWKE",
+                "Discoteca El Son",
+                "Discoteca la Rosa"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Best salsa in madrid",
+                "Salsa classes Madrid",
+                "Madrid bachata social",
+                "Tropical House Madrid",
+                "Free salsa classes in Madrid",
+                "Salsa Madrid reddit",
+                "Dancing in Madrid",
+                "Salsa events"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJyavG4OooQg0RtkYTV8piVjs",
+              "feature": "0x0d4228eae0c6abc9:0x3b5662ca571346b6",
+              "cid": "4275713517418661558",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

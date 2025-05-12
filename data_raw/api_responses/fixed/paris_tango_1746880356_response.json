@@ -1,0 +1,230 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.5906 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-9c8e6bacb5c5",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5180 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in Paris",
+        "location_code": 1006094,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in Paris",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006094,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20Paris&num=1&hl=en&gl=FR&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQ-34gYfbuZHEWCUjGjDggsE",
+          "datetime": "2025-05-10 12:32:36 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Lyrics",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Tango+In+Paris+lyrics&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSEcCrAV8bXicTf7FhTFCI-s7ppH9Inm9qGwd_y7heBvlcjdapZOsfFt5d3WBH3p29Kk6gFPbEYNl5o4nvNq1hOmlhl9Qx61nb4TZSdVCSCjMUpVb_AiPDmV3HBTfjVPs6o152gt4Kz6PhvwTmxQhEln2iba6Xg607wL7S97-r2iSNHC4pADBcbiSRlr_4eQ_wx9bVdQ&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQIGxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Netflix",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Tango+in+paris+netflix&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRBvpp1ulDcVf7ufGjs2e0V69PT7CaeoUVec8Xp_lg4Ea6oj43dYM-MFhJ0sBOgV-zEhjlBg4J0WNxrTtAM-WBkF-ZkZjZLQJtmu8VeRFsCFxrs3aOb8TB7iAtTymozKx9n7ONbu5-4i-TQp5AOMvN160WLWrmZ2D-LkzbZPCioNOlKlr89JuQG-Ty4MAtBhz4n_oVhZsy4KJkrnx38P7P6F1RpdU&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Ending explained",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Tango+in+paris+ending+explained&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR6Vm9NPZAFTgnNne0t6RSJqX5wRQizbMOhlEJuiTQJSy_PQW52EeNDn4aXjWNrtxIMYxfb758dvQbzLvtyYOfzRiz0pjU6xHpsthijOwg-kRlSpyarbJlnb-f-r_jdIL_UiKXsCLiAQS-yTLSPxwlg_0CnYEZytnOZDqdC3yjLWKMKI5bKE3OzhWATRkwNAActFU5nIijAZTP2QV1buewW3w7mAc&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Paris+Tango+Calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xPOFSz-JSkXfYZAk0XAisWeLn1rCnOyvJvk9aJhJuTRju1AWQzmLqyuFw3oL43qGOfCJnM4w01cHM5iPn6HHp5hrRtvX4H3S1eqWR-Ov7g7uhIyq6kHGV9Z8KnWrIcp-juyCY4U5zGDWuPG-7XP3_roVhSjYXiG7uqr95psghyXiIqffWL9LTcycpSW7UnwAuKDQj_8&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Where to dance",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Where+to+dance+tango+in+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRMig7EtYo4Rsu7ScWtG0bDIdSd87N2Pq67hkBOVEvR0m2obo5G6uyacSgAQIGNC7hUgH79zOUP3Ml2Y0cJzb-v-E3HkoaYs1YslD6QWnLXnJmInyNX4rlOtcA94uwyDeHklqFqnExe89a1xS54lHxPd5lBE5nsf5HbeLSNSDWYhKnPBenqVOEZfusqUI2LjsROAw68MuErw6IrxCKq4iANShQBWo&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Song",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Tango+In+Paris+Song&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR2ve7QlB1gDQ_xM0ke39dFp9b75n_YH4RQM3jDJrQtKzCqYpsonniz4Y9I5Y7YatKeUogft0lapjD7KLB7BD6PWPzjY3wKF0r3Et_2SzScKxNAzwVqOnRMUKsJL_XqRBYfhKHwC9z2GamrvHxt3cN9PXpYMKoWBJz1Wy9m8W3zikcpSjcjJGAsY1ymrCkeSZiBo0FSe2QclLnklnE018skDNANgY&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQIMxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Watch",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Watch+Last+Tango+in+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0sQUzW3Tu350XIpBlEAqCLMtL7sAkDaYk2YZj_lWg7SoWIx9ZnoGgjW5pjNk9oKV2G3TpFIuVhK2E-6c0J3Or85u91lDB6djQPhWoDphv_lTb58-2hUOQySF1wgv6UUEyDkUQk1lH1_TOe2Ady4DJxaTVvzfFNWUbGDfpnIqdMhSufH08vu1lN5TWXSnXC-JUU773XQHhVebgSKQ_nCZgdkARBIWom0NEAcmA9QL69LBa7sM&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQINBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Regina Belle",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Tango+In+Paris+Regina+Belle&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRxaMrPplYHAz8rGpk9QQdx_w420V844D3vnFkO8lcgtwoTHoqYkaNNwLgIgQTkDsINkwvCbak_w1X6nRMcCmn_9nB2CLTJCHjtFsRn2ZO5zqC4hNB1vs1nkRyProBSsv-kziyh3fsMBHczD3Jm7L9ViALo5CZa4dsSV8uf43s2ZfTiwX02lJVDQVJRwhCdtPV9OOj1nnixVgJeCePddHvlTxf8nE&sa=X&ved=2ahUKEwjp1bK49JiNAxWak4kEHTbcK9IQxKsJegQINRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 44500000,
+          "items_count": 3,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "en.wikipedia.org",
+              "title": "Last Tango in Paris",
+              "url": "https://en.wikipedia.org/wiki/Last_Tango_in_Paris",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://en.wikipedia.org › wiki › Last_Tango_in_Paris",
+              "website_name": "Wikipedia",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Last Tango in Paris is a 1972 erotic drama film directed by Bernardo Bertolucci. The film stars Marlon Brando, Maria Schneider and Jean-Pierre Léaud, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "tango in Paris from en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/Last_Tango_in_Paris",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-9c8e6bacb5c5:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1972 erotic drama film"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Tango music",
+                  "description": null,
+                  "url": "https://en.wikipedia.org/wiki/Tango_music",
+                  "domain": "en.wikipedia.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Maria Schneider (actress)",
+                  "description": null,
+                  "url": "https://en.wikipedia.org/wiki/Maria_Schneider_(actress)",
+                  "domain": "en.wikipedia.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Jean-Pierre Léaud",
+                  "description": null,
+                  "url": "https://en.wikipedia.org/wiki/Jean-Pierre_L%C3%A9aud",
+                  "domain": "en.wikipedia.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Maria Michi",
+                  "description": null,
+                  "url": "https://en.wikipedia.org/wiki/Maria_Michi",
+                  "domain": "en.wikipedia.org"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "The Dreamers",
+                "Crash",
+                "In the Realm of the Senses",
+                "Eyes Wide Shut",
+                "Basic Instinct",
+                "Love"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Tango in paris netflix",
+                "Paris Tango Calendar",
+                "Last Tango in Paris full movie",
+                "Last Tango in Paris Netflix",
+                "Last tango in Paris videos",
+                "Where to dance tango in Paris",
+                "Maria Schneider",
+                "Tango argentin Paris"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0273 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 1,
+  "tasks": [
+    {
+      "id": "05100255-9976-0139-0000-a46aacc00b2f",
+      "status_code": 40402,
+      "status_message": "Invalid Path.",
+      "time": "0 sec.",
+      "cost": 0,
+      "result_count": 0,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "local_pack",
+        "live",
+        "advanced"
+      ],
+      "data": null,
+      "result": null
+    }
+  ]
+}

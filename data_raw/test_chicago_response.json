@@ -1,0 +1,280 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.8055 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100239-9976-0139-0000-3179724e163d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.7473 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa bachata dance classes in Chicago",
+        "location_name": "Chicago,Illinois,United States",
+        "language_name": "English",
+        "depth": 2,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa bachata dance classes in Chicago",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1016367,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20bachata%20dance%20classes%20in%20Chicago&num=2&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCe3L9NA8LA6IEQDAwAmtpuCv",
+          "datetime": "2025-05-09 23:39:48 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+bachata+dance+classes+in+chicago+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRqUjihwmGBlMtnzJINTRHphQFqAUkoAAutJLIbhfAjb5_E8rlmuiQXRQMHmyGfPLYwaqSlun3b9e_7zexy5CgKMo7S1cYpc__F4zBbMJSK4gJmycyPAucycDSGPACs7Df1Azq1gJN9iQREW5EUGbkE6WSqEJ5eQ8mMZnD1-PotJtAGTi92iCmSVSnVT_oXV7qCYoKjgRAsRe5RP8lLLrByv8VLZVKG5cG5DSIfCOYauLkifSj--LgrcdC_uPT2Q1SUApeMg&sa=X&ved=2ahUKEwjk88zax5eNAxXx0wIHHVU9O74QxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=salsa+bachata+dance+classes+in+Chicago+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfJkEpcr_BOX7p1jYAdiz1yOsg16Fv7bns-tgSqvzJ9Eoy6G-jxMox8jwgW5s3GYhp_nnqqH12Q_L8FhqyosTCe4-H-1Kn3M9X1yCYpWQzmreOb74FtmMlSTpZrC6GcN6JaJv2-g0HnMlFCpuMUrgGTRAmUeqxMua2khGx-oqaLtOSAVfahJs9PM4T2k9nBAkct7Uv9w&sa=X&ved=2ahUKEwjk88zax5eNAxXx0wIHHVU9O74QxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Free+salsa+bachata+dance+classes+in+chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR8VXESIvL4eaXQGzWe-bYp-8MCFY9en4wVIbXhYXaV9Pf7lf8vm4gJkQXgEA16CsuHojlL_-DIhBGPTPrP6rg6Uza3crogMNm838D-yo7JuqS2U3nEzRkpeS5vHWnvC86aDg7BC5qe2tvjac4FuEEHvSrhMfW3wvDkhbolX-q0jnFv813Db876J6QjBHKLltp6LOL5JSH_wBCqwoMxon9FsVvbpLugULgUhB8iq-o6-XwQQNF&sa=X&ved=2ahUKEwjk88zax5eNAxXx0wIHHVU9O74QxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+salsa+bachata+dance+classes+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRLM_oO2TFlWf7_aT8QKi5P5vAn2mJc-AGcymnabmvIZBaR-joQB3paIuZJvvenWKfgrYkX5U8V-Vg2dN2Mallvg4J6YTx1KOuWYOD2echXW4SgBM4wsQrvcSEhyCYX6BQTClBkXkZv_fofJkCsJSCpgk92Z7hDQGF3hKUaI5Q9NgwiS97_nCMw-Q_e0dvnE8aZF3aMmSzcjQgnlJP6fUESSPE4D9mS1Q7hTFZ5YVCWRfLKQrV0IUbCL2phe8ah04VgXO84w&sa=X&ved=2ahUKEwjk88zax5eNAxXx0wIHHVU9O74QxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+salsa+bachata+dance+classes+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRB7ZU7zrR_KQGldZlzNxkF9wfyxY9p2Hs3k1LWGjsWR2_D9dua9_J2F1VXUAjYVrSYkXl2VasegFrDquI26SLNkP2kuuY5Nho5NbMsMdzVPKkIRZ_PiQSlCY27lQ4OnLPNFl-uma_IUWV7mcJJ7WpUGbzdV9yLy7rhSZWR8DxzuUmyIwoLNkv2Obf3BCe0f_EdjW86XOw9aIv3V4OE_l9LunoHSg&sa=X&ved=2ahUKEwjk88zax5eNAxXx0wIHHVU9O74QxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 230000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Latin Street Music & Dancing Studio",
+              "description": "600 W Roosevelt Rd #2w \nOpen \u22c5 Closes 8\u202fPM \n\"The teachers were hands on and patient with me as I had never danced before.\" \n",
+              "domain": "www.latinstreetdancing.com",
+              "phone": "(312) 427-2572",
+              "url": "http://www.latinstreetdancing.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 82,
+                "rating_max": 5
+              },
+              "cid": "1756164623801327098",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Chicago Ballroom, Latin & Salsa Dance Studios",
+              "description": "410 S Michigan Ave 2nd Floor \nOpen \u22c5 Closes 9\u202fPM \n\"... are the best- they are knowledgeable and passionate about dance .\" \n",
+              "domain": "www.chicagoballroomstudios.com",
+              "phone": "(713) 392-5060",
+              "url": "https://www.chicagoballroomstudios.com/chicago-dance-lessons",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 13,
+                "rating_max": 5
+              },
+              "cid": "8168731565155662840",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Dance Academy of Salsa",
+              "description": "20+ years in business \u00b7 2246 N Western Ave \nOpen \u22c5 Closes 10\u202fPM \n\"Learning how to dance with M.A. on a 1:1 level was an amazing experience.\" \n",
+              "domain": "danceacademyofsalsa.com",
+              "phone": "(773) 895-8185",
+              "url": "http://danceacademyofsalsa.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 90,
+                "rating_max": 5
+              },
+              "cid": "7745836454357075669",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+              "domain": "www.latinstreetdancing.com",
+              "title": "Latin Dance classes \u00bb Learn Salsa Bachata Cumbia in ...",
+              "url": "https://www.latinstreetdancing.com/currentclasses/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.latinstreetdancing.com \u203a currentclasses",
+              "website_name": "Latin Street",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Learn in our adult dance classes : Salsa, Bachata, Cumbia, Merengue, Cuban, Zouk, and more- Latin Dance Studio in the South Loop, Chicago. Free parking.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "salsa bachata dance classes in Chicago from www.latinstreetdancing.com",
+                  "url": "https://www.latinstreetdancing.com/currentclasses/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100239-9976-0139-0000-3179724e163d:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 69,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": "Bachata A (Beginner) $69.00"
+              },
+              "highlighted": [
+                "Learn in our adult dance classes"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Bachata A (Beginner) $69.00",
+                  "description": null,
+                  "url": "https://www.latinstreetdancing.com/product/bachata-a/",
+                  "domain": "www.latinstreetdancing.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Beginner Salsa Dance...",
+                  "description": null,
+                  "url": "https://www.latinstreetdancing.com/product/salsa-a/",
+                  "domain": "www.latinstreetdancing.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Weekly Classes",
+                  "description": null,
+                  "url": "https://www.latinstreetdancing.com/currentclasses/kids-classes/",
+                  "domain": "www.latinstreetdancing.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Pricing",
+                  "description": null,
+                  "url": "https://www.latinstreetdancing.com/currentclasses/pricing/",
+                  "domain": "www.latinstreetdancing.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Latin Street Music & Dancing St...",
+                "Latin Rhythms Academy of...",
+                "Dennis PaSamba",
+                "Latin Techniques Dance Studio",
+                "Dance Academy of Salsa",
+                "Dance Center Chicago"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa bachata dance classes in chicago for beginners",
+                "Salsa classes Chicago",
+                "Free salsa bachata dance classes in chicago",
+                "Best salsa bachata dance classes in chicago",
+                "Latin dance classes Chicago",
+                "Cumbia dance classes Chicago",
+                "Free Salsa lessons Chicago",
+                "Bachata classes Chicago"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.1230 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101530-9976-0139-0000-e5cc0653b5aa",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.0853 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in Chicago",
+        "location_code": 1016367,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in Chicago",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1016367,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20Chicago&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCe3L9NA8LA6IEQDAwAmtpuCv",
+          "datetime": "2025-05-10 12:30:14 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+in+chicago+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR4jQ2Dsr9h9acn0evSs7ltWPNTNejA9t9bcR0ENSiBeegxz25TC5BHx61PghE4oSptQY52TGunBWaim5ubWhizBn0fWL5cnAl0-QN-T0NBqVZQo3AxgcmmnxpdNgopQblYPZVphomOXlWUpQlhtlue5YhhAWPInum7WfCeAV_-KtVn1sKX3bBDoJlPcdFLudnwj-Qqlq9SU3MwGtXfQjy4bQMON8&sa=X&ved=2ahUKEwib7dn085iNAxVaHkQIHR_sBRQQxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=kizomba+in+Chicago+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRkJOlbywV14DlTFW-fr5V3q1MfkubPZ2KdMjW8z-DuNvSYdhsBZs6HPiIiu7Yz3KYrfP3YwyizSJfpi3PFGF33-joj6djjZInjINJwBYjNwx0O2LODyfZfRc662OWv2EgxGyL-9KH3XPRr5DpeB_prrFAdDXjOGYw8Owe1kayyhlMpbUE&sa=X&ved=2ahUKEwib7dn085iNAxVaHkQIHR_sBRQQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+in+chicago+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1H1XMf1JwovFYwBm0EcUhZX511D4vQ9JYnLYAqffCWs-qcxAWJi53Pbid98gHjzcfQGreOgbDnLpDVnBlgeuft7BnsNdsmx5-eYyALa_mIcIsHjl7oYDn2wcqr2QLht5SviV3VaVABmKSwM34NYQP_HzubBZHt89NWVpbYovqSioKlszh7Mjb4-EBwg44_fp9y3Aqj8m7fd49uRduErFIJ-UhZE&sa=X&ved=2ahUKEwib7dn085iNAxVaHkQIHR_sBRQQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+kizomba+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7w6KG9nzVYWb7U-fwTSfywyj7mDhJR9bDWeV3BetSlwMdEi6UN6X9-_k5jrtKpVrD04wcfHKiISzhmW36zSYopAsRcKnpm5S8IXR1OVOB0m9DeE-79SnpJPHsS0Ahc8r0ksQCL6NxeCkD_AHECiFkBake7huVQ0h4H_pH21dTXj0c-oHo1lJd4W713z1ExPhTV7XeDNphf77gpLhFCtD6pisBhVvzNR9uro9ffWvWkn7PVrO&sa=X&ved=2ahUKEwib7dn085iNAxVaHkQIHR_sBRQQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Free+kizomba+in+chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFrssNFLr58i4mcrsL5MfnbKUUfrXD788hMDQ7ixFPzBcWiD5PdZjcSNH-94Ewjq8zMLRx9bnGMFARyF7COYqiifQRNMocdvvzEuj37JJjclJEK6Mp_ew45bzpxrlaRxFSN1vV1Sx9EZmhzaiIaGTOlY4yUqqU9BlN9B5JrVTgNiXM4QBwqlh99Zy9UOI_AYjX4BLrgoZpL-l4I4qh_wXE31qRrI&sa=X&ved=2ahUKEwib7dn085iNAxVaHkQIHR_sBRQQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Social",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+Social+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr7erbHj7RmD5t0JpLD5r00ffNvCcHw0qqRcz8z6wbFdaJ6MB68G1xmlBoEwaZ9aLlmDXT6ewiHunxT2__ZONE2r_UbUYlEJL_HsOIDkxX7ZtAmWF7zt0AcdRtxS-HJ4KYsK5S66gr4HVtg_p60vh5ZZ-x9DwzDmCp6r2hL0Wd05dRIU8HMOLvqIePU9z-1eOW4EwzCU&sa=X&ved=2ahUKEwib7dn085iNAxVaHkQIHR_sBRQQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 156000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Kizomba Sundays Chicago",
+              "url": "https://www.facebook.com/SeikoGary/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "430+ followers",
+              "website_name": "Facebook · Kizomba Sundays Chicago",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dance with us in Chicago. First hour is a class format for all levels, and the remaining hours are for practice/social dance party.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Dance with us in Chicago"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Urbanity Dance Chicago",
+              "description": "5+ years in business · 1611 N Sheffield Ave 3rd Floor \nClosed ⋅ Opens 5 PM Mon \n\"Great instructors and a good way to meet new people.\" \n",
+              "domain": "urbanitydancechicago.com",
+              "phone": "(312) 995-3381",
+              "url": "http://urbanitydancechicago.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 42,
+                "rating_max": 5
+              },
+              "cid": "7627762379746615834",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Dennis PaSamba",
+              "description": "4820 W Irving Park Rd \nOpens soon ⋅ 8 AM \n\"I needed to work on my styling and he has helped me so much with that.\" \n",
+              "domain": "www.dennispasamba.com",
+              "phone": "(717) 727-2622",
+              "url": "http://www.dennispasamba.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 522,
+                "rating_max": 5
+              },
+              "cid": "9779503184102799463",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Latin Street Music & Dancing Studio",
+              "description": "600 W Roosevelt Rd #2w \nClosed ⋅ Opens 10 AM \n\"Taking Salsa and Bachata classes here as a beginner.\" \n",
+              "domain": "www.latinstreetdancing.com",
+              "phone": "(312) 427-2572",
+              "url": "http://www.latinstreetdancing.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 82,
+                "rating_max": 5
+              },
+              "cid": "1756164623801327098",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Kizomba in chicago for adults",
+                "Kizomba in chicago for beginners",
+                "Best kizomba in chicago",
+                "Free kizomba in chicago",
+                "Kizomba classes Chicago",
+                "Kizomba classes near me",
+                "Latin dance Chicago",
+                "Kizomba dance classes"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

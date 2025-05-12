@@ -1,0 +1,215 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.6535 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100336-9976-0139-0000-27b6cdc7940b",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.6134 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "\"coast swing\" in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "\"coast swing\" in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=%22coast%20swing%22%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:36:34 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=%22coast+swing%22+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDq010-x_1GrroxxXcWV-yotvRYn3vkJSHgz6WDxkpXP50kOnU1a5VjcCWfCkjmKrE8-IhePDX0X9qEDobIQ2HtsJXpuh2oLjjFSUbdumXLOo2Wa7CeHdE5ZYBEHf3sHa6rkqjDmGab7hE20IvG6b8Lxj8TJ0DyaDny11AcjcRzqp6ImCSnRj-OSU_jlwyxtglEnEJg&sa=X&ved=2ahUKEwir6LOy1JeNAxXZkYkEHWFmN1MQxKsJegQIIxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Coast+swing+in+new+york+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR58TdeqbvQGr4ffF7q5aDMzDZFQLpvB-4yZ87Wi4j4w9MX1MljVJaDn7Chle9Ng5sGvWZuJsnoLxuoZ94SK6N-gy4C--kMJ5WUJG_qh3ZlD5OZpo_lBBu-O8mpAlWwqvT79tME0vP1K1Yrm8RK3YdR1avTtLg3YRyqK3kgoViRPYjVdrsDuKoKa_oLwExE02XYSgmd-XyT3krUAwH4R3b65M7CLlQJsuB0gp0nW_lZVJc7XAk&sa=X&ved=2ahUKEwir6LOy1JeNAxXZkYkEHWFmN1MQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=online+classes+%22coast+swing%22+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRa8ZeAKlo9iK1FrsqMuGZ6WfyZenzSqWeHhMEPwR14sX57bj_hVulLPhcYB5FmpjqKuK1lYbYIYpgZUDFbzS1Tf6DlbL3tr0Houg88rto2QmRIaE0TfXwq1w9qcjGz0IGrsPHDZG3ui3p0oXNepF-iTyy8g9P8jISRlQX1FVSYTRqIFhvTLbqLf_niDSFwz56mBYtotXUihRWcdY3dd78GrWzeZ_MbYRc7EUEPF4t-YMmjx92Mf-FZzGS_LnkQBXrZiaJQg&sa=X&ved=2ahUKEwir6LOy1JeNAxXZkYkEHWFmN1MQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "West",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=West+coast+swing+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRKi4kgrqjt5bPRec7O9xci-Bvx3KIU7E_xzSR4KcRLzKCboBwILZrhKfJm5nsN2IiIDE6CvT-FASYK6u-fsLufLn8vtsSJfVG4NxY2pWljJ_A52VL--F1e9TjBuqa3IZawNuJX7_YqB_8nw4Kb3R10CgaBEJKvc0PETHwRy5DdIOWrr_h29LvLTHfLbuWnM3R-THwQv6V59Ix17NPFM7r6fRBdBcU9Yth_OWK4ptNpJX2ttS2&sa=X&ved=2ahUKEwir6LOy1JeNAxXZkYkEHWFmN1MQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+%22coast+swing%22+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR4sPP5b9evuC0MpeGHeXEoPaSLuXzUtCBGW2YkNLsksVfm6ftc3FLPO6vWFXQVJIKrW0tDFrj49TBqPFnjD1KjA33PSGZsPsUs_iY46DW6b8Ynn6lK6OXM1H7-RHvwzAhqQBgghdOWFZWft6N7Dpbgdir_YXIn2xislVRRpgzVhfglSBL69Tv0HuFKZqdipIOSWuTdg&sa=X&ved=2ahUKEwir6LOy1JeNAxXZkYkEHWFmN1MQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 917000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.nycswings.net",
+              "title": "NYC Swing Dancing - Classes & Events (Updated Daily)",
+              "url": "https://www.nycswings.net/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.nycswings.net",
+              "website_name": "NYC Swings",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Upcoming swing dancing socials, classes, and events in New York City. West Coast Swing & Lindy Hop ... Level 3 West Coast Swing with Jes Ann Nail. Danznik\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "New York",
+                "Coast Swing"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "NYC Swings",
+              "description": "No reviews \u00b7 Dance school \nOpen \u22c5 Closes 10\u202fPM \n",
+              "domain": "www.nycswings.net",
+              "phone": null,
+              "url": "https://www.nycswings.net/",
+              "is_paid": false,
+              "rating": null,
+              "cid": "16037926667856291464",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Danznik Studios NYC - Social & Ballroom Dance",
+              "description": "20+ years in business \u00b7 240 W 37th St 2nd Floor \nOpen \u22c5 Closes 10\u202fPM \n\"Large dance floor, great sound system, and great attention to detail.\" \n",
+              "domain": "www.danznik.com",
+              "phone": "(212) 500-1064",
+              "url": "https://www.danznik.com/?utm_source=gmb&utm_medium=organic&utm_campaign=nyc",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 56,
+                "rating_max": 5
+              },
+              "cid": "1491605631245384611",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Brooklyn Swings",
+              "description": "Brooklyn, NY \nOpen \u22c5 Closes 11\u202fPM \n",
+              "domain": "www.brooklynswings.com",
+              "phone": null,
+              "url": "http://www.brooklynswings.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "cid": "10403513980176633663",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "West coast swing in new york",
+                "Coast swing in new york for adults",
+                "West Coast Swing NYC calendar",
+                "West Coast Swing NYC reddit",
+                "Swing dance classes NYC",
+                "West Coast Swing - Brooklyn",
+                "West Coast Swing near me",
+                "New York swing dance"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

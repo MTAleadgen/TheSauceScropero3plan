@@ -1,0 +1,276 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "9.1372 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101619-9976-0139-0000-1f42fbd79727",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "9.0563 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in Los Angeles",
+        "location_code": 1013962,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in Los Angeles",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1013962,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20Los%20Angeles&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRPaJ9xdx8KAEfQIRiVv3y_i",
+          "datetime": "2025-05-10 13:19:54 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Traditional",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Traditional+bachata+in+los+angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR58TdeqbvQGr4ffF7q5aDMwaVnxBFdPdoxT5kR_C8JJwOdJPALVaFBpbDesr27v3lnSJhfyAkGXsd1VeyjrZKhtUq7-hbmlXA3j9vAr25pUK7K1KOAYCrq9qDY8RUzOB9T-R2vUBqoTHTQstvtbvPvu-hneOxpacVzCd8ep_0eRb0KbsZgY0motSEGvGJqpxhRKvJO4zd9gpROjqJD0ijfmOfiwt4ioZIFsZezKxCsUlAybZB&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Bachata+in+los+angeles+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpLQmohipmaTB8lor1Z0qYbRBShqDDqDRiwwh4lrZV-uhDzLrLGwcxCJeV7sBG13liWSl1zCj_-N-wEdYCdcK4ucLKcpdxqa9R51X_9O--5hMMNNV-Cf7QtyiSDH0RcpevyWV1y53eXGU4t7DvHtDmb5YPREZeqnXmjBpsOReSkp_rpj7ioNBEYygQHLta1Xdib3hN2RPmdgAbHEToSZazpem_fr8cHNPqoe3Zsg9IXcz1tY8&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Bachata+classes+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFRGYu7tdqK5HTNmPfdsbAVfiI68XkHEbOPKUNUuLJ1WscQt2vUEHABUEM-oeTvxs2TY2FqnRWV0j3PTGheMT8_TWrX-mtHcyrfF6ZO4zN9XSHEdWWsWd57iv4o2Y3JVw9hPGl1_W0uaZYZiPtIkdnPMiFMTt2beQDz1RYewi4ORc-Lr19J1p3oEVCka6XTQnsmmOWXc6qUw1APRxNOgJQUsqPLHABbkQs-VrneF2OoMh7TOn&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=bachata+in+Los+Angeles+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-Mw9Z_0bfRRQUeQvp0a_cLLZnWzNSekEx7PeqEcRwC_4U5WolWKjaRurwUwUCkruG6mPxmyVsqA67tG_DzvsyBQQFdnUlgOz4LLseqKqejTqn6H5FXs9DInhrhOCzaQJwNJqoPDjpClj8ccIbpSskMCcHftf1BXm-txPcEGz2cLbZ5eWKIV_3OCVNrytXyriRwVpCQ&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Los+Angeles+Bachata+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpy6D5K1hLI3VVAhLmymzGoMc4UhvIAR9HOghsFfhQ_kIkYK4K6HNffk8znoFoNzz--IAAOwigrb5ro0f1k6a0pzH3ABxrSzqvsoaGcXdNOJ4Ept8sdKgdiODA5sCT5lfK_YIOfiDJ29918XmLEEcREVIc7glBLqDUMXFfgwqP_RO0sJ37FwmX00a2m_NUHXw-Ysz77QlXVlZb4sMLwkT3M5gj3s8mZz3_2bjTq_PP-CRnF5z&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+bachata+in+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRq2V85jaTzTjoxFPjNzn1QDxNbvjEzHznt0ji4ct3BVjwk0_3zieo0p2MCCx6puNNf7njeei62ZIkhsMuyZLOyprUcolcgLzCI_F6O8phQjhWJTbguDYFVsz6qzuQZyNQMUw-hU-1PXv88uWbloel-Ax3W6cI6ADz-9d8ufosD9h6bxq6NpxncgceYhAZqu6r5pehhg&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQINhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Sonideros",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Los+angeles+sonideros+bachata&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXFsIX7pc7gbM-aH-Aav8gAVIRTMbxsRYDpLDugPBXv7QlLtDeRiVMX5-o5LKJMVZS_nmWT9pGt-66BCTqkfF2hddh2quhr1TBzKUljU0y34erKc8wnh7mf7BI-WsReSoL7LwwbO8UJCqLP-GH5FOPFUIdmWAezf9ARMxKXYI87MJg5NlHgskPTOdqIPUDfUNazPjoykpkap7ifGCmwfNRYTx163_cdh-pf_WFlfERayKfEDg&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQIORAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Dominican",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Dominican+Bachata+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXFsIX7pc7gbM-aH-Aav8gAVIRTMbxsRYDpLDugPBXv7QlLtDeRiVMX5-o5LKJMVZIMSDtMODSkAwC555KLQNa27k1u5wfACar8c_P2B9UE9Uz2ABccdxCSSOrq8Wk_JUOHA-0DboEYKf9zlnsAAoUBy3mIRE8nQ06y7HkfvEN58JKRTsUYlBZTIqmLkSxjpXwYs1nEmBQFnG9RhXlt1nnW4KQAnfm8z61z9fC7GVEEshc-Oy&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Queer",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Queer+Bachata+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR99LVz1gK4y22uRCaGw7Q131pte__tNfo9ymp1OvU_Vjf7u0QNoBARJ7fZEb0UHimiZdVIhpGVNGopGo9p2OF4Y4ArKxl2W4o9f4Bp00y16mIUQOYr2xQ03KxMtfHGTl-2sd_qCFonejDjlegQbwLQDw8KOCjasjKRI91vANnwGOH0E8l1BPagE4HfLcAOwmkyDGPPZG8HBNhiwAhLSZPCaLcRMY&sa=X&ved=2ahUKEwil_PaB_5iNAxX9APsDHeh0FXIQxKsJegQINRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 2050000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.danceus.org",
+              "title": "Los Angeles Salsa & Bachata Dancing Calendar",
+              "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.danceus.org › events › los-angeles-ca-salsa...",
+              "website_name": "DanceUs.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Los Angeles Salsa Calendar of Dance Events including Bachata, Kizomba, Zouk, Mambo, Merengue: latin parties, social, best salsa clubs, cuban salsa, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Los Angeles Salsa Calendar of Dance Events"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Friday, May 9",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#friday,may9",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Saturday, May 10",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#saturday,may10",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Sunday, May 11",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#sunday,may11",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Monday, May 12",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#monday,may12",
+                  "domain": "www.danceus.org"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "The Granada LA",
+              "description": "Alhambra, CA \nClosed ⋅ Opens 6:30 PM \n\"This is an amazing place to dance Salsa , Bachata and other latin rhythms.\" \n",
+              "domain": "www.thegranadala.com",
+              "phone": "(626) 284-7262",
+              "url": "http://www.thegranadala.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.3,
+                "votes_count": 165,
+                "rating_max": 5
+              },
+              "cid": "13526696710200972367",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Bachata Dance Academy",
+              "description": "7+ years in business · Commerce, CA \nClosed ⋅ Opens 8 PM Sun \n\"Each class was taught so well and it built up my bachata skills!\" \n",
+              "domain": "www.bachatadanceacademy.com",
+              "phone": "(562) 641-5327",
+              "url": "http://www.bachatadanceacademy.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 304,
+                "rating_max": 5
+              },
+              "cid": "341841362775153990",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Movers and Shakers Salsa and Bachata Dance Academy",
+              "description": "10+ years in business · Los Angeles, CA \nOpen 24 hours \n\"Best bachata/salsa instructors and caring dance community!\" \n",
+              "domain": "www.moversandshakersdance.com",
+              "phone": "(844) 543-7645",
+              "url": "http://www.moversandshakersdance.com/?utm_source=googlebusinessprofile&utm_medium=organic&utm_campaign=Google+Business+Profile",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 315,
+                "rating_max": 5
+              },
+              "cid": "1838693146948348673",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Traditional bachata in los angeles",
+                "Bachata in los angeles for beginners",
+                "Best bachata in los angeles",
+                "Salsa Dancing Los Angeles tonight",
+                "Bachata classes Los Angeles",
+                "Salsa Club Los Angeles",
+                "Best salsa clubs in Los Angeles",
+                "Salsa Dancing Los Angeles tonight live"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

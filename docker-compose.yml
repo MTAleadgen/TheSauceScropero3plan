@@ -1,0 +1,104 @@
+# version: '3.8' # Specify docker-compose version - REMOVED
+
+services:
+  redis:
+    image: redis:7-alpine # Use a lightweight Redis image
+    container_name: redis_queue
+    ports:
+      - "6379:6379" # Expose Redis port to host (optional, for debugging/external access)
+    volumes:
+      - redis_data:/data # Persist Redis data (optional)
+    command: redis-server --appendonly yes # Enable persistence
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  fetch_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile # Use the main Dockerfile for Python workers
+    command: python worker_fetch.py
+    environment:
+      - REDIS_HOST=redis_queue # Use the service/container name of Redis
+      - REDIS_PORT=6379
+      - REDIS_URL_QUEUE=url_queue
+      - REDIS_RAW_QUEUE=jsonld_raw
+    depends_on:
+      redis: # Corrected: use the service name 'redis'
+        condition: service_healthy 
+    deploy:
+      replicas: 4 # Task 0-2: fetch_worker=4
+
+  parse_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    command: python worker_parse.py
+    environment:
+      - REDIS_HOST=redis_queue # Use the service/container name of Redis
+      - REDIS_PORT=6379
+      - REDIS_RAW_QUEUE=jsonld_raw
+      - DATABASE_URL=${DATABASE_URL} # From .env file
+    depends_on:
+      redis: # Corrected
+        condition: service_healthy
+    deploy:
+      replicas: 4 # Task 0-2: parse_worker=4
+
+  normalize_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    command: python worker_normalize.py
+    environment:
+      - REDIS_HOST=redis_queue 
+      - REDIS_PORT=6379
+      - DATABASE_URL=${DATABASE_URL} # From .env file
+      - NOMINATIM_USER_AGENT=SauceScrapero3Design/1.0 (${NOMINATIM_EMAIL:-your.email@example.com})
+    depends_on:
+      redis: # Corrected
+        condition: service_healthy
+    deploy:
+      replicas: 2 # Task 0-2: normalize_worker=2
+
+  discovery:
+    build:
+      context: ./services/discovery
+      dockerfile: Dockerfile
+    # command: python discovery.py # Previous command
+    command: sh -c "python discovery.py && echo '\n--- Contents of discovered_urls.txt ---' && cat discovered_urls.txt || echo 'discovered_urls.txt not found or empty'" # Modified to cat the file
+    depends_on:
+      redis: # Corrected
+        condition: service_healthy
+    environment:
+      - REDIS_URL=redis://redis_queue:6379/0 # Standardized
+      - DATAFORSEO_LOGIN=${DATAFORSEO_LOGIN}
+      - DATAFORSEO_PASSWORD=${DATAFORSEO_PASSWORD}
+      - MAX_CITIES=10 # Limit to 10 cities for testing
+      - DATA_RAW_DIR=/app/data_raw
+    volumes:
+      - ./geonames_top1000_enriched.csv:/app/geonames_top_1000_enriched.csv:ro # Corrected path in container
+      - ./data_raw:/app/data_raw # Mount data_raw directory for persistent storage
+
+  eventbrite_collector: # Assuming this service is still desired
+    build:
+      context: . 
+      dockerfile: Dockerfile
+    command: python services/eventbrite_collector.py
+    depends_on:
+      redis: # Corrected
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - EVENTBRITE_API_TOKEN=${EVENTBRITE_API_TOKEN}
+      - REDIS_HOST=redis_queue
+      - REDIS_PORT=6379 
+    volumes:
+      - ./geonames_top_1000_enriched.csv:/app/geonames_top_1000_enriched.csv:ro # Corrected path
+
+# Define named volume for Redis persistence
+volumes:
+  redis_data:
+  # postgres_data: # Uncomment if you add a db service with a volume

@@ -1,0 +1,206 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.7300 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100255-9976-0139-0000-e36c19f5fedf",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.6019 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "maps",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "maps",
+        "keyword": "salsa dance classes in new york",
+        "location_name": "Manhattan,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa dance classes in new york",
+          "type": "maps",
+          "se_domain": "google.com",
+          "location_code": 9067609,
+          "language_code": "en",
+          "check_url": "https://google.com/maps/search/salsa+dance+classes+in+new+york/@40.7830603,-73.9712488,12z?hl=en&gl=US&uule=w+CAIQIFISCWHmbgSPWMKJEYzA7PyBMgsK",
+          "datetime": "2025-05-09 23:55:28 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "maps_search"
+          ],
+          "se_results_count": 0,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "maps_search",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "domain": "www.salsaclassesnyc.com",
+              "title": "Salsa Classes NYC",
+              "original_title": null,
+              "url": "http://www.salsaclassesnyc.com/",
+              "contact_url": "http://www.salsaclassesnyc.com/",
+              "contributor_url": "https://maps.google.com/maps/contrib/104515129935090350740",
+              "book_online_url": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 45,
+                "rating_max": null
+              },
+              "hotel_rating": null,
+              "price_level": null,
+              "rating_distribution": {
+                "1": 3,
+                "2": 0,
+                "3": 0,
+                "4": 4,
+                "5": 38
+              },
+              "snippet": "10001 520 8th Ave, New York, NY 10018",
+              "address": "10001 520 8th Ave, New York, NY 10018",
+              "address_info": {
+                "borough": "Manhattan",
+                "address": "10001 520 8th Ave",
+                "city": "New York",
+                "zip": "10018",
+                "region": "New York",
+                "country_code": "US"
+              },
+              "place_id": "ChIJIZ_TsK1ZwokRvWwil2we9qk",
+              "phone": "+1347-508-3221",
+              "main_image": "https://lh3.googleusercontent.com/p/AF1QipOSH4QHcRn1rXEfdHiye4VkEI4_SMQy3tFwbmoP=w426-h240-k-no",
+              "total_photos": 94,
+              "category": "Dance school",
+              "additional_categories": null,
+              "category_ids": [
+                "dance_school"
+              ],
+              "work_hours": {
+                "timetable": {
+                  "sunday": [
+                    {
+                      "open": {
+                        "hour": 9,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 0
+                      }
+                    }
+                  ],
+                  "monday": [
+                    {
+                      "open": {
+                        "hour": 9,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 0
+                      }
+                    }
+                  ],
+                  "tuesday": [
+                    {
+                      "open": {
+                        "hour": 9,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 0
+                      }
+                    }
+                  ],
+                  "wednesday": [
+                    {
+                      "open": {
+                        "hour": 9,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 0
+                      }
+                    }
+                  ],
+                  "thursday": [
+                    {
+                      "open": {
+                        "hour": 9,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 0
+                      }
+                    }
+                  ],
+                  "friday": [
+                    {
+                      "open": {
+                        "hour": 9,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 0
+                      }
+                    }
+                  ],
+                  "saturday": [
+                    {
+                      "open": {
+                        "hour": 9,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 0
+                      }
+                    }
+                  ]
+                },
+                "current_status": "open"
+              },
+              "feature_id": "0x89c259adb0d39f21:0xa9f61e6c97226cbd",
+              "cid": "12247009688421559485",
+              "latitude": 40.753645,
+              "longitude": -73.9919341,
+              "is_claimed": true,
+              "local_justifications": [
+                {
+                  "type": "user_review",
+                  "text": "\"The dance teacher is very energetic and the music is electrifying.\""
+                }
+              ],
+              "is_directory_item": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "city": "New York",
+  "total_unique_urls": 35,
+  "urls_by_dance_style": {
+    "salsa": [
+      "https://www.salsanewyork.com/",
+      "https://www.salsanewyork.com/list-class",
+      "https://www.salsanewyork.com/volunteer",
+      "https://www.salsanewyork.com/contact",
+      "http://gygnyc.com/",
+      "https://salsasabrosaschool.com/",
+      "http://www.salsasalsadancestudio.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16906655974687444521"
+    ],
+    "bachata": [
+      "https://www.bachatanyc.com/",
+      "https://sensualmovementusa.com/",
+      "https://bachatasoulnyc.com/",
+      "https://www.eventbrite.com/d/ny--new-york/bachata/"
+    ],
+    "kizomba": [
+      "http://www.newyorkbachataembassy.com/",
+      "http://solasbar.com/"
+    ],
+    "zouk": [
+      "https://www.facebook.com/groups/1953605508019354/"
+    ],
+    "cumbia": [
+      "https://www.yelp.com/search?find_desc=Cumbias+Dance+Clubs&find_loc=New+York%2C+NY"
+    ],
+    "rumba": [
+      "https://tasterumba.com/",
+      "https://tasterumba.com/our-locations/",
+      "https://tasterumba.com/#catering",
+      "https://tasterumba.com/#gift-cards",
+      "https://tasterumba.com/#contact"
+    ],
+    "tango": [
+      "https://newyorktango.com/",
+      "http://victoriacodru.com/",
+      "http://www.tangonyc.com/",
+      "http://www.tangoclassesnyc.com/"
+    ],
+    "hustle": [
+      "https://hustlerny.com/",
+      "https://hustlerhollywood.com/pages/store-new-york-new-york?utm_source=gmb&utm_medium=maps",
+      "https://hustlebuttertattoogallery.com/"
+    ],
+    "chacha": [],
+    "coast swing": [
+      "https://www.nycswings.net/",
+      "https://www.danznik.com/?utm_source=gmb&utm_medium=organic&utm_campaign=nyc",
+      "http://www.brooklynswings.com/"
+    ],
+    "lambada": [],
+    "samba": [
+      "http://puresamba.nyc/",
+      "http://www.sambanovo.com/"
+    ],
+    "ballroom": [],
+    "forro": [
+      "https://www.forronewyork.com/",
+      "http://esquinabrooklyn.com/",
+      "https://www.beijaflor.nyc/"
+    ]
+  },
+  "all_urls": [
+    "https://tasterumba.com/#gift-cards",
+    "https://tasterumba.com/#contact",
+    "http://www.tangoclassesnyc.com/",
+    "https://salsasabrosaschool.com/",
+    "http://www.brooklynswings.com/",
+    "https://bachatasoulnyc.com/",
+    "https://www.danznik.com/?utm_source=gmb&utm_medium=organic&utm_campaign=nyc",
+    "https://hustlerhollywood.com/pages/store-new-york-new-york?utm_source=gmb&utm_medium=maps",
+    "http://esquinabrooklyn.com/",
+    "https://tasterumba.com/#catering",
+    "https://www.forronewyork.com/",
+    "http://www.tangonyc.com/",
+    "https://sensualmovementusa.com/",
+    "https://www.eventbrite.com/d/ny--new-york/bachata/",
+    "https://hustlerny.com/",
+    "http://www.newyorkbachataembassy.com/",
+    "http://gygnyc.com/",
+    "https://tasterumba.com/",
+    "http://www.salsasalsadancestudio.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16906655974687444521",
+    "https://tasterumba.com/our-locations/",
+    "https://newyorktango.com/",
+    "https://www.facebook.com/groups/1953605508019354/",
+    "https://www.salsanewyork.com/",
+    "http://victoriacodru.com/",
+    "https://www.nycswings.net/",
+    "https://www.salsanewyork.com/contact",
+    "https://www.bachatanyc.com/",
+    "https://www.salsanewyork.com/list-class",
+    "http://puresamba.nyc/",
+    "https://hustlebuttertattoogallery.com/",
+    "https://www.yelp.com/search?find_desc=Cumbias+Dance+Clubs&find_loc=New+York%2C+NY",
+    "http://www.sambanovo.com/",
+    "https://www.beijaflor.nyc/",
+    "https://www.salsanewyork.com/volunteer",
+    "http://solasbar.com/"
+  ]
+}

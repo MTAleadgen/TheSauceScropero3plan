@@ -1,0 +1,239 @@
+#!/usr/bin/env python3
+"""
+Test different variants of DataForSEO API parameters to find what gives more results
+"""
+import os
+import json
+import base64
+import requests
+import logging
+import time
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv(override=True)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATA_RAW_DIR = "./data_raw"
+
+# Ensure data_raw directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+def test_serp_variant(variant_name, params):
+    """Test a specific variant of SERP API parameters"""
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials not set.")
+        return False
+    
+    # DataForSEO API endpoint for Google Organic Search
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task with provided parameters
+    data = [params]
+    
+    try:
+        # Make the API request
+        logger.info(f"Making API request for variant '{variant_name}'")
+        logger.info(f"Parameters: {json.dumps(params)}")
+        
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the entire response
+        raw_path = os.path.join(DATA_RAW_DIR, f"test_variant_{variant_name}_response.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        logger.info(f"Saved raw API response to {raw_path}")
+        
+        # Log response status code
+        logger.info(f"DataForSEO API status code: {result.get('status_code')} - {result.get('status_message')}")
+        
+        # Process results if available
+        if result.get('status_code') == 20000:  # Success code
+            tasks = result.get('tasks', [])
+            
+            total_urls = 0
+            organic_count = 0
+            all_found_urls = []
+            
+            # Count URLs from all result types, not just organic
+            for task in tasks:
+                task_id = task.get('id')
+                logger.info(f"Processing task ID: {task_id}")
+                
+                if 'result' in task and task['result']:
+                    for i, item in enumerate(task['result']):
+                        # Save each result item separately
+                        result_path = os.path.join(DATA_RAW_DIR, f"test_variant_{variant_name}_{i}.json")
+                        with open(result_path, 'w') as f:
+                            json.dump(item, f, indent=2)
+                        
+                        # Extract ALL URLs from different types of results
+                        items = item.get('items', [])
+                        
+                        page_urls = []
+                        for result_item in items:
+                            item_type = result_item.get('type')
+                            
+                            if item_type == 'organic':
+                                url = result_item.get('url')
+                                title = result_item.get('title', 'No Title')
+                                if url:
+                                    page_urls.append(f"[organic] {title} - {url}")
+                                    all_found_urls.append(url)
+                                    organic_count += 1
+                            
+                            elif item_type == 'local_pack':
+                                url = result_item.get('url')
+                                title = result_item.get('title', 'No Title')
+                                if url:
+                                    page_urls.append(f"[local_pack] {title} - {url}")
+                                    all_found_urls.append(url)
+                                
+                                # Also check for domain
+                                domain = result_item.get('domain')
+                                if domain:
+                                    domain_url = f"https://{domain}"
+                                    page_urls.append(f"[local_pack_domain] {domain}")
+                                    all_found_urls.append(domain_url)
+                            
+                            elif item_type == 'video':
+                                # Extract URLs from video items
+                                video_items = result_item.get('items', [])
+                                for video_item in video_items:
+                                    url = video_item.get('url')
+                                    if url:
+                                        page_urls.append(f"[video] {url}")
+                                        all_found_urls.append(url)
+                            
+                            # Look for links inside results
+                            links = result_item.get('links', [])
+                            if links:
+                                for link in links:
+                                    link_url = link.get('url')
+                                    link_title = link.get('title', 'No Title')
+                                    if link_url:
+                                        page_urls.append(f"[link] {link_title} - {link_url}")
+                                        all_found_urls.append(link_url)
+                        
+                        # Log all URLs found on this page
+                        logger.info(f"Found {len(page_urls)} URLs on result page {i}")
+                        for url in page_urls[:10]:  # Limit output to first 10 URLs
+                            logger.info(f"  {url}")
+                        if len(page_urls) > 10:
+                            logger.info(f"  ... and {len(page_urls) - 10} more")
+                        
+                        total_urls += len(page_urls)
+                else:
+                    logger.warning(f"No results found in task {task_id}")
+            
+            # Save all found URLs to a file
+            urls_path = os.path.join(DATA_RAW_DIR, f"test_variant_{variant_name}_urls.txt")
+            with open(urls_path, 'w') as f:
+                for url in all_found_urls:
+                    f.write(f"{url}\n")
+            
+            logger.info(f"Total URLs found for variant '{variant_name}': {total_urls} (including {organic_count} organic results)")
+            logger.info(f"Saved {len(all_found_urls)} unique URLs to {urls_path}")
+            
+            return total_urls
+        else:
+            error_message = result.get('status_message', 'Unknown error')
+            logger.error(f"API request failed for variant '{variant_name}': {error_message}")
+            return 0
+    
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Request failed for variant '{variant_name}': {e}")
+        return 0
+    
+    except Exception as e:
+        logger.error(f"Unexpected error for variant '{variant_name}': {e}")
+        return 0
+
+def main():
+    """Test multiple variants of SERP API parameters"""
+    logger.info("Starting DataForSEO API parameter variant tests")
+    
+    # Define different variants to test
+    variants = {
+        "simple": {
+            "keyword": "salsa in new york",
+            "location_name": "United States",
+            "language_name": "English",
+            "depth": 1,
+            "se_domain": "google.com"
+        },
+        "serp_api_like": {
+            "keyword": "salsa new york",  # Even simpler query like what SerpAPI might use
+            "location_name": "United States",
+            "language_name": "English",
+            "depth": 1,
+            "se_domain": "google.com"
+        },
+        "specific_location": {
+            "keyword": "salsa dance",
+            "location_name": "New York,New York,United States",
+            "language_name": "English",
+            "depth": 1,
+            "se_domain": "google.com"
+        },
+        "high_results": {
+            "keyword": "salsa dance classes",
+            "location_name": "United States",
+            "language_name": "English",
+            "depth": 1,
+            "se_domain": "google.com",
+            "se_results_count": 100  # Request more results
+        },
+        "single_page": {
+            "keyword": "salsa dance classes new york",  # More specific query
+            "location_name": "New York,New York,United States",
+            "language_name": "English",
+            "depth": 1,
+            "se_domain": "google.com",
+            "se_results_count": 100  # Request more results
+        }
+    }
+    
+    variant_results = {}
+    
+    for variant_name, params in variants.items():
+        # Add a delay between requests to avoid rate limiting
+        time.sleep(1)
+        
+        total_urls = test_serp_variant(variant_name, params)
+        variant_results[variant_name] = total_urls
+    
+    # Print summary
+    logger.info("=== Variant Test Results Summary ===")
+    for variant, count in variant_results.items():
+        logger.info(f"Variant '{variant}': {count} total URLs")
+    
+    # Save results to file
+    summary_path = os.path.join(DATA_RAW_DIR, "test_variants_summary.json")
+    with open(summary_path, 'w') as f:
+        json.dump(variant_results, f, indent=2)
+    logger.info(f"Saved variant results summary to {summary_path}")
+    
+    return True
+
+if __name__ == "__main__":
+    main() 

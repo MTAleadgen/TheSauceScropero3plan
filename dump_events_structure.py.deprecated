@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""
+Dump the structure of raw_json from event_raw to understand why events aren't being detected.
+"""
+import os
+import json
+import psycopg2
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Get database connection string
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+def dump_json_structure(obj, prefix="", is_last=True, is_root=True):
+    """
+    Recursively dump the structure of a JSON object showing types.
+    """
+    if is_root:
+        print("JSON Structure:")
+    
+    connector = "└── " if is_last else "├── "
+    
+    if isinstance(obj, dict):
+        print(f"{prefix}{connector}dict with {len(obj)} keys")
+        items = list(obj.items())
+        for i, (key, value) in enumerate(items):
+            new_prefix = prefix + ("    " if is_last else "│   ")
+            is_last_item = i == len(items) - 1
+            print(f"{prefix}{'└── ' if is_last_item else '├── '}'{key}'")
+            dump_json_structure(value, new_prefix, is_last_item, False)
+    elif isinstance(obj, list):
+        print(f"{prefix}{connector}list with {len(obj)} items")
+        if obj:
+            if all(isinstance(x, (dict, list)) for x in obj):
+                # Recursive lists/dicts
+                for i, item in enumerate(obj[:3]):  # First 3 items
+                    new_prefix = prefix + ("    " if is_last else "│   ")
+                    is_last_item = i == min(2, len(obj) - 1)
+                    dump_json_structure(item, new_prefix, is_last_item, False)
+                if len(obj) > 3:
+                    print(f"{prefix}{'    ' if is_last else '│   '}... ({len(obj)-3} more items)")
+            else:
+                # Primitive list
+                sample = str(obj[:3])[1:-1]
+                if len(obj) > 3:
+                    sample += ", ..."
+                print(f"{prefix}{'    ' if is_last else '│   '}[{sample}]")
+        else:
+            print(f"{prefix}{'    ' if is_last else '│   '}[]")
+    else:
+        # Primitive value
+        value_type = type(obj).__name__
+        value_preview = str(obj)
+        if len(value_preview) > 50:
+            value_preview = value_preview[:47] + "..."
+        print(f"{prefix}{connector}{value_type}: {value_preview}")
+
+def main():
+    """Dump event_raw records structure."""
+    try:
+        # Connect to the database
+        conn = psycopg2.connect(DATABASE_URL)
+        
+        # Fetch raw_json from event_raw
+        with conn.cursor() as cur:
+            cur.execute("SELECT id, raw_json FROM event_raw WHERE id = 539")
+            row = cur.fetchone()
+            
+            if row:
+                record_id, raw_json = row
+                print(f"Record ID: {record_id}")
+                
+                # Parse the JSON
+                if isinstance(raw_json, str):
+                    data = json.loads(raw_json)
+                else:
+                    data = raw_json
+                
+                # Find events in the structure
+                print("\nDumping overall structure:")
+                dump_json_structure(data)
+                
+                # Look specifically for tasks and result
+                tasks = data.get("tasks", [])
+                if tasks and len(tasks) > 0:
+                    print("\nDumping structure of tasks[0]:")
+                    dump_json_structure(tasks[0])
+                    
+                    result = tasks[0].get("result", [])
+                    if result:
+                        print("\nDumping result items:")
+                        for i, item in enumerate(result):
+                            item_type = item.get("type", "unknown")
+                            print(f"\nItem {i} (type: {item_type}):")
+                            dump_json_structure(item)
+                            
+                            # If this is an events section, dump the items
+                            if item_type == "events" and "items" in item:
+                                print(f"\nEvents items in {item_type}:")
+                                for j, event in enumerate(item["items"]):
+                                    print(f"Event {j}:")
+                                    for key, value in event.items():
+                                        print(f"  {key}: {value}")
+            else:
+                print("No record found with ID 539")
+        
+        conn.close()
+        
+    except Exception as e:
+        print(f"Error: {e}")
+
+if __name__ == "__main__":
+    main() 

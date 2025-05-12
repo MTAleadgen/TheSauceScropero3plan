@@ -1,0 +1,199 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.9077 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100255-9976-0139-0000-31713cf9b2f8",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.7505 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "maps",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "maps",
+        "keyword": "latin dance in new york",
+        "location_name": "Manhattan,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "latin dance in new york",
+          "type": "maps",
+          "se_domain": "google.com",
+          "location_code": 9067609,
+          "language_code": "en",
+          "check_url": "https://google.com/maps/search/latin+dance+in+new+york/@40.7830603,-73.9712488,12z?hl=en&gl=US&uule=w+CAIQIFISCWHmbgSPWMKJEYzA7PyBMgsK",
+          "datetime": "2025-05-09 23:55:38 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "maps_search"
+          ],
+          "se_results_count": 0,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "maps_search",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "domain": "www.lorenzdancestudio.com",
+              "title": "Lorenz Latin Dance Studio Manhattan",
+              "original_title": null,
+              "url": "http://www.lorenzdancestudio.com/manhattan",
+              "contact_url": null,
+              "contributor_url": "https://maps.google.com/maps/contrib/108397781104002741723",
+              "book_online_url": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 57,
+                "rating_max": null
+              },
+              "hotel_rating": null,
+              "price_level": null,
+              "rating_distribution": {
+                "1": 1,
+                "2": 0,
+                "3": 0,
+                "4": 3,
+                "5": 53
+              },
+              "snippet": "2153 2nd Ave, New York, NY 10029",
+              "address": "2153 2nd Ave, New York, NY 10029",
+              "address_info": {
+                "borough": "Manhattan",
+                "address": "2153 2nd Ave",
+                "city": "New York",
+                "zip": "10029",
+                "region": "New York",
+                "country_code": "US"
+              },
+              "place_id": "ChIJB0_DtQb2wokRIWu9cDunVNY",
+              "phone": "+1646-590-3642",
+              "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZ37RqfZhbZ0z9bhFZpgXQNZV4NO_NEtX5ukgyA633E0QNzxoPPDrbGBAya7zLPcJPL9itg1FwuDdMuB5Qi0vBvCQL3NnU-KxbxlAFcXUzVWYl7l6OI3qfP0PRDZUoOSyQzt11vA=w408-h306-k-no",
+              "total_photos": 95,
+              "category": "Dance school",
+              "additional_categories": [
+                "Ballroom dance instructor",
+                "Dance company",
+                "Dance hall",
+                "Salsa classes"
+              ],
+              "category_ids": [
+                "dance_school",
+                "ballroom_dance_instructor",
+                "dance_company",
+                "dance_hall",
+                "salsa_classes"
+              ],
+              "work_hours": {
+                "timetable": {
+                  "sunday": null,
+                  "monday": [
+                    {
+                      "open": {
+                        "hour": 17,
+                        "minute": 30
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 30
+                      }
+                    }
+                  ],
+                  "tuesday": [
+                    {
+                      "open": {
+                        "hour": 17,
+                        "minute": 30
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 30
+                      }
+                    }
+                  ],
+                  "wednesday": [
+                    {
+                      "open": {
+                        "hour": 17,
+                        "minute": 30
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 30
+                      }
+                    }
+                  ],
+                  "thursday": [
+                    {
+                      "open": {
+                        "hour": 17,
+                        "minute": 30
+                      },
+                      "close": {
+                        "hour": 21,
+                        "minute": 30
+                      }
+                    }
+                  ],
+                  "friday": [
+                    {
+                      "open": {
+                        "hour": 17,
+                        "minute": 30
+                      },
+                      "close": {
+                        "hour": 0,
+                        "minute": 0
+                      }
+                    }
+                  ],
+                  "saturday": [
+                    {
+                      "open": {
+                        "hour": 13,
+                        "minute": 0
+                      },
+                      "close": {
+                        "hour": 19,
+                        "minute": 0
+                      }
+                    }
+                  ]
+                },
+                "current_status": "open"
+              },
+              "feature_id": "0x89c2f606b5c34f07:0xd654a73b70bd6b21",
+              "cid": "15444152895896644385",
+              "latitude": 40.7937332,
+              "longitude": -73.9404319,
+              "is_claimed": true,
+              "local_justifications": null,
+              "is_directory_item": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

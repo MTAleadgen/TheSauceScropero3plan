@@ -1,0 +1,326 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.2847 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101620-9976-0139-0000-c762056eef81",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.2115 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in Los Angeles",
+        "location_code": 1013962,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in Los Angeles",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1013962,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20Los%20Angeles&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRPaJ9xdx8KAEfQIRiVv3y_i",
+          "datetime": "2025-05-10 13:20:13 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Los+Angeles+Tango+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXbpeEMey_Q4pR6vhuQVBukyad9kmattm6X0SdXcGR2Jx3VLtHolv2u5aruu6VjXKUJazD3GBPtH3jr2SVHOX-Gx4uSUe-snangtmZCXfYV4s6jpb8_4-4jzAsUfbsbDXj1cC0lcsmLLNiKmocqIko68dMQRiksAfxGqZOIiOCdcRh-L14Cl1HrOaNLwrsP4RdXt1wpxEtuBVXQeIySrb5NG-DN9ZWgEqoDjWYVa16z1z7_xp&sa=X&ved=2ahUKEwjjjNSK_5iNAxXtHDQIHXL0OEUQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+classes+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR99LVz1gK4y22uRCaGw7Q1wk6p69zJYy4yF2x9Bh_2NYXn5u2bgIZU5i4mSIOVF8KOxgqsRuxanADke59PR5NSTUQVnzZXdSzfvXXlM2WILHL41GuF1wb_qF2YbUob-glXuII6o9AwwxOcQ99XeK22IYeE75j0_TPYBOmZH5TDQpxwkSGaBaiUmGFoNGaCfvTOSVGr_Ga_Vq9p0JiL3axzZUHxkjF7EmkX7H_D0TlUFItOPQ7&sa=X&ved=2ahUKEwjjjNSK_5iNAxXtHDQIHXL0OEUQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=tango+in+Los+Angeles+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRsqKhQnq4B_yCtNxu6mJb7HFlhVWLm1ha5PINzK4Gq1kS6c-fShRT0SgwL4W0yMWKwJamH6UuZvctOnkDSeAc8nHpGUjdkp4CKUC4nw6G_f63iVeEsGHsmOdzwfKbAoDP4oLM40-PXk-UgdP9iOIkOFxtc-gFQHYuQyYRgbUnBBpoHJIE&sa=X&ved=2ahUKEwjjjNSK_5iNAxXtHDQIHXL0OEUQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+in+los+angeles+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR6Vm9NPZAFTgnNne0t6RSJonQokFyMNGF1EUG44O11gwxaDlZ_q6cdEJOGwCeBVY_LcCd3jEgh6OuIPLSYcdg5XWXmDwJ4v9A0kciqT6R1Z3TCGYXxOfdxBgVkmSYKvHJ9wZP08YuV807a8klBwnvgix6dJh5I_1iHBUCy1dOo9SUVWATAsGqMarmzDI_TCwxZxS-4nho-YoC5M9kw4mPFkMxfmm6mjS5GEYcQDOxkKiFeVdp&sa=X&ved=2ahUKEwjjjNSK_5iNAxXtHDQIHXL0OEUQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Argentine",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Argentine+tango+in+los+angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRN-MltAf8Ftun5ImJdO3gh4rmAtOWXllkt2hdkDDbyPomkbFcJXlU5PYjmjK748TchlBFXGrDHOjxZXeXWA1yivbI9_nrjXCbpLaF-W87yry8d9WdWzLlPBUUQEDB5Or1LvNj9GJihaYK4_irV7QGgtleKsqasW0ewjkU4nohLgOtbLPoJhSfyzp7MtXFhozFl46FHMPNs03z7JTHmdqe9YNCa5w&sa=X&ved=2ahUKEwjjjNSK_5iNAxXtHDQIHXL0OEUQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Tango mango",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+mango+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhkPU45yyuoYxzorxbdYchr-ewru9e2NWcOwh5tA9RjfK0tEmrT8SqMGFzSZzW6gw5uSXQW6WzVbBxKtIXhjM_FeXnJh-D3cI274yEKacLC-yJDHnXVZI4SiUfG4TY8rXpQKaJkVY2n0Vh64ZCYkSsutjZHllTkBoj9HsOWQghH59yGu8bZw33BUnN_InaszbGZkCVQrakUVaualFw2ueelXj6uY&sa=X&ved=2ahUKEwjjjNSK_5iNAxXtHDQIHXL0OEUQxKsJegQIRRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "video",
+            "images",
+            "related_searches"
+          ],
+          "se_results_count": 30100000,
+          "items_count": 7,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.danceus.org",
+              "title": "Los Angeles Tango Calendar: Dance Classes, Events, ...",
+              "url": "https://www.danceus.org/events/argentine-tango/los-angeles-ca-tango-calendar/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.danceus.org › events › argentine-tango › l...",
+              "website_name": "DanceUs.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "See current Argentine tango Los Angeles, CA events calendar featuring daily classes, free events, milongas, practicas, festivals & performances.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "current Argentine tango Los Angeles, CA events calendar"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Los Angeles Tango Academy",
+              "description": "10+ years in business · 3509 Casitas Ave \n\nUpbeat venue for tango classes & lessons \n",
+              "domain": "latangoacademy.com",
+              "phone": "(818) 208-0567",
+              "url": "http://latangoacademy.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 61,
+                "rating_max": 5
+              },
+              "cid": "3951046266112808396",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "The Tango Room Dance Center",
+              "description": "20+ years in business · Sherman Oaks, CA \nClosed ⋅ Opens 9:30 AM \nOnsite services \n",
+              "domain": "www.thetangoroom.com",
+              "phone": "(818) 981-6500",
+              "url": "https://www.thetangoroom.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 50,
+                "rating_max": 5
+              },
+              "cid": "203248798178115544",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Oxygen Tango",
+              "description": "15+ years in business · Inglewood, CA \nClosed ⋅ Opens 2 PM \nOnline classes \n",
+              "domain": "www.oxygentango.com",
+              "phone": "(310) 737-8438",
+              "url": "http://www.oxygentango.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 11,
+                "rating_max": 5
+              },
+              "cid": "10846133113517091131",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Tango 101S: Rock turn to the Right and Left - Class Demo",
+                  "timestamp": "2021-10-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=AivSQhBhY9s"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Tango 404M: Repeating Boleos",
+                  "timestamp": "2022-01-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=tkI0GdaS7xM"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Milonga Tango Plus. Two years celebration. Los Angeles ...",
+                  "timestamp": "2024-03-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=D_UcKLNPpCI"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=tango+in+Los+Angeles&udm=2&source=univ&fir=g4vTVlxvaxpmqM%252ClTa2bde4WqKvQM%252C_%253BjTYMrQ260-JewM%252C8txBlT6M1flZPM%252C_%253BR87hLzuGHAuAbM%252C01L9L0vXqJ3MNM%252C_%253BVJrDn73qcTla1M%252Cil_dZ-9d0hVrcM%252C_%253BLSPI8_Xcb6R-qM%252COfobd7k0xF5e5M%252C_%253BamfmSnSJiYxwKM%252Cil_dZ-9d0hVrcM%252C_%253BkiqH-40P0-tKNM%252CIo3q3LgzMWVABM%252C_%253Bk0cIXy-j2XpswM%252ColHvbiu2zXOq-M%252C_%253Bs3iBp4Did3HETM%252CvcF5XgTKkLxR6M%252C_&usg=AI4_-kRkdUyYgyIv9lBSIGsmoPSk6qY_Kg&sa=X&ved=2ahUKEwjjjNSK_5iNAxXtHDQIHXL0OEUQ7Al6BAg-EAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Tango in LA",
+                  "url": "https://www.facebook.com/groups/tangoinla/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-c762056eef81:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "We call it Tango Los Angeles Tickets | Fever",
+                  "url": "https://feverup.com/m/175598",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-c762056eef81:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Argentine Tango Lessons in Los Angeles - By Your Side",
+                  "url": "https://byyoursidedancestudio.com/argentine-tango-lessons-los-angeles/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-c762056eef81:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Los Angeles Tango Academy | Tango Classes",
+                  "url": "https://www.latangoacademy.com/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWxrgsmvUCqfSPSRFMJncieUPqntUQDwSAgehay_Gm6c1TBOZqI1QCncI&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Tango Events in Los Angeles & Abroad",
+                  "url": "https://yuli-b.com/tango-in-los-angeles/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQABjgcib7ByGzu3-U_pDCdZI_RmxwzH7JUNvm6F7ORRV0CJ24qoME-A50&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Los Angeles Tango Academy | Tango Classes",
+                  "url": "https://www.latangoacademy.com/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuR9oofgu_FanxWABOWLgSVVavcFneUcJ81z1q20jA82UPMU2Bah-oBXo&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Tango Queer Los Angeles",
+                  "url": "https://www.facebook.com/TangoQueerLA/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJYvvo1p5N7VVE5jNvbEwid2bqtdcT9imIuyx-5GwkCO0LmaZnMrsYRQI&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Gavito Tango Festival",
+                  "url": "https://www.facebook.com/Gavitotangofestival/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7c6-PruEAhS1EFJE0XyKt9LDwt-z7vriT0bPaXcXZaYA2M9dQ_gTCHjY&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Gavito Tango Festival - October 2nd - 5th, 2025",
+                  "url": "https://gavitotangofestival.com/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-ybpCML5oIQHWVVDs0z4X9FfQFOw1R5-UC2LU3Zyag_KI4o-7I27FsA&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[11]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Los Angeles Tango calendar",
+                "Tango in los angeles for adults",
+                "Argentine tango in los angeles",
+                "Best tango in los angeles",
+                "Tango mango Los Angeles",
+                "Tango classes Los Angeles",
+                "Oxygen Tango",
+                "Tango Orange County"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

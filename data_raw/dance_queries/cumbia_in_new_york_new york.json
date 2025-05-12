@@ -1,0 +1,301 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.3007 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100309-9976-0139-0000-4c0faa72db89",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.2646 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "cumbia in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "cumbia in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=cumbia%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:10:03 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-RNTlWGMYS0aA5aztULcqF6JdNpVJ1UK8Oif6zCEAzjUkbS2S0mRSc5JkKeo7YeG5oQReH5NILjnGRYx7T5rT4yhZ5nBht2u_M8_iLXpJeyCHe2eG5PncpqkPxlnQBOVueQ_BmVaHf3p3LsfICCbRBJmbUsUaVAK4uHQT7hbL9PfaGv0F9E0IAtXPsyn3fYPW2cY-1UUNJxqLmJKK9nLTNat4oAQ7rIPavOnI5QA3rwlBkKMTE8JPfUzomG4SeWHq4G1l5PR6aJVtYrZ1Nf0NtrUhjbiHqlzIbAHidFSdVLmsIFBW5zV4JOZgdjfIOEHF3qYhdcsrieOMQ_7HO_Ywo0PxA7NqjV4FavO_XX3naclBgkqV6HWeybNZY_d8CRAVXK3npHujZADn6-lBYn9h2c1EA7BeEKWrNFXPXVQ4qxKtVPmQVw&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRzwWs3mWo14dTsZxR9R_Jx2LgSkuZM1j_drc-dd0RTXWz_aWqNwOp2oh9mH-ywGR_jFm_KF7DDoz3lFA1-iZsA8GUDCZ06SEh580YugBZ0dcry0A7_C-_H15Qxszv5er2qNjah2q_0KEJnukvAke05H1hkFiSROmWtQhlztnMqDNSmjLYmJLMH8lU9U-J7XWb407P1l6kholyeaqJ6pfXCUm9z2v0FcVilMPfvn0WB397017AWCPaZ_gT8qeB4zfxTEaXHdoT0IhfsdNNa0FcXDO86IzCSkFZ4lwkFY-v4_iGitOkbcVCw1mYYl3q2G36OZKO6tbbUVAKnKfRzvnLbtIVxXKNEikC2u0QUZYYNmWoc_awAU8W1vRd4yVb3TL_J-kIoMhom5u_L6_TrEPHU9lH-FWRMlzrVEomnndSB_GW7AnTlGUG5Z66lE_rPNUaeDgXCs6zMYzfqhoFd7uSPZSJ0Vg&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-RNTlWGMYS0aA5aztULcqF6JUARm_xkxw0DPep3Caf_A77xLkPIKNEmbEhwOiAn4YlhC22HIXvCvUlfFQ72hQ4wN2IGOPGSIJqaxxXFGuGWhOTDRoAYaLXGYTcZ_6g78OAq8CSdpyJVLQ_JGFhfd6zmJ_YMtN0T2uW-kWHKaLyTHjxKqvyVD0zcJI7ina3JZycdpwhyP18RsvKNR4_20kJUrFQjELopBIv1pxLLz5XWUGr5t5FAWelGs2PhPMGB9SomrEMvtv4OwAmEeDanwpzNJtNkTGBfzmhGzMZLWJSsQbMIbEWBR2aL2KZoJLQnFg9ZBcRnpSskI4nP42mU5M9C2DTaa5gZbtkze3T5-Bj7AtcpHp3-Uk7kH_QZs82Q9n57fe1aLPIzztzunIjcPRFJ_KwqSTCxCQPn2gCnB19rxkG9E_tM8AWN9TNy5dwJ5zmAnnc-Q&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRqivYiTEe4__mAzGX6iG8edetw8mtWnok_Ov7hpta8wzvIBNGI0wJ_sloGIjCN9R8l68mKwGb_zV5bSYV6qo2i7zABm0_kQRDi7F2he9CRnnGd-HNx-Ve_yBuvcua9swXHeBXt5BjS1jvh741f-35WnPG_VblcTWHXpvSz4jwg1v932IHuMKXRrCdvCvMuuMIz4jouSQTNCSYwMUMgWkZ7jNGPUNBfzcEjIixp4FwZXhtKWUArbrlojchY2HbiGc3LSH5tFHqj4USnb4ssnER8VXoyonENaAvAm5Ci21wzTRpFkSGXpuYDgAaweFg9I_XrBly75gjHLkJQ_vYwBXFNTt70sFoou0cLraBsz5_55nj2WOjdsGNnO8qBAzsbZE9N9A5onPkKabqMhmKIUf6ssfVX1asdxNJRAGUlsZ8K9INoqvbc0c-9e0Vg5qRjOfiRWCrYykH_zxURRFIkVYnjKWbRsg&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-RNTlWGMYS0aA5aztULcqF6JdNpVJ1UK8Oif6zCEAzjUkbS2S0mRSc5JkKeo7YeG5oQReH5NILjnGRYx7T5rT4yhZ5nBht2u_M8_iLXpJeyCHe2eG5PncpqkPxlnQBOVueQ_BmVaHf3p3LsfICCbRBJmbUsUaVAK4uHQT7hbL9PfaGv0F9E0IAtXPsyn3fYPW2cY-1UUNJxqLmJKK9nLTNat4oAQ7rIPavOnI5QA3rwlBkKMTE8JPfUzomG4SeWHq4G1l5PR6aJVtYrZ1Nf0NtrUhjbiHqlzIbAHidFSdVLmsIFBW5zV4JOZgdjfIOEHF3qYhdcsrieOMQ_7HO_Ywo0PxA7NqjV4FavO_XX3naclBgkqV6HWeybNZY_d8CRAVXK3npHujZADn6-lBYn9h2c1EA7BeEKWrNFXPXVQ4qxKtVPmQVw&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRzwWs3mWo14dTsZxR9R_Jx2LgSkuZM1j_drc-dd0RTXWz_aWqNwOp2oh9mH-ywGR_jFm_KF7DDoz3lFA1-iZsA8GUDCZ06SEh580YugBZ0dcry0A7_C-_H15Qxszv5er2qNjah2q_0KEJnukvAke05H1hkFiSROmWtQhlztnMqDNSmjLYmJLMH8lU9U-J7XWb407P1l6kholyeaqJ6pfXCUm9z2v0FcVilMPfvn0WB397017AWCPaZ_gT8qeB4zfxTEaXHdoT0IhfsdNNa0FcXDO86IzCSkFZ4lwkFY-v4_iGitOkbcVCw1mYYl3q2G36OZKO6tbbUVAKnKfRzvnLbtIVxXKNEikC2u0QUZYYNmWoc_awAU8W1vRd4yVb3TL_J-kIoMhom5u_L6_TrEPHU9lH-FWRMlzrVEomnndSB_GW7AnTlGUG5Z66lE_rPNUaeDgXCs6zMYzfqhoFd7uSPZSJ0Vg&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-RNTlWGMYS0aA5aztULcqF6JUARm_xkxw0DPep3Caf_A77xLkPIKNEmbEhwOiAn4YlhC22HIXvCvUlfFQ72hQ4wN2IGOPGSIJqaxxXFGuGWhOTDRoAYaLXGYTcZ_6g78OAq8CSdpyJVLQ_JGFhfd6zmJ_YMtN0T2uW-kWHKaLyTHjxKqvyVD0zcJI7ina3JZycdpwhyP18RsvKNR4_20kJUrFQjELopBIv1pxLLz5XWUGr5t5FAWelGs2PhPMGB9SomrEMvtv4OwAmEeDanwpzNJtNkTGBfzmhGzMZLWJSsQbMIbEWBR2aL2KZoJLQnFg9ZBcRnpSskI4nP42mU5M9C2DTaa5gZbtkze3T5-Bj7AtcpHp3-Uk7kH_QZs82Q9n57fe1aLPIzztzunIjcPRFJ_KwqSTCxCQPn2gCnB19rxkG9E_tM8AWN9TNy5dwJ5zmAnnc-Q&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRqivYiTEe4__mAzGX6iG8edetw8mtWnok_Ov7hpta8wzvIBNGI0wJ_sloGIjCN9R8l68mKwGb_zV5bSYV6qo2i7zABm0_kQRDi7F2he9CRnnGd-HNx-Ve_yBuvcua9swXHeBXt5BjS1jvh741f-35WnPG_VblcTWHXpvSz4jwg1v932IHuMKXRrCdvCvMuuMIz4jouSQTNCSYwMUMgWkZ7jNGPUNBfzcEjIixp4FwZXhtKWUArbrlojchY2HbiGc3LSH5tFHqj4USnb4ssnER8VXoyonENaAvAm5Ci21wzTRpFkSGXpuYDgAaweFg9I_XrBly75gjHLkJQ_vYwBXFNTt70sFoou0cLraBsz5_55nj2WOjdsGNnO8qBAzsbZE9N9A5onPkKabqMhmKIUf6ssfVX1asdxNJRAGUlsZ8K9INoqvbc0c-9e0Vg5qRjOfiRWCrYykH_zxURRFIkVYnjKWbRsg&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQkbEKegQIHRAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cumbia+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRkJOlbywV14DlTFW-fr5V3hiCqUEyejhuNCKIW-9LLW9U-410hR1s7hUeoU2LxR7CpDGylk48SpqjGSnbKRfgA_-k0WPeMGLH7q9qcvO1JeTkqIbI_XTRy8p27I1Fu5wWUs-sMi6HYHGEl9M8telWZIE6ai-wmo9lmwvt6Ea89bNeNU3Z&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Takeout",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=takeout+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSNt1-rqf8hkZu1DIv9L-GA2RMnlLCxO5W8kSMcV5afI282Maqt371Ow5c0T3jYyxBT_GPM1exQwqSLsIjtd2j5-Rua8Ljo59oHt66VlslMR5POWb0OZsTWV2XoJapOo2D6rZbeGj4It6uDL1A8-U8lluSKGhvZPQxunPMjNW2Q74Yoz6QzwZ8IIEe4m0drXQSImJe-bCtRVk4Dw6XhhN7l-9d66t&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Delivery",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=delivery+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRTNhS8l2hmPuKkU8JKluGC9tdzVlZO9ry8vQX0GdSuad9xo6gurYQrHKKW9O5KXGfcvTokFQyX2QWhy2LZcpcATEApqmEyIDWvw05OCnHpVXbpeJKcCURh6CQl15GjYz6Jg6cGirIsjh6rIKUl4C8EUchX5kQpK8FmUDgYQaumeNygv3fgIsGK1av5YatFw5h0zwxDTfmJIpFCprDHyrL10v-_-YflvI2Ae4pabuINLlGkJvQ&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Accepts reservations",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=accepts+reservations+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRa8ZeAKlo9iK1FrsqMuGZ6dKDddiwWS98b-jgiuh5ry3bEtR6Tt9w-LovNH4RXtL8SzoDd9c-YYGjQZXsKl0o90cRNEEfZgBkquq1e6eZ7e5qIJkwGPrnV9mKkyFuae9dBjQAzymS-h5Iv61RSdHFSPEs8fTe9guouheE4yxKhBmcwf4pvRO9R8D3yBlVgDEn7t0Qq2S2bm5eMpPS1yE7p35r6uw45NKEG3wd95ew_JYAYn91_jexYKN4Yat0Ys4ui8K9sQ&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Beer",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=beer+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRj6Rf12M6Gawrxdbl5TakBcOqgam7PQXmATqcCjLzB2K20vWx5BqmQoX2t8r3F6yIFHcjodYn6oJtcadFMLDnrSF9ypNOoggFepaJWFYhfdsI-spxax3ZosVNzNkyLV_7U7QN8T_7CeyzHC-0hTa1-dk78L1o6HWrRAEXgS3RNNhgeZCRqf3iJLVVxdRWhMx313G5W-mZHEySwSg9Y_qMARTgfTWp3Txlt0n1xyKEv6mzwn6l&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQIORAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRrm7Wb6XKs3CHTvcgcVo4gpeUhBo0xR90-jqHqYRoQmqAwQFJ9gmScoWqqLseaJnRDaEJFNdmha_o4Dc90ZV3EBe50tEIgTj4KowbQzZgoxP94Pu5ThP4kXcMTGfg6he1nwnrepdANSzcbxyJMrHbrWZ1y6fAGMnl59UjUqpJkwB7rBOS&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Dine-in",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=dine-in+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrkztfcq-wPi0aTWxyR4XNwsOWVBWguNil-fF1kz2YIiwLk3FfilE-dl0t7baU_ud0ZFYhT5uZjCXUF0pxKL-rKJ1bjtiTgkIPrePRPs1b1XZQ1Lhy8AgULyzmOQDK0bubvhDDui7Bv6i0VSxlgU11yCj-B6BY9HycYxepVslL_-F8xT7Rfoe7jmP7O2IZuC2kWMqXYgXyDLc85gzsmrxnvjObpZFN&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQIOBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Good for kids",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=good+for+kids+cumbia+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnFAASpKAt2FbIRnDyP4rjbZNzP5csKY_gUznJfAQ08OOoxIsTq726hG_CRZZhIBQVwUHXTFApWwGCGOTTA4XrmMogu9g5QHig4vGQVz63W_nJggHXXvCcqsDNQeyqNzTcWAM8JM4d8kfyGVPwWIrUz4jFL_r-nhX33J0AlkwbdA84rWoFvRSN0EhZCuu4W1NVGfsZfyXiuoaz49eah9HqJmE9cY5MsRLUIrGePbFXDsWgcQKqYoZRUF1391LKndXL6hU6g&sa=X&ved=2ahUKEwiSuue7zpeNAxXZv4kEHfLbKbQQxKsJegQINxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 5760000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.yelp.com",
+              "title": "BEST of New York, NY Cumbias Dance Clubs",
+              "url": "https://www.yelp.com/search?find_desc=Cumbias+Dance+Clubs&find_loc=New+York%2C+NY",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.yelp.com \u203a Nightlife",
+              "website_name": "Yelp",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Top 10 Best Cumbias Dance Clubs Near New York, New York \u00b7 1. Bembe \u00b7 2. The Village Underground \u00b7 3. Mehanata \u00b7 4. La Boom \u00b7 5. SOB's \u00b7 6. Brasil's Nightclub.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Bembe"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Mar\u00eda Mulata Restaurant & Bar",
+              "description": "1007 Lexington Ave \n\"The decor very Latin in a modern way.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 161,
+                "rating_max": 5
+              },
+              "cid": "3598017869522458364",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Cantina Rooftop",
+              "description": "605 W 48th St \n\"Lovely vibe, great service and great music.. 10/10 recommend\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 5800,
+                "rating_max": 5
+              },
+              "cid": "3241732956197496857",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Club Cache",
+              "description": "214 W 39th St \nClosed \u22c5 Opens 9\u202fPM Sat \n\"Great place to have some fun with Latin music and good drinks.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.9,
+                "votes_count": 277,
+                "rating_max": 5
+              },
+              "cid": "11807039516830775286",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Cumbia sonidera nyc",
+                "Cumbia dance classes NYC",
+                "Cumbia classes Brooklyn",
+                "Cumbia classes near me",
+                "Clases de cumbia sonidera near me"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

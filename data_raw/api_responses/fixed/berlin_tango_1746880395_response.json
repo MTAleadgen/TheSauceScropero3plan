@@ -1,0 +1,226 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "11.0751 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101533-9976-0139-0000-7549e6ffc3b7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "11.0315 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in Berlin",
+        "location_code": 1003854,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in Berlin",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1003854,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20Berlin&num=1&hl=en&gl=DE&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQFZAz83TqhHEXA7XltGICEE",
+          "datetime": "2025-05-10 12:33:14 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=tango+in+Berlin+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1-RonypZnhFpBUhojFIV1mPfITuuLihIFzYuLqABIaHNA8Hm5uD4ojAMHxEeDki3fk3Kqk6QVKxiKjS3SvajNVrXozpSdx8GTLZ1x7ohfQ2tBnJ42svhZe5sKyb3W_kfK-Xy9DwVXl5f5uqV7seD_83iyd3xjRq0bf73vK8D05eyOZ7A&sa=X&ved=2ahUKEwjx6cvK9JiNAxWoC3kGHSpNK2gQxKsJegQIGxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=top+rated+tango+in+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRV8y_C2X_FCyL36R43E9QOHdOetiVHtDwirBiWzjpSeWq5wlGF-SLAn_tqudopf5UwjVr4u49KLrk4wW07MrhyhVMjrkg94tIL4mNwj-ZNAg4Ro6aePcjD8hbulEkmCCrobeKrHen3JCOGq9RL3203grGorgg0I1LeewOP78JvHyleeQu&sa=X&ved=2ahUKEwjx6cvK9JiNAxWoC3kGHSpNK2gQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Berlin+Tango+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk8J5YghXsp325uH2tZWqbg9FlhDHktWYlL1NU0sdiyD7RNHuPfvLfyBgn2a2qYUl2L6rgDJM6NARPZ7XUAizCT-GKZKTR3MWmqOE7z3mmGiIZI4fOB1UbUtlre81AIpKY_PKhh7dHYmWo8H1JOeEcxgepd7lj3qb7ePhFOX0ncjnwkGDm9tKqBcTfl4hgEWOgWytQKc&sa=X&ved=2ahUKEwjx6cvK9JiNAxWoC3kGHSpNK2gQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 13500000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hoy-milonga.com",
+              "title": "Milongas in Berlin",
+              "url": "https://www.hoy-milonga.com/berlin/en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hoy-milonga.com › berlin",
+              "website_name": "Hoy Milonga",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Find milongas day by day in Berlin · Los Viernes Matinée · La Catedral by Tangoloft Berlin · Tango am PLH · NOU - Die Freitagsmilonga · Haus der Sinne - Live Milonga.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "tango in Berlin from www.hoy-milonga.com",
+                  "url": "https://www.hoy-milonga.com/berlin/en",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-7549e6ffc3b7:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Los Viernes Matinée"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Tango Berlin",
+              "description": "3+ years in business \nClosed ⋅ Opens 7 pm \nOnline classes \n",
+              "domain": "www.tangoberlin.com",
+              "phone": "0176 57892628",
+              "url": "http://www.tangoberlin.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 37,
+                "rating_max": 5
+              },
+              "cid": "1300336885807434976",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Tangotanzen Macht Schön",
+              "description": "10+ years in business · Oranienstraße 185 \n\n",
+              "domain": "www.tangotanzenmachtschoen.de",
+              "phone": "0178 2903100",
+              "url": "https://www.tangotanzenmachtschoen.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 77,
+                "rating_max": 5
+              },
+              "cid": "6229437608411475259",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Nou Tango Berlin",
+              "description": "10+ years in business · Chausseestrasse 102 2. Obergeschoß, Seitenflügel \nClosed ⋅ Opens 3 pm Sun \n",
+              "domain": "noutango.berlin",
+              "phone": "0177 4227509",
+              "url": "http://noutango.berlin/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.3,
+                "votes_count": 60,
+                "rating_max": 5
+              },
+              "cid": "18034771393912583610",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Berlin Tango calendar",
+                "Hoy milonga Berlin",
+                "Nou Tango Berlin",
+                "Tango classes Berlin",
+                "Tango in germany",
+                "Tangoloft Berlin",
+                "Tango Milonga near me",
+                "Tango tonight"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJw-oJeHpRqEcR4MzjFoK5CxI",
+              "feature": "0x47a8517a7809eac3:0x120bb98216e3cce0",
+              "cid": "1300336885807434976",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

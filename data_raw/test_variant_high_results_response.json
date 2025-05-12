@@ -1,0 +1,304 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "14.0910 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100246-9976-0139-0000-87c67b996c53",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "14.0293 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa dance classes",
+        "location_name": "United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa dance classes",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20dance%20classes&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2025-05-09 23:46:32 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "video",
+            "courses",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 10100000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Salsa Dancing Beginner Basics Tutorial Video",
+                  "timestamp": "2020-09-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jpIJMKjxkQ0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Beginner's Guide: How To Salsa Dance (No Experience ...",
+                  "timestamp": "2019-01-27 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=C4MAFLeWY7c"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Salsa Dancing for Beginners",
+                  "timestamp": "2014-01-13 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=aVtWSZOttC0"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "courses",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "title": "Courses",
+              "categories": [
+                "Salsa",
+                "Music"
+              ],
+              "items": [
+                {
+                  "type": "courses_element",
+                  "title": "Learn How 2 Dance - Salsa (Beginner)",
+                  "url": "https://www.udemy.com/course/learn-how-2-dance-salsa-beginner/",
+                  "domain": "www.udemy.com",
+                  "source": "Darren Stuart",
+                  "description": "Paid \u00b7 2 hours",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100246-9976-0139-0000-87c67b996c53:0",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 280,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "Learn How To Dance Salsa: The Complete Course",
+                  "url": "https://www.udemy.com/course/salsa/",
+                  "domain": "www.udemy.com",
+                  "source": "Demetrio Rosario",
+                  "description": "Paid \u00b7 1 hour",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100246-9976-0139-0000-87c67b996c53:1",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 89,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "Living Room Dance: Salsa for Beginners",
+                  "url": "https://www.udemy.com/course/living-room-dance-salsa-for-beginners/",
+                  "domain": "www.udemy.com",
+                  "source": "Dan & Bianca",
+                  "description": "Paid \u00b7 2 hours",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05100246-9976-0139-0000-87c67b996c53:2",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 7,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "Salsa Bachata Latin Dancing",
+                  "url": "https://www.udemy.com/course/salsa-bachata-latin-dancing/",
+                  "domain": "www.udemy.com",
+                  "source": "Anita Makwana",
+                  "description": "Paid \u00b7 4 hours",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOJcGEy_FPgoszYDvrWgRcfwAVhhKckzqGTV7UkzXX&s",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "Learn How 2 Dance - Bachata (beginner)",
+                  "url": "https://www.udemy.com/course/learnhow2dance-bachata/",
+                  "domain": "www.udemy.com",
+                  "source": "Darren Stuart",
+                  "description": "Paid \u00b7 2 hours",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmhdJQC9Dw2bi4X3hvXKdvirX2_8MCZt_MnQppwDI4&s",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 179,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "10 Salsa Moves to Make You Shine on the Dance Floor",
+                  "url": "https://www.udemy.com/course/10-salsa-moves-to-make-you-shine-on-the-dance-floor/",
+                  "domain": "www.udemy.com",
+                  "source": "Mihai Banu",
+                  "description": "Paid \u00b7 1 hour",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8iJarpPVzuQSRWQ2sSahFU6Y9r5FJH_0OvZUZlMX5&s",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "Learn How 2 Dance - Salsa (Shines/Footwork)",
+                  "url": "https://www.udemy.com/course/learn-how-2-dance-salsa-shinesfootwork/",
+                  "domain": "www.udemy.com",
+                  "source": "Darren Stuart",
+                  "description": "Paid \u00b7 2 hours",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4TZEEI3EsH0cA-vqjWArc5wXBI7yMwqAcjDeGfWRA&s",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 61,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "Salsa Dance, Ladies Styling Complete Course - Improver Level",
+                  "url": "https://www.udemy.com/course/salsa-dance-ladies-styling-complete-course-improver-level/",
+                  "domain": "www.udemy.com",
+                  "source": "Incognito Dance",
+                  "description": "Paid \u00b7 53 minutes",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUhRNn70BUjPQ9zS6deKUluKXw40XpfQFQr6RaIDi&s",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "Learn Salsa Dancing - Beginners Level, Complete Course",
+                  "url": "https://www.udemy.com/course/learn-salsa-dancing-beginners-level-complete-course/",
+                  "domain": "www.udemy.com",
+                  "source": "Incognito Dance",
+                  "description": "Paid \u00b7 2 hours",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFp_35lsviNEnBlUllnZdFne9bczk--T39HGPuf0A4&s",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 28,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "courses_element",
+                  "title": "7 Salsa Moves - All you need to know to do a Full Dance",
+                  "url": "https://www.udemy.com/course/7-salsa-moves-all-you-need-to-know-to-do-a-full-dance/",
+                  "domain": "www.udemy.com",
+                  "source": "Mihai Banu",
+                  "description": "Paid \u00b7 56 minutes",
+                  "date": "2025-05-09 23:46:32 +00:00",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qCoJ5cl7u6BaidPLEFGVGlVGjTPaqrw-KtgmK13O&s",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Salsa",
+                "Zumba",
+                "Swing",
+                "Hip\u2011hop dance",
+                "Cuban salsa",
+                "Latin dance"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa dance classes near me",
+                "Salsa dance classes for adults",
+                "Salsa dance classes for beginners",
+                "Salsa dance classes NYC",
+                "Salsa dance classes Brooklyn",
+                "Salsa dance for kids",
+                "Salsa dance classes Houston",
+                "Salsa dance for beginners pdf"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

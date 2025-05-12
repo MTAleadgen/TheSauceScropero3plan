@@ -1,0 +1,285 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "12.0777 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101620-9976-0139-0000-7389a54c5968",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "12.0302 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in Miami",
+        "location_code": 1015116,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in Miami",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1015116,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20Miami&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRHByA6isNmIEWVPrd1x8pb_",
+          "datetime": "2025-05-10 13:21:01 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tonight",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+Miami+tonight&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4fZgRVfUql1Vwy-4UNkgBs78Rl2UQvOuTxaCNDkK9ecAk832sJA17dr4AlHQavSvqLCOco2zSbDim_B42MBlZ5Y6geCYT__mRDOooQZH0ToAUQVGYqxNKG4WNhkvhMddzGSqKnK64V4TEvZXqahipgi_FKTw0N1uLRjQEhYQdVeWKctwTiulNRHIEWqHet394h3FWno&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQIJxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJDP1lvH7VlXliZf0NOFO2Z0-Nj2tcHXkS-OsJC0MeJUqRNY_UZ1oRwd-81wtZyvMNc4RMIfS9_iiZHEQYcj4KplxaozqlBYJ32XY3T_dqgnulJxFH_ZCofV7VaruuV_xT8kxcN6z_ISmGSKx7lOXeejCJ5cv3hiMXM1SSOg9tohtaMN5F-TyKPz96AM9P2uF7YlPB4_cmJdgvrYEvZ2FtNlRISPtQHnGCAFuHAMzgJHCZ-W05rl7-38vP2sHD42cTeAAoUfpCzNTRUGoPSffs_nPsT0oWBOErOWu5fQabgvqeLsRWlUkYHJ8iXgMiR7Fcq3-hDVATagNXD2Owu2e1uaPrhEuBDvc1Km0deaq4ex0T5XGGxtaAR_9kay_mYjNS-AE_iiFm4_xmn9KD79m_775peXxXxOM1YIgyykWA2JSCyk5Drs5VrH2Hj7ksqz8WnK0Lw&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRC4RZv4fJpJARwVv76AlzcSExPCTI6h4Mgl_3IRjeWJmROPQsXcs7IEp8-YOL_hkRqB454n9wSg7MRLcqZE4BmC-BiEnV0ILm2IzluFr1Y7DpT4Ar3WQc-RzWapg_ydAuG5jxv-kDzIROTtxyOAlASMSQz6UtatiMznVzm-3EQXngjrbX8ThBf0LOLLLqUSM6S36Ao-9DRC47h_aiLNVJ7kFfheAv4RizT4vCTkCkdgjw3tblKOAT2YgiM6PFDkWzwOhBzd4lhUZThGlteskei_LFpARJQNMThb6b0Ib_ff65e-9EXihXGghNoxVtQHoA-2gU_9nb4zRK2cet2-Pjt-rXT5Wfp4WR4OjrZoz6XJm-La5ecAzp4l-4MeRhobacZT2o_FtLmD6OHooR9E8h89R22toRwQuNw3EIwJg3OFxzTZUAL3CfgiMEbORu-EjEMxt12w&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJDP1lvH7VlXliZf0NOFO2Z0-Nj2tcHXkS-OsJC0MeJXcFdj5x2LhukQIj5m-K1UY5Fl5i8NySp8AsWWxLLDKYZg8iGV-Fb7wwwu7KCw-AWkooijwoYkAj4w75MjV8ZNdqoJ_IRlE9taTMPrQ7DRq4hHf_eEDhwGHrE8CRLl3ay45sS00zv0OhAlgIuP6e5DI1hFh6qrwHNjbu28SnR-zpF5UL_aChLUDxkzTFTGGbP1wDLVzcvt_NglzCYkcMVkcohluzXHYVPJAntVR_E6nrrydlflTrnbAbQFSDP9BmHPuydttrR3TGF5KPVA6DpfTJRlLmg92QQ87QXnYOYxJxyyJ2BKToDH2NGsY23SBCq5WBwM4OTM1N48lUr0F0j0FYtyHvqHJ37qNm02RiSGrXJiaVe9xDJ75kbk8CWnQAKGrLev_mrsWjH0Fx6PzygsOjNFhSA&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRcoTW0eR-99cPd-asK_CpE_i_GzKTQjnbE7EqbExZHjx9WxIYzKZ2k7YzzQccG44EARSnvppLshWpF8iwEqbOT5_aY1fnO62O7BofhhRcXyDPaZ9ybLv4koC-NMmfDqJDE8zvpeTorrK0bHEdKGG6U2--F2nOYkP-vqYNgql-osUq1YP65b7bT330Bs2MhQX0QaWTP__WoGrJIVC_pPAbQGmA_euVWlWYbFGMrC1zGz4ZXxV-Ah3YclddYwir_QHScigK_eiVSZfwAW_N9hux2gEAogrAvn5a10BD7rJH984XSYcCS0G2_6SNVpt7OgxbUAsPlMJxjo65v2IdJlYgbH1JMbr3-swrhFdEXtS8VwHJMVxwO4otZs-lT-CD3AuUnRGSiI9R-Z1-QkWhpvQrF2NzFCdPfeuN2MZN25WXd0kXxarQtrFY7ZFSCha9Ap1sRKQ9rQ&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJDP1lvH7VlXliZf0NOFO2Z0-Nj2tcHXkS-OsJC0MeJUqRNY_UZ1oRwd-81wtZyvMNc4RMIfS9_iiZHEQYcj4KplxaozqlBYJ32XY3T_dqgnulJxFH_ZCofV7VaruuV_xT8kxcN6z_ISmGSKx7lOXeejCJ5cv3hiMXM1SSOg9tohtaMN5F-TyKPz96AM9P2uF7YlPB4_cmJdgvrYEvZ2FtNlRISPtQHnGCAFuHAMzgJHCZ-W05rl7-38vP2sHD42cTeAAoUfpCzNTRUGoPSffs_nPsT0oWBOErOWu5fQabgvqeLsRWlUkYHJ8iXgMiR7Fcq3-hDVATagNXD2Owu2e1uaPrhEuBDvc1Km0deaq4ex0T5XGGxtaAR_9kay_mYjNS-AE_iiFm4_xmn9KD79m_775peXxXxOM1YIgyykWA2JSCyk5Drs5VrH2Hj7ksqz8WnK0Lw&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRC4RZv4fJpJARwVv76AlzcSExPCTI6h4Mgl_3IRjeWJmROPQsXcs7IEp8-YOL_hkRqB454n9wSg7MRLcqZE4BmC-BiEnV0ILm2IzluFr1Y7DpT4Ar3WQc-RzWapg_ydAuG5jxv-kDzIROTtxyOAlASMSQz6UtatiMznVzm-3EQXngjrbX8ThBf0LOLLLqUSM6S36Ao-9DRC47h_aiLNVJ7kFfheAv4RizT4vCTkCkdgjw3tblKOAT2YgiM6PFDkWzwOhBzd4lhUZThGlteskei_LFpARJQNMThb6b0Ib_ff65e-9EXihXGghNoxVtQHoA-2gU_9nb4zRK2cet2-Pjt-rXT5Wfp4WR4OjrZoz6XJm-La5ecAzp4l-4MeRhobacZT2o_FtLmD6OHooR9E8h89R22toRwQuNw3EIwJg3OFxzTZUAL3CfgiMEbORu-EjEMxt12w&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJDP1lvH7VlXliZf0NOFO2Z0-Nj2tcHXkS-OsJC0MeJXcFdj5x2LhukQIj5m-K1UY5Fl5i8NySp8AsWWxLLDKYZg8iGV-Fb7wwwu7KCw-AWkooijwoYkAj4w75MjV8ZNdqoJ_IRlE9taTMPrQ7DRq4hHf_eEDhwGHrE8CRLl3ay45sS00zv0OhAlgIuP6e5DI1hFh6qrwHNjbu28SnR-zpF5UL_aChLUDxkzTFTGGbP1wDLVzcvt_NglzCYkcMVkcohluzXHYVPJAntVR_E6nrrydlflTrnbAbQFSDP9BmHPuydttrR3TGF5KPVA6DpfTJRlLmg92QQ87QXnYOYxJxyyJ2BKToDH2NGsY23SBCq5WBwM4OTM1N48lUr0F0j0FYtyHvqHJ37qNm02RiSGrXJiaVe9xDJ75kbk8CWnQAKGrLev_mrsWjH0Fx6PzygsOjNFhSA&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRcoTW0eR-99cPd-asK_CpE_i_GzKTQjnbE7EqbExZHjx9WxIYzKZ2k7YzzQccG44EARSnvppLshWpF8iwEqbOT5_aY1fnO62O7BofhhRcXyDPaZ9ybLv4koC-NMmfDqJDE8zvpeTorrK0bHEdKGG6U2--F2nOYkP-vqYNgql-osUq1YP65b7bT330Bs2MhQX0QaWTP__WoGrJIVC_pPAbQGmA_euVWlWYbFGMrC1zGz4ZXxV-Ah3YclddYwir_QHScigK_eiVSZfwAW_N9hux2gEAogrAvn5a10BD7rJH984XSYcCS0G2_6SNVpt7OgxbUAsPlMJxjo65v2IdJlYgbH1JMbr3-swrhFdEXtS8VwHJMVxwO4otZs-lT-CD3AuUnRGSiI9R-Z1-QkWhpvQrF2NzFCdPfeuN2MZN25WXd0kXxarQtrFY7ZFSCha9Ap1sRKQ9rQ&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQkbEKegQIJBAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=salsa+in+Miami+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRNZGV-tJ4hEUTVn7NU7dnyrKpEKFEjnjsV2FskBm0m710_mU6NioSZbpLkcnMWOgeuDbtuRPBvfrVHMUnTXEF4zdwanUGFEI9wabEG1XTXN_YhB4-tlvT8pIF60IwblsX5wsf4XSOY2TwUjXr_bw9AEVp7PbfFDxAlNjB-8C4ziGWlaVw&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQIJRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Takeout",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=takeout+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJkg0ZDdFNzx4sFXyfIelLSQk28AL2F--I8J7G4CtCXiMn4Hpocht7vgcLIyELdraXJetngkEKgY_hrHH0eRVLXl12Q3cJ7ACQ6XaKA7XeT5mwxNTCKer4C47udumN8G9qv2lQV2Hv6T8gRzrUSN5mhf1sjUQsgtfXhA7zVAR-yQYAckWd_wOpEx0r-70CpliH_hi0AsN0AULodawSYFRGz-dvuEdddx6eOOUdnKEQiX9lp0A&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQIIhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRf1I7PG00QoVFTZ77rtA8nmZRKEPidSdEj-GNL_5MgW9Lt0A4t8JgHQ9UOc3X42I-gCbe-yS8aLiDU8H80HqAipAwUCnJ1z_KQpL81J_CpJEsEGltXgvw8vQ1BZ8cG0tkIvq6CG__kXNGNISuZGqvUTUGVitC0IOjOjIV1BrAHX7Rt9btgJAKypEv6LhimTsO6aLeXAhmO3OxpvgSkteM5alrPU4FGgNtKJpFTCuGSjXHodua&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQIIxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "106.3",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+106.3+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRYo6i2EMDW575sLmJkl9tcA7T46IWY3WKAPvWKuCR8n8nz-tPTKFYa2Cikb6EMve0liy5qleMw9ctcAUAy6boOXF4-h4gdcTruDu-cNOM_IntsZ_p2LWOpGmEPXqUURa_6Gbvupn_fKgmpASAQwJxVzfKWYE3XMMF2fBru5z5ztSzCNRrKN6t79yQaDu3NxmFuv_kZxRN9ApOgoJAMb7OZgOL48Q&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQIOBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Beach",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+in+miami+beach&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRvgBNTbUYkaUNkTOYX2exwEEPDuS5LkucoYKdia-WqedBmgnN_V9QyJ7g68TC-LxevQ1tU5UWi9z2A1Aj0Z83dXAoJU4Uji8Fq8XNmsAC4GNltrj0GvXkDZ1MnckXCEmnKLMQJ86hdU-kL4lXCzfmXZUUhC7KZUdcqkcUmrV-J9idFmRNlU4atPGX0d02lHUKUeWLfhe2LPTD7eSdMHgV65lfkiU&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQINxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Delivery",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=delivery+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRyj7h9M9mmbDm1JtrbQsjzMGcnkhFi8dZ1Hz1KpNBf-vKheCqMaSYOJRLHedI5DI9_-wXt4fRb1H1-QnJIA3sHpmmgWKuaA-Rjyyel5JZqktkyyuyIJhvbIoAntQvOB6lWU7uy-mNkz0thWrg3yx37PLkIb2ogpLvzkWBrpqhWTNGjRCQWUgzsFiauQineR9tpJXH9ShdPHNJvVvhKjlbiOJ9EWCvvPtHZB6wqIfEZuTRhujh&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQIPBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Accepts reservations",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=accepts+reservations+salsa+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRKLbYjhJ4b-uMsFP01f8P0vr7ljYxLkemBw0VCAyK7P83XgWCeF8FLybHboM303CEA2IoTz2cRgr0zUC7-qnoR48anklhNBJbsVvP4ZhZwWPHoDGLE3eiIcR5jW_C9jISix4ZM0IXg8I3gAvgSIBHMdYprawOSWW58TFDUKUzo15dJyNdc5f8dj9bOR_QUu4AfwOtXTer-MpPsAYiI4OkVovpb2191vZKZDsb8189sGIzvQ30&sa=X&ved=2ahUKEwjcqvah_5iNAxXesoQIHbx3BWIQxKsJegQIORAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 38400000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsa Mia",
+              "description": "Miami Beach, FL \n\"Awesome food and drink,great Vibe and amazing Salsa Instructors...\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 132,
+                "rating_max": 5
+              },
+              "cid": "8190101944402827192",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "SALSA Central Miami Beach",
+              "description": "Miami Beach, FL \nClosed ⋅ Opens 12 PM \n\"He makes learning salsa/bachata fun and accessible.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 97,
+                "rating_max": 5
+              },
+              "cid": "16586952147102362143",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Mango's - Miami",
+              "description": "Miami Beach, FL \nClosed ⋅ Opens 12 PM \n\"My bf and I had Salsa and Bachata dance class here and it was memorable!\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 11000,
+                "rating_max": 5
+              },
+              "cid": "6780455652723293770",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "BALL & CHAIN",
+                "Cafe La Trova",
+                "Mango's ‑ Miami",
+                "Little Havana",
+                "Salsa",
+                "El Patio Wynwood"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa in miami beach",
+                "Live salsa music Miami",
+                "Salsa Miami tonight",
+                "Best salsa clubs in Miami",
+                "Free salsa classes Miami",
+                "Private Salsa lessons Miami",
+                "Salsa dancing in Little Havana Miami",
+                "Salsa dancing Miami reddit"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

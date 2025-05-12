@@ -1,0 +1,289 @@
+#!/usr/bin/env python3
+"""
+Fix DataForSEO API location format issues
+"""
+import os
+import json
+import base64
+import requests
+import logging
+from pathlib import Path
+from dotenv import load_dotenv
+import psycopg2
+from psycopg2.extras import Json
+
+# Load environment variables
+load_dotenv()
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATABASE_URL = os.getenv("DATABASE_URL")
+DATA_RAW_DIR = "./data_raw/api_responses"
+
+# Ensure data directories exist
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+# Location format mapping - DataForSEO requires specific formats
+# Format: "City,Region,Country"
+LOCATION_MAPPING = {
+    "Istanbul": "Istanbul,Istanbul,Turkey",
+    "Rio de Janeiro": "Rio de Janeiro,Rio de Janeiro,Brazil",
+    "São Paulo": "São Paulo,São Paulo,Brazil",
+    "New York": "New York,New York,United States",
+    "Los Angeles": "Los Angeles,California,United States",
+    "Chicago": "Chicago,Illinois,United States",
+    "Miami": "Miami,Florida,United States",
+    "London": "London,England,United Kingdom",
+    "Paris": "Paris,Ile-de-France,France",
+    "Berlin": "Berlin,Berlin,Germany",
+    "Madrid": "Madrid,Community of Madrid,Spain",
+    "Moscow": "Moscow,Moscow,Russia",
+    "Saint Petersburg": "Saint Petersburg,Saint Petersburg,Russia",
+    # Add more mappings as needed
+}
+
+def get_db_connection():
+    """Establish a connection to the PostgreSQL database."""
+    try:
+        conn = psycopg2.connect(DATABASE_URL)
+        logger.info("Database connection established.")
+        return conn
+    except psycopg2.Error as e:
+        logger.error(f"Database connection error: {e}")
+        return None
+
+def test_api_connection():
+    """Test the DataForSEO API connection with correct location format."""
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials not set. Please set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD environment variables.")
+        return False
+    
+    # DataForSEO API endpoint for Google Organic Search
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Test with New York (known working format)
+    test_location = "New York,New York,United States"
+    data = [{
+        "keyword": "salsa dance classes",
+        "location_name": test_location,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com"
+    }]
+    
+    try:
+        logger.info(f"Testing API connection with location: {test_location}")
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        if result.get('status_code') == 20000:
+            logger.info("API connection test successful.")
+            return True
+        else:
+            logger.error(f"API connection test failed. Status: {result.get('status_code')}, Message: {result.get('status_message')}")
+            return False
+            
+    except Exception as e:
+        logger.error(f"API connection test failed: {e}")
+        return False
+
+def query_with_fixed_location(city_name, dance_style="salsa"):
+    """Query the DataForSEO API with the fixed location format."""
+    if city_name not in LOCATION_MAPPING:
+        logger.warning(f"No location mapping found for {city_name}. Skipping.")
+        return None
+    
+    # Use the mapped location format
+    location_format = LOCATION_MAPPING[city_name]
+    
+    # DataForSEO API endpoint
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task
+    query = f"{dance_style} in {city_name}"
+    data = [{
+        "keyword": query,
+        "location_name": location_format,  # Properly formatted location
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com"
+    }]
+    
+    try:
+        logger.info(f"Querying: '{query}' with location format: {location_format}")
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the response
+        city_slug = city_name.replace(" ", "_").lower()
+        style_slug = dance_style.replace(" ", "_").lower()
+        city_dir = Path(DATA_RAW_DIR) / city_slug
+        city_dir.mkdir(exist_ok=True)
+        
+        raw_filename = f"{city_slug}_{style_slug}_response.json"
+        raw_path = city_dir / raw_filename
+        
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        logger.info(f"Saved raw API response to {raw_path}")
+        
+        # Check if the request was successful
+        if result.get('status_code') == 20000:
+            logger.info(f"Query successful for {dance_style} in {city_name}")
+            return result
+        else:
+            logger.error(f"Query failed. Status: {result.get('status_code')}, Message: {result.get('status_message')}")
+            return None
+            
+    except Exception as e:
+        logger.error(f"Error querying {dance_style} in {city_name}: {e}")
+        return None
+
+def update_event_raw_with_fixed_location(db_conn, city_name, dance_style, raw_json):
+    """Update the event_raw table with the fixed API response."""
+    if not db_conn:
+        logger.error("No database connection available.")
+        return False
+    
+    try:
+        # Prepare metadata
+        city_slug = city_name.replace(" ", "_").lower()
+        style_slug = dance_style.replace(" ", "_").lower()
+        original_filename = f"{city_slug}_{style_slug}_response.json"
+        original_filepath = f"data_raw/api_responses/{city_slug}/{original_filename}"
+        
+        # Create metadata dict
+        script_metadata = {
+            "script_city_name": city_name,
+            "script_dance_style": dance_style,
+            "script_file_type": "dataforseo_raw_response",
+            "original_file_name": original_filename,
+            "original_file_path": original_filepath
+        }
+        
+        # Get metro_id for this city
+        with db_conn.cursor() as cur:
+            cur.execute("SELECT geonameid FROM metro WHERE name = %s LIMIT 1", (city_name,))
+            result = cur.fetchone()
+            if not result:
+                logger.error(f"No metro record found for city: {city_name}")
+                return False
+            metro_id = result[0]
+        
+        # Get the task_id from the raw_json if available to use as source_event_id
+        task_id = None
+        if raw_json.get('tasks') and len(raw_json['tasks']) > 0:
+            task_id = raw_json['tasks'][0].get('id')
+        
+        # If no task_id, create a source_event_id from city and dance style
+        source_event_id = task_id or f"{city_slug}_{style_slug}"
+        
+        # Embed metadata in raw_json
+        final_raw_json = dict(raw_json)
+        final_raw_json["_script_discovery_metadata"] = script_metadata
+        
+        # Insert into event_raw
+        with db_conn.cursor() as cur:
+            insert_query = """
+                INSERT INTO event_raw (source, source_event_id, metro_id, raw_json, discovered_at)
+                VALUES (%s, %s, %s, %s, CURRENT_TIMESTAMP)
+                ON CONFLICT (source, source_event_id) 
+                DO UPDATE SET raw_json = %s, discovered_at = CURRENT_TIMESTAMP
+                RETURNING id;
+            """
+            
+            cur.execute(
+                insert_query, 
+                ('dataforseo_serp', source_event_id, metro_id, Json(final_raw_json), Json(final_raw_json))
+            )
+            
+            result = cur.fetchone()
+            if result:
+                logger.info(f"Successfully inserted/updated event_raw record with id: {result[0]}")
+                db_conn.commit()
+                return True
+            else:
+                logger.warning("No id returned from insert/update operation")
+                db_conn.commit()
+                return False
+                
+    except Exception as e:
+        logger.error(f"Error updating event_raw: {e}")
+        db_conn.rollback()
+        return False
+
+def main():
+    """Main function to fix DataForSEO API location issues."""
+    logger.info("Starting DataForSEO API location fix...")
+    
+    # Test API connection
+    if not test_api_connection():
+        logger.error("API connection test failed. Exiting.")
+        return
+    
+    # Connect to database
+    db_conn = get_db_connection()
+    if not db_conn:
+        logger.error("Failed to connect to database. Exiting.")
+        return
+    
+    try:
+        # Process each city and dance style
+        cities_to_process = list(LOCATION_MAPPING.keys())
+        dance_styles = ["salsa", "bachata", "kizomba", "zouk", "tango"]
+        
+        total_successful = 0
+        total_failed = 0
+        
+        for city in cities_to_process:
+            logger.info(f"Processing city: {city}")
+            for dance_style in dance_styles:
+                logger.info(f"  Querying {dance_style} in {city}")
+                
+                # Make the API call with fixed location format
+                result = query_with_fixed_location(city, dance_style)
+                
+                if result:
+                    # Update the database with the fixed result
+                    if update_event_raw_with_fixed_location(db_conn, city, dance_style, result):
+                        total_successful += 1
+                    else:
+                        total_failed += 1
+                else:
+                    total_failed += 1
+        
+        logger.info(f"Process completed. Successfully updated: {total_successful}, Failed: {total_failed}")
+        
+    except Exception as e:
+        logger.error(f"An error occurred during processing: {e}")
+    finally:
+        if db_conn:
+            db_conn.close()
+            logger.info("Database connection closed.")
+
+if __name__ == "__main__":
+    main() 

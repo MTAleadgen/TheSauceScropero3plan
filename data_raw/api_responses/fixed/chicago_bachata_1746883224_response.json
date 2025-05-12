@@ -1,0 +1,392 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.1227 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101620-9976-0139-0000-9f167413f6b7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.0514 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in Chicago",
+        "location_code": 1016367,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in Chicago",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1016367,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20Chicago&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCe3L9NA8LA6IEQDAwAmtpuCv",
+          "datetime": "2025-05-10 13:20:23 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tonight",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Bachata+Chicago+tonight&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfAdYCtoT4_iauzCH9DHo5OEQVEjjSepd9wQdaZVhBptfW2Duf2cty0bjl3Amcabgq2ABtasyKQOEniiDhh89JDpnfCOpZARam-nTsueT_6l-0VQFFvJWnNvWizcecEMPqL0NzGHEFCkmDevXdD_uiLsFH_wfTRqFu-1Nmd_AiRwfow3fEVdjc_h-PYkkMvX4T0_Xl6I&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIKBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+bachata+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-RFeJ-4tjGhc2IBJXxeXWBX0h36Hsk_upi06qSmgFf_zwN_z_B014v-N_yn7YAy9WgwjKdcAcITURTeIgyh_0KHf9mruWylil2-JGQdcRZvCPww7kfbp6kzkrT9L6lv4_WZhaFSg8EIQ-UcpzeogEBYkIfDfYqDXH0T7kDHwxgsZxpd4LfAfnLDRV7SfSf4SaM36NWJE0TumjWb1d82k79lGxW10yyElJ5Xmqw4VoNbOIUctvJwL0ihiV-AkgUcGS8ZRaWC9Qc_EkqC4vkizMTWJnw6V98smUn-QPnqY85rt1HlGmf0ATmIztqdUSThsVVtfJYbc5pX33Qn9e3t4gDkrG9Q8MBHAxlfWZMBI3Tv8rWT-B4kBXnn96AgCxKgVtqPDXImh9rRa0-Gd1w3XESFJ23LB2VzY8EKp94puQWS3kpXOXDQ&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+bachata+in+Chicago&uds=ABqPDvw9sRHz82M1nZcf0SG9O5AAsOruR5hNABegPQuamdRjNYjcEObKT3ajPP-xQ_-20uC9EaLUDn89ID0VEGib77MQqv7PhVah4wVTJdCorJ6B9yGTXykwwsPX2onPWqdHVcIT3tnPnRjg_Qp07ebAqz4BpKvxNw-NCFkhUBLUbF326JeR9Kq3JDxlXG8MOEZfYKHkDTabrNzSonZ3pZOa4K9jOWctfNIUE_bmOlvRPmR24UYUIuDb521WgTN1OsYb7rnc1v23IZR_dFEwMMmWGiyRCCZeQeubyaG-T63KUHB57jMjb3jEmXYyFiSpFs7em7bA8XD5LPOv2ZL72cLZFn6O9BlRIYi98454Kgapv3ZFDtbQ11GtIINqCvPfMlaPcQO6wQiUMZvHv1sKo8-4t4bVxVAyw3YtHV_f8juJW4jt_xXmbNy9oylqWWcXusujrBdFS9OoeddsKig5mjgvEBkRJh5h1w&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+bachata+in+Chicago&uds=ABqPDvwZiHcrEiplrYvSXLgFPWvSj1Uprqc0m-5qikWWUQf4KGr2yKfFecYUSQG12aZv1jaj4xDUL6wbMoC02MeaSe7Ew7ciVCCNSNfzv1-oE5LfLtx18K3eGbv5HA36dvfYc8_pJfU_Py1hjbnYrObD0P2ciy1I8H4QtHCDOtzNeTws2Lm63yxAvCKwf7UrdC7CFSZCnsiOFQPl-LwzGrSbwhfw8sKrZ9hpw30laR_gIAZ4Rc5Nnz9E4Cj_wOzzVrgAFQLCJnuwnegOcwhQpUZohu9u2koFCyY-Ol62ECzKc4YX87fs3WEFRNcwXhEgP0eZIm1kWMLa8HuKQHfCJjry2M8aThQxqmA-zOXrI9Mk1qcBP4vovEaNFI7XhXnKDt5GvLThP_kf_nYpMOLtb1fqEXOFcw6sYMpoSjaIpbRCzvNZcyxX2-mCZUbokzMxDioUB4ky9MYD3GtR913q_qrkFyfSFmOhz2rS_lj84K7WqS4TLXvJUq0&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+bachata+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRqivYiTEe4__mAzGX6iG8efqibLk8u1G4W2gX9PtSDrrp6rvSMl78TkN_ewJ3UlQrmd89NHBAepJjHelSWta52NX2K1LuUX3rrCtl9d7_XdSxgdtXTzcYS50AfX13Wm_6D9VKOZyukNH_WIlwYT0Dv6FZxZ4qnYGGf3FHzEcC9_-q4KfCyPEJY-Hsd-afbYRcGjQe3deFiCaPJN_rnLwnJRGnic2_bWbKZhu1OabEHOrZG64_g_x8snP4UagQaCqdhynWpCaxtCUsZtgcK-NvasvPodrC2toDX3q890ZoTOBWJaKWBRgeFUspO48qPK6o5aqr-TT-kryF9e0Z_bPWXZsVoGkZDq4t2ZZGXbU_CFBubHj6K6OPI8dgj_JeHTkrqU-G6fzokLB96ERO9YpAN80rfWbGDzGcHB6N0p5UkjCof-StUDeqJ1GSnc8OQvXA8gLXod452b1UyJph6F2OvsRtGM0&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+bachata+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-RFeJ-4tjGhc2IBJXxeXWBX0h36Hsk_upi06qSmgFf_zwN_z_B014v-N_yn7YAy9WgwjKdcAcITURTeIgyh_0KHf9mruWylil2-JGQdcRZvCPww7kfbp6kzkrT9L6lv4_WZhaFSg8EIQ-UcpzeogEBYkIfDfYqDXH0T7kDHwxgsZxpd4LfAfnLDRV7SfSf4SaM36NWJE0TumjWb1d82k79lGxW10yyElJ5Xmqw4VoNbOIUctvJwL0ihiV-AkgUcGS8ZRaWC9Qc_EkqC4vkizMTWJnw6V98smUn-QPnqY85rt1HlGmf0ATmIztqdUSThsVVtfJYbc5pX33Qn9e3t4gDkrG9Q8MBHAxlfWZMBI3Tv8rWT-B4kBXnn96AgCxKgVtqPDXImh9rRa0-Gd1w3XESFJ23LB2VzY8EKp94puQWS3kpXOXDQ&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+bachata+in+Chicago&uds=ABqPDvw9sRHz82M1nZcf0SG9O5AAsOruR5hNABegPQuamdRjNYjcEObKT3ajPP-xQ_-20uC9EaLUDn89ID0VEGib77MQqv7PhVah4wVTJdCorJ6B9yGTXykwwsPX2onPWqdHVcIT3tnPnRjg_Qp07ebAqz4BpKvxNw-NCFkhUBLUbF326JeR9Kq3JDxlXG8MOEZfYKHkDTabrNzSonZ3pZOa4K9jOWctfNIUE_bmOlvRPmR24UYUIuDb521WgTN1OsYb7rnc1v23IZR_dFEwMMmWGiyRCCZeQeubyaG-T63KUHB57jMjb3jEmXYyFiSpFs7em7bA8XD5LPOv2ZL72cLZFn6O9BlRIYi98454Kgapv3ZFDtbQ11GtIINqCvPfMlaPcQO6wQiUMZvHv1sKo8-4t4bVxVAyw3YtHV_f8juJW4jt_xXmbNy9oylqWWcXusujrBdFS9OoeddsKig5mjgvEBkRJh5h1w&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+bachata+in+Chicago&uds=ABqPDvwZiHcrEiplrYvSXLgFPWvSj1Uprqc0m-5qikWWUQf4KGr2yKfFecYUSQG12aZv1jaj4xDUL6wbMoC02MeaSe7Ew7ciVCCNSNfzv1-oE5LfLtx18K3eGbv5HA36dvfYc8_pJfU_Py1hjbnYrObD0P2ciy1I8H4QtHCDOtzNeTws2Lm63yxAvCKwf7UrdC7CFSZCnsiOFQPl-LwzGrSbwhfw8sKrZ9hpw30laR_gIAZ4Rc5Nnz9E4Cj_wOzzVrgAFQLCJnuwnegOcwhQpUZohu9u2koFCyY-Ol62ECzKc4YX87fs3WEFRNcwXhEgP0eZIm1kWMLa8HuKQHfCJjry2M8aThQxqmA-zOXrI9Mk1qcBP4vovEaNFI7XhXnKDt5GvLThP_kf_nYpMOLtb1fqEXOFcw6sYMpoSjaIpbRCzvNZcyxX2-mCZUbokzMxDioUB4ky9MYD3GtR913q_qrkFyfSFmOhz2rS_lj84K7WqS4TLXvJUq0&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+bachata+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRqivYiTEe4__mAzGX6iG8efqibLk8u1G4W2gX9PtSDrrp6rvSMl78TkN_ewJ3UlQrmd89NHBAepJjHelSWta52NX2K1LuUX3rrCtl9d7_XdSxgdtXTzcYS50AfX13Wm_6D9VKOZyukNH_WIlwYT0Dv6FZxZ4qnYGGf3FHzEcC9_-q4KfCyPEJY-Hsd-afbYRcGjQe3deFiCaPJN_rnLwnJRGnic2_bWbKZhu1OabEHOrZG64_g_x8snP4UagQaCqdhynWpCaxtCUsZtgcK-NvasvPodrC2toDX3q890ZoTOBWJaKWBRgeFUspO48qPK6o5aqr-TT-kryF9e0Z_bPWXZsVoGkZDq4t2ZZGXbU_CFBubHj6K6OPI8dgj_JeHTkrqU-G6fzokLB96ERO9YpAN80rfWbGDzGcHB6N0p5UkjCof-StUDeqJ1GSnc8OQvXA8gLXod452b1UyJph6F2OvsRtGM0&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QkbEKegQIERAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Traditional",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Traditional+bachata+in+chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRN-MltAf8Ftun5ImJdO3gh8VoK27pv_Xu9DdjFWe1ERR_jKOF1Rj3D2PlI1WuYxSxoXh9g-iTwJSHdBAMKiMg0amU-SgpV6OYRxEnhEgXA1iA_WmE0nGUt-ogNnPbx1Pvw6xvKKwW3dbn9fLenpsE5kfH2dUNbMPrfUgUnhNp-_13CpIOFI0qxpvqEFXIQTcqikvtyT7jWUbpIqVnpX4jvcg8XeE&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIJRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Bachata+classes+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfAdYCtoT4_iauzCH9DHo5OEG0aUMaudkznIG7X4S2Vw7SqP_dUBjYkccBwMm2xPh60UYb_Z6XwqWUJcSmguIr3nTAlTG78I4ubRDvhhGbhRl4nhw2v33TszlhbqMdFtM_yBtccxC7JVDkwwHuzPv72I0E31XtFX94k0wkMk9EBCjuvSKUlzO-Hv_D9c5HLKHyuyYzss&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIKRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Bachata+in+chicago+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1H1XMf1JwovFYwBm0EcUhTqvQgazcnwJRS_SBIqbyOBzjDDMsgNRuBhGlaEe_6-cqpzR9lyFPvLMPZxLJK229gzxXKOPluhgk0oI3MUoqyoPQFXtn-wJvIsWLyVxhpzq71bEREmDJy6dZhUebo1uf4Ayz2qblsiaW2aeD6MD2TsY94Bt3cYKqVswmEY5tNf_u-E0u6yuXoopqvDlGWGGndgmob4&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIIxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=bachata+in+Chicago+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRkJOlbywV14DlTFW-fr5V3naRJSVxRlujM89b5KIa-pQQPoISQ1xV3t2RYF_1SZbaPUnsGsmwJWkPROjW7D6UDrHQwbmLasWaAiBMOAFgeGn3AGwa_wCX3N7QvpHPL7u5l64rNoW3lpZaaf_FbsjQhMMzqaBdd3Y-mieQGmOsVZyI9oZS&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIQxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+bachata+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRrm7Wb6XKs3CHTvcgcVo4gvFycrjQRKOkgoPdtcXnqIbVcmQmck4TzotuZ6FTKM6EwHlEAI8gqE2JAzLgA8QeupPDP4z00n7Xyl2X9pwa_0lvnsR711dUyPCCHQ6kc9xSYXsO8pWGJk7YH1nnZ_7epGXa8Nk0ikXtzQ-gLKeJTFWJhi47&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIQRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Chicago+Bachata+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDmKf5IWthln8uSqXS56mPSORqgnwx2CtQRakgTBYW_vAxwKqfWv8rW47IDmflWUA_ir6EfZ3STDgv_pf3pOosNBdAhhFNhVtobp9Eo0TPBJdpyKCRv8ZZzlmBrLnBGmzgx6Kf4tzfDAiM68NooC54LPfVvpg6XN68ZGhnY30-tkZ5UVljAboPVKYtDdFELOLIQwRM__MzJDoM06r8A3QcA4PH90&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIRBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Night",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Bachata+night+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk_HJQqBZtv6FRaZd9iCbTI7gmQNc2auDiH_iWi_pgVImCLj0qRwdgdpn5TFK-prlXg9w9bT6gWt5sT181Uej-jvl-XeE_3gAeO6HnNXHS9MN2jg0KoHg2eVhBS0bZa8knqA3DAOfB0Qq_IwJyFNUJ-3rbFYiqyX1FyTMNbWG86BRkoMPcnlFUZG342JZ9jsNvxsuw0o&sa=X&ved=2ahUKEwj_ttSP_5iNAxVB_rsIHc-hMq4QxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "events",
+            "related_searches"
+          ],
+          "se_results_count": 3250000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.latinstreetdancing.com",
+              "title": "Latin Dance Nights and Events in Chicago » Salsa, Bachata",
+              "url": "https://www.latinstreetdancing.com/upcoming-events/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.latinstreetdancing.com › upcoming-events",
+              "website_name": "Latin Street",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Where to dance Chicago. Events for the Latin dance community: learn & dance Salsa, Bachata, and Cumbia. Tuesdays to Sundays, different nightclubs and ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Events for the Latin dance community"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Tropical Thursdays at The Loft",
+                  "description": null,
+                  "url": "https://www.latinstreetdancing.com/event/theloft/",
+                  "domain": "www.latinstreetdancing.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Tropical Fridays at Guild Row",
+                  "description": null,
+                  "url": "https://www.latinstreetdancing.com/event/guild-row/",
+                  "domain": "www.latinstreetdancing.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Latin Street Music & Dancing Studio",
+              "description": "600 W Roosevelt Rd #2w \nClosed ⋅ Opens 10 AM \n\"They have great instructors, like Ronny in the bachata classes.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 82,
+                "rating_max": 5
+              },
+              "cid": "1756164623801327098",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Latin Rhythms Academy of Dance & Performance",
+              "description": "20+ years in business · 210 N Racine Ave \nClosed ⋅ Opens 10 AM \n\"Awesome place to learn Salsa and Bachata !\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 91,
+                "rating_max": 5
+              },
+              "cid": "17086239008197872563",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Latin Bliss",
+              "description": "5515 N Lincoln Ave \nClosed ⋅ Opens 10 PM \n\"Variety of music free nights and bottle service!\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.2,
+                "votes_count": 272,
+                "rating_max": 5
+              },
+              "cid": "84294102993172463",
+              "rectangle": null
+            },
+            {
+              "type": "events",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "title": "Events",
+              "url": null,
+              "items": [
+                {
+                  "type": "events_element",
+                  "title": "CHICAGO SALSA & BACHATA FESTIVAL 2025 - 10 YEAR ANNIVERSARY",
+                  "snippet": "Nov 27, 10:00 PM Hyatt Regency O'Hare Chicago Rosemont, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Bachata Sensual Festival Chicago 2025",
+                  "snippet": "Sep 4, 9:00 PM Hyatt Regency O'Hare Chicago Rosemont, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Spring Fling Salsa Bachata Party",
+                  "snippet": "May 18, 5:00 PM Holiday Inn Chicago Oakbrook by IHG Oakbrook Terrace, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SALSA BACHATA THURSDAY'S AT ALHAMBRA PALACE",
+                  "snippet": "May 15, 8:00 PM Alhambra Palace Restaurant Chicago, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Salsa, Bachata, Cumbia and Mambo night!",
+                  "snippet": "May 31, 9:00 PM Simone's Chicago, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Desueño Dance Party - A Salsa, ChaCha, and Bachata Social",
+                  "snippet": "Jun 8, 5:00 PM Movement on Montrose Chicago, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Cha Cha Class + Open Dance Social",
+                  "snippet": "May 24, 7:00 PM Ballroom Dance Chicago Chicago, IL $18",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Zacarias Ferreira at Candela Bar And Grill",
+                  "snippet": "Jun 28, 9:00 PM Candela Bar And Grill Niles, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Mambo Mayhem: South Side Salsa",
+                  "snippet": "May 16, 7:00 PM The Promontory Chicago, IL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Tropical Thursdays at The Loft",
+                  "snippet": "May 15, 8:30 PM The Loft Chicago, IL",
+                  "url": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Traditional bachata in chicago",
+                "Bachata classes Chicago",
+                "Bachata in chicago for beginners",
+                "Best bachata in chicago",
+                "Bachata night Chicago",
+                "Salsa Dancing Chicago tonight",
+                "Salsa dancing Chicago Saturday",
+                "Latin dancing Chicago"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

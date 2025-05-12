@@ -1,0 +1,317 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "8.9576 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100336-9976-0139-0000-d02a292cf48d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "8.8892 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "chacha in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "chacha in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=chacha%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:36:28 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-ROiMlD2gSllp1odIxd-XNKWLRh2keO-5dyo0h7-dKqedN4NMbJEuYUl4qHp_MxQ8p17MFo5DyTK5aob3_zGBUeGhgHWoQl6qqtIComMKvGjLUdBFj46fmUrA5AHYSgRTxzrezJK8hbi29h7ZW05kZF9vMi5JzVFuEvusTNYnEJKXn0UgGSqKT3QaSmp4rB3l9Tb3VFgF9Vb5E97zatYSnRUN93b28gELWNUmGjs5dbpnZROkOb9zil5FjZG__XnrwnKA7RqYPj3JioYzX3BlMQfXVByBemCJVe5yesGsr92w4XXkn1t8Y_ANYBrBZ58NrX43ASXPKWQdtPJZUBp39hO2vBeYiQgIpmSNlzDPLRif-8wWtFZqzFJnkCgLSqbQjm6MgG4yJ87MJGWvVBiupKW85twgsVcPpfm48hnsSNufTPdo1Q&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRzwWs3mWo14dTsZxR9R_JxwTm5l5vp-jSU2rV9iD-PCXmU_R4kE-eiNj8l48ysUatbwPDz2fPW7RujsL277kDCSADqF5uLT9DDW_Nmup73f1m7xAvz79N7l69poJK2MaauyHbkeDgdY6Ivbzg2Iz8oJ485lo8re8z_V5tMrJNzPIxgFbw8Jl5DJGw6gM9LfB-8Bo1213E12tY0dMCIj0RwDGoPsi4xwvEJ5p7OqBmusnIhJbe_sAVPQv9ID3k1CmjPdhYatlocqbNrChFUjogSrr5bBHYdqlFOcIDSGivG6krXmpi_bpUYcUU9SYcDHNyhGoQwgXJ470OAp5BJj_Z2lkrBqpGDW8v5DLxgRS-XEx0H6ZUzMDC7o8DPdf0uOaJhIjAdmEUCQ76eJGePR24JAaYAM1H-PjDUlfjvXXZEeYD1GW64ERTVPU57toxKc1xh_lgzw&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-ROiMlD2gSllp1odIxd-XNKWXH-hvgsMeeg1ayU-lfQKz12InPVA2lVPSa8zdG1CuxVLFVL8QAqYshxcR0vkQnCVSznaov2Ky6B_5Sp2lEeKlhQqKZAh3fZ3LFXbDmD9bb2mH8vJUYO3yAS0RiuPlnWkjI5ynroL-Ft5VSQWYE8t-r_Cs7MTnwVzZQ5aeo33SwvNep9Pxg3bNMtdwSuRU6HhnYskd_qd3ncTMEaZt_gpwWst6VomBDGWYHt8NqI-dPHbn8tw7dSZBaYNtvMrqh-is32Y1myyPTyCG8ATQqc2y5kI4sUh1C28ldpY2fRcqf2-rK3jAaPIPi4eXdySV_w2Cfl8ZhFBI-X8pfVTItrPRp33ghpJooZbvazR2_-eqvQ7qxJcvG4WvadJ6k-suJ-xTWyqZ_vh07N7dBv_6vyyHNSfetrCoibVnESpeWtLb9Q7_m8s&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRqivYiTEe4__mAzGX6iG8eZwybS-aQTTrz5h1eksxvoQGZmtmQGAv4yFO0huw_LMMRjtExiEcUNyCQmDuaXk8Fs5RS0oIzysPWkcnwIs9Xg_m_xE0AArfm5eLZXCGhByUnBvMco56-uZJ5xAe0c3GMehnVpF8cWVnNVlKu6C2v7I7UOlFH9DCJM3opGeRsKeunvzfx25vyUgi97f30xhpFM_9S887mEjZH3JdCaPDoo3I6S6PuVZ2p4ijUO-8E5ITlT1UeYTnxBe7KEDrf5nkPPmZCkM3cGP8ED8hgjarTjQ2Qbx3qhEry8kDFD7TTkdw0VtRkM6wbg2nhryMs6CeNrLMofgFaGqkw4uznh7YzZvQ77FL4KKOf6BpXW1tjE_cCVkIC6hmlgwETbPsqc6inH2JuI2tnn09AfEC7gmNSxWfT52Av9IIFswQvH8mofZjIIGkGQ&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-ROiMlD2gSllp1odIxd-XNKWLRh2keO-5dyo0h7-dKqedN4NMbJEuYUl4qHp_MxQ8p17MFo5DyTK5aob3_zGBUeGhgHWoQl6qqtIComMKvGjLUdBFj46fmUrA5AHYSgRTxzrezJK8hbi29h7ZW05kZF9vMi5JzVFuEvusTNYnEJKXn0UgGSqKT3QaSmp4rB3l9Tb3VFgF9Vb5E97zatYSnRUN93b28gELWNUmGjs5dbpnZROkOb9zil5FjZG__XnrwnKA7RqYPj3JioYzX3BlMQfXVByBemCJVe5yesGsr92w4XXkn1t8Y_ANYBrBZ58NrX43ASXPKWQdtPJZUBp39hO2vBeYiQgIpmSNlzDPLRif-8wWtFZqzFJnkCgLSqbQjm6MgG4yJ87MJGWvVBiupKW85twgsVcPpfm48hnsSNufTPdo1Q&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRzwWs3mWo14dTsZxR9R_JxwTm5l5vp-jSU2rV9iD-PCXmU_R4kE-eiNj8l48ysUatbwPDz2fPW7RujsL277kDCSADqF5uLT9DDW_Nmup73f1m7xAvz79N7l69poJK2MaauyHbkeDgdY6Ivbzg2Iz8oJ485lo8re8z_V5tMrJNzPIxgFbw8Jl5DJGw6gM9LfB-8Bo1213E12tY0dMCIj0RwDGoPsi4xwvEJ5p7OqBmusnIhJbe_sAVPQv9ID3k1CmjPdhYatlocqbNrChFUjogSrr5bBHYdqlFOcIDSGivG6krXmpi_bpUYcUU9SYcDHNyhGoQwgXJ470OAp5BJj_Z2lkrBqpGDW8v5DLxgRS-XEx0H6ZUzMDC7o8DPdf0uOaJhIjAdmEUCQ76eJGePR24JAaYAM1H-PjDUlfjvXXZEeYD1GW64ERTVPU57toxKc1xh_lgzw&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRSGVJ1lTVdWfjdCtELet-ROiMlD2gSllp1odIxd-XNKWXH-hvgsMeeg1ayU-lfQKz12InPVA2lVPSa8zdG1CuxVLFVL8QAqYshxcR0vkQnCVSznaov2Ky6B_5Sp2lEeKlhQqKZAh3fZ3LFXbDmD9bb2mH8vJUYO3yAS0RiuPlnWkjI5ynroL-Ft5VSQWYE8t-r_Cs7MTnwVzZQ5aeo33SwvNep9Pxg3bNMtdwSuRU6HhnYskd_qd3ncTMEaZt_gpwWst6VomBDGWYHt8NqI-dPHbn8tw7dSZBaYNtvMrqh-is32Y1myyPTyCG8ATQqc2y5kI4sUh1C28ldpY2fRcqf2-rK3jAaPIPi4eXdySV_w2Cfl8ZhFBI-X8pfVTItrPRp33ghpJooZbvazR2_-eqvQ7qxJcvG4WvadJ6k-suJ-xTWyqZ_vh07N7dBv_6vyyHNSfetrCoibVnESpeWtLb9Q7_m8s&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRqivYiTEe4__mAzGX6iG8eZwybS-aQTTrz5h1eksxvoQGZmtmQGAv4yFO0huw_LMMRjtExiEcUNyCQmDuaXk8Fs5RS0oIzysPWkcnwIs9Xg_m_xE0AArfm5eLZXCGhByUnBvMco56-uZJ5xAe0c3GMehnVpF8cWVnNVlKu6C2v7I7UOlFH9DCJM3opGeRsKeunvzfx25vyUgi97f30xhpFM_9S887mEjZH3JdCaPDoo3I6S6PuVZ2p4ijUO-8E5ITlT1UeYTnxBe7KEDrf5nkPPmZCkM3cGP8ED8hgjarTjQ2Qbx3qhEry8kDFD7TTkdw0VtRkM6wbg2nhryMs6CeNrLMofgFaGqkw4uznh7YzZvQ77FL4KKOf6BpXW1tjE_cCVkIC6hmlgwETbPsqc6inH2JuI2tnn09AfEC7gmNSxWfT52Av9IIFswQvH8mofZjIIGkGQ&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQkbEKegQIJhAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Menu",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Chacha+in+new+york+menu&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhVEh5Zney_fvH191l7fOQ0DZAo3NRimTTHCssxOp8yhQ3tH0wkPJH0TFEzSv26-Vp1wQP-Yw1vTOC-GRbinH88AOJx6DjBK3LcQCN35r-jhXbeamWBNv01R37ChQQm6SW2OGM_B6eRjyW6apRc1GUlgtXVWM-U-oK6J2TJcSo9vJR0gfQsJg9pQqhOAB7e3_T4Owo5IXW_RVraUao7bFB_lNzK8&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Restaurant",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Chacha+in+new+york+restaurant&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR4jQ2Dsr9h9acn0evSs7ltUYrzBwYpO31O-7Avm2S_PSdwSG1VqPBsYpWsfM6tdPeB_8-jwcfZmlioSV7PZ2jX8b8_ltUgVen_DSL5CwwCfit0P6uFYZFkxUJO3PkWzhp-YfzxFOlFyX-UpG2nbvcnrmJz4ofV2dqhkXD0Qk9chloC3hq34P-pmgFqq7zw4V0XFfnPC37UZbPN7W0Zq4TLejvxMQ&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=chacha+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRkJOlbywV14DlTFW-fr5V3hM2mE7zKvqssy54tbiGR8tFh87RHiCyRdAroJO6QNNG7yy3bOS-OKpJX-N4e9BDolVYBVbGYlY0cWes1CEe2fS8exXYIySD3cyN9GaXJxUoyQqLR9lFYyAXBjeIoZ1fi1wLl490wtlJQS4JeaujJf00soAd&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Takeout",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=takeout+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSFkZln9dv1RvKXO2FD15lDRFe2wAiQ0yitELvN3OXs1Ezh65pSwrAsrjv8oEd78eWyBOQdQMcpqtqgO9aYjjcP61PIoxd-W_MPwiV9_q0ucmlACBUYhik3Sm4NDgV8L8UkG7Is7smEjh3PrIVcHsessn_pZgs_eaIpfd46hv-FEu0-WEPrfNiSDvod8H46rJ1pxNafyJ-lRzrDEHu8lN-1M9Dzlo&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Delivery",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=delivery+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRTNhS8l2hmPuKkU8JKluGC2qWJeBDgc8Gcc3_efP42CZ2gywzIqQTC4xeIiwzZM95Ej7f_4hg3l-Nh0metgwFajyJFdXfZ-p2_O58Xpnci8Qfmux_zIwTrtnRaEcgfixovLlE_vAkomvkKW686oEptE2OCdHaATSKIHj-9fUsTNPUAHkUecuxDqKmkL5YO_LlVmf5tfVY3RvLRFN2DqwiCneBFwPZpFpCJchKYOQEXnYKSJ-j&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Accepts reservations",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=accepts+reservations+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRa8ZeAKlo9iK1FrsqMuGZ6fGoYwCHUMJIhkgx-4QZHb0cM7GGHhbJg7_NJZ4FbZ-O-pJRFUEP1ADdhpvBzPOt_Zq6n92RPsg8x-t_F_McXQ0wFHUlBY1CHl4D2ZbIQXVQeRU8byM66hoiiVZkihY9H3uy5ZGNYekPaoQq780CTdZmvENyfj8ePh_9LcmDKXpRY-_VPPQGVhs8n-QHNaxq1vxjVInN-1kEkQ3VC9z1MGLGPTYs&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIQRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRrm7Wb6XKs3CHTvcgcVo4gktce1wH4YPxTzyHo_FyfNHWWgcuTDkIIQ0KehGUp0eQRUy9w3Nhlgh_d1gvjiH9yrJBLTPEkG0UWl7FhWd5sDSpkd1w9k8Ub7g3lKhUaJYcrCnNw9Z_fn6Rf8sD5Xf5gJ3ucOmMAh-IX_joxBZoYRjWSdXO&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIPBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Dine-in",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=dine-in+chacha+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk1eB93aas2GbyiqKZAM0DyV6yr6e_Z3y2TLsviFP8TwNhqW6jQ-JwROXadh1PPNM8u6bbTENyE5GIahq7rS47Yl9YI7SP2hOu194suomVZHFwKK6zv39O_AjlIiFt7Mdty4Jl8ZaeNXPwLwMZ9O5hMS_IyTVXwIlDqr8aVkjncU6OelpH3mSCcb64csrehktMhstQcbntXxM-a9n0dWpxYxfDgAr&sa=X&ved=2ahUKEwir5v6u1JeNAxVAvokEHQU1LkYQxKsJegQIPxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "video",
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 1960000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Cha Cha New Yorkers Lesson For Beginners",
+                  "timestamp": "2018-02-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=cHeTjxD6ddY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Cha Cha Cha New York and Hand To Hand Steps by Loreta ...",
+                  "timestamp": "2020-12-02 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=nYxA_4LHDCk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "The New York in Cha Cha | 3 Different Ways (with an Open ...",
+                  "timestamp": "2019-11-29 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=1RFketDOIbg"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Cha Cha Matcha (NoMad)",
+              "description": "1158 Broadway \nClosed \u22c5 Opens 8\u202fAM Sat \nColorful shop for tea drinks & treats \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.4,
+                "votes_count": 1000,
+                "rating_max": 5
+              },
+              "cid": "13906915783797995310",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Cha Cha Tang",
+              "description": "257 6th Ave \nDine-in \u00b7 Takeout \u00b7 Delivery \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 101,
+                "rating_max": 5
+              },
+              "cid": "11676261432337478854",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Cha Cha Matcha (NoHo)",
+              "description": "327 Lafayette St \nClosed \u22c5 Opens 8\u202fAM Sat \nColorful shop for tea drinks & treats \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 320,
+                "rating_max": 5
+              },
+              "cid": "10405317935924472863",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Cha Cha Matcha",
+                "Matcha",
+                "Bubble tea",
+                "Turmeric latte",
+                "Green tea",
+                "Rocky's Matcha"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Chacha in new york restaurant",
+                "Chacha in new york menu",
+                "Cha Cha matcha",
+                "Cha cha matcha new York",
+                "Cha cha matcha menu",
+                "Cha cha matcha locations",
+                "Cha Cha Matcha bryant park",
+                "Cha Cha Matcha Moynihan"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

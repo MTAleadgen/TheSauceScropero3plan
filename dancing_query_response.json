@@ -1,0 +1,42 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1454 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 1,
+  "tasks": [
+    {
+      "id": "05120227-9976-0139-0000-efbf9fd9c2c6",
+      "status_code": 40501,
+      "status_message": "Invalid Field: 'location_name'.",
+      "time": "0 sec.",
+      "cost": 0,
+      "result_count": 0,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "events",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "events",
+        "keyword": "dancing in New York",
+        "location_name": "New York",
+        "language_name": "English",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 1,
+        "date_range": "next_week",
+        "priority": 1
+      },
+      "result": null
+    }
+  ]
+}

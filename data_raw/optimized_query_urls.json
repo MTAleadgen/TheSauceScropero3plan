@@ -1,0 +1,35 @@
+{
+  "total_urls": 10,
+  "urls_by_source": {
+    "local_pack": [
+      "http://gygnyc.com/",
+      "https://salsasabrosaschool.com/",
+      "http://www.salsasalsadancestudio.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16906655974687444521"
+    ],
+    "local_pack_domain": [
+      "https://gygnyc.com",
+      "https://salsasabrosaschool.com",
+      "https://www.salsasalsadancestudio.com"
+    ],
+    "organic": [
+      "https://www.salsanewyork.com/"
+    ],
+    "sitelink": [
+      "https://www.salsanewyork.com/list-class",
+      "https://www.salsanewyork.com/volunteer",
+      "https://www.salsanewyork.com/contact"
+    ]
+  },
+  "all_urls": [
+    "https://www.salsanewyork.com/",
+    "https://www.salsanewyork.com/list-class",
+    "https://www.salsanewyork.com/volunteer",
+    "https://www.salsanewyork.com/contact",
+    "http://gygnyc.com/",
+    "https://gygnyc.com",
+    "https://salsasabrosaschool.com/",
+    "https://salsasabrosaschool.com",
+    "http://www.salsasalsadancestudio.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16906655974687444521",
+    "https://www.salsasalsadancestudio.com"
+  ]
+}

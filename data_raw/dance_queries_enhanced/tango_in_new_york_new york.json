@@ -1,0 +1,247 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.9178 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100336-9976-0139-0000-8edd261b52e5",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.8789 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:36:07 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=New+York+Tango+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfN4fVQxI77sliGhzlMHSSaMgAmrXdmQ_CNlZMSdVweKKSklkwVZLTkvXYJK08lK3kiEqImnoXnmy6Se91-I_96TGHYIeeGmws8QHX67vO5UoMNNQWFsEyJWF_gGrQ7CgTp4O83xomnkzq8Fti95Oc4AZdhquV1tQNh9u1N-RtNsyxNMd2Hy94n2gXVYO7OXkJrKWriY&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Today",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Tango+in+new+york+today&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhVEh5Zney_fvH191l7fOQ8uUqDxwTHh-UzRl4D4K8Xt9tHDGWYMdYw_DwohlVTiQeuQrtjdPfiMR1eKQx-6WlqWmikXBa1Og1Cy29v9sppT0EARV5tF9rWZgfcbEo1F9DJARns5bC2VpQ3oO4ykHU1ydKj_e-eDtmEyqAlyDOz7SuMfXrIBgTr27IL0B7Ij4cSEaFLns5rMzKNtI4r-utzUiKCw&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIGBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=tango+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khe5ZXR0G0g_iOqTMxnf_5nO2BpxbAx8aNVxW9unn81xvRS9wWSPnoSUK_mrpQnySnh88HeuT1ZyGc9YWusE2SYtRZuYSF-sFtYGV1SMdX6uilz8WGTYTfQHKnE9ZFN-Vy7pmdCOROCD0Mr8A9LeXDVKkvFvd&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Tango+in+new+york+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR6Vm9NPZAFTgnNne0t6RSJsrN0z-GWLN1Fy116Y5oMMUDXi3jvAquuFWP8kuZYt8MYWcCBgs12UqBkXMCsnmJCsYfkAOAcI8MQqeXsTRqQJBkd9ZVuqQ9oKFOR-UNi2d0NyZ4L2loVc_LBG-AeSPrM7kOuZ3zuZPZVK-xUk4JAiIAa8ipttW9w2iwF52NKk8d0DzeI_MqtqnXiSEFV3KbW00EYT_O-DI9BPcsDm13V_kDb_sj&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Tango+in+new+york+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRewvedP6E73DGKs_vdafGCXYfPauvqgbd0UFmc7aoEyDQ6NsZRzcfjevm3VK1vYdjsmisyF8Z43GyDwTivyGZ7emt-j12vtT1dckWjCaX9-DlaP5wI8XvYAOKFpRzlls2hfWsM4hliYc8RyMXLU7DKGRXT9Ij12AtupXSkEIOT9B9aKQ0xNa1m4QAtMXFshydBFo1MCPV1KIOJqPT5g6aB4G3G6o&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=online+classes+tango+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnFAASpKAt2FbIRnDyP4rjT8ytKOxRfvqB_GlsDw-0DPb_2EUgeqnmSRr5jVPHUvLxggzwPjJQKckMVfwpYxFOmNHPcLyPWN2VfBgBuf_n_PvJzDYipkOlLFmAJUAqlvFzxkcpbSJkLGbzxbs8jUTi5uMPmSeRxOaUSoe8TRHcsYWPrJih6ddjCJhsthQgW5fX6VFVJRpHAP8cw5yJHhpRmsjc0cuUBdFppJzi7Y5HYpILC54&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival 2024",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=New+York+Tango+festival+2024&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpy6D5K1hLI3VVAhLmymzGudrvt0oPLfHFHxU068TbpoCUe1lCqvOmxzKrbVfd79GNL8gnkYW0PCzYoDYSkODQAZKn6_4N8j7ZO7A8z5IQ_US1S6wjPC4LBWVoRcc3zloJDxh6fVhEUGmnst9vbw4uPDI1XzxZ7QuTp4rkVceWaLndXtGB_n6dJ0NPp-Nm9f3Ej2nEo2A8FY2BzffL7eVHuoFO6Dsy97owt5aI507m1c3-C0R&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Argentine",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Argentine+tango+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-U7ulYFJvOEfk2azzLH_P8cUIUw78ENekGMh29ZJD4PcKNHPLnnaNVywfw8sZ0rUsGH2aTZky1rDZ6XKqxt0GaShkWCshew8sypg_Xq-LUkNMPNlaM4THWOmqbhpmVriFRLIBudNScPC_q6pR3lwcYYs6WdZTlRJAS5I_HjCEo9ITXX3tycOPZwybSVWBldnhOGaCpPbploZpDubceAuYiI1W6c&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIPBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+tango+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-hr_6l-QnjlapskfZR7OtObHgnxplBJP5CKGKdNhGEunydx1KMr5pXHzxmn04PVymQO_l0zGukXkjpOy-8eik_rRt3w4T7nj8RzCJHEbuo_VPSvnWupALiNRVRDhO27ZJYIeQ24iHM6J-NS52eaNw-h4W7uGqDWRR55ONQ7W8ZDS4CMS&sa=X&ved=2ahUKEwjTo4Om1JeNAxW81wIHHRErD9UQxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 63100000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "newyorktango.com",
+              "title": "New York Tango calendar with classes, milongas, practicas ...",
+              "url": "https://newyorktango.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://newyorktango.com",
+              "website_name": "New York Tango calendar",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The only correct calendar for Argentine tango in New York City and tri-state area. Find all events including tango parties (milongas), practicas, workshops,\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Argentine tango in New York City and tri-state area"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Victoria Codru Dance Studio",
+              "description": "Open \u22c5 Closes 10\u202fPM \n\"I love the passion she has for teaching the beautiful art of tango .\" \n",
+              "domain": "victoriacodru.com",
+              "phone": "(516) 732-0820",
+              "url": "http://victoriacodru.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 17,
+                "rating_max": 5
+              },
+              "cid": "12920261230530773084",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Triangulo: Boutique Studio For Argentine Tango",
+              "description": "25+ years in business \u00b7 289 7th Ave \nOpen \u22c5 Closes 11\u202fPM \n\"There are classes for all different levels and a practica after the class.\" \n",
+              "domain": "www.tangonyc.com",
+              "phone": "(917) 723-9735",
+              "url": "http://www.tangonyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 17,
+                "rating_max": 5
+              },
+              "cid": "6495736586248639656",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "The Tango Company",
+              "description": "20+ years in business \u00b7 520 8th Ave 16th floor \nOpen \u22c5 Closes 10\u202fPM \n\"The instructors are amazing in their craft and great people\" \n",
+              "domain": "www.tangoclassesnyc.com",
+              "phone": "(646) 242-5683",
+              "url": "http://www.tangoclassesnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 16,
+                "rating_max": 5
+              },
+              "cid": "2407201427691773834",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Tango in new york today",
+                "New York Tango calendar",
+                "New York Tango festival 2024",
+                "Argentine tango in new york",
+                "Tango in new york for adults",
+                "Tango in new york for beginners",
+                "Tango show NYC",
+                "Milonga NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.4753 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101530-9976-0139-0000-d64ec2674b62",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.4063 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "zouk in Chicago",
+        "location_code": 1016367,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "zouk in Chicago",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1016367,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=zouk%20in%20Chicago&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCe3L9NA8LA6IEQDAwAmtpuCv",
+          "datetime": "2025-05-10 12:30:18 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 403000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.zoukchicago.com",
+              "title": "Zouk Chicago – Homebase for Chicago's Zouk Community",
+              "url": "https://www.zoukchicago.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.zoukchicago.com",
+              "website_name": "Zouk Chicago",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Your source for all things Zouk in Chicago ! We are a community of Zoukers dedicated to welcoming new dancers, keeping you updated on all Zouk-related events in ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Your source for all things Zouk in Chicago"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Calendar",
+                  "description": null,
+                  "url": "https://www.zoukchicago.com/#calendar",
+                  "domain": "www.zoukchicago.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Events",
+                  "description": null,
+                  "url": "https://www.zoukchicago.com/#events",
+                  "domain": "www.zoukchicago.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Classes",
+                  "description": null,
+                  "url": "https://www.zoukchicago.com/#class",
+                  "domain": "www.zoukchicago.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Shop",
+                  "description": null,
+                  "url": "https://www.zoukchicago.com/#store",
+                  "domain": "www.zoukchicago.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Urbanity Dance Chicago",
+              "description": "1611 N Sheffield Ave 3rd Floor \nClosed ⋅ Opens 5 PM Mon \n\"Highly recommend to any level of dancer.\" \n",
+              "domain": "urbanitydancechicago.com",
+              "phone": "(312) 995-3381",
+              "url": "http://urbanitydancechicago.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 42,
+                "rating_max": 5
+              },
+              "cid": "7627762379746615834",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Dennis PaSamba",
+              "description": "4820 W Irving Park Rd \nOpens soon ⋅ 8 AM \n\"I needed to work on my styling and he has helped me so much with that.\" \n",
+              "domain": "www.dennispasamba.com",
+              "phone": "(717) 727-2622",
+              "url": "http://www.dennispasamba.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 522,
+                "rating_max": 5
+              },
+              "cid": "9779503184102799463",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Best zouk in chicago",
+                "Urbanity Dance Chicago",
+                "1611 N sheffield ave Chicago IL",
+                "Urbanity Dance Chicago reviews",
+                "Heels dance class Chicago",
+                "Chicago hip hop dance classes"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJR_In5WjTD4gRGqLig3hB22k",
+              "feature": "0x880fd368e527f247:0x69db417883e2a21a",
+              "cid": "7627762379746615834",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

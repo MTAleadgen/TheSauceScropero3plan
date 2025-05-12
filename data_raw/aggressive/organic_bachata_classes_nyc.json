@@ -1,0 +1,210 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "16.0687 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100254-9976-0139-0000-cfcc15a160e2",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "16.0334 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata classes nyc",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata classes nyc",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20classes%20nyc&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:54:48 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Beginner",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Beginner+Bachata+classes+NYC&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRKi4kgrqjt5bPRec7O9xci8vRlKf_Tg2f8t_bpWUaQiDTv6s3cmlJ0R5FrLn_MJ0EWoKy99aQrkgtXvEIjxhB3P5eI06JHjxwbTc9NUwRlLu7moMZnzLYQ3yacNC-wkWlo_ZbDPcKd1vUkcyhy9gZ01GKX6LYB1AwlQWdHxePaAj_NSl4zMi_zIsH42ZGseFVz4g6-GETxWRCpgOx1UmTneVY6PM&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=bachata+classes+nyc+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDMxgRE1ajimVLN1HciBu3e89N5zfkYr0w7o5emWHECDC6HUaLxxueBSTHXBq-rTgm8JnXcKu7-OT5XUb7kVy7qIuyd2IEeeuUC0U7XOtw5Bs1QJ9D1-8A57HY_g27WYemv70ili9Mb3vbpQyjpZ27QBlh43OAtsGkd9F7DUeelX3ijx5&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIIRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+bachata+classes+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnBL0ko9_DIBC_iyaWT1Ohpqa0BMRuyyyOSz0ZDudDTgMGCnQI2IuzKx3S_UrEuCZRRszQ8UtuE84mGvhkSjHSBBsqpQ9VzvuMGUJLXZNG3hpVHtzisPsvX_jx1SrCZdZoyLBm8fn2v_EwIGqBOgGcD0ubXMTUyWCeVSu90zR2Vbhv8bE&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Bachata+classes+nyc+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRf-tPrLqnrdgUFGMuPGGz_8pADdw2X3nlVsrWq9Cm5CEWAIUji1i5x5VhyXE0UwXVkxrFQIa5WXrbtNiv2bhewQ0odHXDB4TaywxYAeBOcSRD04nDecypjxGSulaH4YMP8w1Z30loHfb_Atnvkgx_yjCcBYu9Ps4LlyQQkwhiRmtx6nJN0k2xgSpPzo1yc_KT3bjgTgi-wLC7VkhbU7KTS70ePeI&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+bachata+classes+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRxaMrPplYHAz8rGpk9QQdx2H-E06dkeD6tjfojecooAOOg4St2wSC8eHQomlCya2V-pN4meSXyBxYsTF1gSkm3sDxAb99_kStvbUjQbGDDHJW9CG_y75TgSTGC3DJ93VME_NhPj8O7uPRxb0C2Z4T8svYY6e_pcGPZizbn6kRsKk2zBIagl2uOaO6gpMgLSiLQubNpZcocUe3IeWlXpS-ijfat87ihlQJ1AxSE1eBSBMGZzwv&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Free+Bachata+classes+NYC&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRB7ZU7zrR_KQGldZlzNxkFycbWE3M8RwHbOg_jU4_FmH4T-R8SkiXeGSqDNI4EiuHvdZyuY6gQOvNm1zq3Rw1cVhR1AAAUKGP9tnW0HPVIHBNW8q50QAhAs1ESoO0XJ5q_oOaaguCmaSduhXXk1pzWr5v1V-y178mwFbU1qreMCd1won2W3Yj6HP0MLlukwhbnjTaq27ugFr0ri23HPpzhbtZRbo&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Sensual",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Sensual+Bachata+classes+NYC&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-U7ulYFJvOEfk2azzLH_P9FnomCNmOjZ9sNfXp4HRZocWj3sqSDHShjkYG_xd6SCxQtku5IZel3ffoVDEs7NYXMhhS0QW824Z-qIjqV0bpl1g1jvRnzC6RXjQrHnbl_tnicOU1DqT0JCL01XzYzcU3GHHU8UhvNwAXTo4SP102dmujgA0qo_48eEF7NmQMrJKf0mCQsxBukC73HqLLaHBX03hTM&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIQBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reddit",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Bachata+classes+NYC+reddit&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRf-tPrLqnrdgUFGMuPGGz_8pADdw2X3nlVsrWq9Cm5CHYdvQpNH1tGFPEydDo5EG0WjrBezOcU_6giL1JWq7qnWAGyFHjdSm6YQvVz2klBjRxi87GTJY3R06TFGDy5Yc-ieaG583YE78xixg9oKGjXN9t7Orte7H3NJ275TpqsvNgdrjkxA21C9hYzaU65mGDU10KBg4C5bEDPDPHT27EaCp_ar4&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "BACHATWINS",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Bachata+classes+in+NYC+BACHATWINS&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRIOBWF0gqlQAe2Sylu3hZemc-ZIYrmJflplutk3Q2GOJoyN_buGGlduMzLXs0juRzcpJTb-yX-8FPRXIYpKDkE1ZdhDgmNQGHkwA4Yf1zzxc8iZfvYoZXyaWY_G1tBpjPbLXMwaJcfSYOuTyvEsYFpAgx8kgs92D4jdMs2QL8_J0g3uKwXxfYwHij58ejtYxJFQac3VI8aJrT39vV8iYdt1Yauz-V9XgOXVMakV2-jNWwUNCC&sa=X&ved=2ahUKEwiTxsaHy5eNAxUBJkQIHbdGGxoQxKsJegQIPxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 879000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "KS Bachata Sensual",
+              "description": "7+ years in business \u00b7 38W W 32nd St #405 \nOpen \u22c5 Closes 11\u202fPM \n\"They teach with a focus on proper technique and every class has felt so fun.\" \n",
+              "domain": "www.bachatanyc.com",
+              "phone": "(917) 969-8129",
+              "url": "https://www.bachatanyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 193,
+                "rating_max": 5
+              },
+              "cid": "15490072797722449774",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Bachata Soul NYC",
+              "description": "Pearl Studios NYC, 500 8th Ave \nClosed \u22c5 Opens 6:30\u202fPM Mon \n\"The instructors were so great, knowledgeable,  down to earth and patient.\" \n",
+              "domain": "bachatasoulnyc.com",
+              "phone": "(646) 503-0311",
+              "url": "https://bachatasoulnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 109,
+                "rating_max": 5
+              },
+              "cid": "9440330241756164668",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Sensual Movemnet New York | Bachata Sensual NYC | Bachata Classes | Bachata Dance Classes | Bachata Social",
+              "description": "7+ years in business \u00b7 224 W 35th St \nOpen \u22c5 Closes 11\u202fPM \n\"Great instructors, welcoming learning environment, friendly faces!\" \n",
+              "domain": "sensualmovementusa.com",
+              "phone": "(929) 376-8884",
+              "url": "https://sensualmovementusa.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 104,
+                "rating_max": 5
+              },
+              "cid": "17939223690208294838",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Bachata classes Brooklyn",
+                "Free bachata classes nyc",
+                "Bachata classes nyc adults",
+                "Beginner bachata classes nyc",
+                "Bachata classes Queens",
+                "Bachata classes near me",
+                "Best bachata classes nyc",
+                "Salsa classes NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

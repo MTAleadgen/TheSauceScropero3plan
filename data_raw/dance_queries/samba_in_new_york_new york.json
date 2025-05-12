@@ -1,0 +1,196 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.6350 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100310-9976-0139-0000-0c04eb1467f2",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.5914 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "samba in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "samba in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=samba%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:11:01 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=samba+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khUY55NXIgA8uP2AfIlYIDmzFggN7zQQVdXFq1QUpZSd8-DqVW-vYNSwsghXh34Bo4sKvQZJ5zGFnQZEA5cAs7R1nLQDoyXZew9YLHtow7nWHySugTApi4BIznFIZHZH7K3EbrgFwMkjokX8O6lHmIdXJEKp_&sa=X&ved=2ahUKEwj7it3XzpeNAxUmVaQEHRqACAQQxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Samba+classes+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSrx1I_6h6x9OXjUAjy6rdpdLGMD0ZjqfinHVddA3UhsJS78Va1Y_DH73DFLfRjPD4RcdkqhyQTjSBD4bEZaEoVJFss1-EqP-fVgER9M5s762A4JD6K0LbM1vf_SaNgne9_SjyU7iOM6Wx0Bf7TgHFU1KgSCeJPaWWXC9i-SZF8028dpPtgH1JJAFq4NpErw45AROwPAo&sa=X&ved=2ahUKEwj7it3XzpeNAxUmVaQEHRqACAQQxKsJegQIIRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Kids",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Kids+samba+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhE-E2mt6UTqI1R6XmCzV5J7rBU66JXiSh4N2SE6wfc1o6w6v9q4oidocC2kotgr693W2qwdXd1TQMZkfV8TYq2onw19FFQ3GKV1GnrGotTHuCZzgq4QjJay9MhgkN6Z81pJVC99b1wmUmaI63joZM47s6N4xKRLlaoQUNYqySYDAI_GPKx7HGFwCsRD0wK0HPGaUJq1lsYkWbxkyMu5mZtCwwf4&sa=X&ved=2ahUKEwj7it3XzpeNAxUmVaQEHRqACAQQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+samba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-hr_6l-QnjlapskfZR7OtNVpCGQZ4gq_A69e7opa85NK45K-vaU7NUu1v8--ROHw-Sg_QSjHenCCmdOuYRU4V6ZkdDUjmx9qFW0Uub3W8kJVpJQHKr0dmQp0mwFeN_k7qgve3P0HblPYnNuJyk66Iae64Eb8kB0kN3Z1O1oPxMIJ2fYw&sa=X&ved=2ahUKEwj7it3XzpeNAxUmVaQEHRqACAQQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Barneys",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Barneys+New+York+Samba&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSrx1I_6h6x9OXjUAjy6rdpdIWczTnRob8RnUtOYcX1KABckEsBvw5IbejwgARhszngvk-746pllMx_9XEpRAnIh72bXLjv0KqkGRnwXUoit7HnllE75JKclpi88hCxTOhra-s4LUgfjRsx4c3KpaeFYjN1QVRRco_qUWzJIJjEQmgnGlZ9l2NkgAOQcSWM8HVwOIW4hA&sa=X&ved=2ahUKEwj7it3XzpeNAxUmVaQEHRqACAQQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Men",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Men+samba+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXGYuYNxLl2q24AHiUM4PJ7TiBjezGcalVuwzjrQ1BnTkLynglONVQ_4ESCgI7MVK5i3XiZhcVDoEbz8EviP_YSvOwbcGVlJSnaTszOi0OX93PGezPfBKme6AkcNttxag_uH7Xzz_ABKdBZ_Lt04KNpr-HC09V1t5W_8gFvcwBlgrSrC1gUmFp2AeBgzLyWPjplZMexcxiiVjLCKRJo0tEG185Cg&sa=X&ved=2ahUKEwj7it3XzpeNAxUmVaQEHRqACAQQxKsJegQIPBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Wales Bonner",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Wales+Bonner+samba+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFRGYu7tdqK5HTNmPfdsbAbhpAJRpNeCbElNZQFhDcEYjJtktZsE4hPctipaQu3RDSkq6ICyxdMRIvMcBsUBNFzidr8k-YAlzTbCD6ai9XXklF5-ju0DKePmWOsMYUHO4NDKOtWRnMO8vvRpa8LYakqiL0fLhpJyTCcxiZRpEv1dlOOUBqor9GacJVhEbH9KwYxFWD2n0YvGNuulhvnOxKaZOeMGUugkpPV2vVny8tyI5g8B3&sa=X&ved=2ahUKEwj7it3XzpeNAxUmVaQEHRqACAQQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 16000000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Samba BBQ",
+              "description": "154-17 Roosevelt Ave \u00b7 (929) 200-7527 \nOpen \u22c5 Closes 10:30\u202fPM \nDine-in \u00b7 Takeout \u00b7 Delivery \n",
+              "domain": null,
+              "phone": "(929) 200-7527",
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.4,
+                "votes_count": 349,
+                "rating_max": 5
+              },
+              "cid": "6042629667896520292",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Samba Dancers NYC * PURE SAMBA ENTERTAINMENT * Carnival 2025",
+              "description": "Open 24 hours \n",
+              "domain": "puresamba.nyc",
+              "phone": "(917) 309-3490",
+              "url": "http://puresamba.nyc/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 21,
+                "rating_max": 5
+              },
+              "cid": "12566111455727075132",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "SAMBA DANCERS * Samba Novo!! CARNAVAL 2025 for the most exciting authentic Samba show New York's original Samba Novo!",
+              "description": "Open 24 hours \n",
+              "domain": "www.sambanovo.com",
+              "phone": "(718) 928-4186",
+              "url": "http://www.sambanovo.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 92,
+                "rating_max": 5
+              },
+              "cid": "3872586353779577395",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Samba classes NYC",
+                "Kids samba in new york",
+                "Men samba in new york",
+                "Samba classes Brooklyn",
+                "Samba classes NJ",
+                "Samba classes near me",
+                "Samba dance",
+                "Brazilian funk dance class NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

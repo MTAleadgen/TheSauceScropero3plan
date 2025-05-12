@@ -1,0 +1,147 @@
+#!/usr/bin/env python3
+"""
+Test script for DataForSEO API
+This script makes a simple request to the DataForSEO API and saves the response
+"""
+import os
+import json
+import base64
+import requests
+import logging
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv(override=True)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATA_RAW_DIR = "./data_raw"
+
+# Ensure data_raw directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+def test_dataforseo_api():
+    """Test the DataForSEO API with a simple request"""
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials not set. Please set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD environment variables.")
+        return False
+    
+    logger.info(f"DataForSEO login: {DATAFORSEO_LOGIN[:5]}*** (masked for security)")
+    logger.info(f"DataForSEO password: {DATAFORSEO_PASSWORD[:5]}*** (masked for security)" if DATAFORSEO_PASSWORD else "DataForSEO password not found")
+    
+    # DataForSEO API endpoint for Google Organic Search
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task - using more specific search terms to get better results
+    data = [{
+        "keyword": "salsa dance school studio classes in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com"
+    }]
+    
+    try:
+        # Make the API request
+        logger.info(f"Making API request to {endpoint}")
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the entire response
+        raw_path = os.path.join(DATA_RAW_DIR, "test_focused_response.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        logger.info(f"Saved raw API response to {raw_path}")
+        
+        # Log response status code
+        logger.info(f"DataForSEO API status code: {result.get('status_code')} - {result.get('status_message')}")
+        
+        # Process results if available
+        if result.get('status_code') == 20000:  # Success code
+            tasks = result.get('tasks', [])
+            logger.info(f"Found {len(tasks)} tasks in the response")
+            
+            for task in tasks:
+                task_id = task.get('id')
+                logger.info(f"Processing task ID: {task_id}")
+                
+                if 'result' in task and task['result']:
+                    for i, item in enumerate(task['result']):
+                        # Save each result item separately
+                        result_path = os.path.join(DATA_RAW_DIR, f"test_focused_result_{i}.json")
+                        with open(result_path, 'w') as f:
+                            json.dump(item, f, indent=2)
+                        logger.info(f"Saved result item {i} to {result_path}")
+                        
+                        # Extract URLs from different item types
+                        items = item.get('items', [])
+                        logger.info(f"Result has {len(items)} total items")
+                        
+                        total_urls = 0
+                        for result_item in items:
+                            item_type = result_item.get('type')
+                            
+                            if item_type == 'organic':
+                                url = result_item.get('url')
+                                if url:
+                                    logger.info(f"Found organic URL: {url}")
+                                    total_urls += 1
+                            
+                            elif item_type == 'local_pack':
+                                url = result_item.get('url')
+                                if url:
+                                    logger.info(f"Found local pack URL: {url}")
+                                    total_urls += 1
+                                domain = result_item.get('domain')
+                                if domain:
+                                    logger.info(f"Found local pack domain: {domain}")
+                                    total_urls += 1
+                            
+                            elif item_type == 'video':
+                                for video_item in result_item.get('items', []):
+                                    url = video_item.get('url')
+                                    if url:
+                                        logger.info(f"Found video URL: {url}")
+                                        total_urls += 1
+                        
+                        logger.info(f"Total URLs found: {total_urls}")
+                else:
+                    logger.warning(f"No results found in task {task_id}")
+        else:
+            logger.error(f"API request failed: {result.get('status_message')}")
+            return False
+        
+        return True
+    
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Request failed: {e}")
+        return False
+    
+    except Exception as e:
+        logger.error(f"An unexpected error occurred: {e}")
+        return False
+
+if __name__ == "__main__":
+    logger.info("Starting DataForSEO API test with focused query")
+    
+    if test_dataforseo_api():
+        logger.info("DataForSEO API test completed successfully")
+    else:
+        logger.error("DataForSEO API test failed") 

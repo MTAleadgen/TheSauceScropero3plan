@@ -1,0 +1,181 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.7944 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101528-9976-0139-0000-918a22657ab7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.6919 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in New York",
+        "location_code": 2840,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2025-05-10 12:28:50 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+in+new+york+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0sQUzW3Tu350XIpBlEAqCBTMRPw2WTptOfp2PsaFr5ZlG7wNAR1V2tpfV_un2fv36rqIcHenabSgDVdxkiANwogbqhN3L2pjcI9QweZUTRwTdCKaz24iadBBASy-yfit7-KMI6Rtss73fQkgqdE40RXcRLaGTOKdgOGQRoZzvYVWjXEIORIDDLpQUk5bN-edCHdVVMmeehoBlq1eC49hfj6AH5m6Hy-euqIhyybuwJWJbY-P&sa=X&ved=2ahUKEwig6bPM85iNAxUZWkEAHYqxA4EQxKsJegQIGBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+in+new+york+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRws5hkS8t4Z_jXmbwclCbYVSc4kvzLV-jdVMvsmOKERjU8rhgMynq-EYULySPU7K-JvTFXJiSvB_veY_Uqw4TOGEOTLUVDgdaQBVg_U0Zx-qsBQEwc8Qaj6YmNsvsG1ygB8Z5jfN0CJuHoMZ7_u_eUsANPs0G95WawVFrjbqDh6qvXjVNx5uH4fbJGi6KRyZYCGe4eSN99smXebkPlahRK9QGbF8nLb7EVwrbd4z8hSlPAUuI&sa=X&ved=2ahUKEwig6bPM85iNAxUZWkEAHYqxA4EQxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=kizomba+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDMxgRE1ajimVLN1HciBu3TnfbvzOEHkiU17wDowy0Y9jxXVCGJS0l_fCwt4qI0Z32FxAp85EbP4JFqf8gEJIhcVc7wB_KJQAGsaKJPU1lDk5WSMTu1HXhHHzl65b5PrsLGRPcHgtcj7U2Voh7ps4426rrb7X-gCyfh_fNuF72__df3d-&sa=X&ved=2ahUKEwig6bPM85iNAxUZWkEAHYqxA4EQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+kizomba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRxaMrPplYHAz8rGpk9QQdx-mqvJbrkqzUWjuUUPDtoLlChtqI_ExYaJwcYUbLSEtjwIqPgbUwlFzTigTku0tVx1sWIXF9ZIWuYxcxQtsK2QXCDYsfVxBIwGr3-gRIuwQozdCfOqgIWZSAx-5JOieGe2U229x55UQiVPMJIu3mZ77jz_KkvjZYFUvlG-ImnE2Uj3O7vXACR3XxptEi_GUSItYDDf8u0KTf9VtJNLt9QlM5XGY-z8D32pUv924OfNPuSOYxAw&sa=X&ved=2ahUKEwig6bPM85iNAxUZWkEAHYqxA4EQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+kizomba+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnBL0ko9_DIBC_iyaWT1OhtoNcdK3GQ52RNB9e082ZmbwXTynms0-oEDwpodVJ_9uhIywCdLjBPyM94NXPUyjLyno3gGGEbOJc-vXUsdOEL6aJguyUr1nKtLGvJF0RnSfUbOYwXE7dKg7qNgKo54YJL_CZ6AjPAcyRM0JdRvzSaLp8UtBBFcPn-3TlgPQP9UKwQ64LQ&sa=X&ved=2ahUKEwig6bPM85iNAxUZWkEAHYqxA4EQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 371000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Bachata Embassy NYC",
+              "description": "7+ years in business · 500 8th Ave \nClosed ⋅ Opens 7 PM Mon \n\"Amazing instructors and a cool vibe to learn.\" \n",
+              "domain": "www.newyorkbachataembassy.com",
+              "phone": "(917) 995-5773",
+              "url": "http://www.newyorkbachataembassy.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 57,
+                "rating_max": 5
+              },
+              "cid": "4019787280080448350",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "NJ Kizomba Classes (Tuesdaykizz)",
+              "description": "Bloomfield, NJ \nClosed ⋅ Opens 7:30 PM Tue \n\"I highly recommend NJ Tuesday Kizz for all things Kiz in the Tristate area!\" \n",
+              "domain": "www.njkizombaclasses.com",
+              "phone": "(973) 957-2396",
+              "url": "http://www.njkizombaclasses.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 23,
+                "rating_max": 5
+              },
+              "cid": "17339179204064396631",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Balmir Dance Studio",
+              "description": "10+ years in business · Brooklyn, NY \nClosed ⋅ Opens 11 AM \nOnsite services \n",
+              "domain": "balmir.com",
+              "phone": "(844) 355-2828",
+              "url": "http://balmir.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 58,
+                "rating_max": 5
+              },
+              "cid": "6033908923839381357",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Kizomba in new york for adults",
+                "Kizomba classes NYC for beginners",
+                "Kizomba in new york for beginners",
+                "Kizomba classes near me",
+                "Kizomba dance class",
+                "Kizomba classes Brooklyn",
+                "Urban Kiz NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

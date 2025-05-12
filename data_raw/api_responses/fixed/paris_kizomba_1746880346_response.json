@@ -1,0 +1,326 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.0634 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-730f45451ffa",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.0048 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in Paris",
+        "location_code": 1006094,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in Paris",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006094,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20Paris&num=1&hl=en&gl=FR&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQ-34gYfbuZHEWCUjGjDggsE",
+          "datetime": "2025-05-10 12:32:26 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tickets",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Kizomba+in+paris+tickets&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRf1I7PG00QoVFTZ77rtA8njhktdHYrGj0XgwwjxSYkDOQ7-b6rhhe2tY5Dyyf83YcaBqraoAowaMUH6rOZpMoBa1fel-QX-x3nNMftzQDS5q3LwJ1EWAVFgcXtnwthaVpV5rjzdLskODnBn38uTvwXE4lgs3ewf-sgHAk9-6ebop6uORKp10ftwYG608hb_EuWWgFF8zQxzSrQIH08GY2_xlvDG8&sa=X&ved=2ahUKEwjPodGz9JiNAxVJhv0HHUUtFuUQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=kizomba+in+Paris+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRApqz4lLzC2T3SQ7iP_rQw_kZ-mJYHbaajZqiifgaZfnslhE9OlyK33D2fbyKIic1K6V7X0gN1Az9y_r6w7yOYuvFo5zDDLmSewQFEpg1xLSjTHTZloTRAahWizEp3hvp1IsWeZdSuIRak3-FfT7hILyo9BQsf8x-6aRMkOIO9TJ520BN&sa=X&ved=2ahUKEwjPodGz9JiNAxVJhv0HHUUtFuUQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=top+rated+kizomba+in+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRPtuVj0u_OdllkxDbEQdhqlBfSO4oJkfi3UTUgMxhiOdIrF_ZlKaHRFzNp96Anzk0dqkoTYpIkEBuVVtVRbCw8Z0MO6P4_du6Svoc7jD4nimdGGCJ3tYMwUlHdZz7QMfPbNXh8mNCGJIYA7ekqx7ELMcXGZJYwZhyCAFhi0XrAiGLvNSE&sa=X&ved=2ahUKEwjPodGz9JiNAxVJhv0HHUUtFuUQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Congress",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Paris+Kizomba+Congress&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr4H0hH1hJIZX_v75fXPsziIp1rSjcbGRYzvDtB0BFF61Mr8MHrPZ3xSg-hbacCnHXKLc_Z0SrBlGYcvHA1pSumoOMlApsnPuOjuqyIs9ZpIgMQwL16OYwBM8kRYOWWstTsr6duRks6-UQB9QP4Ve_COpyLA5EBPT9AjrDUehL3suu8sAxrDgvR4j6aJ7VGPLw-WwE8o&sa=X&ved=2ahUKEwjPodGz9JiNAxVJhv0HHUUtFuUQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Mercredi",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Kizomba+Paris+mercredi&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr4H0hH1hJIZX_v75fXPsziJeVg8K6j-wt8Yjmnhj3xegK95oWGWtDARuBIDnRQkK4QkZ33jYgxB2eS5vk1aajrccWKuzQ2mZM4x3IHLKL8s2ZN7-QOBlhw3HbKRNXlRhwbDATWcabD6Fu9V2UHL6IQb2knq_2YXfG2w-l-6ZzjaTigPmUXck7_NPFydNxaaf7legshI&sa=X&ved=2ahUKEwjPodGz9JiNAxVJhv0HHUUtFuUQxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "BNF",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=BNF+Kizomba+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRYo6i2EMDW575sLmJkl9tcJt5qTVynd4uxgTnPkEHIbC2fB3sUt_O7yTyc4CGBjsbuPQ8cZ6fxlPmV8XwLnMEHpNoXSZNW-mLntgBp0StMCmPpX6iP13EpTP97SU7OqzWU2z1uXYXw8SI-vYOHA5ocKXmcE-5LhVV6zVMSCzKPfLRliHyqS5jkPdsfHSlFL4fyJfmWnwmlEE4eEdjxgXBFwLB5pc&sa=X&ved=2ahUKEwjPodGz9JiNAxVJhv0HHUUtFuUQxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Saida",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Saida+Kizomba+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4aZT1IEL6_5ZZZDpioFwG5JUv5RXHn4nW4Kb9Z2Cc9xipDazxkT-qE-hHA-MPD2cbmIoUZKyERGj1HUnjYVSsNcBD1oJb6Z202X6JdbX4uNiJF-iG2FietF2INcddb18fEV26mel2f8gR3dKqGgRjJax38LJxcrjN65rmiUiTwnSVw7K1_SQ-5zFLvSYPvFwGVR7jPM&sa=X&ved=2ahUKEwjPodGz9JiNAxVJhv0HHUUtFuUQxKsJegQIQBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "organic",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 787000,
+          "items_count": 10,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsabor Paris",
+              "description": "25+ years in business · 31 Rue Chapon \nOpen ⋅ Closes 7:30 pm \nOn-site services \n",
+              "domain": "salsabor.fr",
+              "phone": "01 42 71 61 61",
+              "url": "https://salsabor.fr/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 136,
+                "rating_max": 5
+              },
+              "cid": "1084228738579254306",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "School Dances Latines Salsa, Bachata, Kizomba - Salsanueva Paris",
+              "description": "15+ years in business · 32 Rue du Capitaine Marchal \nOpen ⋅ Closes 10:30 pm \nOn-site services \n",
+              "domain": "www.salsanueva.fr",
+              "phone": "07 82 61 31 25",
+              "url": "https://www.salsanueva.fr/?utm_source=Google%20my%20Business&utm_medium=GMB&utm_campaign=GMB&utm_term=GMB&utm_content=GMB",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 301,
+                "rating_max": 5
+              },
+              "cid": "13421826903002486670",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Saida Kizomba Course Dance Kizomba Paris",
+              "description": "7+ years in business · 105 Rue de Tolbiac \nOpen 24 hours \n",
+              "domain": "www.saidakizomba.com",
+              "phone": "06 71 20 04 82",
+              "url": "https://www.saidakizomba.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 40,
+                "rating_max": 5
+              },
+              "cid": "555691163180656831",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Agenda des soirées KiZOMBA à Paris & IDF (Cours Stages)",
+              "url": "https://www.facebook.com/groups/1667459640169109/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "8,6K+ followers",
+              "website_name": "Facebook · Agenda des soirées KiZOMBA à Paris & IDF (Cours Stages)",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dimanche 18 Mai 2025 Viens Manger et Danser au restaurant le 72 à Paris de18h/23h 2 DJ, un restaurant Afro-caribéen. 100% Festa da Kizomba.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Viens Manger et Danser au restaurant le 72 à Paris de18h/23h"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Ecole Des Danses Latines-Tropicales",
+              "description": "25+ years in business · 40 Rue de Cîteaux \nOpen ⋅ Closes 7:30 pm \nOn-site services \n",
+              "domain": "salsadanse.com",
+              "phone": "01 84 60 99 60",
+              "url": "https://salsadanse.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 295,
+                "rating_max": 5
+              },
+              "cid": "2198384502813159537",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Paris Kizomba Good Vibes",
+              "description": "Closed ⋅ Opens 6 pm \nOnline appointments \n",
+              "domain": "www.soireekizombaparis.com",
+              "phone": "06 95 29 47 81",
+              "url": "https://www.soireekizombaparis.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 4,
+                "rating_max": 5
+              },
+              "cid": "2894260125113572037",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Studio Massaro - School Dances Latines - Paris Nation",
+              "description": "10+ years in business · 290 Bd Voltaire \nOpen ⋅ Closes 10:30 pm \nOn-site services · Online classes \n",
+              "domain": "www.studio-massaro.fr",
+              "phone": "07 52 06 10 18",
+              "url": "https://www.studio-massaro.fr/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.4,
+                "votes_count": 363,
+                "rating_max": 5
+              },
+              "cid": "13813224316419303101",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Saida Kizomba Course Da...",
+                "School Dances Latines Sal...",
+                "Ecole Des Danses Latines‑Tro...",
+                "Avinciia Danse"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Kizomba in paris tickets",
+                "Soirées salsa sur Paris",
+                "Saida Paris",
+                "Salsabor Paris",
+                "Factory kizomba",
+                "La Pachanga, Paris",
+                "Cours de Samba Paris",
+                "Stage Bachata Paris"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJO8CG4xpu5kcRIkxJEkv0Cw8",
+              "feature": "0x47e66e1ae386c03b:0x0f0bf44b12494c22",
+              "cid": "1084228738579254306",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

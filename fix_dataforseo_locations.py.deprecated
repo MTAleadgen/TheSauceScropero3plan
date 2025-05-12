@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+"""
+Get valid DataForSEO location IDs and test search
+"""
+import os
+import json
+import base64
+import requests
+import logging
+import csv
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATA_RAW_DIR = "./data_raw/api_responses/location_data"
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+def get_dataforseo_locations():
+    """Get a list of available locations from DataForSEO API"""
+    endpoint = "https://api.dataforseo.com/v3/serp/google/locations"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    try:
+        # Make the API request
+        logger.info(f"Requesting locations from {endpoint}")
+        response = requests.get(endpoint, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the entire response for reference
+        raw_path = os.path.join(DATA_RAW_DIR, "google_locations.json")
+        with open(raw_path, 'w', encoding='utf-8') as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+        logger.info(f"Saved locations to {raw_path}")
+        
+        # Check if the request was successful
+        if result.get('status_code') == 20000:
+            # Process results
+            locations = result.get('tasks', [{}])[0].get('result', [])
+            logger.info(f"Retrieved {len(locations)} locations")
+            return locations
+        else:
+            logger.error(f"Location request failed: {result.get('status_message')}")
+            return []
+            
+    except Exception as e:
+        logger.error(f"Error getting locations: {e}")
+        return []
+
+def test_search_with_location_code(location_code, keyword="salsa dance"):
+    """Test search with a proper location code"""
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task with location_code
+    data = [{
+        "keyword": keyword,
+        "location_code": location_code,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com"
+    }]
+    
+    try:
+        logger.info(f"Testing search with location_code: {location_code}")
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save raw response
+        raw_filename = f"test_search_location_{location_code}.json"
+        raw_path = os.path.join(DATA_RAW_DIR, raw_filename)
+        with open(raw_path, 'w', encoding='utf-8') as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+        
+        # Check if request was successful
+        if result.get('status_code') == 20000:
+            tasks = result.get('tasks', [])
+            for task in tasks:
+                if task.get('status_code') == 20000:
+                    logger.info(f"Search successful with location_code: {location_code}")
+                    return True
+                else:
+                    logger.error(f"Task failed: {task.get('status_message')}")
+            return False
+        else:
+            logger.error(f"API request failed: {result.get('status_message')}")
+            return False
+            
+    except Exception as e:
+        logger.error(f"Error in test search: {e}")
+        return False
+
+def main():
+    """Main function to test DataForSEO locations"""
+    logger.info("Starting DataForSEO location test")
+    
+    # Get locations from API
+    locations = get_dataforseo_locations()
+    if not locations:
+        logger.error("Failed to get locations, exiting.")
+        return
+    
+    # Save location data as CSV (properly handling Unicode)
+    csv_path = os.path.join(DATA_RAW_DIR, "locations.csv")
+    try:
+        with open(csv_path, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(["location_code", "location_name", "country_name"])
+            for loc in locations:
+                writer.writerow([
+                    loc.get('location_code', ''),
+                    loc.get('location_name', ''),
+                    loc.get('country_name', '')
+                ])
+        logger.info(f"Saved location data to CSV: {csv_path}")
+    except Exception as e:
+        logger.error(f"Error saving CSV: {e}")
+    
+    # Test search with a few location codes
+    test_codes = {
+        "2840": "New York, United States",
+        "1000543": "Istanbul, Turkey"  # Assuming this is Istanbul's code
+    }
+    
+    for code, name in test_codes.items():
+        logger.info(f"Testing search with {name} (code: {code})")
+        if test_search_with_location_code(code):
+            logger.info(f"✓ Search test successful with {name}")
+        else:
+            logger.error(f"✗ Search test failed with {name}")
+
+if __name__ == "__main__":
+    main() 

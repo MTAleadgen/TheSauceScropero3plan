@@ -1,0 +1,285 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.4076 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101620-9976-0139-0000-39af11bfb0d2",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.3646 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in Chicago",
+        "location_code": 1016367,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in Chicago",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1016367,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20Chicago&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCe3L9NA8LA6IEQDAwAmtpuCv",
+          "datetime": "2025-05-10 13:20:19 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tonight",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+Chicago+tonight&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk6v429hIM0GhWoH3DoDPQQPS_HXY26FcAroRbVq8pk24AzJugxN-MydClGNqNRcTE_otKOpjX2AiZTmKAZz1qed2qhC0NzOtStLf4wR5lB-mDFRW2CK_aB3aZEDkzqU_HPvDz7HiEBY_BlvdvuWsD2l5wxakfys9J3qScnMDpNokJXdjE5CRupAYG4_JEJX5ixcVHVk&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIJBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+salsa+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRPtuVj0u_OdllkxDbEQdhqoceUahUVozl6sbligL6lIMvRHZiHWLxFaMFBk7I0cn4Y53xEfE5vBhCIhOqEZQlEiL_eMiMGh8g5vrnk2pVox3wjPS9sh6yZ1QtJkIbVcbKYdBFYxbvBBSwGte7cp8PzMMMhfelNIyuvHHPvEeZrXKoTs7s&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIJhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+salsa+in+Chicago&uds=ABqPDvxDX8MYwc3wNEH1clvwgDudJAS6JKsmsRWzmlReC2DfZT6lfYm_bTyFeKBKDOZBtnpBK4KC1qVR9V-1I7IJs9sh95gtMHFVA0ULxi96mNcI6YbvJBF4mkT1Pe0za-GMJoekZ15Jo7QC9qz8EovAtXT5hoC9mX3p39s3ZWNlS_ttS552kLgrz3VLED58G2t5JtW8Z7SVUoBYTELqLDPKLL-VfgU9-eVuwlUesOr9TLO7vRmlVKnVhZJu7GGy2o1uLcumAO4lMYG10_lVyKaCIAOnW966nX_4O8j15EinZWWdXQv9VyKX127AaVRLJ5lV2D7UPinq6_QsQVMeIB40KiyjkZMwfRtubO7ctqY-rw6OcZs08eKBQwdCs3NBTNZt6HhJ9QYTce-HgZZT0mnQcIvuLkzd0dhL98UKxqqgLdGrPSOFVeYzCiKz688C-TzvojN_rS8TDqBZf9yEKHp8rD89-jgdsQ&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+salsa+in+Chicago&uds=ABqPDvzQLzGLxcPUsSuzYYv7Rj5B42bKH3jTVyOypSzoAEBb9l0NqVDiRmDi2VxZpwURrXHBQaYAeMtJGhHfot0HGD5QUnOtIuwMasylzx5evMi3mA7O1BsIIkIGbScjyEFqecWIGRpEwlWyfdt64I0VrjKM9CQo5m2R43YPGdtF31FSWtSrHdzED6iMx9Xs2JGj-OQ-k-WcEtVvmuP1kXMOBluSwrazGLdLSlLASjmg2M_HPXowjJk1jT39YeY0keeeua2E_DiZainAGDqR-m_6kQf1aS8SXsUvWniG_7H5y1O8Jcgszx2SASFzd4YJZybXNGek8SdKQL2A5WDhqkxU3BWMLaAkArqTGd4Wud3sNn_9KoyzIcW8M8Whn7xzcoPdpDwQ7YryVfqQwrZFYiyRNQrsb4vatBWVKzsmn6a1yJtJcrqgoZ4ClVxhWkNJBLoiVC4HOZQi-58hN65b4WsaAdxLB0GEFA&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+salsa+in+Chicago&uds=ABqPDvw9sRHz82M1nZcf0SG9O5AANz6HlDeum-_i4CevcSjEZOSWXHrWqoVTThWy57IKuCb_u_xLvYn-almA5RyFVDX7VjsEUGR5aEIOU5Mbsugu-ZhBxRbPRHx2KEt-B426hL3whMHY2GKDfln0Z_mf-vFxwkmXrcYfXep8_4FUpE-nfcXjUVkW1RwJMgfixErXJL8-WNRlRTQtua9BtD4QbGLbsj78g-bbRI6JR9ahsOJ8BlUpHvOdMzC4rgMVdG0rrrkDKaXV3SuDmrs-m0XPu2k7EC2Yh4kRwbsfp_SoLd_3A0o72VYvvRtJaQLSTttI4OPrxMjyHeCov8Daua_X46pjlJl0gbUOoxy-esbbukpbYtEZ1GYFLcZsCnvUBYRkmRsBqe2JSn4PyRUbwav7syEA_JChPRtdrq9CfRqib9O3RGSRsEfBz6-HeELc_3759_31_xijkwDwYxN5J9GiucHFo6neow&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+salsa+in+Chicago&uds=ABqPDvxVbSLuwqYOWFVTcn_c294BLaduivvAcdR4-NDhmBnZCVFYX1jtc3FIpbVyQK1fM0omVxOyeJ_AH6s4zKJZN5PZ49iUAxch1Qi4u_vkuqXZSU9LhhIt0G4KXZi4plZMd4IZtiwC7U8X_2611L836W7bmZ1NQX1KnxVlOgoMjdkyHNV60RDaWOvpTc05j5TPI0qtWlJ5WPrGoJjJMjWAU1Fkcj1pDTEZnUZYPWyOd22-fo7ilyZ_BraZkPBGb1Vl0laOe9efuDI9j4vbTFS-XJGzHD0yLu-T8wOMTZsXrIqkSh2nSpfdpKEFBiT6vYwDffiNd0zevVdbFszqs_NWkk7N4bm0OVpekRYtHXwpcg-vxBGEMG-K2F3sL4HVmFwwQfp-291Iwm1sYiDwuYFxfZz-wma6b7-NmINnApHaXomrvQo437uhVwb04mESITSACA0yGyb-erj73uFHO08t9Si1pWGlLQ&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+salsa+in+Chicago&uds=ABqPDvxDX8MYwc3wNEH1clvwgDudJAS6JKsmsRWzmlReC2DfZT6lfYm_bTyFeKBKDOZBtnpBK4KC1qVR9V-1I7IJs9sh95gtMHFVA0ULxi96mNcI6YbvJBF4mkT1Pe0za-GMJoekZ15Jo7QC9qz8EovAtXT5hoC9mX3p39s3ZWNlS_ttS552kLgrz3VLED58G2t5JtW8Z7SVUoBYTELqLDPKLL-VfgU9-eVuwlUesOr9TLO7vRmlVKnVhZJu7GGy2o1uLcumAO4lMYG10_lVyKaCIAOnW966nX_4O8j15EinZWWdXQv9VyKX127AaVRLJ5lV2D7UPinq6_QsQVMeIB40KiyjkZMwfRtubO7ctqY-rw6OcZs08eKBQwdCs3NBTNZt6HhJ9QYTce-HgZZT0mnQcIvuLkzd0dhL98UKxqqgLdGrPSOFVeYzCiKz688C-TzvojN_rS8TDqBZf9yEKHp8rD89-jgdsQ&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+salsa+in+Chicago&uds=ABqPDvzQLzGLxcPUsSuzYYv7Rj5B42bKH3jTVyOypSzoAEBb9l0NqVDiRmDi2VxZpwURrXHBQaYAeMtJGhHfot0HGD5QUnOtIuwMasylzx5evMi3mA7O1BsIIkIGbScjyEFqecWIGRpEwlWyfdt64I0VrjKM9CQo5m2R43YPGdtF31FSWtSrHdzED6iMx9Xs2JGj-OQ-k-WcEtVvmuP1kXMOBluSwrazGLdLSlLASjmg2M_HPXowjJk1jT39YeY0keeeua2E_DiZainAGDqR-m_6kQf1aS8SXsUvWniG_7H5y1O8Jcgszx2SASFzd4YJZybXNGek8SdKQL2A5WDhqkxU3BWMLaAkArqTGd4Wud3sNn_9KoyzIcW8M8Whn7xzcoPdpDwQ7YryVfqQwrZFYiyRNQrsb4vatBWVKzsmn6a1yJtJcrqgoZ4ClVxhWkNJBLoiVC4HOZQi-58hN65b4WsaAdxLB0GEFA&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+salsa+in+Chicago&uds=ABqPDvw9sRHz82M1nZcf0SG9O5AANz6HlDeum-_i4CevcSjEZOSWXHrWqoVTThWy57IKuCb_u_xLvYn-almA5RyFVDX7VjsEUGR5aEIOU5Mbsugu-ZhBxRbPRHx2KEt-B426hL3whMHY2GKDfln0Z_mf-vFxwkmXrcYfXep8_4FUpE-nfcXjUVkW1RwJMgfixErXJL8-WNRlRTQtua9BtD4QbGLbsj78g-bbRI6JR9ahsOJ8BlUpHvOdMzC4rgMVdG0rrrkDKaXV3SuDmrs-m0XPu2k7EC2Yh4kRwbsfp_SoLd_3A0o72VYvvRtJaQLSTttI4OPrxMjyHeCov8Daua_X46pjlJl0gbUOoxy-esbbukpbYtEZ1GYFLcZsCnvUBYRkmRsBqe2JSn4PyRUbwav7syEA_JChPRtdrq9CfRqib9O3RGSRsEfBz6-HeELc_3759_31_xijkwDwYxN5J9GiucHFo6neow&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+salsa+in+Chicago&uds=ABqPDvxVbSLuwqYOWFVTcn_c294BLaduivvAcdR4-NDhmBnZCVFYX1jtc3FIpbVyQK1fM0omVxOyeJ_AH6s4zKJZN5PZ49iUAxch1Qi4u_vkuqXZSU9LhhIt0G4KXZi4plZMd4IZtiwC7U8X_2611L836W7bmZ1NQX1KnxVlOgoMjdkyHNV60RDaWOvpTc05j5TPI0qtWlJ5WPrGoJjJMjWAU1Fkcj1pDTEZnUZYPWyOd22-fo7ilyZ_BraZkPBGb1Vl0laOe9efuDI9j4vbTFS-XJGzHD0yLu-T8wOMTZsXrIqkSh2nSpfdpKEFBiT6vYwDffiNd0zevVdbFszqs_NWkk7N4bm0OVpekRYtHXwpcg-vxBGEMG-K2F3sL4HVmFwwQfp-291Iwm1sYiDwuYFxfZz-wma6b7-NmINnApHaXomrvQo437uhVwb04mESITSACA0yGyb-erj73uFHO08t9Si1pWGlLQ&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQkbEKegQIKRAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+in+chicago+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0sQUzW3Tu350XIpBlEAqCGGl8KmVVp5XiUrALYDDThQdIkcYHYUP3P5UMWE5lEu3pLOrQ692pE696k--0m5PSZ9XrZ2oM3e41WXWRNbZ21L7FNjzNeb-mxqCE2I3A0wRX_PbGfW-TRVvtS9eoh3vbeZVm4fFLgSPFalILfxmdX3R9a4ge2h-Ez-HYFmpOIIjGD6eR_KX8DWaQ_NOgSnuM9gA7Ds&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIIxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=salsa+in+Chicago+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRApqz4lLzC2T3SQ7iP_rQw1C7vBqAO1uIo0Kb9Y_WpPtNSJj8MOfPQcS0-FSnapLH-u2Y_nUUlWqiio2dXjIxUbxfhvlCR6tR_tnuSJlMri0WTq6t5NhAoYwTwn0wrvofz825Z_WP8VRu9D7USndlyd5t0G8FB8PK-hafOWXtD-o_WTgI&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIIhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Takeout",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=takeout+salsa+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0AVK9F5DrhoGI4rUZGqhljnX6IhdOaMfKRUXxrT6CRIEZ6lzhb5Xxd4Ghl5x7jzsZ3IadNfi9RVFA6IBi2UJuWBUZs4Z_jwrB1sa2Od7QXDkIjOUmh3TxukwhMBz1BxaS3Ejgj-pIIArs0nPGSa-9v2iqxDHE0HVTIIV5mzjBGUWDaFVFzsqvqLG4c-K-8FPFLWFBeDbv1ujcEy3mmSUN3fy-C02pj9UKdmbfSQE9w1U4pEZ&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIORAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Saturday",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+Saturday+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr0cCd_lpzGbP4ihjQLvSY8GnAEStNuyQsGUPh4XhjPR0RjUYAIUK4El7SElJYQG6pKouZMUuatfCKFC7gu_8-AhPoLWrUPbMpTyi0uMKYzOTkh7fn5FFTTPhh41rtLLiljqMc5PriXJ_TDbI4QvOKs9olwCb5p0sWZwDXM7HYDFpwoF6OA3yXrovEaba60ykbyk2myA&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIOBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+salsa+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRuXV5f0Vph2Ss_2Z9azh3D_zCgjmKXyYSyxkqnkccqkLN2RwrR895LODCJfX7KC8GLUFW-YmEXihXs_1xTPudvu8i3J4-LKkVn7kxLfiZPG8R31eYFhJB5DmKV3fBSiIxUM6MvSuu-nb-DVRKO2bUtPfwu49IDDtdOAHyOA2Gs4PIYCptV-JwLGh1iisE9ON2ud8YVca0SAstQnIgP-rlALaiHwioQyz9galfCCDiY5UjVROX&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Delivery",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=delivery+salsa+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xJvlu9J7S7VqcLATdVFSE87yzE5zhaQ92l2GCEaseGtMNVSxJydq-RkHMR-FV8P9ENGs0YRZUtHl-bAiPRqhTOgnpERRU1OKO0g8qNcRZhX8gvAt27k1MV8Ulhne9_-jdVHpkzL-OGC8vMVNf2oKdQEM9VknRamBJ52htDMmo32jiNZkg-WmVljNW21yshkt4xPO4k003DZ-Osroa0Cxgix4_qMa&sa=X&ved=2ahUKEwj0mtmN_5iNAxXH0gIHHSuTBMgQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 41000000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Latin Street Music & Dancing Studio",
+              "description": "600 W Roosevelt Rd #2w \nClosed ⋅ Opens 10 AM \n\"Fiona is a phenomenal Cuban salsa dance instructor.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 82,
+                "rating_max": 5
+              },
+              "cid": "1756164623801327098",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Latin Bliss",
+              "description": "5515 N Lincoln Ave \nClosed ⋅ Opens 10 PM \n\"The many times I’ve been there with my friends we’ve had a blast!\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.2,
+                "votes_count": 272,
+                "rating_max": 5
+              },
+              "cid": "84294102993172463",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Dance Academy of Salsa",
+              "description": "20+ years in business · 2246 N Western Ave \nClosed ⋅ Opens 1:45 PM \n\"All levels of salsa and bachata can come here to learn something new.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 90,
+                "rating_max": 5
+              },
+              "cid": "7745836454357075669",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Latin Street Music & Dancing St...",
+                "Latin Rhythms Academy of...",
+                "The Cubby Bear Chicago",
+                "Latin Bliss",
+                "Urbanity Dance Chicago",
+                "Dennis PaSamba"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa in chicago tonight",
+                "Salsa in chicago for beginners",
+                "Salsa dancing Chicago Friday night",
+                "Best salsa in chicago",
+                "Latin dancing Chicago",
+                "Live Salsa music Chicago",
+                "Salsa Dancing Chicago Thursday night",
+                "Latin Dancing Chicago tonight"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "11.0988 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100246-9976-0139-0000-fe237f108b73",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "11.0282 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa dance",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa dance",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20dance&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:46:16 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "video",
+            "product_considerations",
+            "local_pack",
+            "related_searches",
+            "knowledge_graph"
+          ],
+          "se_results_count": 93000000,
+          "items_count": 7,
+          "items": [
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Beginner's Guide: How To Salsa Dance (No Experience ...",
+                  "timestamp": "2019-01-27 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=C4MAFLeWY7c"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Marc Anthony - Mala | Salsa Dancing | Daniel Rosas & Ece ...",
+                  "timestamp": "2022-07-09 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Df9GrBwgyjQ"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube",
+                  "title": "Salsa Dancing Beginner Basics Tutorial Video",
+                  "timestamp": "2020-09-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jpIJMKjxkQ0"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "product_considerations",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "title": "Things to know",
+              "items": [
+                {
+                  "type": "product_considerations_element",
+                  "title": "Origin of salsa dance",
+                  "consideration_category": "Origin",
+                  "expanded_element": null
+                },
+                {
+                  "type": "product_considerations_element",
+                  "title": "How to dance the salsa?",
+                  "consideration_category": "Dance Instructions",
+                  "expanded_element": {
+                    "type": "product_considerations_expanded_element",
+                    "title": "Learn to Salsa Dance in 30 seconds! - YouTube",
+                    "featured_title": null,
+                    "breadcrumb": "https://www.youtube.com \u203a watch",
+                    "snippet": "A part of the suggested span transcript after expanded is Together right foot together once we have those foot patterns we can start to add turns. For the ladies. And guys leaders and followers.",
+                    "domain": "www.google.com",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=how+to+dance+salsa&sa=X&ved=2ahUKEwiEpZqSyZeNAxVbC3kGHauYNsUQrooIegQIHBAP",
+                    "timestamp": null,
+                    "related_searches": [
+                      "How to dance the salsa?"
+                    ],
+                    "about_this_result": null
+                  }
+                },
+                {
+                  "type": "product_considerations_element",
+                  "title": "What is salsa dancing?",
+                  "consideration_category": "Dance Description",
+                  "expanded_element": null
+                },
+                {
+                  "type": "product_considerations_element",
+                  "title": "types of salsa dancing",
+                  "consideration_category": "Types",
+                  "expanded_element": {
+                    "type": "product_considerations_expanded_element",
+                    "title": "The Different Styles Of Salsa - Toronto Dance Salsa",
+                    "featured_title": "The Different Styles Of Salsa",
+                    "breadcrumb": "https://torontodancesalsa.ca \u203a blog \u203a the-different-styles-...",
+                    "snippet": "Colombian Style Salsa (Cumbia) ...\nCuban Style Salsa. ...\nMiami Style Salsa (Classico Cubano, Casino) ...\nCasino Rueda Style Salsa (Rueda de Casino, Salsa Rueda) ...\nNew York Style Salsa (Dancing \u201cOn 2\u201d, Mambo Salsa, Eddie Torres Style) ...\nPuerto Rican Style Salsa. ...\nSalsa Shines. ...\nSalsa Styling.",
+                    "domain": "www.google.com",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=types+of+salsa+dancing&sa=X&ved=2ahUKEwiEpZqSyZeNAxVbC3kGHauYNsUQrooIegQIHBAe",
+                    "timestamp": null,
+                    "related_searches": [
+                      "types of salsa dancing"
+                    ],
+                    "about_this_result": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsa Salsa Dance Studio",
+              "description": "20+ years in business \u00b7 Brooklyn, NY \nOpen \u22c5 Closes 10\u202fPM \n\"Excellent instruction to get you dancing , and dancing with style.\" \n",
+              "domain": "www.salsasalsadancestudio.com",
+              "phone": "(718) 602-1322",
+              "url": "http://www.salsasalsadancestudio.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16906655974687444521",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 252,
+                "rating_max": 5
+              },
+              "cid": "11028445530057066283",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Salsa Sabrosa",
+              "description": "410-412 8th Ave 4th Floor \nOpen \u22c5 Closes 11\u202fPM \n\"Renzo is a great teacher and he teaches both dance techniques and styling.\" \n",
+              "domain": "salsasabrosaschool.com",
+              "phone": null,
+              "url": "https://salsasabrosaschool.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 269,
+                "rating_max": 5
+              },
+              "cid": "4932675944286440137",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Salsa in Queens",
+              "description": "7+ years in business \u00b7 32-04 38th Ave \nOpen \u22c5 Closes 10\u202fPM \n\"Great teachers, great dance studio, and great vibes!\" \n",
+              "domain": "www.salsainqueens.com",
+              "phone": "(347) 669-3589",
+              "url": "http://www.salsainqueens.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 152,
+                "rating_max": 5
+              },
+              "cid": "8300833120409053752",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa dance near me",
+                "Salsa dance origin",
+                "Salsa Dancing NYC tonight",
+                "Salsa Dance youtube",
+                "Free Salsa dancing NYC",
+                "Salsa dance history",
+                "Salsa dance classes NYC",
+                "Salsa dance video"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]",
+              "title": "Salsa",
+              "subtitle": "Dance",
+              "description": "Salsa is the name for Latin American dances that are danced to salsa music. Salsa is one of the most popular types of Latin dance that is practiced worldwide, and is typically danced with a partner, although there are elements of solo footwork as well.",
+              "card_id": null,
+              "url": null,
+              "image_url": null,
+              "logo_url": null,
+              "cid": null,
+              "items": [
+                {
+                  "type": "knowledge_graph_description_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "text": "Salsa is the name for Latin American dances that are danced to salsa music. Salsa is one of the most popular types of Latin dance that is practiced worldwide, and is typically danced with a partner, although there are elements of solo footwork as well. Wikipedia... Wikipedia",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "\u00a0Wikipedia",
+                      "url": "https://en.wikipedia.org/wiki/Salsa_(dance)",
+                      "domain": "en.wikipedia.org",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1]"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "...\u00a0Wikipedia",
+                      "url": "https://en.wikipedia.org/wiki/Salsa_(dance)",
+                      "domain": "en.wikipedia.org",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

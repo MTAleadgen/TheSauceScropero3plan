@@ -1,0 +1,12 @@
+# HELP serp_requests_total Total number of SERP API requests
+# TYPE serp_requests_total counter
+# HELP serp_request_errors_total Number of SERP API request errors
+# TYPE serp_request_errors_total counter
+# HELP urls_discovered_total Number of URLs discovered
+# TYPE urls_discovered_total counter
+# HELP unique_urls_added_total Number of unique URLs added to queue
+# TYPE unique_urls_added_total counter
+# HELP api_latency_seconds API request latency in seconds
+# TYPE api_latency_seconds histogram
+# HELP dance_style_url_count Number of URLs found for each dance style
+# TYPE dance_style_url_count gauge

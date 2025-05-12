@@ -1,0 +1,255 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "13.0849 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101531-9976-0139-0000-ca0b95855524",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "13.0317 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in London",
+        "location_code": 1006886,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in London",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006886,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20London&num=1&hl=en&gl=GB&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS",
+          "datetime": "2025-05-10 12:31:48 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=kizomba+in+London+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khZIk6Uk3Jt5zQPK8PYMMzzIikssUAzUI2rqhpn_j1vX5gUpd6IkFSZ8xbFRBU6oludm5JVhTeEnB2VlSIbeaHJOmlFw67CksKzca_BDuGRqTB43P5Ne9pjUk04-_rgau5J90MBjH_ocGfgH7yEYVOwnhfmRG&sa=X&ved=2ahUKEwiQ562h9JiNAxVULkQIHfLuA4QQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Kizomba+in+london+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRewvedP6E73DGKs_vdafGCVSEGBhXWPzqPGte_DeMH5IWGiAG-kZk6JYRAfd787rLvqNxyzrdiDflWsnxWCpectum25yfaU5GG1laAWE22rRZu2f-iL1vAd-wdMCBuT3vvrsyOqtvg8gOV-5AgCmixzXcpCv3nKIaYaHzO_mMmmPJNqoInUveqqT6AD9s2q75d7l_4AB1AoMK4nk6lD7ZUAH7sLk&sa=X&ved=2ahUKEwiQ562h9JiNAxVULkQIHfLuA4QQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Kizomba+in+london+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR6Vm9NPZAFTgnNne0t6RSJqBEbjB9NFafuhObthDCMaFE3CmO0rA7LUGsH59WGa7s21LSpT6Szycbk3ghcSg9ykX5Bgmxl0oQT_gKaP9yG4nsKdw-Hg9lCwNQc6y243Z4XDjt32ha7dQD0jOeOgAOwY7jymcOXydO86i879quIAqRiu90wf_6tNM0MCMSqAhSHXl9CTQryXDAwVSw4NPYn3JWtNk&sa=X&ved=2ahUKEwiQ562h9JiNAxVULkQIHfLuA4QQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Free+kizomba+in+london&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhE-E2mt6UTqI1R6XmCzV5NvPs_BhZkK63LWZVJJAzv53fmTZgq5QkoMuMOMcLaC3VYG7_lCLDgEbcZf3nlseYVrmz1uR_U2HRk7afyWHFIlIfkVuEOIyw3vhwYoaAUBEf1tiSsoEHbiM-ulG6Fu4JbBdHNrmLcTH_W1rH9HqUynvQFMGYAxZVBQO-5V7JpDWNdXAZqVcckgTun8WPaTpqCgv4q8&sa=X&ved=2ahUKEwiQ562h9JiNAxVULkQIHfLuA4QQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Saturday",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Kizomba+London+Saturday&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfJQPcuTv1RYsJBvLbVbx8HHAMCsyoH9ovfrPrP7eHv6pAvRrMeyRiQxsuWPTMsMwJmF6pJ5JHzVZ5eu8jTUWZ2gqvHX25aYp0TXkWkj4MBa1yckaVDtsAQEcUzhwW0O63HkXVnODQt5KNI6vfuYCWOL5MgTV0lYbBVtzGxz_KwIM50R3ZeKP3ymCCM28CF00MPgiff4&sa=X&ved=2ahUKEwiQ562h9JiNAxVULkQIHfLuA4QQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "events",
+            "related_searches"
+          ],
+          "se_results_count": 432000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Kizomba Addiction Ltd.",
+              "description": "7+ years in business · 64-66 Newington Causeway \nClosed ⋅ Opens 8 pm \n\"Great kizomba lessons very happy, the staff make you feel welcome.\" \n",
+              "domain": "www.kizombaaddiction.com",
+              "phone": "0800 999 1119",
+              "url": "https://www.kizombaaddiction.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 144,
+                "rating_max": 5
+              },
+              "cid": "4926081658091215124",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Rhythm & Vibes Dance Co - Salsa, Bachata & Kizomba Classes Parties London",
+              "description": "3+ years in business · Salsa!, Victoria Embankment \nClosed ⋅ Opens 7:30 pm Wed \n\"Amazing teachers and a great environment to learn kizomba dance.\" \n",
+              "domain": "rvdance.co.uk",
+              "phone": "07528 722813",
+              "url": "https://rvdance.co.uk/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 72,
+                "rating_max": 5
+              },
+              "cid": "5397682352030566215",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Salsa - Temple",
+              "description": "Victoria Embankment \nOpen ⋅ Closes 3 am \n\"Amazing night full of life\nFriendly staff\nGreat food and cocktails\" \n",
+              "domain": "www.bar-salsa.com",
+              "phone": "020 7395 3690",
+              "url": "https://www.bar-salsa.com/temple?utm_source=gmb&utm_medium=organic&utm_campaign=homepage",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 8400,
+                "rating_max": 5
+              },
+              "cid": "11495399779029882920",
+              "rectangle": null
+            },
+            {
+              "type": "events",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "title": "Events",
+              "url": null,
+              "items": [
+                {
+                  "type": "events_element",
+                  "title": "Clube Vicio: Saturday Night Kizomba Classes & Party In London 10-05-25",
+                  "snippet": "10 May, 20:00 Casa Ritmo London, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Kizomba Festival London UK",
+                  "snippet": "17 Oct, 18:00 Radisson Blu Hotel, London Heathrow Harlington, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Clube Vicio: Saturday Night Kizomba Classes & Party In London 24-05-25",
+                  "snippet": "24 May, 20:00 Casa Ritmo London, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Kizomba classes",
+                  "snippet": "13 May, 20:00 Watford Rugby Club Watford, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Clube Vicio: Saturday Night Kizomba Classes & Party In London 17-05-25",
+                  "snippet": "17 May, 20:00 Casa Ritmo London, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "🎶 London's No.1 Saturday Kizomba: Clube Vicio - The Yellow Party",
+                  "snippet": "21 Jun, 20:00 Casa Ritmo London, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Cuban Salsa meets Kizomba every Wednesday @ Parkfield FC",
+                  "snippet": "28 May, 19:30 Parkfield Youth FC Pinner, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "🎶 London's No.1 Saturday Kizomba: Clube Vicio - Festa Da Dipanda Edition",
+                  "snippet": "15 Nov, 20:00 Casa Ritmo London, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "🎶 London's No.1 Saturday Kizomba: Clube Vicio - Camo & Cargo Edition  04-04-26",
+                  "snippet": "4 Apr, 20:00 Casa Ritmo London, United Kingdom",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "🎶 London's No.1 Saturday Kizomba: Clube Vicio",
+                  "snippet": "13 Dec, 20:00 Casa Ritmo London, United Kingdom",
+                  "url": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Kizomba in london for adults",
+                "Kizomba in london for beginners",
+                "Kizomba London Saturday",
+                "Best kizomba in london",
+                "Free kizomba in london",
+                "London Kizomba Festival",
+                "Kizomba Classes east London",
+                "Kizomba Sunday London"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

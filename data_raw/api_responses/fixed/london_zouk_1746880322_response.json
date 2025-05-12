@@ -1,0 +1,340 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "11.0854 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101531-9976-0139-0000-49edb6f551f2",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "11.0403 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "zouk in London",
+        "location_code": 1006886,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "zouk in London",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006886,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=zouk%20in%20London&num=1&hl=en&gl=GB&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS",
+          "datetime": "2025-05-10 12:32:00 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "google_flights",
+            "google_reviews",
+            "knowledge_graph"
+          ],
+          "se_results_count": 782000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "ukdc.co.uk",
+              "title": "UKDC: Zouk in London",
+              "url": "https://ukdc.co.uk/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ukdc.co.uk",
+              "website_name": "Zouk in London",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "London's top dance school. Over 150 students coming through our doors each week, we're proud to lead the way in growing Brazilian Zouk in London.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "zouk in London from ukdc.co.uk",
+                  "url": "https://ukdc.co.uk/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101531-9976-0139-0000-49edb6f551f2:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "London's top dance school"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Zouk for Beginners",
+                  "description": null,
+                  "url": "https://ukdc.co.uk/zouk-for-beginners/",
+                  "domain": "ukdc.co.uk"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Zouk London Club",
+                  "description": null,
+                  "url": "https://ukdc.co.uk/zouk-mondays/",
+                  "domain": "ukdc.co.uk"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Zouk Lounge",
+                  "description": null,
+                  "url": "https://ukdc.co.uk/zouk-lounge-schedule-2024/",
+                  "domain": "ukdc.co.uk"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Zouk Spotlight Series",
+                  "description": null,
+                  "url": "https://ukdc.co.uk/zouk-spotlight-2025/",
+                  "domain": "ukdc.co.uk"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "google_flights",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+              "title": "People also search for",
+              "url": null,
+              "items": [
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk in london for adults",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Zouk+in+london+for+adults&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAg5EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk in london for beginners",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Zouk+in+london+for+beginners&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAg0EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk Love London",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Zouk+Love+London&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAgxEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk classes London",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Zouk+classes+London&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAg4EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk dance",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Zouk+dance&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAg3EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk classes near me",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Zouk+classes+near+me&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAg1EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Kompa London",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Kompa+London&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAg2EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk restaurant",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Zouk+restaurant&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ1QJ6BAgzEAE"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]",
+              "title": "Rio Zouk Fusion Brazilian dance school",
+              "subtitle": "Dance school in London, England",
+              "description": null,
+              "card_id": null,
+              "url": "http://www.riozoukfusion.co.uk/",
+              "image_url": null,
+              "logo_url": null,
+              "cid": "12577573317459574793",
+              "items": [
+                {
+                  "type": "knowledge_graph_images_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101531-9976-0139-0000-49edb6f551f2:1",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": "https://www.google.com/maps/place/Rio+Zouk+Fusion+Brazilian+dance+school/data=!4m2!3m1!1s0x0:0xae8c844b1b9c0009?sa=X&ved=1t:2428&hl=en&gl=GB&ictx=111",
+                      "domain": "www.google.com",
+                      "alt": "Map of Rio Zouk Fusion Brazilian dance school",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101531-9976-0139-0000-49edb6f551f2:2",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": "https://www.google.com/maps/uv?pb=!1s0x48761b45719799d5:0xae8c844b1b9c0009!3m1!7e115!4s/maps/place/zouk%2Bin%2BLondon/@51.5257183,-0.1095175,3a,75y,131.35h,90t/data%3D*213m4*211e1*213m2*211swI562HBwRe69d8L3A26yVw*212e0*214m2*213m1*211s0x48761b45719799d5:0xae8c844b1b9c0009?sa%3DX%26ved%3D2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQpx96BAgXEAA%26hl%3Den%26gl%3DGB!5szouk+in+London+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e2!2swI562HBwRe69d8L3A26yVw&cr=le_a7&hl=en&ved=1t:206134&ictx=111",
+                      "domain": "www.google.com",
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101531-9976-0139-0000-49edb6f551f2:3",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_row_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "title": "Address",
+                  "data_attrid": "kc:/location/location:address",
+                  "text": "Address : Exmouth Market Centre, 24 Exmouth Market, London EC1R 4QE",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Address",
+                      "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=rio+zouk+fusion+brazilian+dance+school+london+address&ludocid=12577573317459574793&sa=X&ved=2ahUKEwjFnpSn9JiNAxW-kYkEHUwYLnsQ6BN6BAgmEAI",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_row_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "title": "Phone",
+                  "data_attrid": "kc:/local:alt phone",
+                  "text": "Phone : 07988 952553",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "07988 952553",
+                      "url": "https://www.google.com/#",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_carousel_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "title": "Profiles",
+                  "data_attrid": "kc:/common/topic:social media presence",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Facebook",
+                      "subtitle": null,
+                      "url": "https://www.facebook.com/riozoukfusion/",
+                      "domain": "www.facebook.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101531-9976-0139-0000-49edb6f551f2:4",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/g-link[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Instagram",
+                      "subtitle": null,
+                      "url": "https://www.instagram.com/riozouk/",
+                      "domain": "www.instagram.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101531-9976-0139-0000-49edb6f551f2:5",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/g-link[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Facebook",
+                      "subtitle": null,
+                      "url": "https://www.facebook.com/people/Rio-Zouk-Fusion-Rio-zouk-samba/100070935086688",
+                      "domain": "www.facebook.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101531-9976-0139-0000-49edb6f551f2:6",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/g-link[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/span[3]/span[1]/a[1]",
+              "reviews_count": 13,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 13,
+                "rating_max": 5
+              },
+              "place_id": "ChIJ1ZmXcUUbdkgRCQCcG0uEjK4",
+              "feature": "0x48761b45719799d5:0xae8c844b1b9c0009",
+              "cid": "12577573317459574793",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.7540 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100252-9976-0139-0000-2436e6e44049",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.7168 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "social dance classes new york",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "social dance classes new york",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=social%20dance%20classes%20new%20york&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:52:53 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=social+dance+classes+new+york+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRlLDDUE-gPBizYwhplbd4QOfs-j65KiVdPJHveZFwFWLHuE8w_x-ggNCtytk5qoAZ-1IoiKNv_26gDGfGxquzOynTStzYYEmohW9IUGWwPbGoo0UD6R8WVFLGX-EOKBGUXDCKGFf513FVoToe-z98Q-83coqom92fwIqtqQABDM28dxqhKwK8jXOvpv5DsdNfm9t1Xg&sa=X&ved=2ahUKEwiizc3QypeNAxX7KEQIHfibFAAQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Social+dance+classes+new+york+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpLQmohipmaTB8lor1Z0qYSaD34efLp9moB8Uf0Pn1vysVI9lSupV1UE9CI8SVCu0XbbZoYWPjSkfjHPG4vjd1E2WRNLmkEpWl4t0WTjwt73ies2kHCmi0bnP1dTspkmGAN0Wg2gdfRAzC6UjZA4ow79Sw2VELQdeBgys1-TYALCV1AjwOI5HKbtRH2iutFgVAejPJPMGdiJhmIuVwz1GMIYC7GciOYg309eoDlnBOSXYR_3r&sa=X&ved=2ahUKEwiizc3QypeNAxX7KEQIHfibFAAQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+social+dance+classes+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR2ve7QlB1gDQ_xM0ke39dFvDUymE57Hg20PbM0W00cXGGDIrBeQ0HqycRSoOYqR4jApmHRbogMfJr80nqskphnYEx3LfoNz4ZnH-ZfnPOYwGjLM3SuLAeF5DLB0M4DK_lT_jG3v9Gw7uJWVamGrVe6Rl5VZ-nVl7YjucRol1h8te8l0ZtRSCLWmWU8kbgJiiGpUJxMQ&sa=X&ved=2ahUKEwiizc3QypeNAxX7KEQIHfibFAAQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+social+dance+classes+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRws5hkS8t4Z_jXmbwclCbYazLT3l309sqpuop2W7poSlLJ7ynNqrbKHQdCtEnbJlJZeuESUZteSwPPxwjkgUfzNrIgXE4uG-2SW01k97HUgIImEZwabgyPeQLU6JUMqukT1yCekwE53Bty_K_cyMwGH_vZs_49R9muvH7d6xXDDUYGsOXDwFV-nI9KpPtNWS2ul4hJfDTmRLI_cN6j0ZrKosoECMS-ZFEHqhU6Ceax8eNubfBTwVAZS1c2xALbF6rSIq6zA&sa=X&ved=2ahUKEwiizc3QypeNAxX7KEQIHfibFAAQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Free+social+dance+classes+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR58TdeqbvQGr4ffF7q5aDM1us_Q1WnIHcMU5w-BTMgaaSiEsJVUtufsj2TyeW4eoYyzN-8I1zCbG9wQbwjYR9Sh92PpRiJmebJe30F0M2OxSDOWcymDf1xxy8ebZl4NQncyL97GiMMLWvLu_g1oebV_HvBRY_SOPLGiDDD1wnDSVsfJwITXZPHgc__NvLUtSNrdWIenjXuZKfq1p4hX2jckb2-i0&sa=X&ved=2ahUKEwiizc3QypeNAxX7KEQIHfibFAAQxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 167000000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Fred Astaire Dance Studios",
+              "description": "7+ years in business \u00b7 291 Broadway suite 900 \nOpen \u22c5 Closes 10\u202fPM \n\"The teachers are amazing, supportive, and make every class fun.\" \n",
+              "domain": "www.fredastaire.com",
+              "phone": "(917) 442-4522",
+              "url": "https://www.fredastaire.com/ny-downtown/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 148,
+                "rating_max": 5
+              },
+              "cid": "11854448245724858625",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Dance With Me Soho",
+              "description": "15+ years in business \u00b7 676 Broadway 4th floor \nOpen \u22c5 Closes 9\u202fPM \n\"We learned dances and could actually put our steps to the music.\" \n",
+              "domain": "dancewithmeusa.com",
+              "phone": "(212) 840-3262",
+              "url": "http://dancewithmeusa.com/studio/soho-new-york-manhattan-dance-studio/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 36,
+                "rating_max": 5
+              },
+              "cid": "8001883647483923984",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Imperial Ballroom Dance Studio",
+              "description": "10+ years in business \u00b7 27-29 Division St \nOpen \u22c5 Closes 10\u202fPM \n\"Good social and competitive dance lessons .\" \n",
+              "domain": "www.imperialballroomnyc.com",
+              "phone": "(718) 288-5758",
+              "url": "http://www.imperialballroomnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 11,
+                "rating_max": 5
+              },
+              "cid": "14279957761021574435",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Danznik Studios NYC \u2011 Social & B...",
+                "Dance With Me Midtown",
+                "You Should Be Dancing...!",
+                "Stepping Out Studios",
+                "Joel Salsa",
+                "Dance Manhattan"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Social dance classes new york adults",
+                "Free social dance classes new york",
+                "Best social dance classes new york",
+                "Dance classes NYC for adults",
+                "Ballroom dance classes NYC",
+                "Couples dance classes NYC",
+                "Dance classes NYC for beginner adults",
+                "Private dance lessons NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

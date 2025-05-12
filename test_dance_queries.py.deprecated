@@ -1,0 +1,194 @@
+#!/usr/bin/env python3
+"""
+Test script that runs the 14 specific dance queries for a city
+using the DataForSEO API.
+"""
+import os
+import json
+import base64
+import requests
+import logging
+import time
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv(override=True)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATA_RAW_DIR = "./data_raw/dance_queries"
+
+# Ensure data directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+def make_api_request(endpoint, data):
+    """Make a request to the DataForSEO API with proper authentication"""
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    response = requests.post(endpoint, json=data, headers=headers)
+    response.raise_for_status()
+    return response.json()
+
+def extract_urls_from_result(result):
+    """Extract all URLs from a result item"""
+    urls = []
+    
+    if result.get('status_code') == 20000:  # Success
+        tasks = result.get('tasks', [])
+        
+        for task in tasks:
+            if 'result' in task and task['result']:
+                for item in task['result']:
+                    # Extract SERP items
+                    items = item.get('items', [])
+                    
+                    for result_item in items:
+                        # Get URL if available
+                        if 'url' in result_item and result_item['url']:
+                            url = result_item['url']
+                            if url.startswith('http') and url not in urls:
+                                urls.append(url)
+                        
+                        # Check for links inside results
+                        if 'links' in result_item and isinstance(result_item['links'], list):
+                            for link in result_item['links']:
+                                if 'url' in link and link['url']:
+                                    link_url = link['url']
+                                    if link_url.startswith('http') and link_url not in urls:
+                                        urls.append(link_url)
+                        
+                        # If it's a local pack, extract all URLs
+                        if result_item.get('type') == 'local_pack' and 'items' in result_item:
+                            for local_item in result_item['items']:
+                                if 'url' in local_item and local_item['url']:
+                                    local_url = local_item['url']
+                                    if local_url.startswith('http') and local_url not in urls:
+                                        urls.append(local_url)
+    
+    return urls
+
+def query_organic_search(keyword, location):
+    """Query the DataForSEO organic search endpoint"""
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    data = [{
+        "keyword": keyword,
+        "location_name": location,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "se_results_count": 100
+    }]
+    
+    try:
+        logger.info(f"Querying: '{keyword}' in {location}")
+        result = make_api_request(endpoint, data)
+        
+        # Save raw response
+        keyword_slug = keyword.replace(" ", "_").replace('"', '').lower()
+        raw_path = os.path.join(DATA_RAW_DIR, f"{keyword_slug}_{location.split(',')[0].lower()}.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        # Extract URLs from the result
+        urls = extract_urls_from_result(result)
+        logger.info(f"Found {len(urls)} URLs for '{keyword}' in {location}")
+        
+        return urls
+    
+    except Exception as e:
+        logger.error(f"Error querying '{keyword}' in {location}: {e}")
+        return []
+
+def run_dance_queries(city, city_location):
+    """Run all 14 dance queries for a specific city"""
+    # Define the 14 dance queries
+    dance_queries = [
+        f"salsa in {city}",
+        f"bachata in {city}",
+        f"kizomba in {city}",
+        f"zouk in {city}",
+        f"cumbia in {city}",
+        f"rumba in {city}",
+        f"tango in {city}",
+        f"hustle in {city}",
+        f"chacha in {city}",
+        f'"coast swing" in {city}',
+        f"lambada in {city}",
+        f"samba in {city}",
+        f"ballroom in {city}",
+        f"forro in {city}"
+    ]
+    
+    all_urls = set()
+    url_sources = {}
+    
+    # Run each query
+    for query in dance_queries:
+        # Add delay to avoid rate limiting
+        time.sleep(0.5)
+        
+        urls = query_organic_search(query, city_location)
+        
+        # Track the source of each URL
+        for url in urls:
+            if url not in all_urls:
+                all_urls.add(url)
+                url_sources[url] = query
+    
+    # Save all URLs to file
+    city_slug = city.lower().replace(" ", "_")
+    urls_path = os.path.join(DATA_RAW_DIR, f"{city_slug}_all_urls.txt")
+    with open(urls_path, 'w') as f:
+        f.write(f"Total unique URLs found for {city}: {len(all_urls)}\n\n")
+        
+        for i, url in enumerate(all_urls, 1):
+            source = url_sources.get(url, "unknown")
+            f.write(f"{i}. [{source}] {url}\n")
+    
+    # Save structured data to JSON
+    data_path = os.path.join(DATA_RAW_DIR, f"{city_slug}_results.json")
+    
+    # Group URLs by dance style
+    urls_by_style = {}
+    for query in dance_queries:
+        dance_style = query.split(" in ")[0].replace('"', '')
+        urls_by_style[dance_style] = [url for url, src in url_sources.items() if src == query]
+    
+    with open(data_path, 'w') as f:
+        json.dump({
+            'city': city,
+            'total_unique_urls': len(all_urls),
+            'urls_by_dance_style': urls_by_style,
+            'all_urls': list(all_urls)
+        }, f, indent=2)
+    
+    logger.info(f"Found {len(all_urls)} unique URLs for {city}")
+    logger.info(f"Results saved to {urls_path} and {data_path}")
+    
+    return len(all_urls)
+
+if __name__ == "__main__":
+    logger.info("Starting dance queries test")
+    
+    # Test with New York
+    city = "New York"
+    city_location = "New York,New York,United States"
+    
+    total_urls = run_dance_queries(city, city_location)
+    
+    logger.info(f"Total unique URLs for {city}: {total_urls}") 

@@ -1,0 +1,333 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.4843 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101621-9976-0139-0000-b31d7e505de9",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.4441 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in London",
+        "location_code": 1006886,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in London",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006886,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20London&num=1&hl=en&gl=GB&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS",
+          "datetime": "2025-05-10 13:21:42 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Traditional",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Traditional+bachata+in+london&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRMig7EtYo4Rsu7ScWtG0bDPcb2TM-VQACgVDS0Sxshg-C3JuXNhMozJVzaQN_Epi_pskE2I1APLvUI6MSCXPMuU8xNyiYvclsunakplrwmjm--Nk1lTRbNnBJ4eXQQ9S6oZaKIHstac6OFOqJl3pqxCxUtXdzbqcDbOO1G5P-7Sr1o5jdTrxgeUgghsrWVMjZX5NK55FaNWTkQNTtJ_FjJT4fHkE&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Bachata+classes+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr6p4DQ95Pjpm-Kv1TFZqDMInmqs7r_KyTXiKgL7TSz5uDrjQk0P1HP3bb9Zx4gG_2SenhFkF5Sw4_qISf-TZjfu_YIpt5D7W7htpfy6b7n2CSBMbVjO1Ivw7eGVyJA-VAugmKD2zSlJCRUbRniB4ailY6aDJ9742WBTbeo28e81t1mo0XXuLgAyQqMbcHkuAbb6o_D4&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=bachata+in+London+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khQtcyyjwztBeNkbBWxmhJ3p6j0BkG-zVGJK84i16PvyoRh6Y7PwsJ-SiHGDrdNhhmdzc1pEMp7sODAF114TIMs1p_RqyitIqG7vgVjX9yKRFweyEguSIZOg-l6t8ALYBHUKyANK4SO6gFykARqFQSFnJc2xf&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Today",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Bachata+London+today&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xIV1wKt-wR-fjskUrsyjNpnAe-78TYbDceVMrPsOA_OBq4XN6tZTLf0ZIMZ05Niis5TaqlOXddgw1uYD88h6pSyXHjsggB15rosdUSV_yCc5YqxsBJoxsx3KoUs87ZDT0bFktrEqdRGkEBrLyT_uUdsXRaO7xlrK9ElK6do8xgoi-3ArRzLU0_zBMmXa9Zn5Uxe5KQY&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "On Saturday",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Bachata+On+Saturday+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXbpeEMey_Q4pR6vhuQVBus3wex0GqgsDh75HFEsk6qPZpq06w8SNMZnfjrWOAh2HW8gFWGQaMTo7UuNwhCV0r33POR9UG_F1z9H9g3gNkGsf5FuWfg3UpUs2CxgBCGRCbCUlvNVLLZIqCp9ud_83bdQ1XmiLQ5cPkPlt4XCC3Oe5yfpXEgfk8VeGURiwHCUov6FggI4H_slZEPxXG_loDCPl2ZIufKRiUnwERqOB_bOqc1KA&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Club",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Bachata+Club+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4acwLp7HRpuUubjIHvAd3jQKkhGRxKkHgBMCotNjplYUf_rHLRYqnxIHBezYll1C85JQCLtsm1Jtx9n4ev71nLDC-0e4FIz7oDzX5MUGPZnASB3YTD4pXweh1ZsQIxX4NdH8WRAyv611dOMViPA23m0UtBrT_i8eLz_9OYHwjgpSeTop80eRGXUZX22avAmrL0T8oXg&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQISBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Best",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Best+bachata+in+london&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhE-E2mt6UTqI1R6XmCzV5HCXAJe2us5R6X7xkbdFhgLrHry53FwIpMcWDLG0zIu8ePDi8bUlnagWx5bQDDgRbn9o2YfsCTrVDf2g-1mce6BVDhKQkSUP-ukO593PqooFQQMqFHgCf1eqxowMoAghASWJlmNFNQQ9Vn5BjGmMhHqqBj4lCGMkZYc0c-0MCJdlAkBDQsGVfiFwLnKx9WE_EqmIl-I&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIQBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Social",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Bachata+social+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk3RJC2Tf-ogzbU2w_soeviQP_gE6lWJJjgGs6s9nXahPGctrlA4Jo_9Rlr6tX36VCw2sXsnXpiXmkxIXYKjVmFqb6Fbgydyim7T9TbvwDAItxAH-7qS4cvK4B5Eg2kfmK3oTufv9NjWI4qsAG4cCp7uQLkj7T3jH6bXUmwI7yhwMsTEe8guLnAvfDZQ9RC3qiUcxt-M&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIPRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Friday",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Bachata+Friday+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk3RJC2Tf-ogzbU2w_soeviTRPT7TlZYU6G9XBeKEeod0RND-nHdIwgRoqMqFaVv3lX6EzDb5R71kfkHM9uiqS4iEYBVOhBprooTX0rvIF7pa3hvCXXwnzTKC-HNCTtWfKmZlQIY1YCfDnL1MmdN5z6qkAPb3nb_nEWYnfn5nev9p9rCkQWA_W4yX3_40FSvHn8zDsL8&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30QxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "organic",
+            "images",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 2810000,
+          "items_count": 7,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsatropical Dance Company Ltd.- Salsa & Bachata Classes and Workshops",
+              "description": "1 Sheffield St \nClosed ⋅ Opens 9 am Mon \n\"Fun and challenging salsa classes for all levels, highly recommend!\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 421,
+                "rating_max": 5
+              },
+              "cid": "16153469565793752661",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Salsa - Temple",
+              "description": "Victoria Embankment \n\"Love to go there on Tuesdays for the bachata class all levels at 7:30pm\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 8400,
+                "rating_max": 5
+              },
+              "cid": "11495399779029882920",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Salsa - Soho",
+              "description": "96 Charing Cross Rd \n\"They offer salsa and bachata lessons that are both fun and engaging.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 8600,
+                "rating_max": 5
+              },
+              "cid": "8484231495345235907",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+              "domain": "salsa-tropical.com",
+              "title": "Bachata Dance Classes - London",
+              "url": "https://salsa-tropical.com/bachata-classes/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://salsa-tropical.com › bachata-classes",
+              "website_name": "Salsa Tropical London",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dance away your boredom with our exciting Bachata Lessons in London & Bethnal Green. We create a friendly atmosphere with great music in our Bachata ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "exciting Bachata Lessons in London & Bethnal Green"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=bachata+in+London&udm=2&source=univ&fir=-iKnV_mrbVnIhM%252ClP0bCWSu1ME-mM%252C_%253B1HMw-JrrYxkceM%252CyajSeHrSd7MXsM%252C_%253BCaR5M6HNHArMUM%252CLdPjiQ3-zC0OiM%252C_%253B8njt-j6_xozmsM%252ClbJxf4hYrcPAVM%252C_%253BhlcAmktdN2D78M%252CpbikTP2xYoWfwM%252C_%253BsAkx8faeMudEgM%252Cnm4djIhYDpoEIM%252C_%253Bfp25a_VMdGBH2M%252CwNw6alE9c8TZTM%252C_%253BsX1fzbGpoJH-iM%252Cnm4djIhYDpoEIM%252C_%253BFKOhRo_-VbluoM%252CqHHy9mgIZvxVcM%252C_&usg=AI4_-kSmSTEdH8W3MvNf9wMTRogDiMFmfA&sa=X&ved=2ahUKEwiBhIu1_5iNAxWjEkQIHV1AK30Q7Al6BAgQEAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Bachata Classes | Bachata Lessons London | Bachata Lessons",
+                  "url": "https://salsa-tropical.com/bachata-classes/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101621-9976-0139-0000-b31d7e505de9:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Wednesday Bachata Classes & Parties in London | Rhythm ...",
+                  "url": "https://rvdance.co.uk/bachata-classes-london-wednesday/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101621-9976-0139-0000-b31d7e505de9:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Bachata classes in London | Dancebuzz",
+                  "url": "https://dancebuzz.co.uk/bachata-classes/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101621-9976-0139-0000-b31d7e505de9:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Bachata Spice Lessons - London UK",
+                  "url": "https://www.bachataspice.com/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf_VJ6qrtsXv60fSm4Eyck3tylAf9TYyrbyllO-gTV8Y7LCLdzx2sqxSU&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "WEDNESDAYS at Hammersmith Salsa & Bachata Club, London ...",
+                  "url": "https://www.incognitodance.com/wednesdays-at-hammersmith-salsa-club-hammersmith-london/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9mbd7OiIZNC1w_hosrSYFlo6GKAA0iLDSzf8Y2153uRFpiUP1JwqKLRU&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "London LOVES bachata -LLB",
+                  "url": "https://www.facebook.com/londonlovesbachata/?locale=en_GB",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-RtXlhA-hmTmYjRN4SzXW2cuJtuiGuWujSGCePW14htcDBDAs_rjJD8&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Salsa and Bachata Classes in London | Salsa Tropical",
+                  "url": "https://salsa-tropical.com/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnGoJQGFl5y0bkTU5RMBCqkiZF8ZIem3XicEEoaPS07pN_z8MNzKWPpJA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "London LOVES bachata -LLB",
+                  "url": "https://www.facebook.com/londonlovesbachata/?locale=en_GB",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqK-x8_z139_Zw_QY-4EvuDdgCbkh1NmX8gYOBmJuod-uj-2e7IXgah9U&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Incognito Dance - Salsa & Bachata in London",
+                  "url": "https://www.incognitodance.com/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm32j7DdgUYm45FujINq7sVIJeLaJiCJ22p6zh9QATlcy1NJvExhU3Ks8&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Salsatropical Dance Company L...",
+                "Salsa ‑ Temple",
+                "SOS Salsa On Sundays",
+                "Incognito Dance",
+                "Salsa ‑ Soho",
+                "Pineapple Dance Studios"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Traditional bachata in london",
+                "Bachata classes London",
+                "Best bachata in london",
+                "Free Bachata classes London",
+                "Bachata classes north London",
+                "Bachata classes South London",
+                "Bachata classes near me",
+                "Bachata classes London Saturday"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

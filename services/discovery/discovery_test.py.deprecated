@@ -1,0 +1,295 @@
+#!/usr/bin/env python3
+"""
+Test version of the enhanced discovery service
+with limited cities and dance styles
+"""
+import os
+import logging
+import json
+import base64
+import requests
+import time
+from pathlib import Path
+from urllib.parse import urlparse
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
+
+# Setup file logging for dance style statistics
+dance_stats_logger = logging.getLogger('dance_stats_logger')
+dance_stats_logger.setLevel(logging.INFO)
+stats_file_handler = logging.FileHandler("dance_style_stats.csv", mode='w')
+stats_formatter = logging.Formatter('%(message)s')
+stats_file_handler.setFormatter(stats_formatter)
+dance_stats_logger.addHandler(stats_file_handler)
+dance_stats_logger.propagate = False
+# Write CSV header for dance style stats
+dance_stats_logger.info("city,dance_style,url_count")
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+REQUEST_DELAY = 1.0  # Reduced for testing
+DATA_RAW_DIR = "./data_raw"
+
+# Ensure data_raw directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+# Test with limited dance styles
+TEST_DANCE_STYLES = [
+    "salsa",
+    "bachata",
+    "tango",
+    "cumbia"
+]
+
+# Test with one city
+TEST_CITIES = [
+    "New York",
+]
+
+def is_valid_url(url):
+    try:
+        result = urlparse(url)
+        return all([result.scheme, result.netloc]) and result.scheme in ["http", "https"]
+    except ValueError:
+        return False
+
+def extract_urls_from_item(item, source_type="unknown"):
+    """Recursively extract all URLs from a result item"""
+    found_urls = []
+    
+    # Base case: item is None or not a dict
+    if item is None or not isinstance(item, dict):
+        return found_urls
+    
+    # Get direct URL if available
+    if 'url' in item and item['url']:
+        url = item['url']
+        if url.startswith('http'):
+            found_urls.append(url)
+    
+    # Get domain URL if available
+    if 'domain' in item and item['domain']:
+        domain = item['domain']
+        domain_url = f"https://{domain}" if not domain.startswith('http') else domain
+        found_urls.append(domain_url)
+    
+    # Look for links
+    if 'links' in item and isinstance(item['links'], list):
+        for link in item['links']:
+            if isinstance(link, dict) and 'url' in link and link['url']:
+                url = link['url']
+                if url.startswith('http'):
+                    found_urls.append(url)
+    
+    # Look for items array
+    if 'items' in item and isinstance(item['items'], list):
+        for sub_item in item['items']:
+            sub_results = extract_urls_from_item(sub_item, f"{source_type}_item")
+            found_urls.extend(sub_results)
+    
+    # Check all other dictionaries recursively (but avoid infinite recursion)
+    for key, value in item.items():
+        if key not in ['url', 'domain', 'links', 'items'] and isinstance(value, dict):
+            sub_results = extract_urls_from_item(value, f"{key}")
+            found_urls.extend(sub_results)
+        elif key not in ['url', 'domain', 'links', 'items'] and isinstance(value, list):
+            for sub_item in value:
+                if isinstance(sub_item, dict):
+                    sub_results = extract_urls_from_item(sub_item, f"{key}_item")
+                    found_urls.extend(sub_results)
+    
+    return found_urls
+
+def extract_urls_from_result(result):
+    """Extract all URLs from an API result with recursive approach"""
+    urls = []
+    
+    if result.get('status_code') == 20000:  # Success
+        tasks = result.get('tasks', [])
+        
+        for task in tasks:
+            if 'result' in task and task['result']:
+                for item in task['result']:
+                    # Start with standard items
+                    items = item.get('items', [])
+                    
+                    # Process all item types
+                    for result_item in items:
+                        item_type = result_item.get('type', 'unknown')
+                        # Extract all URLs from this item through recursive function
+                        extracted_urls = extract_urls_from_item(result_item, item_type)
+                        
+                        for url in extracted_urls:
+                            if url not in urls and is_valid_url(url):
+                                urls.append(url)
+                    
+                    # Also check if there are direct URLs in the result (not in items)
+                    direct_extracted = extract_urls_from_item(item, "direct_result")
+                    for url in direct_extracted:
+                        if url not in urls and is_valid_url(url):
+                            urls.append(url)
+    
+    return urls
+
+def get_dataforseo_results_for_dance_style(dance_style, city, login, password):
+    """Fetches search results from DataForSEO API for a specific dance style."""
+    all_urls_from_query = set()
+    
+    # Format the search query
+    query = f"{dance_style} in {city}"
+    # Handle coast swing specially
+    if dance_style == "coast swing":
+        query = f'"coast swing" in {city}'
+    
+    # DataForSEO API endpoint for Google Organic Search
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{login}:{password}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Get city, state, country format if possible
+    location_name = city
+    # Try parsing the city if it's US
+    parts = city.split(',')
+    if len(parts) == 1:
+        location_name = f"{city},United States"
+    
+    # Create the search task
+    data = [{
+        "keyword": query,
+        "location_name": location_name,
+        "language_name": "English",
+        "depth": 1,  # Just one page for testing
+        "se_domain": "google.com",
+        "se_results_count": 100
+    }]
+    
+    try:
+        # Make the API request
+        logger.info(f"Querying: '{query}' in {location_name}")
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the entire response for debugging 
+        slug = dance_style.replace(" ", "_").replace('"', '')
+        raw_filename = f"{city.replace(' ', '_').lower()}_{slug}_{int(time.time())}_response.json"
+        raw_path = os.path.join(DATA_RAW_DIR, raw_filename)
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        # Process the results using the enhanced extraction
+        if result.get('status_code') == 20000:  # Success code
+            logger.info(f"DataForSEO request successful for '{query}' in {city}")
+            
+            # Extract URLs with the enhanced method
+            urls = extract_urls_from_result(result)
+            
+            # Add all discovered URLs to the set
+            for url in urls:
+                if is_valid_url(url):
+                    all_urls_from_query.add(url)
+            
+            logger.info(f"Found {len(all_urls_from_query)} URLs for '{query}' in {city}")
+            
+            # Log to dance style statistics CSV
+            dance_stats_logger.info(f"{city},{dance_style},{len(all_urls_from_query)}")
+        else:
+            error_message = result.get('status_message', 'Unknown error')
+            logger.error(f"DataForSEO API error: {error_message} for '{query}' in {city}")
+    
+    except requests.exceptions.RequestException as e:
+        logger.error(f"DataForSEO request failed for '{query}' in {city}: {e}")
+    except Exception as e:
+        logger.error(f"An unexpected error occurred processing '{query}' in {city}: {e}")
+    
+    # Apply delay to respect rate limits
+    time.sleep(REQUEST_DELAY)
+    
+    return list(all_urls_from_query)
+
+def main():
+    logger.info("Starting test discovery process with DataForSEO...")
+    
+    # Check DataForSEO credentials
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials (DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD) not set. Exiting.")
+        return
+
+    # Track URLs by dance style across all cities
+    dance_style_url_counts = {style: 0 for style in TEST_DANCE_STYLES}
+    
+    # Summarize dance style metrics to a JSON file
+    dance_style_summary_path = os.path.join(DATA_RAW_DIR, "dance_style_summary.json")
+    dance_style_city_metrics = {}
+
+    for city in TEST_CITIES:
+        logger.info(f"Processing city: {city}")
+        
+        # Track URLs for this city across all dance styles
+        all_city_urls = set()
+        city_dance_style_metrics = {}
+        
+        # Query each dance style individually for this city
+        for dance_style in TEST_DANCE_STYLES:
+            query_urls = get_dataforseo_results_for_dance_style(
+                dance_style, 
+                city, 
+                DATAFORSEO_LOGIN, 
+                DATAFORSEO_PASSWORD
+            )
+            
+            # Record metrics for this city and dance style
+            city_dance_style_metrics[dance_style] = len(query_urls)
+            dance_style_url_counts[dance_style] += len(query_urls)
+            
+            # Add URLs to the city's set, deduplicating
+            for url in query_urls:
+                all_city_urls.add(url)
+            
+            # Small delay between dance style queries for the same city
+            time.sleep(0.3)
+        
+        # Store metrics for this city
+        dance_style_city_metrics[city] = city_dance_style_metrics
+        
+        # Process all collected URLs for this city
+        if all_city_urls:
+            logger.info(f"Found total of {len(all_city_urls)} unique URLs for {city}")
+            
+            # Save URLs for this city
+            city_urls_path = os.path.join(DATA_RAW_DIR, f"{city.lower().replace(' ', '_')}_urls.txt")
+            with open(city_urls_path, 'w') as f:
+                for url in all_city_urls:
+                    f.write(f"{url}\n")
+        else:
+            logger.info(f"No URLs found for city: {city}")
+
+    # Save dance style metrics summary
+    with open(dance_style_summary_path, 'w') as f:
+        json.dump({
+            'dance_style_total_counts': dance_style_url_counts,
+            'city_metrics': dance_style_city_metrics
+        }, f, indent=2)
+    logger.info(f"Saved dance style metrics to {dance_style_summary_path}")
+    
+    # Print dance style summary to logs
+    logger.info("--- Dance Style URL Counts ---")
+    for style, count in sorted(dance_style_url_counts.items(), key=lambda x: x[1], reverse=True):
+        logger.info(f"{style}: {count} URLs")
+
+    logger.info("Test discovery process completed.")
+
+if __name__ == "__main__":
+    main() 

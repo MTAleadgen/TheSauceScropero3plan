@@ -1,0 +1,262 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.5713 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100239-9976-0139-0000-54b51c629af8",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "6.5319 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa bachata dance classes in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 2,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa bachata dance classes in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20bachata%20dance%20classes%20in%20New%20York&num=2&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:39:30 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+bachata+dance+classes+in+new+york+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRG1Ag1pIksZuumRL5T3M9uQGPFcmpbc5kur4vIXbALP02het9lN8InbBAX6UYOo364Ns4wlgbpWNrWVhRQXRE30Mpfsx14aLvOOBOyQgyWTk137yYkiVfvcjWt9wX71bEPkDdOM1OfqwIypp5VpsbclCgbKHzIN8zDp0cWqecOLs3q8sQj91VuCySOTK1-datdQVZEKe-k0Nbz7ISsAOCJn3FANA_392qWPDiffQ11SSctYQjWXWBZZ4wKf5tGlsJIGZuBg&sa=X&ved=2ahUKEwi6zobSx5eNAxVVQ_EDHfd6L-kQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For adults",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+bachata+dance+classes+in+new+york+for+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRGklg1jdw9kfY6bGTLwukILiiNbeek2vDC_9taOmmeF-WBmXemSgXlPFHSZrJ0KfHpP1NmZEibU57v0p62ux655AO9_pi32xnAK4r4LGT1E-LQGo0GQj638jia26RvMhfVZZCorjpuGhXblYBzXKwxlaiyPz_HN7-9JJV0A8Ap_Z8kF1-tnkdaPExRgh-eYmZAQfSU70vNMl6qbIDquhlSYeRTZQ7iecH3Oa1hk7aTCDc1wdWspiK3iFijCXipsnTuDL1gQ&sa=X&ved=2ahUKEwi6zobSx5eNAxVVQ_EDHfd6L-kQxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=salsa+bachata+dance+classes+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRLAX3BJuhC-eu4E9FOyQ8N4rlqgzIwz82_Em_rYFqWWcasgWmvXGOOjvqoS3porFu5BdUHMaQh-LhipjX2TiwywjdY5ZrePMWAt4n1OT-smyHq-zh7qUQ-JJSqEI9dmzHHED_ENUF1s-IF4QNmxVEKkNqhi1TYhEyuydVJ9XDaZvkIjldLoQMSdSmULlUZPgy9kJeDD-h30FQTvmbGWSX5YFPweQ&sa=X&ved=2ahUKEwi6zobSx5eNAxVVQ_EDHfd6L-kQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Free+salsa+bachata+dance+classes+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRTK5NfX0Q7Q4-KkLEhDXnIArzum8Cm36KKiewNh9jAHfWQKjMySIpvm-sDrvh5brxiu5XLwK7HXccTtrgEyofHbPaEdHr7FWjoi1cQTcYJsYrcJvNfsmTTYsV2vgcmkRQ74zwaBkxcpA8UQDEwOhN6aHvU9VT59YqtmI34arEnPYSaNdAYSBAddpAlHEXom5fQ6eHwqbHEs4XJBCr-TsI9LFhGkf6iHUCqGNzWqDb2lpUUQDKVIGUTO0z9ohVnXeZ_PGicg&sa=X&ved=2ahUKEwi6zobSx5eNAxVVQ_EDHfd6L-kQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+salsa+bachata+dance+classes+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RReT7RRgkeaUsU3fwoWWyUDOFzOlUrEjj-IXEKfRHO7Jg2rASEzU9P1-ntwtpSzdtSWPUzKesryxgBi0Y0MZS9ZJCWuZaMqni1SOYSpXdn_19K3gykbIlW5vi5iEHbXDD3ppfKTsCmYbAM_mjHRFUdqcvZHnr20XJnYdEBHWrkw08OipmStPcl6TBFSCRaFF40iAem8MfbNEe8_VMaOOTCu5XO3LkrWVJ6cBhPB00PKm5K_3Zb3sGUGEZXHfkRDTzlh9GS8w&sa=X&ved=2ahUKEwi6zobSx5eNAxVVQ_EDHfd6L-kQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "City",
+                "url": "https://www.google.com/search?num=2&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+bachata+dance+classes+in+new+york+city&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRUYz4ctl0ibA5yhp91AFYdl-U7HguD3t_T6OdIqM54udOxfqWZQIte-KuYgV2421FSKnhWgN14uxFY0qDSAATDo9eTdXvntm9RbMFw3m9g0bKq-9u9VoXSXQ6hl1IhDxDZoGMX37yNcO2o2bJhnthcVC40tKjrKp8W-9f7ms8x0jtrSbwhEd0_lrvOnamNu4IMKIIkacFVMi-jWlSs6EOPWO18heOvpMqeLU0t0pKdj4TNpTcGDTuxJj6v36FR7e7ghfJVg&sa=X&ved=2ahUKEwi6zobSx5eNAxVVQ_EDHfd6L-kQxKsJegQIOhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "organic",
+            "related_searches"
+          ],
+          "se_results_count": 4000000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Bachata Soul NYC",
+              "description": "Pearl Studios NYC, 500 8th Ave \nClosed \u22c5 Opens 6:30\u202fPM Mon \n\"Learn technique, sweat and have fun learning traditional bachata !\" \n",
+              "domain": "bachatasoulnyc.com",
+              "phone": "(646) 503-0311",
+              "url": "https://bachatasoulnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 109,
+                "rating_max": 5
+              },
+              "cid": "9440330241756164668",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "KS Bachata Sensual",
+              "description": "7+ years in business \u00b7 38W W 32nd St #405 \nOpen \u22c5 Closes 11\u202fPM \n\"It has a friendly crowd and very basic salsa lessons before parties.\" \n",
+              "domain": "www.bachatanyc.com",
+              "phone": "(917) 969-8129",
+              "url": "https://www.bachatanyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 193,
+                "rating_max": 5
+              },
+              "cid": "15490072797722449774",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Sensual Movemnet New York | Bachata Sensual NYC | Bachata Classes | Bachata Dance Classes | Bachata Social",
+              "description": "7+ years in business \u00b7 224 W 35th St \nOpen \u22c5 Closes 11\u202fPM \n\"The classes and socials are so much fun and the people are very welcoming.\" \n",
+              "domain": "sensualmovementusa.com",
+              "phone": "(929) 376-8884",
+              "url": "https://sensualmovementusa.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 104,
+                "rating_max": 5
+              },
+              "cid": "17939223690208294838",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "nievesdancestudio.com",
+              "title": "Nieves Latin Dance Studio: Salsa & Bachata Dance Classes",
+              "url": "https://nievesdancestudio.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://nievesdancestudio.com",
+              "website_name": "Nieves Latin Dance Studio",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Nieves Latin Dance Studio offers Salsa/Bachata lessons in 5 different locations in NYC. The Classes are fun, easy and its great way to stay active.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 5,
+                "regular": null,
+                "max_value": null,
+                "currency": "ALL",
+                "is_price_range": false,
+                "displayed_price": "All 5 Location Schedule"
+              },
+              "highlighted": [
+                "offers Salsa/Bachata lessons in 5 different locations in NYC"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Manhattan \u2013 Midtown",
+                  "description": null,
+                  "url": "https://nievesdancestudio.com/manhattan/",
+                  "domain": "nievesdancestudio.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "All 5 Location Schedule",
+                  "description": null,
+                  "url": "https://nievesdancestudio.com/all-5-location-schedule/",
+                  "domain": "nievesdancestudio.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Pick Your Location",
+                  "description": null,
+                  "url": "https://nievesdancestudio.com/brooklyn/",
+                  "domain": "nievesdancestudio.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Kids Classes",
+                  "description": null,
+                  "url": "https://nievesdancestudio.com/kids-classes/",
+                  "domain": "nievesdancestudio.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa bachata dance classes in new york for adults",
+                "Salsa bachata dance classes in new york for beginners",
+                "Salsa bachata dance classes in new york city",
+                "Free salsa bachata dance classes in new york",
+                "Best salsa bachata dance classes in new york",
+                "Salsa classes NYC",
+                "Latin dance classes NYC",
+                "Latin dance classes near me"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1374 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 1,
+  "tasks": [
+    {
+      "id": "05101705-9976-0139-0000-c18b8ab5d828",
+      "status_code": 40501,
+      "status_message": "Invalid Field: 'location_name'.",
+      "time": "0 sec.",
+      "cost": 0,
+      "result_count": 0,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "events",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "events",
+        "keyword": "salsa in New York",
+        "location_name": "New York",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "date_range": "next_week"
+      },
+      "result": null
+    }
+  ]
+}

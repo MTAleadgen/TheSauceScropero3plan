@@ -1,0 +1,50 @@
+{
+  "total_unique_urls": 13,
+  "queries": [
+    "salsa in new york",
+    "salsa dance classes new york",
+    "bachata in new york",
+    "dance events new york",
+    "social dance classes new york"
+  ],
+  "urls_by_query": {
+    "salsa in new york": [
+      "https://www.salsanewyork.com/",
+      "http://gygnyc.com/",
+      "https://salsasabrosaschool.com/",
+      "http://www.salsasalsadancestudio.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16906655974687444521"
+    ],
+    "salsa dance classes new york": [
+      "http://www.salsaclassesnyc.com/",
+      "https://www.fredastaire.com/ny-downtown/"
+    ],
+    "bachata in new york": [
+      "https://www.bachatanyc.com/",
+      "https://sensualmovementusa.com/",
+      "https://bachatasoulnyc.com/",
+      "https://www.eventbrite.com/d/ny--new-york/bachata/"
+    ],
+    "dance events new york": [
+      "https://www.dance.nyc/for-audiences/community-calendar"
+    ],
+    "social dance classes new york": [
+      "http://dancewithmeusa.com/studio/soho-new-york-manhattan-dance-studio/",
+      "http://www.imperialballroomnyc.com/"
+    ]
+  },
+  "all_urls": [
+    "https://www.salsanewyork.com/",
+    "http://gygnyc.com/",
+    "https://salsasabrosaschool.com/",
+    "http://www.salsasalsadancestudio.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16906655974687444521",
+    "http://www.salsaclassesnyc.com/",
+    "https://www.fredastaire.com/ny-downtown/",
+    "https://www.bachatanyc.com/",
+    "https://sensualmovementusa.com/",
+    "https://bachatasoulnyc.com/",
+    "https://www.eventbrite.com/d/ny--new-york/bachata/",
+    "https://www.dance.nyc/for-audiences/community-calendar",
+    "http://dancewithmeusa.com/studio/soho-new-york-manhattan-dance-studio/",
+    "http://www.imperialballroomnyc.com/"
+  ]
+}

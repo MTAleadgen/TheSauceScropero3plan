@@ -1,0 +1,137 @@
+#!/usr/bin/env python3
+"""
+Utility to check and display events in the event_clean table.
+Provides filtering by metro_id and dance style.
+"""
+import os
+import sys
+import argparse
+import psycopg2
+from datetime import datetime, timezone
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Get database connection string
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+def display_events(metro_id=None, dance_style=None, limit=10, format_type="table"):
+    """
+    Display events from the event_clean table with optional filtering.
+    
+    Args:
+        metro_id: Filter by metro ID
+        dance_style: Filter by dance style tag
+        limit: Maximum number of events to display
+        format_type: Output format ('table' or 'csv')
+    """
+    try:
+        # Connect to the database
+        conn = psycopg2.connect(DATABASE_URL)
+        
+        # Build the query
+        query = """
+            SELECT 
+                id, metro_id, title, start_ts, end_ts, venue_name, 
+                venue_address, tags, quality_score, source, fingerprint
+            FROM event_clean
+            WHERE 1=1
+        """
+        
+        params = []
+        
+        # Add filters
+        if metro_id:
+            query += " AND metro_id = %s"
+            params.append(metro_id)
+        
+        if dance_style:
+            query += " AND %s = ANY(tags)"
+            params.append(dance_style.lower())
+        
+        # Add sorting and limit
+        query += " ORDER BY start_ts DESC LIMIT %s"
+        params.append(limit)
+        
+        # Execute the query
+        with conn.cursor() as cur:
+            cur.execute(query, params)
+            rows = cur.fetchall()
+            
+            # Get column names
+            col_names = [desc[0] for desc in cur.description]
+            
+            if format_type == "csv":
+                # Print CSV header
+                print(",".join(col_names))
+                
+                # Print rows in CSV format
+                for row in rows:
+                    # Format values properly for CSV
+                    csv_row = []
+                    for val in row:
+                        if isinstance(val, list):
+                            csv_row.append(f"\"{', '.join(val)}\"")
+                        elif val is None:
+                            csv_row.append("")
+                        else:
+                            csv_row.append(f"\"{val}\"" if ',' in str(val) else str(val))
+                    print(",".join(csv_row))
+            else:
+                # Calculate column widths for table format
+                col_widths = [max(len(str(col)), max([len(str(row[i])) for row in rows] + [0])) 
+                             for i, col in enumerate(col_names)]
+                
+                # Print table header
+                header = " | ".join(col.ljust(col_widths[i]) for i, col in enumerate(col_names))
+                print(header)
+                print("-" * len(header))
+                
+                # Print rows in table format
+                for row in rows:
+                    row_str = " | ".join(str(val).ljust(col_widths[i]) for i, val in enumerate(row))
+                    print(row_str)
+            
+            print(f"\nTotal: {len(rows)} events")
+            
+            # Print summary by tag if events exist
+            if rows and dance_style is None:
+                print("\nEvents by dance style:")
+                cur.execute("""
+                    SELECT 
+                        tag as dance_style,
+                        COUNT(*) as count
+                    FROM event_clean, jsonb_array_elements_text(tags) as tag
+                    GROUP BY tag
+                    ORDER BY count DESC
+                """)
+                
+                for tag_row in cur.fetchall():
+                    print(f"  {tag_row[0]}: {tag_row[1]} events")
+        
+        conn.close()
+        
+    except Exception as e:
+        print(f"Error: {e}")
+
+def main():
+    """Parse arguments and execute the query"""
+    parser = argparse.ArgumentParser(description="Display events from the event_clean table.")
+    parser.add_argument("--metro-id", type=int, help="Filter by metro ID")
+    parser.add_argument("--dance-style", type=str, help="Filter by dance style")
+    parser.add_argument("--limit", type=int, default=10, help="Maximum number of events to display")
+    parser.add_argument("--format", type=str, choices=["table", "csv"], default="table", 
+                        help="Output format (table or csv)")
+    
+    args = parser.parse_args()
+    
+    display_events(
+        metro_id=args.metro_id,
+        dance_style=args.dance_style,
+        limit=args.limit,
+        format_type=args.format
+    )
+
+if __name__ == "__main__":
+    main() 

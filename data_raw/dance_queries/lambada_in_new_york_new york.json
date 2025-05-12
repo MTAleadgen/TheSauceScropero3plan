@@ -1,0 +1,270 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.3443 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100310-9976-0139-0000-47b323fe2f6c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.3045 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "lambada in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "lambada in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=lambada%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:10:52 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR8utpCwBzYOlGN2MV71Ge7LaoWKXvKCL8fOUBuJi0NvRKpz9iImSFzW3gVpFpDCzcV0kuF-vH5sLvEIRnvJIYO6t_xqQ5P_fRG40KSQ4QVT_uMmLUev_KGEXHwctjKt6cdGl5h8_QaTx95ZZ2QCepBu_9CY6jhH6U1Yhsbpy2mSKSDd8lvlpc4aIO6bDvvd8Jy2adbt502_X-MGqkvpl_uLY0VhBK6OULeHKIVGGCRBN0POtRQbNCRetKqeNIZD660DWnNtHEJRYLIH-Xca028wIC7_ppSiJBNdQXNQ5uRDdVJtCBVS8ldG4F9ejtMgLKQxEMzr9p9ZTZ5LkuF3iU19Htm9fT88mpgOlQbFyAjCY70Dm6rJrRkHMuF8Rce7G3AkgBRz-Th7yXOoxha3QC1mYNNBWVrubPvaqRs5-r0U-aAtnljcH_b2pE4_4RNWkI_-wBhOeyv_St_PZAkCaHXeQ7gyM&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR9RrYMnZ_SP21LASi-fames6DJWddNXyQ9Xf_hMkkEzbO1DGcd2i-50xpPoxPihjni5KQFjTGWc_bYYPP-J7iywm8wluZOJu7btT2i6FBl1EzbVxb3cWxU2yAZnSiSO8CR8DGvcKyi_AcbKaKOBj3SeNMqzt5ZUKmV_MO8lin3PXhUt9wDSGetsWP7Ne7exEUiT2wh7UF8LqZezixUnD2r1w4zo8p-k-vyMUKvQGE8wbpLKEKpj5-gFc7l4S3YhwvJnG8oB3lKEsHxLvP2p17vRrBjmXbwQs-Xn_7psZf9L9zmedICKArTM79oDJmDGeMwAaCvBEqu4Z2-Jj_A7ain_UH8TZ6jscLqHXaEudTBtRRsFKNeAWrITDZPTnUASS21OUfXJQBUuAptbYJdATIIoPuVh8td_4SnDaUBQrA3oWlQqAUYh6LxgLdUKl1iI68tIwPDh79NjGpAVDBH65ysH4hM3Y&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+lambada+in+New+York&uds=ABqPDvz8lNLAV2ubbua3-GSjQEGB-XSs7Wx1zX5ZzRa-usb-eQzqxYlNOmOFP0IsPPgJdqIV-okedM1qD8iroC7TK3l4ODk_VUm20tWc9zR5JOgN9oP1I4UEY4SukWxO0cN9AIrd3R5wFI1D7UHA_I9gl1jl8YXSoGwbx1YjPmXP9Sh4LXvCvWsszsJsBUAGeVTQiNqFi70EcxusAJLE8iZOfHUAqSiW1lmE1Ds1P5K4q3mvWgqtIP66fLeSJnqaOl7mSsTXDkMZCewmb-cnhReZeRFqgq6JvTK8YiBlHMj9EbjPymOhmy26Is8qnW2n3fhblokED7Cwcf2RqNI8psshCqiAhYI-emLcUXJmRgHZLybly33487iOcMG6Db6XWJJVZhhPagilx26t6qSzKwnlEeaYbvlNxZvzqlorKZEtbsRrwlgdC35I13IXXu9BkUGKH_EPZT4pMlV8un3MBSDX5Wrh1jF6TySdXkf-eAUBBrIo7qjndhY&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-ukgE4vZVbT8R5y5XnLBbvrIfCTKHmpwmtrmnT47sizkXCggoFx7ehykgrR7-SgyIj5LBSvRbp9Esl28JbNk-xHbBYC_tUvh3htNuBRuoMKZYL8YlZOPyObRxvglIotQz3wlcAZ117AiinWRYFbApYAc1WwSpehJZ1ffvpZvhxGx7GdJI_aC5pZz2JwWHaCWARAfmIJSWn7_q4ouzorwHZ2DO000HWZhdrPDuI5gjpFe4OM_whyHncXf5grZuIhMzDzwn7n1v2Hoq2IUB8Lv5lSLIDehSK1Ro3dZc0pmJVOpTLHm-pgpSG3Z5V82WNeslaDKrkFOJM9FQcbTuUiutOrl1vDjqxb4WO1g3qHCChJ3EjrGdMmOzxFlO9tjyFq1kMzLTx61bF69QK6QULqdcI6-IL40xzmW1P9s5c2FsIFd6MRoZs4cmBjdo1ejnmgHsqWkEckSEXkUTtDDI2VybSMzeok&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR8utpCwBzYOlGN2MV71Ge7LaoWKXvKCL8fOUBuJi0NvRKpz9iImSFzW3gVpFpDCzcV0kuF-vH5sLvEIRnvJIYO6t_xqQ5P_fRG40KSQ4QVT_uMmLUev_KGEXHwctjKt6cdGl5h8_QaTx95ZZ2QCepBu_9CY6jhH6U1Yhsbpy2mSKSDd8lvlpc4aIO6bDvvd8Jy2adbt502_X-MGqkvpl_uLY0VhBK6OULeHKIVGGCRBN0POtRQbNCRetKqeNIZD660DWnNtHEJRYLIH-Xca028wIC7_ppSiJBNdQXNQ5uRDdVJtCBVS8ldG4F9ejtMgLKQxEMzr9p9ZTZ5LkuF3iU19Htm9fT88mpgOlQbFyAjCY70Dm6rJrRkHMuF8Rce7G3AkgBRz-Th7yXOoxha3QC1mYNNBWVrubPvaqRs5-r0U-aAtnljcH_b2pE4_4RNWkI_-wBhOeyv_St_PZAkCaHXeQ7gyM&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR9RrYMnZ_SP21LASi-fames6DJWddNXyQ9Xf_hMkkEzbO1DGcd2i-50xpPoxPihjni5KQFjTGWc_bYYPP-J7iywm8wluZOJu7btT2i6FBl1EzbVxb3cWxU2yAZnSiSO8CR8DGvcKyi_AcbKaKOBj3SeNMqzt5ZUKmV_MO8lin3PXhUt9wDSGetsWP7Ne7exEUiT2wh7UF8LqZezixUnD2r1w4zo8p-k-vyMUKvQGE8wbpLKEKpj5-gFc7l4S3YhwvJnG8oB3lKEsHxLvP2p17vRrBjmXbwQs-Xn_7psZf9L9zmedICKArTM79oDJmDGeMwAaCvBEqu4Z2-Jj_A7ain_UH8TZ6jscLqHXaEudTBtRRsFKNeAWrITDZPTnUASS21OUfXJQBUuAptbYJdATIIoPuVh8td_4SnDaUBQrA3oWlQqAUYh6LxgLdUKl1iI68tIwPDh79NjGpAVDBH65ysH4hM3Y&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+lambada+in+New+York&uds=ABqPDvz8lNLAV2ubbua3-GSjQEGB-XSs7Wx1zX5ZzRa-usb-eQzqxYlNOmOFP0IsPPgJdqIV-okedM1qD8iroC7TK3l4ODk_VUm20tWc9zR5JOgN9oP1I4UEY4SukWxO0cN9AIrd3R5wFI1D7UHA_I9gl1jl8YXSoGwbx1YjPmXP9Sh4LXvCvWsszsJsBUAGeVTQiNqFi70EcxusAJLE8iZOfHUAqSiW1lmE1Ds1P5K4q3mvWgqtIP66fLeSJnqaOl7mSsTXDkMZCewmb-cnhReZeRFqgq6JvTK8YiBlHMj9EbjPymOhmy26Is8qnW2n3fhblokED7Cwcf2RqNI8psshCqiAhYI-emLcUXJmRgHZLybly33487iOcMG6Db6XWJJVZhhPagilx26t6qSzKwnlEeaYbvlNxZvzqlorKZEtbsRrwlgdC35I13IXXu9BkUGKH_EPZT4pMlV8un3MBSDX5Wrh1jF6TySdXkf-eAUBBrIo7qjndhY&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-ukgE4vZVbT8R5y5XnLBbvrIfCTKHmpwmtrmnT47sizkXCggoFx7ehykgrR7-SgyIj5LBSvRbp9Esl28JbNk-xHbBYC_tUvh3htNuBRuoMKZYL8YlZOPyObRxvglIotQz3wlcAZ117AiinWRYFbApYAc1WwSpehJZ1ffvpZvhxGx7GdJI_aC5pZz2JwWHaCWARAfmIJSWn7_q4ouzorwHZ2DO000HWZhdrPDuI5gjpFe4OM_whyHncXf5grZuIhMzDzwn7n1v2Hoq2IUB8Lv5lSLIDehSK1Ro3dZc0pmJVOpTLHm-pgpSG3Z5V82WNeslaDKrkFOJM9FQcbTuUiutOrl1vDjqxb4WO1g3qHCChJ3EjrGdMmOzxFlO9tjyFq1kMzLTx61bF69QK6QULqdcI6-IL40xzmW1P9s5c2FsIFd6MRoZs4cmBjdo1ejnmgHsqWkEckSEXkUTtDDI2VybSMzeok&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQkbEKegQIJxAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=lambada+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRDMxgRE1ajimVLN1HciBu3WGsJ0cyv9HNW9Qd_8zil2gJMO4ayi77lZLn3uIgeZNlMGCRbJ3ivfs5doXsuS6XIjgf61aOjFD0fmVhrY2rT6AndPSoOf79NtRouuYuZk6xXAjV4XOTElcMh6wbZGxqQqLqZTsk7Yx5hmoa37lSJgKRTSeA&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQxKsJegQIJBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Kaoma",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Kaoma+lambada+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRE0hdwbQg6OOqzlkhQXnwAyEJi1OATM_q4x1Dc8rpeBLNRfQJ5iBUapBHGaNBKQ8FRTmrc604sox11esM_aumrbNxuiA405XRIUvNsfZ9hxtZM4G_GDM8q6VaECgKYhDVQ0PlZjdg3GcbhO0WwjHGnriBrWELr8IJudUGYRCnf-8fscEnrbHEIT0ZTre7UVRfqkWiINZwbN_X8DoFSpXk73tt1UM&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQxKsJegQIIhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Accepts reservations",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=accepts+reservations+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRA1uYqulNJXOLRk3AYweT-Qm6E3PwGriI6gyVeucYkXVPILRvQaHOOz8gcFo9BOd0BTmQ8dFXI2Qb10R0sHdmQCQUbODKgdNoLINR6qAoaWLIeB_7WmKn4S-QnLoE9FLjiBtLz9rAtz03ZghzTpCri3KGrvb5k5nwQoJi4jsBoY5Aw_TFJb6aY9L9CSE5N_nFacw4gGWQREp9JLo--hJ2dsP2FxIoCRuO80FbtK4KeB8g0WM5YGDUOxejqp6_fceKWf8b4w&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQxKsJegQIIRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnBL0ko9_DIBC_iyaWT1OhnFa38FeoPAS51T0S7CWBIKZKU-S5rqEf-EKPQ9DLIoP_k1J5YUF5kXiPoZ8ck5-fCiwmvzm7W24gFv-srC2pXVQRC3_OxKlqOgU2nWJ74ZPbp6WEZRJl2ht7UD9iUH0CaZlBakTqjJA-AhRDXqXfVLzIEN2&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Beer",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=beer+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0AVK9F5DrhoGI4rUZGqhlge4EZcE5OQ6RJuGDvnY1J8RNwMdch6cDKnroUcaXHJcGEKUPk81wRJ6j6FWNe6xxrMf_85RqGePSVSISbxG11y6abVk9YkSxgArAcYsTejUFV7wmYD-ySw5EaLaQo4G1GfSHKg5wMgrzqa-3rV0DGl_wqLgEdbQWb4kGKmDJa-zhEJPM4SvI0iixvgoLvreaNPF3w6QLAW3dEBWso1ahypiaVXA&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQxKsJegQIPRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Dine-in",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=dine-in+lambada+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR0XZ2aQnFevpyaU-zqppoeuAkMx1f_-SzhHCCFUYXvwaJyzDQMF4J_5qbuK6W9tYpFGagyMKax47Hfef5_zsmgejBhWU4BG1DO91Q9oXYbKj6Lg8-gXBTQzku54BAarymheHgRhGPlqvF3BOW_ig_B3nMqYSqw_GOCNgJDimCbh2dfwsnR37OCsQN8PL-v6ESupin9rVphAnQqV9QPjcU1t4npy3kaZfJKCWrs0taM3gkHFUt&sa=X&ved=2ahUKEwiJ-vfSzpeNAxWQkokEHTagMyAQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 685000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Lambda Lounge",
+              "description": "2256 Adam Clayton Powell Jr Blvd \nBuzzy gay bar with pub grub & cocktails \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 115,
+                "rating_max": 5
+              },
+              "cid": "15240366223824425462",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Club Lambda",
+              "description": "Brooklyn, NY \nClosed \u22c5 Opens 10\u202fPM \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.9,
+                "votes_count": 56,
+                "rating_max": 5
+              },
+              "cid": "2033991495360478696",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Lambda Legal HDQ",
+              "description": "120 Wall St \nClosed \u22c5 Opens 9:30\u202fAM Mon \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.7,
+                "votes_count": 11,
+                "rating_max": 5
+              },
+              "cid": "15603830204229164181",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Lambda Lounge",
+                "4West Lounge",
+                "Red Eye NY",
+                "HUSH",
+                "Boxers NYC",
+                "Suite"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Nyc Zouk Festival 2025",
+                "Lambda Lounge Brooklyn location",
+                "1031 grand STREET Brooklyn NY 11211",
+                "Zouk classes NYC",
+                "Lambda bar symbol",
+                "Club lambda events today",
+                "Lambada dance"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.7307 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-7010ff8d6909",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.6848 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in Paris",
+        "location_code": 1006094,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in Paris",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006094,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20Paris&num=1&hl=en&gl=FR&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQ-34gYfbuZHEWCUjGjDggsE",
+          "datetime": "2025-05-10 12:32:19 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=bachata+in+Paris+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRApqz4lLzC2T3SQ7iP_rQw7NDsSoPSseZVtkAITFC2zWXl-kqyhwUDaImuQ5DXjlLx3lx_MoK0uysLvAeZKILg89Dmm9i-L6cVJWaiL0doOpUzoRhJymzyts07BuITTWnb1aiTNEi7CbzxejUvRUc5M8pP5WnU1WZ8rOlm2j4fEw4h58w&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Salsa",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Salsa,+Bachata+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRvgBNTbUYkaUNkTOYX2exwAUhPd9LgjmAxM_ITMG9PKrIBSf6Giuu1BGQLSttNiLApR3ryAvKvRGGzZXx-F3Cm_jsQ65vrs8tax4xFhAZF6EAzX8pp15SrHWEm_zKXqR4P6Z-V-sFFQSyPGLeBLfPI8d6C-2YDsJtbXcUWwPdlk7nM6jhbnV63pMrirtb63NwXz_PnQkr8guAQn5-gBtZ-R_NYg8&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Soirée",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Soir%C3%A9e+Bachata+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk9Zi5dRT_3r2wOZJYkunioXHVvWNFmhN1sxzTGCcqLwmroovfkZ_r-VJnLqOZeop4QSWkE2WeZ_6F0GwKR6UzEVBd-M2jNiZ-4BierbcBFAyr2qteByIrarRNUzafDXnY2gvf94W1a-OiU1_kU3594faDP6KfWk54AvFxrNYb5PC60sM0OhlSFbiYdFumTJeAZ35XK0&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Aujourd'hui",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Bachata+Paris+Aujourd%27hui&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR99LVz1gK4y22uRCaGw7Q13wqwo9zoz37szZC1tEzgzPB0v__jcNWBRl25jDnJCUDTLVO62U0m1Cxl1g4XPejVR0uWK3HAFbzflPT9d0CGRASRh2ILsXIAe3L828X6V6yuHTsuWZvvEzOQKxFLlrRgl5zMdkrHbF6yn59M7BNXnvmLiy6Q6OIlt9LkjCDMXJQWPu46nL5XqSZL1YOSWdub16-cls&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "MONDAY",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Bachata+Paris+MONDAY&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xILpXBVeRVl6KD0r0VDySFjw6ICilK-lUdPzhfMI8N4cN6VaKF_un3IbiPp7HQ_HbJvzeydHwOwsa2WRp6QmrkXWxgWpafYkprRK06J6Q_umSwNJvZ6Veq6I174B_7GkPYIQWdmU_yq-v5V5rWoAOIinjrMRzzhXfGw_2D6CHvsRJNPu0lHQeJ8FNfKeIDGFpxz-QPg&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=top+rated+bachata+in+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRPtuVj0u_OdllkxDbEQdhqv3S4nJ5n9p9fFsaLXzuwjSmdip8QZUegJmcUFHYouvj_ba6vt11UnlyQMz1mtmGvjD8PCxACcQ7L38gdhWFuC9nROcHMScPBOUG3owrlmnaxQTxgoQJRfHqU9qyJfG98bjWej3Sae8v6-onoUBP5wL2m4hi&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIPRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Bachata+Vibe+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJkg0ZDdFNzx4sFXyfIelLUB0AR2wdwbqLwEaqIhOh-PJw5X0GLIWmTstOIJb45cUaxsuTWBd027vxhGCDAZ14TkHV4rLPysroLdshiT_4EmNSoags0x1M7WHGeNOMhdXAunNB3JCLZxX0QxeepWacz67ZGpfO9zJQj8vZMOHBajXkDJOyCMvqP7DqIijjtGjVVEUnEa3w5hHsD5tOBqpUvIcCdU&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Cours",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=FR&glp=1&q=Cours+Bachata+Paris&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4c4kuxPuVf3DYleHx28tajV4jHRic-VuovLCzYGKy-nJ__2ir77hhWXDTR8NhDmStBTbg7rOxid3c8UjZU4uH4fvREa6S9R8q3kplihxP6pBOkgXvofJIeaa-YbaDfuBV9G6xUunerDLln97-PO2sT-7AURMhiS7_mHqeSM3ygRKcRoCNjoUNghS40uPqQeIelQ2jCg&sa=X&ved=2ahUKEwiWjKuw9JiNAxXJI0QIHdvQAf8QxKsJegQIPhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "compare_sites",
+            "local_pack",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 3890000,
+          "items_count": 8,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.salsanueva.fr",
+              "title": "Top 6 des meilleures soirées bachata à Paris",
+              "url": "https://www.salsanueva.fr/blog-guide-annuaire-soiree/top-6-des-meilleures-soirees-bachata-a-paris",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.salsanueva.fr › top-6-d...",
+              "website_name": "SalsaNueva",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Top 6 des meilleures soirées bachata à Paris · 1. Mardi : L'agua · 2. Mercredi : DITC · 3. Vendredi : BACHANUEVA · 4. Samedi : Les soirées SBK by SalsaNueva · 5 ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "bachata in Paris from www.salsanueva.fr",
+                  "url": "https://www.salsanueva.fr/blog-guide-annuaire-soiree/top-6-des-meilleures-soirees-bachata-a-paris",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-7010ff8d6909:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Mardi : L'agua"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Bachata Paris",
+                  "url": "https://www.facebook.com/groups/179897062589174/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-7010ff8d6909:1",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Paris, France Bachata",
+                  "url": "https://m.yelp.com/search?find_desc=Bachata&find_loc=Paris",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-7010ff8d6909:2",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa bachata",
+                  "url": "https://www.paris.fr/activites/salsa-bachata-24541",
+                  "domain": "www.paris.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-7010ff8d6909:3",
+                  "source": "Ville de Paris"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "2025 Dancing salsa and bachata in Paris - with Reviews",
+                  "url": "https://www.tripadvisor.com/AttractionProductReview-g187147-d19759243-Dancing_salsa_and_bachata_in_Paris-Paris_Ile_de_France.html",
+                  "domain": "www.tripadvisor.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-7010ff8d6909:4",
+                  "source": "Tripadvisor"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Apprendre à danser la Bachata",
+                  "url": "https://dancenter.fr/apprendre-a-danser-la-bachata/",
+                  "domain": "dancenter.fr",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEDat4cbV5GqsKvm-om82S3SvngRQ2hoE&s=0",
+                  "source": "Dancenter Paris"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Latin Dance Classes Daytime: Salsa, Bachata and More...",
+                  "url": "https://www.meetup.com/fr-FR/latin-dance-classes-daytime-salsa-bachata-and-more/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-7010ff8d6909:5",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "La Hummer Party Kizomba Salsa Bachata (Paris By Night en Hummer) - Le Khao Suay | Billet Réduc'",
+                  "url": "https://www.billetreduc.com/68849/evt.htm",
+                  "domain": "www.billetreduc.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRfWo8_-oRsI8EEs-z4oZFLpbX6iBKCGM&s=0",
+                  "source": "Billetreduc"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsabor Paris",
+              "description": "25+ years in business · 31 Rue Chapon \nOpen ⋅ Closes 7:30 pm \nOn-site services \n",
+              "domain": "salsabor.fr",
+              "phone": "01 42 71 61 61",
+              "url": "https://salsabor.fr/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 136,
+                "rating_max": 5
+              },
+              "cid": "1084228738579254306",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Ecole Des Danses Latines-Tropicales",
+              "description": "25+ years in business · 40 Rue de Cîteaux \nOpen ⋅ Closes 7:30 pm \nOn-site services \n",
+              "domain": "salsadanse.com",
+              "phone": "01 84 60 99 60",
+              "url": "https://salsadanse.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 295,
+                "rating_max": 5
+              },
+              "cid": "2198384502813159537",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "School Dances Latines Salsa, Bachata, Kizomba - Salsanueva Paris",
+              "description": "15+ years in business · 32 Rue du Capitaine Marchal \nOpen ⋅ Closes 10:30 pm \nOn-site services \n",
+              "domain": "www.salsanueva.fr",
+              "phone": "07 82 61 31 25",
+              "url": "https://www.salsanueva.fr/?utm_source=Google%20my%20Business&utm_medium=GMB&utm_campaign=GMB&utm_term=GMB&utm_content=GMB",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 301,
+                "rating_max": 5
+              },
+              "cid": "13421826903002486670",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "School Dances Latines Sal...",
+                "Ecole Des Danses Latines‑Tro...",
+                "Salsabor Paris",
+                "Mambo Salsa",
+                "Company Maya",
+                "Saida Kizomba Course Da..."
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Soirée Bachata Paris",
+                "Cours Bachata Paris",
+                "Salsa dancing Paris tonight",
+                "Cours Bachata Paris GRATUIT",
+                "Bachata Paris social",
+                "Cuban salsa Paris",
+                "DITC Bachata",
+                "Soirées salsa sur Paris"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJO8CG4xpu5kcRIkxJEkv0Cw8",
+              "feature": "0x47e66e1ae386c03b:0x0f0bf44b12494c22",
+              "cid": "1084228738579254306",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

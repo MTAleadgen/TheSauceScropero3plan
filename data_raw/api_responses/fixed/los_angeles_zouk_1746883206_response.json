@@ -1,0 +1,341 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.9535 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101620-9976-0139-0000-7fc00a65c0a0",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.8374 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "zouk in Los Angeles",
+        "location_code": 1013962,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "zouk in Los Angeles",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1013962,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=zouk%20in%20Los%20Angeles&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRPaJ9xdx8KAEfQIRiVv3y_i",
+          "datetime": "2025-05-10 13:20:06 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "google_flights",
+            "google_reviews",
+            "knowledge_graph"
+          ],
+          "se_results_count": 653000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "zouk.la",
+              "title": "Zouk Los Angeles - Premier Nightclub & Entertainment ...",
+              "url": "https://zouk.la/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://zouk.la",
+              "website_name": "zouk.la",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Zouk LA offers top DJs, immersive entertainment, and an electric nightlife experience. Book your night out now!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "zouk in Los Angeles from zouk.la",
+                  "url": "https://zouk.la/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-7fc00a65c0a0:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Zouk LA"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Private Events",
+                  "description": null,
+                  "url": "https://zouk.la/private-events/",
+                  "domain": "zouk.la"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Gallery",
+                  "description": null,
+                  "url": "https://zouk.la/gallery/",
+                  "domain": "zouk.la"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Articles",
+                  "description": null,
+                  "url": "https://zouk.la/articles/",
+                  "domain": "zouk.la"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Faqs",
+                  "description": null,
+                  "url": "https://zouk.la/faqs/",
+                  "domain": "zouk.la"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "google_flights",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+              "title": "People also search for",
+              "url": null,
+              "items": [
+                {
+                  "type": "google_flights_element",
+                  "description": "Brazilian zouk in los angeles",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Brazilian+zouk+in+los+angeles&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAguEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk Los Angeles opening date",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Zouk+Los+Angeles+opening+date&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAhAEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk in los angeles history",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Zouk+in+los+angeles+history&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAgxEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Best zouk in los angeles",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Best+zouk+in+los+angeles&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAg3EAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk Los Angeles upcoming events",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Zouk+Los+Angeles+upcoming+events&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAgyEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk Los Angeles hiring",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Zouk+Los+Angeles+hiring&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAgwEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk Los Angeles tickets",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Zouk+Los+Angeles+tickets&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAgvEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "643 n. la cienega blvd, los angeles, ca 90069",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=643+n.+la+cienega+blvd,+los+angeles,+ca+90069&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q1QJ6BAgtEAE"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]",
+              "title": "Zouk Los Angeles",
+              "subtitle": "Night club in Los Angeles, California",
+              "description": "From Zouk Los Angeles \"A space that promises unparalleled nightlife luxury drawing inspiration from the roaring twenties and Warner theaters, sbe and Zouk Group bring you ZOUK Los Angeles. With a full service bar, state-of-the-art sound system, and over 9,000 square feet... More",
+              "card_id": null,
+              "url": "http://zouk.la/",
+              "image_url": null,
+              "logo_url": null,
+              "cid": "138289453118113916",
+              "items": [
+                {
+                  "type": "knowledge_graph_description_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "text": "From Zouk Los Angeles \"A space that promises unparalleled nightlife luxury drawing inspiration from the roaring twenties and Warner theaters, sbe and Zouk Group bring you ZOUK Los Angeles. With a full service bar, state-of-the-art sound system, and over 9,000 square feet... More",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "More",
+                      "url": "https://www.google.com/#",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/c-wiz[1]/div[1]/div[2]/div[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_images_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-7fc00a65c0a0:1",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": "https://www.google.com/maps/place/Zouk+Los+Angeles/data=!4m2!3m1!1s0x0:0x1eb4d866149c87c?sa=X&ved=1t:2428&hl=en&gl=US&ictx=111",
+                      "domain": "www.google.com",
+                      "alt": "Map of Zouk Los Angeles",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-7fc00a65c0a0:2",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": "https://www.google.com/maps/uv?pb=!1s0x80c2bf00522fd61d:0x1eb4d866149c87c!3m1!7e115!4s/maps/place/zouk%2Bin%2BLos%2BAngeles/@34.0831836,-118.376518,3a,75y,320.34h,90t/data%3D*213m4*211e1*213m2*211sVlFejvA1EyCfApMGx6TUYw*212e0*214m2*213m1*211s0x80c2bf00522fd61d:0x1eb4d866149c87c?sa%3DX%26ved%3D2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Qpx96BAgXEAA%26hl%3Den%26gl%3DUS!5szouk+in+Los+Angeles+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e2!2sVlFejvA1EyCfApMGx6TUYw&cr=le_a7&hl=en&ved=1t:206134&ictx=111",
+                      "domain": "www.google.com",
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-7fc00a65c0a0:3",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_row_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]",
+                  "title": "Address",
+                  "data_attrid": "kc:/location/location:address",
+                  "text": "Address : 643 La Cienega Blvd, West Hollywood, CA 90069",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Address",
+                      "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=zouk+los+angeles+address&ludocid=138289453118113916&sa=X&ved=2ahUKEwjZ3bqH_5iNAxWVFTQIHSRxFe4Q6BN6BAhBEAI",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_row_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[4]",
+                  "title": "Phone",
+                  "data_attrid": "kc:/local:alt phone",
+                  "text": "Phone : (424) 296-1600",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "(424) 296-1600",
+                      "url": "https://www.google.com/#",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/span[2]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_carousel_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "title": "Profiles",
+                  "data_attrid": "kc:/common/topic:social media presence",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Instagram",
+                      "subtitle": null,
+                      "url": "http://instagram.com/zoukla/",
+                      "domain": "instagram.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101620-9976-0139-0000-7fc00a65c0a0:4",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/g-link[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/span[3]/span[1]/a[1]",
+              "reviews_count": 5,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 5,
+                "rating_max": 5
+              },
+              "place_id": "ChIJHdYvUgC_woARfMhJYYZN6wE",
+              "feature": "0x80c2bf00522fd61d:0x01eb4d866149c87c",
+              "cid": "138289453118113916",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

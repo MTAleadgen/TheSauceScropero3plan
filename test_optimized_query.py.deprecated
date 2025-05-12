@@ -1,0 +1,356 @@
+#!/usr/bin/env python3
+"""
+Optimized DataForSEO test with recommended parameters to maximize results
+"""
+import os
+import json
+import base64
+import requests
+import logging
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv(override=True)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATA_RAW_DIR = "./data_raw"
+
+# Ensure data_raw directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+def test_optimized_query():
+    """Test with optimized parameters to maximize results"""
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials not set.")
+        return False
+    
+    # DataForSEO API endpoint for Google Organic Search
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task with optimized parameters
+    data = [{
+        "keyword": "salsa in new york",
+        "location_name": "New York,New York,United States", 
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "se_results_count": 100,  # Request maximum results per page
+        "include_serp_info": True  # Include extra SERP data
+    }]
+    
+    try:
+        # Make the API request
+        logger.info(f"Making API request with optimized parameters")
+        logger.info(f"Parameters: {json.dumps(data[0])}")
+        
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the entire response
+        raw_path = os.path.join(DATA_RAW_DIR, "optimized_query_response.json")
+        with open(raw_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        logger.info(f"Saved raw API response to {raw_path}")
+        
+        # Process results if available
+        if result.get('status_code') == 20000:  # Success code
+            tasks = result.get('tasks', [])
+            
+            all_urls = []
+            url_sources = {}  # Track where each URL came from
+            
+            for task in tasks:
+                task_id = task.get('id')
+                logger.info(f"Processing task ID: {task_id}")
+                
+                if 'result' in task and task['result']:
+                    for i, item in enumerate(task['result']):
+                        # Extract SERP items
+                        items = item.get('items', [])
+                        
+                        # Process all item types
+                        for result_item in items:
+                            item_type = result_item.get('type')
+                            
+                            # Process based on item type
+                            if item_type == 'organic':
+                                url = result_item.get('url')
+                                if url and url not in all_urls:
+                                    all_urls.append(url)
+                                    url_sources[url] = 'organic'
+                                
+                                # Check for links inside organic results (sitelinks)
+                                links = result_item.get('links', [])
+                                for link in links:
+                                    link_url = link.get('url')
+                                    if link_url and link_url not in all_urls:
+                                        all_urls.append(link_url)
+                                        url_sources[link_url] = 'sitelink'
+                            
+                            elif item_type == 'local_pack':
+                                # Process local pack results
+                                if 'items' in result_item:
+                                    for local_item in result_item.get('items', []):
+                                        url = local_item.get('url')
+                                        if url and url not in all_urls:
+                                            all_urls.append(url)
+                                            url_sources[url] = 'local_pack'
+                                        
+                                        # Get domain as fallback
+                                        domain = local_item.get('domain')
+                                        if domain:
+                                            domain_url = f"https://{domain}"
+                                            if domain_url not in all_urls:
+                                                all_urls.append(domain_url)
+                                                url_sources[domain_url] = 'local_pack_domain'
+                                else:
+                                    # Directly in the item
+                                    url = result_item.get('url')
+                                    if url and url not in all_urls:
+                                        all_urls.append(url)
+                                        url_sources[url] = 'local_pack'
+                                    
+                                    domain = result_item.get('domain')
+                                    if domain:
+                                        domain_url = f"https://{domain}"
+                                        if domain_url not in all_urls:
+                                            all_urls.append(domain_url)
+                                            url_sources[domain_url] = 'local_pack_domain'
+                            
+                            elif item_type == 'video':
+                                # Extract URLs from video items
+                                if 'items' in result_item:
+                                    for video_item in result_item.get('items', []):
+                                        url = video_item.get('url')
+                                        if url and url not in all_urls:
+                                            all_urls.append(url)
+                                            url_sources[url] = 'video'
+                                else:
+                                    url = result_item.get('url')
+                                    if url and url not in all_urls:
+                                        all_urls.append(url)
+                                        url_sources[url] = 'video'
+                            
+                            elif item_type == 'knowledge_graph':
+                                # Extract knowledge graph URLs
+                                url = result_item.get('url')
+                                if url and url not in all_urls:
+                                    all_urls.append(url)
+                                    url_sources[url] = 'knowledge_graph'
+                            
+                            elif item_type == 'carousel':
+                                # Process carousel items
+                                carousel_items = result_item.get('items', [])
+                                for carousel_item in carousel_items:
+                                    url = carousel_item.get('url')
+                                    if url and url not in all_urls:
+                                        all_urls.append(url)
+                                        url_sources[url] = 'carousel'
+                            
+                            # Get any other URLs we can find
+                            url = result_item.get('url')
+                            if url and url not in all_urls:
+                                all_urls.append(url)
+                                url_sources[url] = f'other_{item_type}'
+                            
+                            # Check for any other links
+                            links = result_item.get('links', [])
+                            if links:
+                                for link in links:
+                                    link_url = link.get('url')
+                                    if link_url and link_url not in all_urls:
+                                        all_urls.append(link_url)
+                                        url_sources[link_url] = f'link_from_{item_type}'
+            
+            # Save all found URLs to a file
+            urls_path = os.path.join(DATA_RAW_DIR, "optimized_query_urls.txt")
+            with open(urls_path, 'w') as f:
+                for i, url in enumerate(all_urls, 1):
+                    source = url_sources.get(url, 'unknown')
+                    f.write(f"{i}. [{source}] {url}\n")
+            
+            # Save structured URL data to JSON
+            urls_json_path = os.path.join(DATA_RAW_DIR, "optimized_query_urls.json")
+            with open(urls_json_path, 'w') as f:
+                json.dump({
+                    'total_urls': len(all_urls),
+                    'urls_by_source': {source: [url for url in all_urls if url_sources.get(url) == source] 
+                                     for source in set(url_sources.values())},
+                    'all_urls': all_urls
+                }, f, indent=2)
+            
+            # Print source-wise URL counts
+            source_counts = {}
+            for source in url_sources.values():
+                source_counts[source] = source_counts.get(source, 0) + 1
+            
+            logger.info("=== URL Counts by Source ===")
+            for source, count in source_counts.items():
+                logger.info(f"{source}: {count} URLs")
+            
+            logger.info(f"Total unique URLs found: {len(all_urls)}")
+            logger.info(f"Saved URLs to {urls_path} and {urls_json_path}")
+            
+            return len(all_urls)
+        else:
+            error_message = result.get('status_message', 'Unknown error')
+            logger.error(f"API request failed: {error_message}")
+            return 0
+    
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Request failed: {e}")
+        return 0
+    
+    except Exception as e:
+        logger.error(f"An unexpected error occurred: {e}")
+        return 0
+
+def test_multiple_queries():
+    """Test with multiple related queries to maximize results"""
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials not set.")
+        return False
+    
+    # DataForSEO API endpoint
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Define multiple queries as suggested
+    queries = [
+        "salsa in new york",
+        "salsa dance classes new york",
+        "bachata in new york",  # Alternative dance style
+        "dance events new york",
+        "social dance classes new york"
+    ]
+    
+    all_urls = []
+    url_sources = {}  # Track which query found each URL
+    
+    for query in queries:
+        # Create a request with this query
+        data = [{
+            "keyword": query,
+            "location_name": "New York,New York,United States",
+            "language_name": "English",
+            "depth": 1,
+            "se_domain": "google.com",
+            "se_results_count": 50  # More conservative to save credits
+        }]
+        
+        try:
+            logger.info(f"Making API request for query: '{query}'")
+            
+            response = requests.post(endpoint, json=data, headers=headers)
+            response.raise_for_status()
+            result = response.json()
+            
+            # Save the raw response
+            query_slug = query.replace(" ", "_").lower()
+            raw_path = os.path.join(DATA_RAW_DIR, f"multi_query_{query_slug}_response.json")
+            with open(raw_path, 'w') as f:
+                json.dump(result, f, indent=2)
+            
+            # Process results
+            if result.get('status_code') == 20000:
+                tasks = result.get('tasks', [])
+                
+                query_urls = []
+                
+                for task in tasks:
+                    if 'result' in task and task['result']:
+                        for item in task['result']:
+                            # Extract organic results
+                            items = item.get('items', [])
+                            
+                            for result_item in items:
+                                item_type = result_item.get('type')
+                                
+                                # Get URL based on item type
+                                if item_type == 'organic':
+                                    url = result_item.get('url')
+                                    if url:
+                                        query_urls.append(url)
+                                        if url not in all_urls:
+                                            all_urls.append(url)
+                                            url_sources[url] = query
+                                
+                                # Get all other URLs
+                                if 'url' in result_item:
+                                    url = result_item.get('url')
+                                    if url:
+                                        query_urls.append(url)
+                                        if url not in all_urls:
+                                            all_urls.append(url)
+                                            url_sources[url] = query
+                
+                logger.info(f"Found {len(query_urls)} URLs for query '{query}'")
+            else:
+                logger.error(f"API request failed for query '{query}': {result.get('status_message')}")
+        
+        except Exception as e:
+            logger.error(f"Error processing query '{query}': {e}")
+    
+    # Save consolidated results
+    multi_query_path = os.path.join(DATA_RAW_DIR, "multi_query_results.json")
+    with open(multi_query_path, 'w') as f:
+        json.dump({
+            'total_unique_urls': len(all_urls),
+            'queries': queries,
+            'urls_by_query': {query: [url for url, src in url_sources.items() if src == query] 
+                             for query in queries},
+            'all_urls': all_urls
+        }, f, indent=2)
+    
+    logger.info(f"Multi-query search complete. Found {len(all_urls)} unique URLs across {len(queries)} queries")
+    logger.info(f"Results saved to {multi_query_path}")
+    
+    return len(all_urls)
+
+if __name__ == "__main__":
+    logger.info("Starting DataForSEO optimized testing")
+    
+    # Test the optimized single query approach
+    single_query_count = test_optimized_query()
+    logger.info(f"Optimized single query found {single_query_count} URLs")
+    
+    # Test the multi-query approach
+    multi_query_count = test_multiple_queries()
+    logger.info(f"Multi-query approach found {multi_query_count} unique URLs")
+    
+    # Compare with expected SerpAPI results
+    logger.info("\n=== Results Summary ===")
+    logger.info(f"SerpAPI baseline (reported): 42 URLs")
+    logger.info(f"DataForSEO optimized single query: {single_query_count} URLs")
+    logger.info(f"DataForSEO multi-query approach: {multi_query_count} URLs")
+    
+    if multi_query_count >= 42:
+        logger.info("SUCCESS: Multi-query approach meets or exceeds SerpAPI baseline")
+    elif single_query_count >= 42:
+        logger.info("SUCCESS: Optimized single query meets or exceeds SerpAPI baseline")
+    else:
+        logger.info("NOTE: DataForSEO results still below SerpAPI baseline, but significantly improved") 

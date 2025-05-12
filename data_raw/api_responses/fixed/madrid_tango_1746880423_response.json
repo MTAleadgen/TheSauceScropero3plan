@@ -1,0 +1,361 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.5453 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101533-9976-0139-0000-1133189212df",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.5040 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in Madrid",
+        "location_code": 1005493,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in Madrid",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1005493,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20Madrid&num=1&hl=en&gl=ES&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCYE8CoCXKUINEWkijGHB3jbE",
+          "datetime": "2025-05-10 12:33:42 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=tango+in+Madrid+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1-RonypZnhFpBUhojFIV1rSnGDvBQsyHsANuhrzpaow_5eGNWA7WOzEOcVX3k2ohwN3SnTAIISts-3orwiUIrdwDUqR8Ppjp7GIv5urdO2d8uByFd4AMk4qXpVQWy13pkNSfXGCF6d6Qttbgftqv475Wekvs_GQtBytUbPbEM7SAYx12&sa=X&ved=2ahUKEwixg77X9JiNAxV6PUQIHZSyC7sQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online appointments",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=online+appointments+tango+in+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRpy6D5K1hLI3VVAhLmymzGuE2C_8Hh-yhO3L_H11oQcRNeRSs62VX4VANUD3mAvcuKJsacHqIh-Eg-pF6h6vGhaLDQPVN-NmFo3oTAOjBzVhPLPr6KTDWAnM3LgKPPrX3rWbqxOu83Xj-NKc8XtKv9a5UuIW4U57jkQNCuToGtzgPz31STQ2zzgGubsgzhQESvOHW32gAc4FOFDIAprCEgusPft0vzhGYmvDVnAvxJC7BiCQK&sa=X&ved=2ahUKEwixg77X9JiNAxV6PUQIHZSyC7sQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=top+rated+tango+in+Madrid&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRV8y_C2X_FCyL36R43E9QOOsozTA9ASZ61uVTYrKxiObxJDatXmQ-Rvj2tVD-bDMgPyZLLoZcMY0LUUs6FaItUgG-2mUzvl4pzdFTmqx4K1ZM76QRAN9pqCwBAB6ZCEb5ctZKXw4X_bZk3U5wJfM_BAGxsOv4VONksAYDHx0tKXuKFWYk&sa=X&ved=2ahUKEwixg77X9JiNAxV6PUQIHZSyC7sQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Madrid+Tango+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk8J5YghXsp325uH2tZWqbg9IMCHcysrVdisToHIdJmKMltSiOavtYHrkiRWlOI6VRR51V-lYxPNeQB9sGhV-QYgiBF4oeGWzClto6HhqN8K4UM7xd5aJMj9MwDv-Y1h7D3FnUsp-xhlZv9whUHo4jBXi1eywDg4ZyXbui6Io-jYCJOkzwTAHyiiWXruOrZNmRGj9HsM&sa=X&ved=2ahUKEwixg77X9JiNAxV6PUQIHZSyC7sQxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "compare_sites",
+            "organic",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 17600000,
+          "items_count": 10,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Clases de tango argentino, baile y danza",
+              "description": "5+ years in business · C. de Lavapiés, 26 \nOpen ⋅ Closes 10:30 pm \nOn-site services · Online classes \n",
+              "domain": "www.instagram.com",
+              "phone": "625 24 70 65",
+              "url": "https://www.instagram.com/nataliapuccioni?igsh=MWp2c3Rzdm1laDJqcA==",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 108,
+                "rating_max": 5
+              },
+              "cid": "10905642277471877580",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Tango por Tango",
+              "description": "20+ years in business · C. de Argumosa, 30 \nClosed ⋅ Opens 5 pm Sun \nOn-site services · Online classes \n",
+              "domain": "www.tangoportango.es",
+              "phone": "649 67 19 74",
+              "url": "https://www.tangoportango.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 27,
+                "rating_max": 5
+              },
+              "cid": "2454571570167685598",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Centro Gallego de Madrid",
+              "description": "C. de Carretas, 14, Planta 3 \nOpen ⋅ Closes 11:30 pm \n",
+              "domain": "www.centrogallegodemadrid.es",
+              "phone": "910 70 42 29",
+              "url": "http://www.centrogallegodemadrid.es/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 14000,
+                "rating_max": 5
+              },
+              "cid": "17095241593994430622",
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dónde bailar tango en Madrid. Info plural y sin censura",
+                  "url": "https://www.facebook.com/groups/1501892490089375/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-1133189212df:0",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "We Call It Tango Tickets in Madrid",
+                  "url": "https://feverup.com/m/178899/en",
+                  "domain": "feverup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-1133189212df:1",
+                  "source": "Fever"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Madrid, Spain Tango Dance",
+                  "url": "https://m.yelp.com/search?find_desc=Tango+Dance&find_loc=Madrid",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-1133189212df:2",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "TANGO RESTAURANTE MADRID - Barrio de Salamanca",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g187514-d16769841-Reviews-Tango_Restaurante_Madrid-Madrid.html",
+                  "domain": "www.tripadvisor.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-1133189212df:3",
+                  "source": "Tripadvisor"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Tango argentino en Madrid. Aprende y practica tango.",
+                  "url": "https://www.meetup.com/es-ES/tango-argentino-en-madrid-aprende-y-practica-tango/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-1133189212df:4",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Madrid Tango: lo MEJOR de 2025 - Cancelación GRATIS",
+                  "url": "https://www.getyourguide.es/madrid-l46/tango-tc251/",
+                  "domain": "www.getyourguide.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALLfsg5s3l0VQQCnzdgrHqF8JRAxlfkk&s=0",
+                  "source": "GetYourGuide"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hotels Near Gran Via Callao centro - Goibibo",
+                  "url": "https://www.goibibo.com/hotels-international/hotels-nearby-gran-via-callao-centro-hotel-in-madrid-madrid-997164087990548611-nh/",
+                  "domain": "www.goibibo.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRssWn4WQwooFTSzfvkutNNnNHTyBtjbfU&s=0",
+                  "source": "Goibibo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Castaña Tango 〈light and shade〉 Tickets [2025] - Trip.com",
+                  "url": "https://www.trip.com/travel-guide/attraction/seoul/castaa-tango-light-and-shade-151155245/",
+                  "domain": "www.trip.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUmH3FAK5iYtCNc5Eh6QxRs4nZ8MCENws&s=0",
+                  "source": "Trip.com"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "agendadeltango.com",
+              "title": "Milongas Madrid | Guía",
+              "url": "https://agendadeltango.com/madrid/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://agendadeltango.com › mad...",
+              "website_name": "Agenda del Tango",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Bailar Tango en Madrid : Descubre las mejores milongas con nuestra guía actualizada, además festivales de tango y libros de tango esenciales.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "tango in Madrid from agendadeltango.com",
+                  "url": "https://agendadeltango.com/madrid/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-1133189212df:5"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Bailar Tango en Madrid"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Clases de Tango - Madrid",
+              "description": "No reviews · Dance school \n7+ years in business · C. de la Luna, 19 \n\n",
+              "domain": "www.gonzaloycarolinatango.com",
+              "phone": "608 23 99 06",
+              "url": "http://www.gonzaloycarolinatango.com/",
+              "is_paid": false,
+              "rating": null,
+              "cid": "10626505513484313776",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "La Milonga Coqueta de Madrid",
+              "description": "C. de Meléndez Valdés, 28 \nClosed ⋅ Opens 9 pm Wed \n",
+              "domain": "www.cuatrocompases.com",
+              "phone": "617 74 83 70",
+              "url": "http://www.cuatrocompases.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 8,
+                "rating_max": 5
+              },
+              "cid": "1640641613678758845",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Tan-Go",
+              "description": "C. de los Mártires de Alcalá, 3 \nClosed ⋅ Opens 9 am Mon \nDine-in · Takeaway · No-contact delivery \n",
+              "domain": null,
+              "phone": "910 80 28 45",
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 200,
+                "rating_max": 5
+              },
+              "cid": "15570489937504368040",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Madrid Tango calendar",
+                "La Milonga Coqueta de Madrid"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJ5WZNsv4nQg0RzHkx7N6fWJc",
+              "feature": "0x0d4227feb24d66e5:0x97589fdeec3179cc",
+              "cid": "10905642277471877580",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

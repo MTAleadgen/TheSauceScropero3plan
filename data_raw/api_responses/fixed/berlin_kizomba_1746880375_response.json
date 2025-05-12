@@ -1,0 +1,375 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.9572 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-06661b1e4105",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.9156 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in Berlin",
+        "location_code": 1003854,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in Berlin",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1003854,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20Berlin&num=1&hl=en&gl=DE&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQFZAz83TqhHEXA7XltGICEE",
+          "datetime": "2025-05-10 12:32:55 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tickets",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Kizomba+in+berlin+tickets&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRLshVusH3-xlsZDlkUSQLRWF3hkYolT7EZONzkNEb4GppT56mmjgdLQMJllYjUMDsbNARhLuM_vF0maH__o1jUEz_o82qaY8WanddcKYVAqaol26B-Pzrj1jqz2HMfc5zwwlFL9rqPsnglBMAZNokCc9-UnQqHCvpmeL2nkdL5AfS17C2V8o7JwQrqG4XwvWgOe-BHcKrEAf7kVlrB2zi8IavLpw&sa=X&ved=2ahUKEwiW-93B9JiNAxVm9wIHHdkwIjAQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=kizomba+in+Berlin+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khZIk6Uk3Jt5zQPK8PYMMzzK1BBfdAjL_KIprYhvwKhnl1WI77ztPelgHoWGiCSYigJTV_QyONc78zKAVur9c9oQHmNf_e6JLrCMxCO_38YJ7KcfGFguzDkCC7rSTApkMAhhSJU6Gp1Zjk1F7Siph4cqUzDg8&sa=X&ved=2ahUKEwiW-93B9JiNAxVm9wIHHdkwIjAQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=online+classes+kizomba+in+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnFAASpKAt2FbIRnDyP4rjXtNMyrxy3MoBojYq5S0uuv8i2ROc0XBHFsHiBPujqz9EGtxVWt7oEQQFoJQAiWQXC9BBC9t_10RBGQfgab3hJ_MkQ0bgsGZ4aQjvuYig8rJtc7L_opkZogLb8-Sr93I_1cR4lk5RP3ucjyg40zWNl-IwnljsHjv4yuL4VfV6GN0XvEP6plQb2Nr-n6ucPOgVhFlLbM3nDQcWn0TOIHU1rxDR7Yr&sa=X&ved=2ahUKEwiW-93B9JiNAxVm9wIHHdkwIjAQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=top+rated+kizomba+in+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-hr_6l-QnjlapskfZR7OtNVs0950fVN3F0lUWMjc41Tn9mMI1ddk7Ud_GvY5rCPSPhgHAAxWty_lhfKT6m-Co8yzCM4I6ay9PZL4k4SggOeEOtGm0GO3ClpWTJEbgwoaEnmC_GbwxkTY0-_-qFQY_66ycOKG405_sXgBIVBPJmWMDyFm&sa=X&ved=2ahUKEwiW-93B9JiNAxVm9wIHHdkwIjAQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "compare_sites",
+            "organic",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 142000,
+          "items_count": 10,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Kizomba Berlin",
+              "description": "Inselstraße 9 \nClosed ⋅ Opens 6 pm Sun \n",
+              "domain": "www.kizombaberlin.de",
+              "phone": "0170 9767899",
+              "url": "http://www.kizombaberlin.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 54,
+                "rating_max": 5
+              },
+              "cid": "6263017838670346938",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "La Mambita Salsa Dance School",
+              "description": "30+ years in business · Eingang Gewerbe über Privatstraße, Kolonnenstraße 29/3.Hinterhof 2.Aufgang 1.Etage \nOpen ⋅ Closes 10 pm \nOn-site services \n",
+              "domain": "www.mambita.de",
+              "phone": "030 23615779",
+              "url": "https://www.mambita.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 226,
+                "rating_max": 5
+              },
+              "cid": "16516570785211317043",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Kizomba Dance School Berlin",
+              "description": "15+ years in business · Kaiserdamm 113 \nOpen ⋅ Closes 5 pm \n",
+              "domain": "www.kizombatanzschule.de",
+              "phone": "01578 8748581",
+              "url": "http://www.kizombatanzschule.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.4,
+                "votes_count": 14,
+                "rating_max": 5
+              },
+              "cid": "5760487847024478961",
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Kizomba Berlin",
+                  "url": "https://www.facebook.com/Kizomba4Berlin/",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-06661b1e4105:0",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Berlin, Germany Kizomba",
+                  "url": "https://m.yelp.com/search?find_desc=Kizomba&find_loc=Berlin",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-06661b1e4105:1",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Discover Kizomba Events & Activities in Germany",
+                  "url": "https://www.eventbrite.com/d/germany/kizomba/",
+                  "domain": "www.eventbrite.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-06661b1e4105:2",
+                  "source": "Eventbrite"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Tanzabende und Tanzkurse unter freiem Himmel",
+                  "url": "https://www.berlin.de/kultur-und-tickets/tipps/draussen/7490847-6199728-tanzen-und-tanzkurse-unter-freiem-himmel.html",
+                  "domain": "www.berlin.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-06661b1e4105:3",
+                  "source": "Berlin.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa, Bachata, Samba , Kizomba oder Brasilianischer Zouk Privatunterricht in Berlin mit Ailton Silva aus Brazilian",
+                  "url": "https://www.markt.de/berlin/tanzkurse/salsa+bachata+samba+kizomba+oder+brasilianischer+zouk+privatunterricht+in+berlin+mit+ailton+silva/a/74947cb6/",
+                  "domain": "www.markt.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn08X2Fpkkt7msuptNb369A0_5yJSuecM&s=0",
+                  "source": "markt.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa in Berlin",
+                  "url": "https://www.visitberlin.de/en/salsa-berlin",
+                  "domain": "www.visitberlin.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-06661b1e4105:4",
+                  "source": "visitBerlin.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Kizomba Tanzkurs Berlin : 54 Kizomba Tanzkurse in der Nähe",
+                  "url": "https://prontopro.de/berlin-kizomba-tanzkurs",
+                  "domain": "prontopro.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7v45Kjp1gD9U1lVzasf3OBbGuY8AHi4&s=0",
+                  "source": "ProntoPro"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "kizomba.berlin Tanzschule",
+                  "url": "https://web2.cylex.de/firma-home/kizomba-berlin-tanzschule-11579279.html",
+                  "domain": "web2.cylex.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-06661b1e4105:5",
+                  "source": "Cylex Lokale Suche"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Evenia Hotels ® ❤️【Web Oficial】",
+                  "url": "https://es.eveniahotels.com/",
+                  "domain": "es.eveniahotels.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-06661b1e4105:6",
+                  "source": "Evenia Hotels"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Kizomba Berlin",
+              "url": "https://www.facebook.com/Kizomba4Berlin/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "4,3K+ followers",
+              "website_name": "Facebook · Kizomba Berlin",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Kizomba Berlin ... All about Kizomba, Semba and Urban Kiz in Berlin: parties, workshops, regular social nights and festivals plus fotos, video, gossip and latest ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 43,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "All about Kizomba, Semba and Urban Kiz in Berlin"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Cumbancha \"LaFamilia\" -Salsa Tanzschule - Berlin",
+              "description": "10+ years in business · Möckernstraße 68 \nOpen ⋅ Closes 6 pm \nOn-site services · Online classes \n",
+              "domain": "www.cumbancha.de",
+              "phone": "0173 6554433",
+              "url": "https://www.cumbancha.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 201,
+                "rating_max": 5
+              },
+              "cid": "14367320317274941685",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Open Air Kizomba / Urban Kiz",
+              "description": "Ludwig-Erhard-Ufer \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 27,
+                "rating_max": 5
+              },
+              "cid": "8048911792719937091",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Artdance Tanzstudio",
+              "description": "20+ years in business · Rungestraße 20 \nOpen ⋅ Closes 6 pm \nOn-site services · Online classes \n",
+              "domain": "www.artdance-tanzstudio.de",
+              "phone": "0176 45607369",
+              "url": "http://www.artdance-tanzstudio.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "cid": "283521586252612209",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Kizomba in berlin tickets",
+                "Kizomba classes Berlin",
+                "Kizomba dance classes near me",
+                "Kubata Berlin",
+                "Angolaner in berlin"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJb5KTgmtPqEcRunrhl4q16lY",
+              "feature": "0x47a84f6b8293926f:0x56eab58a97e17aba",
+              "cid": "6263017838670346938",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

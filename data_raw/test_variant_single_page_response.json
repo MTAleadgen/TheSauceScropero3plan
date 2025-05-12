@@ -1,0 +1,207 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.9500 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100246-9976-0139-0000-d0fa6d568a8f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.9115 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa dance classes new york",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa dance classes new york",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20dance%20classes%20new%20york&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:46:39 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=salsa+dance+classes+new+york+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRYo6i2EMDW575sLmJkl9tcOvB9pkgvxjTECizXeeTM90vyKJygaiollIhiIl31_GTwHxidqq6uKx8zGJC1MMNvo4t63nf3CFGWPE3fTWrkS92x91Z0hZwoFkAOic_bRaVqfjuIW7GofQSisKoYCrZ81RKhBK0xgDtxFSBr8x35AMppE9LfNjNfIW9pigUlP9M15FhGw&sa=X&ved=2ahUKEwjwuoueyZeNAxURDkQIHQKmHegQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+dance+classes+new+york+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRent7usMLrqePnpz8lbdvFSZYwvlyyPHJy9ONH8YCRR-l-DyqwGyDj6LSZ_s4eCmf7kx8uqT9CqQDVRI6snhhrNTDrGvqQhVN0Nu4Ja9XJ1cGOE8H4YqU5Of1qJk9Ud7hvynWZgw6HOUC670WtpmQDBtDFo_0rHRTZAs3Cg2pGmcAfAMgquIJz_Sf0BfwUMdywdRGrO7xSyyTNhtVer0-nGPLZmzsBiX79_4hmyz95q4cwcGv&sa=X&ved=2ahUKEwjwuoueyZeNAxURDkQIHQKmHegQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Adults",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+dance+classes+new+york+adults&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRcfTyGcZ7ZT0_S4DP77on7FOcW-O2E26ROacXvjENcDvdCXhMa4BTF99_rCMFZtHLJobHaPhg5nbZ3VSNNDHMrEtgH3Wd83kw3ekSxRAcaS-UjYACmx9Rm8LddlOQ40nz7Ld607HhlBPK6hPBHTb8I62PLgcq2eGCnqlcEBlE3ek8wjS32JohiWBaiFxg3enUC_iizATrVPU3Dd6B2Yb6bbiH79v_0SY2MfyqylIVaCUqfISV&sa=X&ved=2ahUKEwjwuoueyZeNAxURDkQIHQKmHegQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+salsa+dance+classes+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRMQSFhZv6QXDEzd24FlQ8SncZ-y9n-epXW4LuLvZo6yEzIuasXziV_IKR1_EaMPMf0OtN89amAGAJv0sT1YtumCKVqjjd-ufMbR0RiVEES-642ADyyRBsl03Xef451iFp-zqXhaaznq0jxvVI93bli1f1N3eXMGNF5HxAQ9IiZmAzWV3F0jXc8V64i5Q2FN8TWbaBBGrC7rwT0I-936WHh1rkWrGrNRDgZJBS5vVEa8DopJnTWm5E0EMHbWwI1Bbc9YiJxg&sa=X&ved=2ahUKEwjwuoueyZeNAxURDkQIHQKmHegQxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+salsa+dance+classes+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRVyHtoL2ryQRUmQmdobhQBxMAzcagvWi9OzGkp1hS-u_tfbodR-QLeMJ2dBh6wSH4FiryrgAiIEa8Hu2cal9BCy0K6014-HfGXRfK6H2qBPugfc9KTfRoVUGqwiW3jfoPpYtD3Th-b_1FqTHl_90bGRdRDIjsLFAt5zxNTM8P16DsvdjX-71bKubu4yWfaOqjtOQz0g&sa=X&ved=2ahUKEwjwuoueyZeNAxURDkQIHQKmHegQxKsJegQIDRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Free+salsa+dance+classes+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRA7VbJGu5eTer-bCx76qODOIEV_KHNmMR-xiTV2G6VYQuqxP8tpifbOHTBEhpMWFuKnOGwdBcczVd40X326bT5iMNZl0IXdWLUlJ-2TrurT2WLJWR8wOaMxh9aHmpLncdV11bAp9yI4cUa2f4qSOEnUcYyLryeAfoVMLrCNALcDArwwWCYZMW7ITw9QPJvPuKTw6fdu-IAMmeb9gn9UJRoYmAkUw&sa=X&ved=2ahUKEwjwuoueyZeNAxURDkQIHQKmHegQxKsJegQIMRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 1320000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsa Sabrosa",
+              "description": "410-412 8th Ave 4th Floor \nOpen \u22c5 Closes 11\u202fPM \n\"... such a good time with Renzo and Maria teaching us how to salsa \" \n",
+              "domain": "salsasabrosaschool.com",
+              "phone": null,
+              "url": "https://salsasabrosaschool.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 269,
+                "rating_max": 5
+              },
+              "cid": "4932675944286440137",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Fred Astaire Dance Studios",
+              "description": "7+ years in business \u00b7 291 Broadway suite 900 \nOpen \u22c5 Closes 10\u202fPM \n\"I love that they truly teach you how to dance , and not just the steps.\" \n",
+              "domain": "www.fredastaire.com",
+              "phone": "(917) 442-4522",
+              "url": "https://www.fredastaire.com/ny-downtown/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 148,
+                "rating_max": 5
+              },
+              "cid": "11854448245724858625",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Salsa Classes NYC",
+              "description": "7+ years in business \u00b7 10001 520 8th Ave \nOpen \u22c5 Closes 9\u202fPM \n\"The dance teacher is very energetic and the music is electrifying.\" \n",
+              "domain": "www.salsaclassesnyc.com",
+              "phone": "(347) 508-3221",
+              "url": "http://www.salsaclassesnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 45,
+                "rating_max": 5
+              },
+              "cid": "12247009688421559485",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Joel Salsa",
+                "Salsa Salsa Dance Studio",
+                "Peridance Center",
+                "Nieves Latin Dance Studio",
+                "The Ailey Studios",
+                "Gonzalez y Gonzalez"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Salsa dance classes new york for beginners",
+                "Free salsa dance classes new york",
+                "Salsa dance classes new york adults",
+                "Salsa classes Brooklyn",
+                "Beginner Salsa classes NYC",
+                "Best salsa dance classes new york",
+                "Private salsa lessons NYC",
+                "Free salsa classes NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

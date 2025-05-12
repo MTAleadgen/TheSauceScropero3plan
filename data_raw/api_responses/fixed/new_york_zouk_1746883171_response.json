@@ -1,0 +1,144 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.3076 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101619-9976-0139-0000-50b347b0f279",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.2393 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "zouk in New York",
+        "location_code": 2840,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "zouk in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=zouk%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2025-05-10 13:19:30 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "related_searches"
+          ],
+          "se_results_count": 1250000,
+          "items_count": 2,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "NYC Brazilian Zouk Community And Events",
+              "url": "https://www.facebook.com/groups/1953605508019354/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.facebook.com › Facebook Groups",
+              "website_name": "Facebook",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "This group is to help to provide the NYC community education, training, music, artists, culture in the world of Brazilian Zouk - Lambada.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "zouk in New York from www.facebook.com",
+                  "url": "https://www.facebook.com/groups/1953605508019354/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101619-9976-0139-0000-50b347b0f279:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "NYC community education, training, music, artists, culture"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Hello Zoukies!! Can't Wait...",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/1953605508019354/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Its Lambada Thursdaze With...",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/1953605508019354/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Hi! Any Socials This Fri Or...",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/1953605508019354/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Zouk in new york tickets",
+                "Brazilian zouk in new york",
+                "Zouk classes NYC",
+                "Nyc Zouk Festival 2025",
+                "Zouk dance",
+                "Zouk in the dark",
+                "Zouk festivals 2025",
+                "Zouk classes near me"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

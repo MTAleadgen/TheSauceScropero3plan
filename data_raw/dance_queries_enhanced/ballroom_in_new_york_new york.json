@@ -1,0 +1,285 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.9720 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100336-9976-0139-0000-df903a631e4e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.9362 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "ballroom in New York",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "ballroom in New York",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=ballroom%20in%20New%20York&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-10 00:37:07 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+ballroom+in+New+York&uds=ABqPDvz-_U_b9kk_KqxvCNyETdGBW_oycNfn05MvnliIqqTheTsgMIDIwYT7OuOKyQUAsNp7eYp4eAy3xr92Nzjh8B5TOvNa-oZ8VJYcRnJeMeAp4MjBFAZwbBhatr6tdDFpPZXPTu_RoLp61j3X5X2qUKCjwckQau4uq4Gr0IUhWUpRSoRN-5euFuW5qUBxDDWhCqBGfB-TGmQiaqCENHWeephXKihUesRcHYkVgXvkgs_-Gaxb83J7HaXf-bJZMOPR-qWiaPRHqmSD55c0bI--CW16CEI1uoRBbINCXS7U9ZSZO_8__2S891lxn30d1H0KPxbrsj7rBhaOlPzIAmjcGyiV4MUlghY0mXCkUfbRcGLe-cDAamevWTl2YbxJr4ajEsOjw5QS6vPOhQ-2jKSW7cttRGkKupWqqAxnHDk2RkFKiLvdLYm26v3ZPZ049ZcuRGrw7scRJ-lJsV8dmyebZMKzDmY22N27HwSIvhCxu0T5xPYNYLo&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRufkxheIV5PwOAaA67wR_v4vakNqcpu1_uhG3UJ18hjAPQiElmCzQj0BNkaJ6gYj1wDJUjPkQ6GFYpqgG1mYdSVy7kykepnGwteSq4n-xjBmT0ig1rkxTMC0FflY1qQbHILA4e_X_rGW5TZHbtZssQQ5w64qamOuPKgLo11_9ux4Vu_bKICoZczdJtzd4h7h59-ph27fGydJVJOoT1ZblZs89HERYMNwPK70mM0d8q-iG0Hy9Zuhmc1G9Zi7wJJOASex1ySOostvZ0-jbPEsc5MnEk5Y3zLAcCwDJORSq4o-sZrGSVu8XBLejIxbotVJ5HGcRWKIFw_agJJUxUK-1l7Turg5hz8fj9ObyY4FtzHDZ5h8lcQhp_vMolKHMRkFGE3ferTfUdyULJjjFOJqChgRBzsoA-971FQY_pK81KWQys1DVALTEkggUrmX1AoQjYEYOSNLTjSryAI4-OULiJNMfqBA&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-i6QUy00S5t3yZIzKkwJhrnX3EeHcanVZZFXsz-i2xLXzl5AxTc2m2JrMsZNos5D2D7c_mtMm53GR1lNTTyCyMyoohvAqsvtaVtr5OLBAzKeU7SnZ8Hg9-BT9-QaL2GZIpEgNVoCQrA88IUx15ReaAJmvMRmN0V7-G3t5Ym93VpjSUViW0nH49wZJU_84bF7gUbL0dJfnoNaSuWyhMzomWHbta_ii_ISXxUjSPkSeYozYSrCO7iBTBI9f8Aohil6qY-jFMlLYMNqUAF_B-n2LvVWoU1KAwb56cAEqaHWKywgaeVcu2_qV4rfQ6wdrb472F1ZUjwUYJwa_FH16QcQzJ5XHKc1skaXet4ntb6rO65yHNsJ8GA1QCibkib4LJJgUWPY4lVueGUBo6a4pRgRuvDNEOFjoPtc2KFbxwi9XV8ZHV0WOPD29ByR5HyZjgDRTG_VRWU1_Ox40fTe7nYgsz2thZ0&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnPWOHSifqagWipBFtBZG5IQvdUglxVmsFqIfet41f2wiROjShwfAUMzvvN_Em3ud3xFAwBMQsQ3lK8_yaCttcno_6JsOG8XYiHowqm8_NdR0dF7ksvgaonJDA20mCcSH2ku5JC-H_irxjnr2FSEpNKhozVY5XopTL3HJRDe-GPG8RR0bZeEyjtTGoryseKHyOYeGHflJmk2X6An4Ht3PcWfGfFtESlJLuC2lWwjz3Y4Coxu9aWYAUleA6b9C0VnCNAlAOb8M9tCzX3G3_KC-jX8g6HH1KYaGHZhM7kCwCAzXKFmyPQ2E7aCRsqtXNfUvHBJS87LLwgc2a90zbRCQ0v-_hHvK2mi0QngL7FBH7ZRx7T-Gm-Tg1UE8vxSuLJDi8F8Cd0oVP9CkyXEcUyD_BH18jeBHPcq7GylKwW1V7EBAduiwmarrGhWUkiG5X2CWrLYz5lUKQG1xhn_P2XgeI4hDbW8&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=casual+ballroom+in+New+York&uds=ABqPDvz-_U_b9kk_KqxvCNyETdGBW_oycNfn05MvnliIqqTheTsgMIDIwYT7OuOKyQUAsNp7eYp4eAy3xr92Nzjh8B5TOvNa-oZ8VJYcRnJeMeAp4MjBFAZwbBhatr6tdDFpPZXPTu_RoLp61j3X5X2qUKCjwckQau4uq4Gr0IUhWUpRSoRN-5euFuW5qUBxDDWhCqBGfB-TGmQiaqCENHWeephXKihUesRcHYkVgXvkgs_-Gaxb83J7HaXf-bJZMOPR-qWiaPRHqmSD55c0bI--CW16CEI1uoRBbINCXS7U9ZSZO_8__2S891lxn30d1H0KPxbrsj7rBhaOlPzIAmjcGyiV4MUlghY0mXCkUfbRcGLe-cDAamevWTl2YbxJr4ajEsOjw5QS6vPOhQ-2jKSW7cttRGkKupWqqAxnHDk2RkFKiLvdLYm26v3ZPZ049ZcuRGrw7scRJ-lJsV8dmyebZMKzDmY22N27HwSIvhCxu0T5xPYNYLo&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=cozy+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRufkxheIV5PwOAaA67wR_v4vakNqcpu1_uhG3UJ18hjAPQiElmCzQj0BNkaJ6gYj1wDJUjPkQ6GFYpqgG1mYdSVy7kykepnGwteSq4n-xjBmT0ig1rkxTMC0FflY1qQbHILA4e_X_rGW5TZHbtZssQQ5w64qamOuPKgLo11_9ux4Vu_bKICoZczdJtzd4h7h59-ph27fGydJVJOoT1ZblZs89HERYMNwPK70mM0d8q-iG0Hy9Zuhmc1G9Zi7wJJOASex1ySOostvZ0-jbPEsc5MnEk5Y3zLAcCwDJORSq4o-sZrGSVu8XBLejIxbotVJ5HGcRWKIFw_agJJUxUK-1l7Turg5hz8fj9ObyY4FtzHDZ5h8lcQhp_vMolKHMRkFGE3ferTfUdyULJjjFOJqChgRBzsoA-971FQY_pK81KWQys1DVALTEkggUrmX1AoQjYEYOSNLTjSryAI4-OULiJNMfqBA&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=trendy+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-i6QUy00S5t3yZIzKkwJhrnX3EeHcanVZZFXsz-i2xLXzl5AxTc2m2JrMsZNos5D2D7c_mtMm53GR1lNTTyCyMyoohvAqsvtaVtr5OLBAzKeU7SnZ8Hg9-BT9-QaL2GZIpEgNVoCQrA88IUx15ReaAJmvMRmN0V7-G3t5Ym93VpjSUViW0nH49wZJU_84bF7gUbL0dJfnoNaSuWyhMzomWHbta_ii_ISXxUjSPkSeYozYSrCO7iBTBI9f8Aohil6qY-jFMlLYMNqUAF_B-n2LvVWoU1KAwb56cAEqaHWKywgaeVcu2_qV4rfQ6wdrb472F1ZUjwUYJwa_FH16QcQzJ5XHKc1skaXet4ntb6rO65yHNsJ8GA1QCibkib4LJJgUWPY4lVueGUBo6a4pRgRuvDNEOFjoPtc2KFbxwi9XV8ZHV0WOPD29ByR5HyZjgDRTG_VRWU1_Ox40fTe7nYgsz2thZ0&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=romantic+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnPWOHSifqagWipBFtBZG5IQvdUglxVmsFqIfet41f2wiROjShwfAUMzvvN_Em3ud3xFAwBMQsQ3lK8_yaCttcno_6JsOG8XYiHowqm8_NdR0dF7ksvgaonJDA20mCcSH2ku5JC-H_irxjnr2FSEpNKhozVY5XopTL3HJRDe-GPG8RR0bZeEyjtTGoryseKHyOYeGHflJmk2X6An4Ht3PcWfGfFtESlJLuC2lWwjz3Y4Coxu9aWYAUleA6b9C0VnCNAlAOb8M9tCzX3G3_KC-jX8g6HH1KYaGHZhM7kCwCAzXKFmyPQ2E7aCRsqtXNfUvHBJS87LLwgc2a90zbRCQ0v-_hHvK2mi0QngL7FBH7ZRx7T-Gm-Tg1UE8vxSuLJDi8F8Cd0oVP9CkyXEcUyD_BH18jeBHPcq7GylKwW1V7EBAduiwmarrGhWUkiG5X2CWrLYz5lUKQG1xhn_P2XgeI4hDbW8&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QkbEKegQIIhAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=ballroom+in+New+York+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRsqKhQnq4B_yCtNxu6mJb7Laa6JDgOFQrilc-vSChScsuuhHaLcqjaEa6l6TcrS-7L1uuHP1c_77uR-pCJ9BqgFjdvJzFBQlcBg0P0k3YXzJG0F6WU0qfTxzCcXvmfVzwgiZ0RcepoQ9yDz8JlD5-UYWAFzrnDVvcY10Z_pkatNCE5qlZ&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQIGRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=online+classes+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFRGYu7tdqK5HTNmPfdsbAQ7xm9_JkNpr9y0tjotgkm0QEIO-wHsIB1PONMhUxUiFMq0AXxzNZrHJI10S84qegnIqsuzeUcNW1Q57yFf2FmvoaItRI6oEw4jDs6TZ-UF1WWEwYDC6yDCxDJjNU59MRwXtxZkvZMo1cpgNItQ5LeoqJ3ASjf5-WOrFwMmYzGz4oWRDegyBOc5PllvSLApQsAoJa5B0MK39niQ8iM_CR2tti8Kl&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For rent",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Ballroom+in+new+york+for+rent&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR4jQ2Dsr9h9acn0evSs7ltSPkH1_UuOJo8v8Kupz__DyOMcGl53O1On_sBM46CbzPx1vZg4-StdvGDfsM3gjd8Lm0XW-q3alDcIhmSZ46UJINzE9t9WOvDAF34mExV4se7sUcnz4AIwMKFjmc8SohqUeUpHm9UG6ZGViveB4Oap5CqgmRcpXCINj8ZryricKA7UUHIlmwOhSr3i5kguB5YfY82I0&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Waldorf Astoria",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Waldorf+Astoria+New+York+Ballroom&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRzraODrwlUcriMSOaZPR5YB_w785kQYTAgQQG1yP0KkDMEwa53Xjljz-3_jRBI0BDpLf1C6neCSdiEBdX8C-Ke3bRCWkt5ITkLwGepXC27AZabrTEcJkt_up5Ag0TUOM-8bwRX4ebsr3f8lJBpIoJSUZhto4FLpUUVl2d3PQx3bgB-IDeYB2TsVgjqpSKZuCYZcXdix-yr_b2mnA0wr4Sycr94Sns7XjzO2uqdQJUfthMdgHC&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=top+rated+ballroom+in+New+York&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJxuSIjs8nqhPLKBEpf2eAZKNm43fJX1lp5rf7ux9IDgIo7IPY8wbbyLTOPF2Pg8cUdA7x4b-Er-AnJVU4qaywNOptlF7Ao0JZvnek6erm-QmGwud7LrsxH8pHHnGeWega6IRqHCyoy1H2JdKoAqsPHa2b_RSs_pyyRMBFicS3tIpIc8l&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQINBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Wedding",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=Ballroom+in+new+york+wedding&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRewvedP6E73DGKs_vdafGCVRtQAUSb47X73f3M_6m69YzS00pATfpZnOxn1eWNHrBsiB5e9aG11f8_upQAThGQIX6dvQj8h3mLqVWx_NmaMgLarcysV14kF5elGZhujMAA64udX2yPJlFhXPZhxTpgfzradO9YGD2f6vLZmUz6VzR-xlOXnpO55chWmIRHcAeNy_sPsz_gfPqWOjRr1NIAWXC2IA&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQIORAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Culture",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=New+York+ballroom+culture&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR99LVz1gK4y22uRCaGw7Q13b0w2K5BtV6HBdOldkkyrnAMEFEWt30YZGLTTdVoYo36Y717y68nXpLZGC-1j5pWOnWXDa58xLqeqdWB7X_2w7bgreTcj-Y5XdO_vZuByXnmeg3EF9YLoZhBCk-sbzqYe29jCpcO4cWdx8mkcgd4nAkCFQje0LbASib7fiEEaKjjGTpSiLRO2TnZyYR1HVBICzhgNo&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQINxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hotel",
+                "url": "https://www.google.com/search?num=1&sca_esv=2e5fb98ec965ced8&hl=en&gl=US&glp=1&q=New+York+Hotel+Ballroom&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfOZTc7OvcAT08hspX9JIs1yeyE3zDrSZ3b3ikT6ZXq7JHVgQTvzItmDFbKDIx-zRbRWYqtlahmuS0o4sq-8uPoMJ879rOmRgw-KGknRFQk8y4CskAhIDCHOoLqsjCJ0Fv67c7mXeUEaSSkKcwaTTAH9QuU0QxpNhDr0nVID3oer5HEAnKMohum7pwhWLjoc1NyUZZK3tjdtp5kDtHJ-J75OeLEDe&sa=X&ved=2ahUKEwiOgZ7B1JeNAxUKpJUCHVClDD4QxKsJegQINhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 67800000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "The Bowery Ballroom",
+              "description": "6 Delancey St \nMidsize concert venue booking top acts \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 1700,
+                "rating_max": 5
+              },
+              "cid": "2187692457881376724",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "The Prince George Ballroom",
+              "description": "15 E 27th St \nClosed \u22c5 Opens 10\u202fAM Mon \nEvent venue featuring a dance floor and catering, and used for fashion shows. \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 148,
+                "rating_max": 5
+              },
+              "cid": "12512655555458833706",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Hammerstein Ballroom at Manhattan Center",
+              "description": "311 W 34th St. \nHistoric music venue & recording studio \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.2,
+                "votes_count": 1100,
+                "rating_max": 5
+              },
+              "cid": "13265343656012486195",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "The Mercury Lounge",
+                "Webster Hall",
+                "The Bowery Ballroom",
+                "Music Hall of Williamsburg",
+                "Brooklyn Steel",
+                "Irving Plaza"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Ballroom in new york for rent",
+                "NYC ballroom scene 2024",
+                "Ballroom in new york wedding",
+                "Ballroom NYC Vogue",
+                "Best ballroom in new york",
+                "Grand Ballroom NYC",
+                "Vogue ballroom events NYC",
+                "Ballroom NYC events"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

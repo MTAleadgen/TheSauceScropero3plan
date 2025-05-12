@@ -1,0 +1,179 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.2514 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101529-9976-0139-0000-7dada32b7851",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.2111 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in Los Angeles",
+        "location_code": 1013962,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in Los Angeles",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1013962,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20Los%20Angeles&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRPaJ9xdx8KAEfQIRiVv3y_i",
+          "datetime": "2025-05-10 12:29:45 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 29000000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.tangomango.org",
+              "title": "Southern & Central California",
+              "url": "https://www.tangomango.org/index.php?show=Los_Angeles,CA+San_Diego,CA+Santa_Barbara,CA+Orange,CA+Ventura,CA+Riverside,CA+San_Luis_Obispo,CA+Fresno,CA+Yolo,CA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.tangomango.org › show=Los_Angeles,CA+...",
+              "website_name": "TangoMango.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Milonga De Pipe & Anna + Class with Anna & Felipe. Milonga Poema. Oxygen Tango Learning Lab - Inglewood. Queer Tango Class + Practica. The Garden Practica.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Milonga De Pipe & Anna + Class with Anna & Felipe"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Los Angeles Tango Academy",
+              "description": "10+ years in business · 3509 Casitas Ave \n\nUpbeat venue for tango classes & lessons \n",
+              "domain": "latangoacademy.com",
+              "phone": "(818) 208-0567",
+              "url": "http://latangoacademy.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 61,
+                "rating_max": 5
+              },
+              "cid": "3951046266112808396",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "The Tango Room Dance Center",
+              "description": "20+ years in business · Sherman Oaks, CA \nClosed ⋅ Opens 9:30 AM \nOnsite services \n",
+              "domain": "www.thetangoroom.com",
+              "phone": "(818) 981-6500",
+              "url": "https://www.thetangoroom.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 50,
+                "rating_max": 5
+              },
+              "cid": "203248798178115544",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Oxygen Tango",
+              "description": "15+ years in business · Inglewood, CA \nClosed ⋅ Opens 2 PM \nOnline classes \n",
+              "domain": "www.oxygentango.com",
+              "phone": "(310) 737-8438",
+              "url": "http://www.oxygentango.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 11,
+                "rating_max": 5
+              },
+              "cid": "10846133113517091131",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Los Angeles Tango calendar",
+                "Tango in los angeles for adults",
+                "Argentine tango in los angeles",
+                "Best tango in los angeles",
+                "Tango mango Los Angeles",
+                "Tango classes Los Angeles",
+                "Oxygen Tango",
+                "Tango Mango clothing"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

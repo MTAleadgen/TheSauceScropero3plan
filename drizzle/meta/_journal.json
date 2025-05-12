@@ -8,6 +8,48 @@
       "when": 1746658107566,
       "tag": "0000_demonic_nightcrawler",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1746662480003,
+      "tag": "0001_nappy_eternals",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1746720983290,
+      "tag": "0002_luxuriant_maximus",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1746721332641,
+      "tag": "0003_slippery_wither",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1746724529932,
+      "tag": "0004_new_rick_jones",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1746724575070,
+      "tag": "0005_harsh_agent_brand",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1746724621905,
+      "tag": "0006_neat_skin",
+      "breakpoints": true
     }
   ]
 }

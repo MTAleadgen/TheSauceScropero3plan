@@ -1,0 +1,331 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.4250 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101531-9976-0139-0000-23e3ec6ae30a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.3824 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in London",
+        "location_code": 1006886,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in London",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1006886,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20London&num=1&hl=en&gl=GB&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS",
+          "datetime": "2025-05-10 12:31:24 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Events",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=London+Salsa+events&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4a1rCEvmqmaNO8r9tlR4-4GkYF4WOiYENm-gfd6fZLiBqBZJV0llJVme5wHlglf0F9vTY8h7m6fvgvNm_mn7AE4P9-_H56h5O-D_kzpDu4RIkJYk8uw_BqDtOYG5Z3WYvEQGPxoBLVzQ1n0oUfaDVLK7bJofpsmLbA_hemhp-IfPXeQp1izUwEPmRE7914171MH8UlE&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Today",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Salsa+London+today&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJkg0ZDdFNzx4sFXyfIelLWkKcLD8AdeMlo1HS2nX6bPAT8-khW2W-gpIbuKKZqZ893KIx2v_vBNPHdcLoR6exWf8o3z1pJURlNIsJCgk9PmjPKQiHQPqZi7aCzMuiRB1c5t-Np3h10N-M3LnDR5AMoNV-fkP47NWyIkcH-Cv-9GmiRyeL2LQndOhDYkYt5A1plYHpEdck6aU307vV2D3dpjb4Kg&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIFhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=salsa+in+London+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1-RonypZnhFpBUhojFIV1pYcxGDBFmJrDdy9J8gkRCZwXsPM9jRA4atavrP7dpdQGOgDt0QXlZtdkZcZBnWk6viV6s1fYnYbsO7p_dmw_-RykeWJQ05Xay0PLRSFhf_PdrjhTxbuzCtSIM0y1ZABdthdAhZM0Q_-fG_4zjlSIlJ9BeUd&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=top+rated+salsa+in+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRV8y_C2X_FCyL36R43E9QONA-4i5lLgjZFENnaXVflyj1JZGEgBiVACJN7bJc82ZRk7HCSsRQXIoaQdkW_Gl1hoxepvF23RAdS_7DpVG9hOMo0KHrDc_WOYgDlp5uVXe4LAVfpHlKrzaecAN8Ifm7jVpZ2f_FcU4me3OkkxDUi2KJETjV&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Salsa+classes+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7GmBMtcUIZaEzPWB1pL7xLZbpe7HktUDKBDxo2JbZ-nsDcU25i0-368qtu8Plp9wfuTFMqtU0UpL2CKCnzyubw50Zu0fiQN6y_w59YIuv9Zgm0Jv-Ryp23bMhHZr8OC0_CLVcYeO-wDRz9nr9tqiFEPQnqUpshtvJR8QyBCIbbyROygAzpBbJLRHgzekPpozxERYfEjS77FVyXKmrZd8z6uDfwM&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "This weekend",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Salsa+London+this+weekend&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR99LVz1gK4y22uRCaGw7Q1-Q2a_Vr4NkFHGRPjNuxaSNUptbSjlTMF9KZmKZ0_ptA2__ulHtx2uyqRVzOjoIVTylkio9RrO5gRtgl77WmrTaZvxRx7j5WBtl8LXrU8jGyjrv-9qa9aIVYba7Mi0dKmnw8BidtcL_26ys-R-HW3ns_khTdtjocptme3oVb690GlbolDOMjt7XaR4btxrlwQFIVBGA&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQISBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Salsa+bar+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR4sPP5b9evuC0MpeGHeXEoBvxW6xXqcYVamo2F7z8FzQyzta5EgqwIY36bXx9Zy_FPGKj5pz9LYxP7HAuWgS7AFGos6QhYUNt6nhZtHxGCDOc4QSo_Y_RG0x0fLtGXukXB7bLXNvaHg12Zo0YZKUWnr0ijhI3C2C81mBW_PYzTc84BmzJvw5Vj_okAyA5PqdIk0CFTht9fZerVXxSxWftOzH9_Gg&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIRxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Cuban",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Cuban+Salsa+London&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJkg0ZDdFNzx4sFXyfIelLWkKcLD8AdeMlo1HS2nX6bNeUWoIbKJHWJlWXqDJ7M-PH6l_OAU5ZxqQ3vwZ3ziXFJXEPCnn2KkOvWrz8jPbmJxcL0j09sWClEjgREUkivLu7j0vJYUTspdJ3_1n61R03z2dXXlBuNTTLCMWX8OFq26wlUwjJeZsQgoagmsLH3oQxMFeMLfAlNulCeSH0-kovxVJj8k&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIRRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bridge",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=GB&glp=1&q=Salsa+London+bridge&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRp8HpV_Um8eyEVnWnrKSu4a1rCEvmqmaNO8r9tlR4-4HKog4OUDbDxG-LXO9zLe2cxa-uLzVkK6r1lTRicro33EYV5jCe9YXkvlR9OkW5zN6q_w-BCpxfBMdn5T-AJmt9h25TP3Vba9C_rbotj7eEzCJVpUHGNcjjkcqOIFiCcHjIgly_M8lZDB0ZqcTwo1V-ppCYJ0THI_cQWEivyOkqu-aCGSI&sa=X&ved=2ahUKEwjYhuKV9JiNAxUS4skDHTIZE04QxKsJegQIRBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "top_sights",
+            "related_searches"
+          ],
+          "se_results_count": 46600000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsa - Soho",
+              "description": "96 Charing Cross Rd \nLatin bar & club with dance classes \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 8600,
+                "rating_max": 5
+              },
+              "cid": "8484231495345235907",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Salsa - Temple",
+              "description": "Victoria Embankment \nLively Mexican bar with salsa lessons \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 8400,
+                "rating_max": 5
+              },
+              "cid": "11495399779029882920",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "1-Day Intensive Salsa Class",
+              "description": "VIP suite, Bar Salsa!, 96 Charing Cross Rd, 96 Charing Cross Rd \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 49,
+                "rating_max": 5
+              },
+              "cid": "15465694880268001202",
+              "rectangle": null
+            },
+            {
+              "type": "top_sights",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "title": "Activities and tours",
+              "items": [
+                {
+                  "type": "top_sights_element",
+                  "title": "4 Salsa Lessons - 1 Hour - For 2 Or 4 Option - Includes Free Fiesta Ticket - 2 Locations - Perfect For Father'S Day | Wowcher - London",
+                  "url": "https://www.wowcher.co.uk/deal/london/activities-entertainment/dance/e/salsa-dance-classes?",
+                  "description": "Wowcher",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "London Salsa Lovers Dance Experience",
+                  "url": "https://evendo.com/product/london-salsa-lovers-dancing-experience/128306-535096?utm_source=google&utm_medium=gttd&utm_campaign=cat&language=en-GB&currency=GBP&surface=search&funnel=cat",
+                  "description": "Evendo",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "London Small-Group Salsa Dance Class Experience",
+                  "url": "https://www.viator.com/London/d737-ttd/p-130119P2?googlettd=true&src=papi&campaign=&surface=search&funnel=cat",
+                  "description": "Viator",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Salsa Dancing Class",
+                  "url": "https://www.groupon.co.uk/deals/rhythm-vibes-dance-co-salsa?promoApplied=1&utm_source=google&source=&surface=search&funnel=cat&utm_medium=cpc&utm_campaign=uk_dt_sea_ggl_txt_GTTD_sr_cbp_ch1_nbr_s*",
+                  "description": "Groupon",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "4 Bachata Dance Classes - 8 Class Upgrade - City Salsa - Brixton | Wowcher - London",
+                  "url": "https://www.wowcher.co.uk/deal/london/activities-entertainment/dance/29656055/4-8-bachata-dance-classes?",
+                  "description": "Wowcher",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Salsa Cuban Style Group Class",
+                  "url": "https://classbento.co.uk/salsa-cuban-style-group-class-london?utm_source=gttd",
+                  "description": "ClassBento",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Salsa - Temple: Go Gaga Bottomless Brunch Show - London",
+                  "url": "https://www.showpass.com/go-gaga-bottomless-brunch-show-london-affp3/?source_referer=https://www.google.com/apps/ttd&utm_source=https://www.google.com/apps/ttd&utm_campaign=Showpass%20Google%20Things%20To%20Do&utm_medium=affiliate-1340109",
+                  "description": "Showpass",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "8 Or 16 Beginner Classes For Up To 2 People - Caramelo Latin Dance Academy | Wowcher - London",
+                  "url": "https://www.wowcher.co.uk/deal/london/activities-entertainment/dance/38702489/beginner-latin-dance-classes-london?",
+                  "description": "Wowcher",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Group Zumba Class",
+                  "url": "https://classbento.co.uk/group-zumba-class-london?utm_source=gttd",
+                  "description": "ClassBento",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "American Country Music Line Dancing In London (Soho)",
+                  "url": "https://www.viator.com/London/d737-ttd/p-484167P2?googlettd=true&src=papi&campaign=&surface=search&funnel=cat",
+                  "description": "Viator",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "London: Matilda the Musical & 2-Course Pre-Show Meal",
+                  "url": "https://www.getyourguide.com/-t643460?locale=en-GB&currency=GBP&src=&surface=search&funnel=cat&google_ads_click_source=&product_id=643460&option_id=1068513&ttdwk19=19",
+                  "description": "GetYourGuide",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Afternoon Tea Bus & Tour of London",
+                  "url": "https://www.lovetovisit.com/uk-attractions/afternoon-tea-bus-with-panoramic-tour-of-london/lower-deck?s=search&f=cat&lg=en-GB&cu=GBP&pi=6246&oi=7710&ad=",
+                  "description": "Love to visit",
+                  "rating": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa London today",
+                "Salsa classes London",
+                "Salsa Party London",
+                "Salsa London this weekend",
+                "Best salsa in london",
+                "Salsa dancing London Saturday",
+                "Cuban Salsa London",
+                "Bar Salsa"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

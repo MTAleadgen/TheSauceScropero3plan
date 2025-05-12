@@ -1,0 +1,251 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.8641 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101530-9976-0139-0000-6f8a023e6a1b",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.8226 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kizomba in Miami",
+        "location_code": 1015116,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kizomba in Miami",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1015116,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kizomba%20in%20Miami&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRHByA6isNmIEWVPrd1x8pb_",
+          "datetime": "2025-05-10 12:30:58 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "2024",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+Miami+2024&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJkg0ZDdFNzx4sFXyfIelLVTrKdjKS_EHm8g5vTNY9UCJ-E6uBhtb57uc2wK_OaaeEnX8B8jYMsS4rIdeC6utPJFkJFoH7ZoqIoMOBzMOkC41wOpbpAT-sZIvhccq22mbzXYbMpcScVff2EH48n_34BWeJrXQeTUUdDGBynl2LUDx7D_3sWOZugYDKk22wQEb3ZV1p0dfpfPFvXnu_9D6cpV98Hk&sa=X&ved=2ahUKEwivrNWJ9JiNAxUwBzQIHYOmDQAQxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "2021",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+in+miami+2021&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSA9nWoBsGcnvqj4vP9tP8oz5zzo6UZrJRMTuDHii4qVn1p4omz4I35k7X1W6MTT7bGD5L74tVgp0tbz7dYn8RXz9M8zcOIJc2L0HAIhCh-7_mJxTjsw2-ug9_qHLkfMZ0L0v8XPY95z8Jajl6fbt-dUPACwA1MW-OWA14JKWZ9TI2iZLM7cFRoP8WkCgrp2D7xiqHro&sa=X&ved=2ahUKEwivrNWJ9JiNAxUwBzQIHYOmDQAQxKsJegQIFBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=kizomba+in+Miami+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRApqz4lLzC2T3SQ7iP_rQw_kZ-mJYHbaajZqiifgaZfmfdiX0db8SfPEW8Hr2fuRz4oVSm67GvW1j1JHlL0kgrqk88cg3PmbTWoj524VCnZVyMIpQPfWz37UcWM5hfm8KeELUCoeGsckiR4zBpU0yn_K4QmoTuvakMH0N7n09S7j6PpxL&sa=X&ved=2ahUKEwivrNWJ9JiNAxUwBzQIHYOmDQAQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Kizomba+classes+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRafUzCD5kE4pdbN9nKdjrk_DtjaTbjGdQ0yUJMhq_aT3ttS2F2L4_VARULYux1AbXMmppE9hI7mooxwK2gRxvoVVCjUOwdqcSyfttMQHRHqkJQkC5_FiSXvAn8-EBn409AicpVRptyfGexZaIsBh9eNhqk9KF4NjiM_10v8uXftyy8_6oLQ51lQfy65Vy6d2adm_vpRh5C79w2JYIbCXlZyrqU74&sa=X&ved=2ahUKEwivrNWJ9JiNAxUwBzQIHYOmDQAQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Best",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Best+kizomba+in+miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXGYuYNxLl2q24AHiUM4PJ-tczAjXGjrc5gZkoegCpUQos3X5LTcrOYlpH75sFUZvi7wlaRUXK2LY_wG23VlGIDGp0ubL2MzAonNACcBUnzUzIKdAp7AkphJ5qA2atFA3RlMok-HhnaDgrMfuoWMK71O5lBm1Eeu7k0eYwafGsqY0h1jyfYUba15_lvu7aydc9EiQtiMVr6AZn2u1B70SuQPbWB4&sa=X&ved=2ahUKEwivrNWJ9JiNAxUwBzQIHYOmDQAQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hollywood",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Miami+kizomba+hollywood&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfEXWjYvoUQHW-h3ivPUq5Tyd5lDgYD-mH7fVusAPbgGp4vpmmELvSmJSaTeWsTQf0BfGEEcmLuLu8aUe-00ewpGwYBGzCAtx7m3YGzbVSCrycdyyA40-RgtiverErk6ueFvfpp4WulXTkmXXwC2MNRX-XfMeZPUMnv4VECNZj9MwujUjs48MjYDQ0B58HNPlKDgOWHM&sa=X&ved=2ahUKEwivrNWJ9JiNAxUwBzQIHYOmDQAQxKsJegQINhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 207000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "thembkf.com",
+              "title": "Miami Beach Kizomba Festival – Bridge The Gap",
+              "url": "https://thembkf.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://thembkf.com",
+              "website_name": "Miami Beach Kizomba Festival",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The Miami Beach Kizomba Festival (MBKF ) aims to bridge the gap between Africa and the African diaspora by sharing the music, dance and culture of various ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The Miami Beach Kizomba Festival (MBKF"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "About Us",
+                  "description": null,
+                  "url": "https://thembkf.com/#AboutUs",
+                  "domain": "thembkf.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Accommodations",
+                  "description": null,
+                  "url": "https://thembkf.com/#Accommodations",
+                  "domain": "thembkf.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Passes",
+                  "description": null,
+                  "url": "https://thembkf.com/#Passes",
+                  "domain": "thembkf.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Schedule",
+                  "description": null,
+                  "url": "https://thembkf.com/#Schedule",
+                  "domain": "thembkf.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Miami Kizomba",
+              "description": "10+ years in business · Hollywood, FL \nOpen ⋅ Closes 9 PM \n",
+              "domain": "miamikizomba.com",
+              "phone": "(954) 667-8691",
+              "url": "http://miamikizomba.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "cid": "17617983338762937046",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Dance Awakening",
+              "description": "7+ years in business · 1791 SW 3rd Ave \nClosed ⋅ Opens 1 PM Sun \n\"Great way to learn to dance, fun and affordable!\" \n",
+              "domain": "www.danceawakening.org",
+              "phone": "(305) 979-4316",
+              "url": "http://www.danceawakening.org/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 61,
+                "rating_max": 5
+              },
+              "cid": "9952816914730187414",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Miami Sensual Bachata",
+              "description": "7+ years in business · 387 NE 59th St \nClosed ⋅ Opens 9 PM \n\"Great drinks, great location, parking is close by.\" \n",
+              "domain": "lnk.bio",
+              "phone": "(786) 213-0975",
+              "url": "https://lnk.bio/miamisensualbachata",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 51,
+                "rating_max": 5
+              },
+              "cid": "328392135990783720",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Best kizomba in miami",
+                "Kizomba in miami 2021",
+                "Miami Dance Festival",
+                "Miami dance Fusion Festival 2024"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

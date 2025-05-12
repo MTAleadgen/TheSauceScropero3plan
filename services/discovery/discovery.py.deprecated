@@ -1,0 +1,409 @@
+import os
+import redis
+import requests
+import pandas as pd
+import time
+import logging
+import json
+from pathlib import Path
+from urllib.parse import urlparse, parse_qs
+from dotenv import load_dotenv
+import csv
+from datetime import datetime
+import base64
+import prometheus_client
+from prometheus_client import Counter, Gauge, Histogram
+
+# Setup basic logging
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Setup file logging for discovered URLs
+url_file_logger = logging.getLogger('discovered_urls_file_logger')
+url_file_logger.setLevel(logging.INFO)
+file_handler = logging.FileHandler("discovered_urls.txt", mode='w')
+formatter = logging.Formatter('%(message)s')
+file_handler.setFormatter(formatter)
+url_file_logger.addHandler(file_handler)
+url_file_logger.propagate = False
+
+# --- Configuration ---
+load_dotenv()
+
+# DataForSEO credentials
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+# Default to the service name when running in Docker via docker-compose
+REDIS_URL = os.getenv("REDIS_URL", "redis://redis_queue:6379/0")
+REDIS_URL_QUEUE = "url_queue"
+REDIS_SEEN_URLS_SET = "seen_urls_discovery"
+# Use local path if file doesn't exist at Docker path
+DOCKER_METRO_CSV_PATH = "/app/geonames_na_sa_eu_top1785.csv"
+LOCAL_METRO_CSV_PATH = "./geonames_na_sa_eu_top1785.csv"
+METRO_CSV_PATH = DOCKER_METRO_CSV_PATH if os.path.exists(DOCKER_METRO_CSV_PATH) else LOCAL_METRO_CSV_PATH
+REQUEST_DELAY = float(os.getenv("REQUEST_DELAY", 2.0))
+RESULTS_PER_PAGE = 100
+MAX_PAGES_PER_QUERY = int(os.getenv("MAX_PAGES_PER_QUERY", 1))
+MAX_CITIES = int(os.getenv("MAX_CITIES", 10))  # Default to 10 cities for testing
+DATA_RAW_DIR = os.getenv("DATA_RAW_DIR", "./data_raw")
+
+# Ensure data_raw directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+# Setup Prometheus metrics
+# Create a registry
+registry = prometheus_client.CollectorRegistry()
+
+# Define metrics
+serp_requests_total = Counter('serp_requests_total', 'Total number of SERP API requests', ['city'], registry=registry)
+serp_request_errors = Counter('serp_request_errors', 'Number of SERP API request errors', ['city'], registry=registry)
+urls_discovered = Counter('urls_discovered', 'Number of URLs discovered', ['city'], registry=registry)
+unique_urls_added = Counter('unique_urls_added', 'Number of unique URLs added to queue', ['city'], registry=registry)
+api_latency = Histogram('api_latency_seconds', 'API request latency in seconds', ['city'], registry=registry)
+
+TARGET_DANCE_STYLES_FOR_DISCOVERY = ["salsa", "bachata", "kizomba", "zouk", "hustle"]
+
+# --- Helper Functions ---
+def is_valid_url(url):
+    try:
+        result = urlparse(url)
+        return all([result.scheme, result.netloc]) and result.scheme in ["http", "https"]
+    except ValueError:
+        return False
+
+def get_dataforseo_results(query, city, login, password, num_pages_to_fetch=MAX_PAGES_PER_QUERY):
+    """Fetches search results from DataForSEO API."""
+    all_urls_from_query = set()
+    all_raw_data = []
+    
+    # DataForSEO API endpoint for Google Organic Search
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{login}:{password}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task
+    data = [{
+        "keyword": query,
+        "location_name": city,
+        "language_name": "English",
+        "depth": min(num_pages_to_fetch, 3),  # DataForSEO has limit of 1-3
+        "se_domain": "google.com"
+    }]
+    
+    try:
+        # Track metrics
+        with api_latency.labels(city=city).time():
+            serp_requests_total.labels(city=city).inc()
+            
+            # Make the API request
+            response = requests.post(endpoint, json=data, headers=headers)
+            response.raise_for_status()
+            result = response.json()
+            
+            # Save the entire response for debugging
+            raw_filename = f"{city.replace(' ', '_').lower()}_{int(time.time())}_response.json"
+            raw_path = os.path.join(DATA_RAW_DIR, raw_filename)
+            with open(raw_path, 'w') as f:
+                json.dump(result, f, indent=2)
+            logger.info(f"Saved raw API response to {raw_path}")
+            
+            # Log response status code for debugging
+            logger.info(f"DataForSEO API status code: {result.get('status_code')} - {result.get('status_message')}")
+            
+            if result.get('status_code') == 20000:  # Success code
+                logger.info(f"DataForSEO request successful for query '{query}' in {city}")
+                
+                # Process results
+                tasks = result.get('tasks', [])
+                logger.info(f"Found {len(tasks)} tasks in the response")
+                
+                for task in tasks:
+                    task_id = task.get('id')
+                    logger.info(f"Processing task ID: {task_id}")
+                    
+                    if 'result' in task and task['result']:
+                        for i, item in enumerate(task['result']):
+                            # Save each result item separately
+                            result_filename = f"{city.replace(' ', '_').lower()}_{int(time.time())}_{i}.json"
+                            result_path = os.path.join(DATA_RAW_DIR, result_filename)
+                            with open(result_path, 'w') as f:
+                                json.dump(item, f, indent=2)
+                            logger.info(f"Saved result item {i} to {result_path}")
+                            all_raw_data.append(item)
+                            
+                            # Extract URLs from different item types
+                            items = item.get('items', [])
+                            logger.info(f"Found {len(items)} items in result {i}")
+                            
+                            for result_item in items:
+                                item_type = result_item.get('type')
+                                
+                                # Handle different types of items
+                                if item_type == 'organic':
+                                    # Extract URL from organic result
+                                    url = result_item.get('url')
+                                    if url and is_valid_url(url):
+                                        all_urls_from_query.add(url)
+                                        urls_discovered.labels(city=city).inc()
+                                        logger.info(f"Added organic URL: {url}")
+                                
+                                elif item_type == 'video':
+                                    # Extract URLs from video items
+                                    video_items = result_item.get('items', [])
+                                    logger.info(f"Found {len(video_items)} video items")
+                                    for video_item in video_items:
+                                        url = video_item.get('url')
+                                        if url and is_valid_url(url):
+                                            all_urls_from_query.add(url)
+                                            urls_discovered.labels(city=city).inc()
+                                            logger.info(f"Added video URL: {url}")
+                                
+                                elif item_type == 'local_pack':
+                                    # Extract URL from local pack result
+                                    url = result_item.get('url')
+                                    if url and is_valid_url(url):
+                                        all_urls_from_query.add(url)
+                                        urls_discovered.labels(city=city).inc()
+                                        logger.info(f"Added local pack URL: {url}")
+                                    
+                                    # Local pack results can also have domain information
+                                    domain = result_item.get('domain')
+                                    if domain:
+                                        domain_url = f"https://{domain}"
+                                        if is_valid_url(domain_url):
+                                            all_urls_from_query.add(domain_url)
+                                            urls_discovered.labels(city=city).inc()
+                                            logger.info(f"Added local pack domain URL: {domain_url}")
+                                
+                                elif item_type == 'related_searches':
+                                    # Process related searches for additional keywords
+                                    related_items = result_item.get('items', [])
+                                    logger.info(f"Found {len(related_items)} related search items")
+                                    for related_item in related_items:
+                                        logger.info(f"Related search: {related_item}")
+                                
+                                elif item_type == 'refinement_chips':
+                                    # Process refinement chips for additional links
+                                    chip_items = result_item.get('items', [])
+                                    logger.info(f"Found {len(chip_items)} refinement chip items")
+                                    for chip_item in chip_items:
+                                        url = chip_item.get('url')
+                                        if url and is_valid_url(url):
+                                            logger.info(f"Found refinement chip URL: {url}")
+                                            # We don't add these URLs to the queue since they're just Google search links
+                                
+                                else:
+                                    logger.info(f"Skipping unsupported item type: {item_type}")
+                                    
+                            # Look for any additional URLs in the item
+                            item_url = item.get('check_url')
+                            if item_url and is_valid_url(item_url):
+                                logger.info(f"Found check_url: {item_url}")
+                                # We don't add these URLs to the queue since they're just Google search links
+                                
+                logger.info(f"Found {len(all_urls_from_query)} URLs for query '{query}' in {city}")
+            else:
+                error_message = result.get('status_message', 'Unknown error')
+                logger.error(f"DataForSEO API error: {error_message} for query '{query}' in {city}")
+                serp_request_errors.labels(city=city).inc()
+    
+    except requests.exceptions.RequestException as e:
+        logger.error(f"DataForSEO request failed for query '{query}' in {city}: {e}")
+        serp_request_errors.labels(city=city).inc()
+    except Exception as e:
+        logger.error(f"An unexpected error occurred processing query '{query}' in {city}: {e}")
+        serp_request_errors.labels(city=city).inc()
+    
+    # Apply delay to respect rate limits
+    time.sleep(REQUEST_DELAY)
+    
+    return list(all_urls_from_query), all_raw_data
+
+def load_metros_from_csv(csv_path):
+    """Load metros from CSV file, or create a test file if none exists"""
+    metros = []
+    
+    # Check if file exists
+    if not os.path.exists(csv_path):
+        logger.warning(f"Metro CSV file not found at {csv_path}. Creating a test file with sample cities.")
+        # Create a test file with sample cities
+        test_metros = [
+            {"name": "New York", "country_code": "US", "population": 8000000},
+            {"name": "Los Angeles", "country_code": "US", "population": 4000000},
+            {"name": "Chicago", "country_code": "US", "population": 2700000},
+            {"name": "Houston", "country_code": "US", "population": 2300000},
+            {"name": "Phoenix", "country_code": "US", "population": 1600000},
+            {"name": "Philadelphia", "country_code": "US", "population": 1500000},
+            {"name": "San Antonio", "country_code": "US", "population": 1500000},
+            {"name": "San Diego", "country_code": "US", "population": 1400000},
+            {"name": "Dallas", "country_code": "US", "population": 1300000},
+            {"name": "San Jose", "country_code": "US", "population": 1000000}
+        ]
+        test_df = pd.DataFrame(test_metros)
+        test_csv_path = "./test_metros.csv"
+        test_df.to_csv(test_csv_path, index=False)
+        logger.info(f"Created test file with {len(test_metros)} sample cities at {test_csv_path}")
+        return test_df
+    
+    try:
+        # Try to load the CSV with expected format
+        with open(csv_path, mode='r', encoding='utf-8') as infile:
+            reader = csv.DictReader(infile)
+            
+            # Check for required columns
+            fieldnames = reader.fieldnames if reader.fieldnames else []
+            required_columns = ['asciiname', 'country_code', 'population']
+            
+            # If CSV has asciiname column, use that
+            if all(col in fieldnames for col in required_columns):
+                for row in reader:
+                    if int(row.get('population', 0)) > 10000:
+                        metros.append({
+                            'name': row['asciiname'],
+                            'country_code': row['country_code']
+                        })
+            # If CSV has different format, try to adapt
+            elif 'name' in fieldnames and 'country_code' in fieldnames:
+                for row in reader:
+                    metros.append({
+                        'name': row['name'],
+                        'country_code': row['country_code']
+                    })
+            else:
+                logger.error(f"CSV file '{csv_path}' missing required columns. Available: {fieldnames}. Needed: {required_columns}. Creating test file.")
+                # Fall back to creating a test file
+                return load_metros_from_csv(None)
+                
+        logger.info(f"Loaded {len(metros)} metros from {csv_path}")
+    except FileNotFoundError:
+        logger.error(f"Metro CSV file not found at {csv_path}. Creating test file.")
+        return load_metros_from_csv(None)
+    except Exception as e:
+        logger.error(f"Error loading metros from CSV {csv_path}: {e}. Creating test file.")
+        return load_metros_from_csv(None)
+    
+    return pd.DataFrame(metros)
+
+# --- Main Logic ---
+def main():
+    logger.info("Starting discovery process with DataForSEO...")
+    
+    # Check DataForSEO credentials
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials (DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD) not set. Exiting.")
+        return
+
+    # Redis connection - make optional for testing
+    try:
+        r = redis.from_url(REDIS_URL, decode_responses=True)
+        r.ping()
+        logger.info("Successfully connected to Redis.")
+        redis_available = True
+    except redis.exceptions.ConnectionError as e:
+        logger.warning(f"Could not connect to Redis: {e}. Continuing without Redis functionality.")
+        redis_available = False
+        r = None
+
+    metros_df = load_metros_from_csv(METRO_CSV_PATH)
+    if metros_df.empty:
+        logger.warning("No metros loaded, discovery process cannot continue.")
+        return
+
+    total_urls_found_session = 0
+    total_unique_urls_added_session = 0
+    cities_processed_this_run = 0
+    cities_skipped_this_run = 0
+
+    # Iterate over metros loaded from the CSV, limited to MAX_CITIES
+    logger.info(f"Processing up to {MAX_CITIES} cities from {METRO_CSV_PATH}")
+
+    # More specific query construction for better results
+    dance_styles = " OR ".join(TARGET_DANCE_STYLES_FOR_DISCOVERY)
+    search_terms = "dance school studio classes"
+    
+    # Limit to MAX_CITIES
+    metros_for_testing = metros_df.head(MAX_CITIES)
+    logger.info(f"Selected {len(metros_for_testing)} cities for testing")
+    
+    for index, metro in metros_for_testing.iterrows():
+        metro_name = metro['name']
+        
+        current_year = datetime.now().year
+        current_week = datetime.now().isocalendar()[1]
+        city_week_identifier = f"{metro_name.lower().replace(' ', '_')}:{current_year}-{current_week}"
+        redis_query_key = f"discovery_query_processed:{city_week_identifier}"
+
+        # Skip Redis check if not available
+        if redis_available and r.exists(redis_query_key):
+            logger.info(f"Query for city '{metro_name}' (week {current_year}-{current_week}) already processed. Skipping.")
+            cities_skipped_this_run += 1
+            continue
+
+        # Construct the query with more specific terms for better results
+        query = f"({dance_styles}) {search_terms} in \"{metro_name}\""
+        logger.info(f"Processing query for city: {metro_name} - Query: {query}")
+
+        query_urls, raw_data = get_dataforseo_results(query, metro_name, DATAFORSEO_LOGIN, DATAFORSEO_PASSWORD)
+            
+        if query_urls:
+            total_urls_found_session += len(query_urls)
+            added_count_for_query = 0
+            for url in query_urls:
+                url_file_logger.info(url)
+                # Skip Redis operations if not available
+                if redis_available:
+                    # Global URL deduplication still happens here
+                    if not r.sismember(REDIS_SEEN_URLS_SET, url):
+                        r.rpush(REDIS_URL_QUEUE, url)
+                        r.sadd(REDIS_SEEN_URLS_SET, url)
+                        added_count_for_query += 1
+                        unique_urls_added.labels(city=metro_name).inc()
+                else:
+                    # Just count URLs when Redis is not available
+                    added_count_for_query += 1
+                    unique_urls_added.labels(city=metro_name).inc()
+                
+            if added_count_for_query > 0:
+                logger.info(f"Added {added_count_for_query} new unique URLs to queue for query targeting: {metro_name}")
+            total_unique_urls_added_session += added_count_for_query
+            
+            # Skip Redis operations if not available
+            if redis_available:
+                # Mark this city-week query as processed if any URLs were added (or even if attempted)
+                # Set with an 8-day expiry to ensure it covers the current week.
+                r.set(redis_query_key, "processed", ex=60*60*24*8) 
+                logger.info(f"Marked city-week '{city_week_identifier}' as processed in Redis.")
+        else:
+            logger.info(f"No URLs found or added for query targeting: {metro_name}")
+            # Skip Redis operations if not available
+            if redis_available:
+                # Still mark as processed to avoid re-querying a city that yields no results this week
+                r.set(redis_query_key, "processed_empty", ex=60*60*24*8)
+                logger.info(f"Marked city-week '{city_week_identifier}' (empty result) as processed in Redis.")
+
+        cities_processed_this_run += 1
+        # Apply 0.6s delay between processing each city
+        time.sleep(0.6)
+
+    # Export Prometheus metrics
+    prometheus_client.write_to_textfile('discovery_metrics.prom', registry)
+    logger.info("Exported Prometheus metrics to discovery_metrics.prom")
+
+    logger.info("--- Discovery Process Summary ---")
+    logger.info(f"Total cities from CSV: {len(metros_df)}")
+    logger.info(f"Cities processed this run: {cities_processed_this_run}")
+    logger.info(f"Cities skipped (already processed this week): {cities_skipped_this_run}")
+    logger.info(f"Total URLs found: {total_urls_found_session}")
+    logger.info(f"Total unique URLs added to queue: {total_unique_urls_added_session}")
+    logger.info(f"Raw SERP data stored in: {DATA_RAW_DIR}")
+    logger.info("Discovery process completed.")
+
+if __name__ == "__main__":
+    main() 

@@ -1,0 +1,425 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.3880 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-5ea3838e0a61",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.3396 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "bachata in Berlin",
+        "location_code": 1003854,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "bachata in Berlin",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1003854,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=bachata%20in%20Berlin&num=1&hl=en&gl=DE&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQFZAz83TqhHEXA7XltGICEE",
+          "datetime": "2025-05-10 12:32:52 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Bachata+Classes+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSr6p4DQ95Pjpm-Kv1TFZqDMIiifueW87NDEy99R34umES2FlBtyvqkGjtF84_4Gk8mDnGCZYq0Ut2Yq2ujKKncwSkmbRHv67L3vybK83hn0jliy1Luw0aOtIbklz6oH-Vg_5UTiFbKLoO8CcR7wWxufUNCVntcYZjU-A2py6ppWy35FjurtvWtxZcuujTWFSqZ55ii_U&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=bachata+in+Berlin+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRu4vbo7AIwofd0VZAY6khQtcyyjwztBeNkbBWxmhJ3rl8oOVmBb-_JNdJxy5iXX4HcEbfnvDuX887fwQtMdHTdJ1WoTA_7dX4EfybfAjw6Q3yLMEV26qi64X-FmHz7O9xcohC111xrvWMm-jv4yf77jx4JKxaUdD1LAv4BAZe7dpXMPc&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Tanzschule",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Bachata+in+berlin+tanzschule&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRewvedP6E73DGKs_vdafGCQimpAhNkqceup2gasRoJVQEsQwvaAivt5lenLtsmqtIHZCsOSFi-vNdSqsgGv_GXw3CCFGY49xZ_HPf5sL2QOtDFaFRU2d7nSt-xg4l38MR8zJhyK3RHJ2REn2mNi7eZNJfuGdFBMtiYVQn7WQXrjwqD4MPzxgHayByHQq6GlN7HBdnPhSAvjuVN1pNNy8k3UmmEHY&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Best",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Best+bachata+in+berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRhE-E2mt6UTqI1R6XmCzV5HCXAJe2us5R6X7xkbdFhgKO0v2xSSuWIn70BtmK6GXRVj4E0zjLtw5KcvmgMZTE0-9TAH9RJmhS3_PDSZlxoDxI-Qorsavc4hyjniyWy5B5ii_C4uQGYaU5uxb8UPptGbjlH0CEmIIA3-byzGFgKx7XAt9ki6nJjgA0pFfMT4o_yYepYBQpla9ecKAVMzoDC5OgpbQ&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open Air",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Bachata+Open+Air+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfOhcW4_UGX_Wfqt8fALbCCDUX30MOqJC68bADICAtUbtFE4aKPYWPR10FqL1RtByxQvP7MRF01GlZdsj3ILxzAQf5Cay7gHM2GI7rul9C6usTZmUzUPhq84L3F7SEq0ldbtWhS5p8X86IO9NkyHCQXvc8MJPS6xgnbbGxJZMr8vco2WrskyJkrc5DAEExuBeMEp9ukw&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIDxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Wilhelmstraße",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Bachata+Wilhelmstra%C3%9Fe+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXFsIX7pc7gbM-aH-Aav8gKuhqW5Qm7mDJaZDk4DNk4uGm3aZ3QKka9O7JwPfOO3GWzi1h8BvfrbUW30n_PuHNZbNclrqmRKEuX5uQgK63yBWgLQsSwm3QRZTkdei8A2rDb5TpJeqUMDjmIcWag4hPeW5f6yxJOGsjooK3RqNTRzoAJM92TZQzGCfRyBeZSDQAF4lTmMjiR5sUT6cODMO93eDmPXe-FpqIcR_qBlkmYWTDpFa&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIQBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Festival",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Berlin+Bachata+Festival&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRnNBQ-eZ85XZDo-hzAraOfOhcW4_UGX_Wfqt8fALbCCCT_tuT_ebOq-R9Sld5_3YT9U8yYXJTTpbyRgFEoKcO4t_ZljbRy9DoIg8Ky8kLLq5x2IPIrDGHAHSWZDTovdKLS87_WUR_hpILkDmFUOOvGJWaQE_J-jIwKZUIMOruRhvGOTnFrATKtXKm015CJRNMoLPFf_iVPvZCcK9gMzxi_2pgV_Q&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIQxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hauptbahnhof",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=Bachata+Hauptbahnhof+Berlin&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFRGYu7tdqK5HTNmPfdsbAT4VTh9IOFnFNwGMFfzSyU5E2xm9TFR5pZcHDJeLEULvfRLGGyBfkzQAtfGzwTTWEMQBLLREdQwXuRuvl-CrL-EqhUPHcCEbgTWXAGCx-JloGAzIQQXL2ft3Qc_dD1WnFCtAWCJbv-jdKOZ98AhXE5rqUkhg2KBg45t_G4FZ4wPOo4UlA233MktBwneSOInqZ4SJLFI4he45aml5DuNz3m9BsMw3&sa=X&ved=2ahUKEwiM0IrA9JiNAxUQ-wIHHQskPGAQxKsJegQIQRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "compare_sites",
+            "local_pack",
+            "organic",
+            "people_also_search",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 1240000,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Places sites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Profil von Bachata Berlin",
+                  "url": "https://www.facebook.com/BachataBerlin/?locale=de_DE",
+                  "domain": "www.facebook.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-5ea3838e0a61:0",
+                  "source": "Facebook"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BachatAcademy - Bachata Classes and Workshops",
+                  "url": "https://www.meetup.com/de-DE/bachata-berlin-bachatacademy/",
+                  "domain": "www.meetup.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-5ea3838e0a61:1",
+                  "source": "Meetup"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa Party - Salsa + Bachata",
+                  "url": "https://www.visitberlin.de/de/event/salsa-party-salsa-bachata",
+                  "domain": "www.visitberlin.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-5ea3838e0a61:2",
+                  "source": "visitBerlin.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "„bachata“ in Unterricht & Kurse Berlin",
+                  "url": "https://www.kleinanzeigen.de/s-unterricht-kurse/berlin/bachata/k0c235l3331",
+                  "domain": "www.kleinanzeigen.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-5ea3838e0a61:3",
+                  "source": "Kleinanzeigen"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "BEST of Berlin, Germany Bachata",
+                  "url": "https://m.yelp.com/search?find_desc=Bachata&find_loc=Berlin",
+                  "domain": "m.yelp.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy_CnA8q2iwar0-PNmBzphuw5oyw3d8Es&s=0",
+                  "source": "Yelp"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Salsa Clubs und Kurse",
+                  "url": "https://www.top10berlin.de/de/cat/nachtleben-269/salsa-clubs-und-kurse-1398",
+                  "domain": "www.top10berlin.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-5ea3838e0a61:4",
+                  "source": "Top10 Berlin"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Tanzabende und Tanzkurse unter freiem Himmel",
+                  "url": "https://www.berlin.de/kultur-und-tickets/tipps/draussen/7490847-6199728-tanzen-und-tanzkurse-unter-freiem-himmel.html",
+                  "domain": "www.berlin.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIRref-HuQlZviyymtTM6ee2cCx6K3kk&s=0",
+                  "source": "Berlin.de"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "La Mambita Salsa Dance School",
+              "description": "30+ years in business · Eingang Gewerbe über Privatstraße, Kolonnenstraße 29/3.Hinterhof 2.Aufgang 1.Etage \nOpen ⋅ Closes 10 pm \nOn-site services \n",
+              "domain": "www.mambita.de",
+              "phone": "030 23615779",
+              "url": "https://www.mambita.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 226,
+                "rating_max": 5
+              },
+              "cid": "16516570785211317043",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Bailaconsol - Bachata Berlin",
+              "description": "3+ years in business · Klosterstraße 44 \nOpen ⋅ Closes 9 pm \nOn-site services · Online classes \n",
+              "domain": "www.bailaconsol.com",
+              "phone": "0176 56784458",
+              "url": "http://www.bailaconsol.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 51,
+                "rating_max": 5
+              },
+              "cid": "8836954390094528338",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Cumbancha \"LaFamilia\" -Salsa Tanzschule - Berlin",
+              "description": "10+ years in business · Möckernstraße 68 \nOpen ⋅ Closes 6 pm \nOn-site services · Online classes \n",
+              "domain": "www.cumbancha.de",
+              "phone": "0173 6554433",
+              "url": "https://www.cumbancha.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 201,
+                "rating_max": 5
+              },
+              "cid": "14367320317274941685",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "www.bachatacademy.de",
+              "title": "BachatAcademy – Deine Tanzschule für Bachata in Berlin",
+              "url": "https://www.bachatacademy.de/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.bachatacademy.de",
+              "website_name": "BachatAcademy",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Erlebe Bachata in all seinen Facetten! Kurse, Workshops und Events für jedes Level – von Anfänger bis Profi. Werde Teil der BachatAcademy Community!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Kurse, Workshops und Events für jedes Level"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Bachata Kurse & Übungszeit",
+                  "description": null,
+                  "url": "https://www.bachatacademy.de/bachata-kurse-berlin",
+                  "domain": "www.bachatacademy.de"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Bachata Beginner",
+                  "description": null,
+                  "url": "https://www.bachatacademy.de/Bachata-Beginner-Berlin",
+                  "domain": "www.bachatacademy.de"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Kurse, Workshops & Events",
+                  "description": null,
+                  "url": "https://www.bachatacademy.de/classes",
+                  "domain": "www.bachatacademy.de"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Salsa4Water Berlin",
+              "description": "7+ years in business · Fischerinsel 3 \nOn-site services \n",
+              "domain": "www.4water.org",
+              "phone": null,
+              "url": "http://www.4water.org/berlin/salsa",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 73,
+                "rating_max": 5
+              },
+              "cid": "10553085096014801776",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Bachata dance classes Berlin Mitte",
+              "description": "Klosterstraße 44 \nClosed ⋅ Opens 12 pm Tue \n",
+              "domain": "beacons.ai",
+              "phone": null,
+              "url": "https://beacons.ai/mahirbachata",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 7,
+                "rating_max": 5
+              },
+              "cid": "16356699847523195265",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Havanna",
+              "description": "Hauptstraße 30 \n\nHigh-energy hangout for Latin dancing \n",
+              "domain": "www.havanna-berlin.de",
+              "phone": "030 78899655",
+              "url": "https://www.havanna-berlin.de/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": 1500,
+                "rating_max": 5
+              },
+              "cid": "7247209095277466243",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Cumbancha \"LaFamilia\" ‑Salsa Tanz...",
+                "Havanna",
+                "La Candela Salsa",
+                "Salsa4Water Berlin",
+                "Tanzschule und Ballhaus Walzerlinks...",
+                "Dance school Traumtänze..."
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Bachata in berlin tanzschule",
+                "Best bachata in berlin",
+                "Bachata Berlin Party",
+                "Bachata Classes Berlin",
+                "Salsa Berlin",
+                "Salsa Berlin heute",
+                "Cumbancha Berlin",
+                "Salsa classes Berlin"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJSUa_AilQqEcRM3sd4J6lNuU",
+              "feature": "0x47a8502902bf4649:0xe536a59ee01d7b33",
+              "cid": "16516570785211317043",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

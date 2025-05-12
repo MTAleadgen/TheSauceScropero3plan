@@ -1,0 +1,348 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.2645 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100255-9976-0139-0000-9895b9745fda",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.2264 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa clubs nyc",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa clubs nyc",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20clubs%20nyc&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:55:07 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tonight",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+Dancing+NYC+tonight&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRf-tPrLqnrdgUFGMuPGGz_4dyJT0xxqqymIU4GvOG3vZi3qkhtGXTK3sAYGGJLvSq9agdV-Y-w88ysy98nUCzYYgU2fcQn9XcqOSXkZaidmWw6ZOjzpiP4E7WNt2PYLSIY7x7kS9f639rdtVpGenH4HlwY9fFgNJd5TUhZ2oFiRu8MqRgA51B5C8Y7HooatKdkgZEzctPF6TrfFrq61wpeOwAreyZ4pYsXhZEXEkaiciZktjf&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQIFRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=casual+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRi8O7Wg-VMUmW7qJo4ycreA0PtY_UxOiQlui8iLZxGbRAuBLG_pzFVyuyaZfQ1iJw1QkvXoB8FotjtzdByGWL_BGRv39BwV8xySCGIas0bzUsAZey4oveEFN3uMOUxm39Khmg8-VNM0Tl68u4YM6PhZh_8glx_-RsJ4mF8WvuMlaV5EiPksAO8cjz6QLHF22dPrDYm-j5EhKFup1PDgCjhDP11ShQvybufpFcPrrvBDiscHeas9OiOwNhPIk-M0Erdxx3h39Jf3kj1caad4wYJSzhgp4JrDt_8RkHGYumX53QnPhHN00nZk-JdJnG5CAy2pUzf1AvjH8oo3et3gewOHvzTy331Kihdx6yRnclQ-StQ-xc1beCXgYoLvvOY_US-h2J4ooQlnJDsq_UDxYsW554g1iYtcNRNPkBBpA0A83aM-RoKNCl3y_swR5fNnGUnvFetw&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=cozy+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRfuFSf91nT0by-N63CUMcCNmiv0qLRQC9eQl3xjpZyu-WszcLNr4bmDtU1Lwa-IvVnAdyYbwvJ8guNbGxWy4LYspK84qMnaT7oxSNm_sHsHztr9ezcAcPv2NHhHGLqJgOSt7fI2D-MZCicjs41jvbNKIPPkhOKy01uTarKDxx3y0vuBTRaEGVUUIvsauI1_CvRn-sDsIfix0UmIs08437XxcOb4QhF6Y2Hsjwlq1N35UOCGAy8Xwk8mtnwAk2EbCkWCtClqn5CHHfQ-1kStcrHPFlJbfLMQBmJK1hoF7bNGFWqt4WicSA1P25cF-7e80x2TIp7ZiQ7-6r4BU7sT-1sniQgd6Kr1sQtTRsRLJNyuZ6vLn8poMZdWA4Il9cnjmBO93Ri_211lanAy87zx9EZiD_dzDVlbuKU5W4kdDWR2LCDYNMDCgv4wwBKg_dHFrKnneZEg&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=trendy+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRi8O7Wg-VMUmW7qJo4ycreA0PtY_UxOiQlui8iLZxGbQTYPxcUaBad3NUdTpwA0zVTczyPO4FRVs6DbhenUNVqpSvReK2T0Bz1C_Rt2_1Y9w5TQFHd9fj7zYa8EvYnpp_8J5eabYme-Gp2mOez-UbvvISR_fa-wDI-YLXK38GIr6vhloSio2GkDTHwfdeVeu24siAxHL0YuBIvHWkAMshtHHHAKJZ7MF5BBq0lDDjeMjf4VgG14_c9R0i-KklKYxMbI-nYpZnyVaCJ86XVdrmXEtaqStmuExGxYH9NFoy_ToNdYEOUf9ZfjXpbaYHsAMgneluLg3j9BQQxRAwbt9CV7RLYpKMvHuUXBwpcAgW44gnOGT1K2oA0Oy3xoPu1ejcLyl0FNT3b_hPZv2CDarWjka55GHdMzIjOdUB8EmP64mrqgkskZN1UV-1d_zaFFk7J-q9kg&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=romantic+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRSzDwBNkgYr7mj1Rt3h57UOtSgfsi7eHCr8rffer0y3ZZNjLCQKWprYw9wMQI6vUcwmSxRn3pCXlbC7akPCDo3cUK9eX2BrMecNt5kI37m4J64ToVTfLdsAbBlTwaAnHZoKnJtUuN1-vPCcwbUK3qmrNt20tzjwVnb0nCvYKzLc9v0hYmkkpjZORQBqN8sw1bS8-Wjk9935WOh411Z1lWl8ALMwXYVKZtRp3XbtJkZkMAGFl2hFB_VmQH32STMomEENRg5RI69qqollf6uf-p1Sm-z88DqUrYd1i18w_exCY06RWcxkK6UcRJ__G7QHi9MpZKuh6Tzz1pvX0J3Si6PMY6pOwyHHusSAaLpuTXc7ZQVsEBtFgDQhb7s5xiwdVeSg8r3g1a8j4_BlCWDprWCYyBRQoQk_MVilKfIXHO08XCYiEs0XbRFShr-PszggmIwBC1A&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=casual+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRi8O7Wg-VMUmW7qJo4ycreA0PtY_UxOiQlui8iLZxGbRAuBLG_pzFVyuyaZfQ1iJw1QkvXoB8FotjtzdByGWL_BGRv39BwV8xySCGIas0bzUsAZey4oveEFN3uMOUxm39Khmg8-VNM0Tl68u4YM6PhZh_8glx_-RsJ4mF8WvuMlaV5EiPksAO8cjz6QLHF22dPrDYm-j5EhKFup1PDgCjhDP11ShQvybufpFcPrrvBDiscHeas9OiOwNhPIk-M0Erdxx3h39Jf3kj1caad4wYJSzhgp4JrDt_8RkHGYumX53QnPhHN00nZk-JdJnG5CAy2pUzf1AvjH8oo3et3gewOHvzTy331Kihdx6yRnclQ-StQ-xc1beCXgYoLvvOY_US-h2J4ooQlnJDsq_UDxYsW554g1iYtcNRNPkBBpA0A83aM-RoKNCl3y_swR5fNnGUnvFetw&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=cozy+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRfuFSf91nT0by-N63CUMcCNmiv0qLRQC9eQl3xjpZyu-WszcLNr4bmDtU1Lwa-IvVnAdyYbwvJ8guNbGxWy4LYspK84qMnaT7oxSNm_sHsHztr9ezcAcPv2NHhHGLqJgOSt7fI2D-MZCicjs41jvbNKIPPkhOKy01uTarKDxx3y0vuBTRaEGVUUIvsauI1_CvRn-sDsIfix0UmIs08437XxcOb4QhF6Y2Hsjwlq1N35UOCGAy8Xwk8mtnwAk2EbCkWCtClqn5CHHfQ-1kStcrHPFlJbfLMQBmJK1hoF7bNGFWqt4WicSA1P25cF-7e80x2TIp7ZiQ7-6r4BU7sT-1sniQgd6Kr1sQtTRsRLJNyuZ6vLn8poMZdWA4Il9cnjmBO93Ri_211lanAy87zx9EZiD_dzDVlbuKU5W4kdDWR2LCDYNMDCgv4wwBKg_dHFrKnneZEg&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=trendy+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRi8O7Wg-VMUmW7qJo4ycreA0PtY_UxOiQlui8iLZxGbQTYPxcUaBad3NUdTpwA0zVTczyPO4FRVs6DbhenUNVqpSvReK2T0Bz1C_Rt2_1Y9w5TQFHd9fj7zYa8EvYnpp_8J5eabYme-Gp2mOez-UbvvISR_fa-wDI-YLXK38GIr6vhloSio2GkDTHwfdeVeu24siAxHL0YuBIvHWkAMshtHHHAKJZ7MF5BBq0lDDjeMjf4VgG14_c9R0i-KklKYxMbI-nYpZnyVaCJ86XVdrmXEtaqStmuExGxYH9NFoy_ToNdYEOUf9ZfjXpbaYHsAMgneluLg3j9BQQxRAwbt9CV7RLYpKMvHuUXBwpcAgW44gnOGT1K2oA0Oy3xoPu1ejcLyl0FNT3b_hPZv2CDarWjka55GHdMzIjOdUB8EmP64mrqgkskZN1UV-1d_zaFFk7J-q9kg&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=romantic+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRSzDwBNkgYr7mj1Rt3h57UOtSgfsi7eHCr8rffer0y3ZZNjLCQKWprYw9wMQI6vUcwmSxRn3pCXlbC7akPCDo3cUK9eX2BrMecNt5kI37m4J64ToVTfLdsAbBlTwaAnHZoKnJtUuN1-vPCcwbUK3qmrNt20tzjwVnb0nCvYKzLc9v0hYmkkpjZORQBqN8sw1bS8-Wjk9935WOh411Z1lWl8ALMwXYVKZtRp3XbtJkZkMAGFl2hFB_VmQH32STMomEENRg5RI69qqollf6uf-p1Sm-z88DqUrYd1i18w_exCY06RWcxkK6UcRJ__G7QHi9MpZKuh6Tzz1pvX0J3Si6PMY6pOwyHHusSAaLpuTXc7ZQVsEBtFgDQhb7s5xiwdVeSg8r3g1a8j4_BlCWDprWCYyBRQoQk_MVilKfIXHO08XCYiEs0XbRFShr-PszggmIwBC1A&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQkbEKegQIGRAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=salsa+clubs+nyc+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR1-RonypZnhFpBUhojFIV1oYacrvZE3B22m3ctgYxup4Vk2B_bhVZz4mkymLUsaij7TeET1IjnOclSQfwIwr_l40uzG6XeMCNXvwJUbZe8at_tNAcyWCD_ksmtWPvKzRJ3-6N-2qFBjQuLOjMu4wHJCF3e14U6s-XZ1EEA8k-v43ZBXuU&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQIEhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Accepts reservations",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=accepts+reservations+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRwy10Tt-nJhbf-JAfG9KFrISbrJKWcJTffQbdEIimOyhsOdPUY10_4KX19oW_AdMNlE-9EfiV3bhWVj_6kLAlv-ZQ3lt3bTLxEJVE3e-Bx8wLyT0wiyebxxSZUmCI5r-WkmGInpEr8lg2warSfVllzom37mxwPzat4zepUZvtnP_lnOrynS2HhVxwi1qo21dCQxb9x5qb4VOPhGcKFLhrfqKyZflbjdwhCVsDi9P80h0ibbNy&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRV8y_C2X_FCyL36R43E9QOJIb2kZodOav1lfoBNWzifem6OS12sqJDKIsBPA-syiGzu5ZVoTSMCu8UN9raU198VL7ebP3Yufwem8TGZ87iEKjFaIhgOTYOP3s4zYduZaZW-_UHVHW0YhwcG8KGcJoqE7KyWPCJoYrLe7fEQNuQ4pw07z4&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQIERAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Takeout",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=takeout+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRj6Rf12M6Gawrxdbl5TakBRv7lRLyHZTyVnNwQ9j9rN_qb6B4M3JIDHG0ek9BOjACV31e-45mVprQds-aBZPSfeVATk3PKPczF-M9tu-nkhBALW6zmyJeHytfIqGbRJ0APWvo6tKa3eJ6RAZrBpYarocIJvsDKbFSKEh0DSU8XA9EhX_rmQH8OpzvpQzMptiPApNomo1GRwVsTdOobgySHrSwu1Ed8mUhMOOtWEUNzrV3k6Ee&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQINBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reddit",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+clubs+nyc+reddit&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRBvpp1ulDcVf7ufGjs2e0V4nW0xKW3sQ57WFU7BtOcQM00W5MH-nHsrIr6E_rQhI55z3hdhVu2iWP_NkyBHaBM6vqG7c9fY5kQsvyJfJhTfTn31z6fhko2n4gR9qxCqMFZNda4XwGzk8P2prwrBW7SGaNgrUCsLOoxYCdchgwj6BZ9RLqj_evZCOqqlAJc8JPEFU2o1RDWfbqvAy03V1qcx_JEME&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQILxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Recently opened",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=recently+opened+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRH4qSauDBUPlrJYw6ML9etsl6pmiiORA1RUTMwulYeb2_69pxffQeAUBuTTNjyF4cGQSAos2cvQM3fqBF5entmaS2aJI_BwhSEfsTdkYTnGriVEOSNFSMQP29MQXjk4vu7cteSANfERzjCGta1VdPI0ly4CCMqrTeEWDngtL9D1Mp-s6mRo8z3Q4Uo_APZQOWyGMFvw&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQIMRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Beer",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=beer+salsa+clubs+nyc&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRaamsAUqme1iarDPCxNwasH-qxixmCebEXNDk8tWJ62zgPcYh_0WOs4eEjQ7PVVi2b20OfOQFnPHT3FuuY5dCme8Yy_mhDBnWHMBErCNTZ8Pmma0N6RUGbzZM2YfKlVrQIzyHTmtPH__0J_erLlW3Qacwfst2RkvDfdEsmrPoiWR1Eep-juyq-mjtuTdp9Zyt2tt32pMNIQ0pnvPk9EbrgH8953s&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQxKsJegQIMxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "find_results_on",
+            "related_searches"
+          ],
+          "se_results_count": 1540000,
+          "items_count": 5,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Gonzalez y Gonzalez",
+              "description": "192 Mercer St \n\"Great atmosphere, live salsa , merengue , cumbia and bachata .\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 1900,
+                "rating_max": 5
+              },
+              "cid": "5911709644558449139",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Club Cache",
+              "description": "214 W 39th St \nClosed \u22c5 Opens 9\u202fPM Sat \n\"You can dance bachata , salsa , merengue, regueton, etc.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.9,
+                "votes_count": 277,
+                "rating_max": 5
+              },
+              "cid": "11807039516830775286",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Solas",
+              "description": "232 E 9th St # 1 \n\"Come dance Salsa on Wednesday night...\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.9,
+                "votes_count": 909,
+                "rating_max": 5
+              },
+              "cid": "5785217285752689436",
+              "rectangle": null
+            },
+            {
+              "type": "find_results_on",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+              "items": [
+                {
+                  "type": "find_results_on_element",
+                  "title": "LEARN SALSA with UPTOWN ROYALTY!\n\nJoin the dynamic husband & wife duo \nRon Renaissance & JodiMusic \u2014 as featured in The New York Times  Dance Section!!! \nFor an unforgettable treat! With over 20 years of global teaching experience we\u2019re teaming up with our favorite venue! @coquitoblu \ud83c\udf78\ud83c\udf79\ud83e\udd42\ud83d\udd7a\ud83c\udffb\ud83d\udc83\ud83c\udffc\n\nALL-LEVELS SALSA CLASS! @jodimusic @ronrenaissance \n\nWhen Thursday May 15th : 6:30pm\nWhether you\u2019re brand new or looking to brush up your skills\u2026 THIS IS YOUR MOMENT!\n\nLearn a fresh new turn pattern and shine on that dance floor! \n\nWith the energy only Uptown Royalty can bring.\n\nDon\u2019t miss our first takeover at Coquito Blu \u2014 \u00a1Salsa lo que hay!  Book your space at coquito blu.com or 718.747.2600",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJUB_nFR4Hy/",
+                  "source": "Coquito Blu"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "Latin Night at El Asadero Mexican Grill\nFree Entry!\n\nWhat to expect???\nA salsa class \ud83d\ude09 with @nuriamambosins \nPerformances\nLots of music and fun\nSalsa/Bachata/Merengue/Reggaeton\n\nSaturday, May 17th\n9PM to 1AM\n\n\ud83d\udccd2052 Hudson St, Fort Lee, NJ 07024\n\n#latinnight #salseros #salsa #bachata #newjersey",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJU43P3B-cr/",
+                  "source": "El Asadero Fort Lee"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "Tuesdays just got a whole lot hotter at Heat!\nGood vibes, live music by DJ Top Notch @djtopnotch and these can\u2019t-miss specials:\n\n$6 jerk chicken tacos\n$3 beers\n$10 shots (Henny, Patron, Titos)\n$8 mojitos & margaritas\n$15 hookah\n\nPull up from 9PM\u20132AM!\n100-05 Atlantic Ave, Richmond Hill, NY\n\n#CultureTuesdays #Heatkitchen #CaribbeanVibes #NYCNightlife",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJUaas2umA1/",
+                  "source": "Heat Kitchen"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "JERSEY CITY! Free Salsa Night at The Ashford!! May 13th!\n\nWe\u2019ll be dancing salsa from 9:30PM to 1AM. \n\nWe are having a salsa class with @pazleondance , a professional latin dance instructor. \n\nDon\u2019t miss it!\n\nMeet us at The Ashford @theashfordjc on May 13th and enjoy the drinks and the delicious food. \nFREE ENTRY!\n\n#newjersey #jerseycity #salsa #latinos #salsainjersey",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJUwC9-ywCm/",
+                  "source": "The Ashford | Restaurant Lounge & Rooftop"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "\u00a1CORILLOOO NUEVA YOL! \ud83d\udea8\ud83c\uddf5\ud83c\uddf7\n\nPrep\u00e1rate pa\u2019 la noche m\u00e1s loca de MAYO\u2026 \ud83d\udd25\n@clubcachenyc junto a @latinparty_com te traen:\nTHE DESCONTROL NUEVA YOL\nUn party al garete inspirado en el conejo malo \ud83d\udc30 y el flow boricua \ud83c\udf34\n\nEn la m\u00fasica: DJ @emanuwellishere \ud83c\udfb6\nLATIN + TOP40 + HOUSE + M\u00c1S PERREO \ud83d\udc83\ud83c\udffd\ud83d\udd7a\ud83c\udffd\n\nArrancamos con baile GRATIS a las 9PM \ud83d\udd58 con @pablotommasi y el ritmo de \ud83e\udd41 @ricobeatz\n2x1 en tragos de 9 a 11PM \ud83c\udf79\ud83c\udf79 \u2013 pa\u2019 que empieces a romper sin miedo\n\nENTRADA FREE antes de las 12 mostrando tu ID de P.R. \ud83e\udeaa\n(Tra\u00e9lo y entra sin pagar, ya t\u00fa sabes)\n\nGet your tix now:\n\ud83c\udf9f\ufe0f tix.latinparty.com\n\ud83d\udcf2 Info al DM o llama: (917) 684-8584\n\n\u00a1Vamo\u2019 a romper esa pista como si fuera el Choliseo! \ud83d\udca5\nESTE S\u00c1BADO nos vemos en @thedeannyc by @djeddiebatiz \n\ud83d\udccd214 W 39th St, NYC\n\n#DescontrolNYC #LatinParty #PerreoDelBueno #NuevaYolStyle #PuertoRicoPower #BadBunnyNight #TheDeanNYC #CorilloBoricua",
+                  "domain": "search.google.com",
+                  "url": "https://search.google.com/local/posts?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Club+Cache&ludocid=11807039516830775286&lpsid=5822803267796694055&source=sh/x/localposts&lsig=AB86z5Uee7XcACt0KAyprR_7PaIT&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQ04sMegQIDhAj",
+                  "source": "Club Cache"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "\ud83d\ude1c\ud83d\ude08 WILD OUT WEDNESDAYS\ud83d\ude1c\ud83d\ude08\n\nHAPPY HOUR 6PM-10PM\n- $5 Shots\n- $8 Margaritas, Mojitos & Rum Punch\n- $10 Flavors\n- $25 Beer Towers\n- $40 Pitchers + 1 Flavor\n\nMUSIC BY: NYC TOPS DJ\u2019S\nReggae | Soca | Top 40  | Hip Hop | Afrobeats | Kompa\n\nEveryone Free All Night\n\nDoors Open 6PM\n\nNYX Bar & Lounge\n116-04 Rockaway Blvd. Queens NY 11420\n\nFor More Info Text #NYX To 347.514.4954\n\n#nyx #nyxhookah #tequila #queensnightlife #openbar #bottleservice #appetizers #drinks #bottles #shots #nyc #party #club #dj #nightlife #soca #reggae #dancehall #hiphop #top40 #latin #chutney #bollywood #afrobeats",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJW-vkQOQMZ/",
+                  "source": "NYX Bar & Lounge"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "\ud83c\udf89 THIS SATURDAY \u2014 THE #1 PARTY IN PATERSON AWAITS!\n\ud83d\udd76\ufe0f Doors open at 7PM in the basement!\n\n\ud83c\udfa7 Music by: DJ Maxxi Sounds & DJ Michael Valencia\n\ud83e\udea9 The ultimate crossover party in the area!\nVallenato \u2022 Salsa \u2022 Bachata \u2022 Popular \u2022 Hora Loca\n\n\ud83c\udf89 Celebrating something special? Let us know!\n\ud83c\udf88 Decorative balloons\n\ud83c\udf82 Complimentary cupcakes\n\ud83c\udf81 Special surprises just for you!\n\n\ud83c\udf54 Kitchen open until 1AM\n\ud83c\udf8a Hora Loca madness at 1:30AM \u2014 don\u2019t miss it!\n\n\ud83d\udcf2 Reserve your table now: 551-574-8700\n\ud83d\udd1e 21+ only | Physical ID required",
+                  "domain": "search.google.com",
+                  "url": "https://search.google.com/local/posts?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=La+Chiflada+NJ&ludocid=4370040014211276724&lpsid=4840579763913139123&source=sh/x/localposts&lsig=AB86z5VE6ChboqGN43x12nendnpH&sa=X&ved=2ahUKEwid7PaQy5eNAxV7KvsDHR0cIGAQ04sMegQIDhAz",
+                  "source": "La Chiflada NJ"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "Swipe left to check out this week\u2019s @jupiter_disco events! \ud83c\udf9f\ufe0f\ud83e\udea9\ud83d\udd0a\n\nWEDNESDAY\n05-07-25\n8pm-2am\nFree all night\n-\nSeimei, Carpainter, onlytom, Secret Guests\n@seimeikawai @carpainter_tt @trekkietrax @iamonlytom\n\nTHURSDAY\n05-08-25\n8pm-2am\nFree all night\n-\nAudio(files): JUST RAJ + Serrian\n@just.raj.please @t_serrian\n\nFRIDAY\n05-09-25\n8pm-4am\nFree before 10pm\n-\nHYPNOSIS w/ MIRA MIRA, sola system, Perna\n@solasystem_ @miraaasamiraaa @perrnaa\n\nSATURDAY\n05-10-25\n8pm-4am\nFree before 10pm\n-\nDarker Than Wax Night: DJ Tara, Mawkus, TASHASAN, JAS\n@djtaranyc @_natashahassan @_mawkus_ @darkerthanwax\n\nSUNDAY\n05-11-25\n8pm-2am\nFree all night\n-\nFloppy Disko w/ Hubbble + Dr. Dak\n@hubbble @drdakmusic\n\nRSVP and buy early bird tix to @jupiter_disco events by clicking the link in our bio.\n\nWe look forward to seeing you at our safe space and be sure to stay connected to our Insta stories and mailing list for updates.",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJUuw_IS_CO/",
+                  "source": "Jupiter Disco"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "moving a leading an active life is important to your overall health ! join us for our free zumba + functional training classes here @craft.nj ! TOMMOROW from 5-6pm! \n\u2022\nDM us for more information! bring a friend and catch a sweat \ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJUQoI5AshE/",
+                  "source": "craft"
+                },
+                {
+                  "type": "find_results_on_element",
+                  "title": "#explore #food #music #cocktails #margarita #explorepage #exploremore #bronx #datenight #tuesday #tacotuesday #goodvibes #afterwork #tequila \n #CaribbeanTuesday  #Music #Food #Drinks #Reggae #DanceHall #Soca #Punta #AfroBeats #KaribbeanKrave #HappyHour #Hookah #DJs #BirthdayCelebrations #weeklyspread \nHAPPY HOUR 2pm-10pm. \n$100 regular bottles \n$150 premium \nBottle specials (after happy hour)\n1 for $150\n2 for $250\nCasamigos \nPatron \nHenny \nDon Julio (Blanco)\n1 for 170\n2 for $300\nRose Moet \nDon Julio Reposado \nHenny vsop\n\nMusic by @djprimetime @di_yung_jenna  @addi_skully  @selecta.ty \n\nKitchen open until 3AM (full menu) \nHookah Available \n\nTo reserve your table or Celebrate a occasion Dm @karibbeankrave. Cell 718-288-3244\n@karibbeankrave \n65 Westchester square Bronx New York 10461",
+                  "domain": "www.instagram.com",
+                  "url": "https://www.instagram.com/p/DJTSQwcN5Xk/",
+                  "source": "Ricky Roy"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa clubs nyc reddit",
+                "Best salsa clubs nyc",
+                "Salsa Dancing NYC tonight",
+                "Salsa dancing NYC Saturday night",
+                "Live Salsa music NYC",
+                "Free Salsa dancing NYC",
+                "Free Salsa dancing NYC Pier",
+                "Bachata Social NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

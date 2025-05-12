@@ -1,0 +1,1 @@
+ALTER TABLE "metro" ADD COLUMN "temp_col" text;

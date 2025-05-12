@@ -1,0 +1,541 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.6119 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101533-9976-0139-0000-20bab0be3196",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.5651 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "zouk in Madrid",
+        "location_code": 1005493,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "zouk in Madrid",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1005493,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=zouk%20in%20Madrid&num=1&hl=en&gl=ES&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCYE8CoCXKUINEWkijGHB3jbE",
+          "datetime": "2025-05-10 12:33:34 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Dates",
+                "url": null,
+                "domain": null,
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Guests",
+                "url": null,
+                "domain": null,
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Guests",
+                "url": null,
+                "domain": null,
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "About",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=zouk+hotel+about&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRD6sg6uLmQ9uRPvFo3MCdUPngmsVq9Dksl--Br98MkDmg9gJg0ZfpgD8tcwsA4OdAvGgpmwJNlGje5K8xYi_6VqPIzOZPcdsOppjF-1l87eB5Y8CtuleKGdICY3xDtMMBwOzq7wb3YrGXbC6bwqq3YNB9PGs&si=APYL9btcmO9IOn85yi7Imn4VsjKJosabHFWRJfEydoZ1SR6AYdofVJucevzdLL9_5FkuHqwxLIO7GkpW_FR0g74OJw8YwPXBz6vwR4k4YsbU3JGan55B5raGI210zl5lFs572yzLwWH5&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQxKsJegQIHhAB&ictx=1",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Directory",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=zouk+hotel+directory&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-cvlb1OfQIRQrJ9hC_oM5vqLV9VRXwvnqoQPmY9YSRY17hSGCJd2QtSugQEBLkyMNo0FkSTTB6k2lxGcBQi18JWlhlA55QxLoDiLxjTSyPZFZw7h4IwVWLFHo04VZMqvKXmNf6ZlHTf2zLfL66M_RrHq5CM&si=APYL9bt6YUtHrZjfHqagkPveMoXB7HfDVxtH5ryVoL7BK2G5UwrXWKd2keg0Cy3Ypku7TxjNM7lLPGO6QniLIMOOhPf7LxhL6O_bvxmE2-jCzYELXYkQcgpDmV_PK4dFSH_3bPmqgL2F&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQxKsJegQIHBAB&ictx=1",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Tickets",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=zouk+hotel+tickets&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR_cHFwiJkkCLtA0RGHHvaju63H-xqoaiqjZlfEZyC-XSztuWN70S4fsgKhf9GXCn1gmZwZNQOmLKhVGZFTAz0fAM6sGN6joo8TQylQYU4-pGFI26uV0jMF77NFITMkCVxQpDEf0jdahkb1TZYiD5ocOOuAeg&si=APYL9btKwV26aZBw5Q2Y9p1eKnCpbO-dEjr3nGKjDBjcarZffGhj_99Fj_yhTvCj3P-JBjUXgyLfD5AowVCMM_61I-ARvUx6hu98iW2eOZv3i3nBK2WW_3WGtwd6FLdZTF9GildqBeaXhoGKNSMQe5xHj12dUKkTsw%3D%3D&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQxKsJegQIGxAB&ictx=1",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vehicles",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=zouk+hotel+cars&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRIyGl5d5y6jE2qW0EkA1m18DGgpSvcpJEmWfQWDgDSX6umX0UBT05O_ucwTHIAOewwyqiVMDDMRqV1xAMpbUyqJDe6fxMSVIcoPB_F9QLn5olBTKF3dTIkW99bZiSzZiV6oUqUPnSAu453jKnImxJV52Xd9w&si=APYL9bvTYJdK_Yqwr9VlFxcj0Mx8ELZJEmfu1Ll8fL7NLJbxlzOiBZfWaoUBXWRSWbQF2MDyuIfMBbfV8-6PDOfKfafmz3fCBNQowPqU4AvqwW73mN8pPleFtWxlE5i-KwELvTyRoNDP&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQxKsJegQIXhAB&ictx=1",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Events",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=zouk+hotel+upcoming+events&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRxoXEXj3dNTJp92DtQ4hpkAfqb1AL3XAt0eTXF75w7o4ZFFDmUlB4j8sqE5GLgc4U5Wb3Y8q2r2yzUSWyCsDpQlGI7CuSmAu9rCZl_QwXHkcVFeJ5dNUigW2RKSd9qjOVmOBLUKq8glj4YFjIdI_5-voFBMMRhyflVB6oydLjU0I20oZa&si=APYL9btdTXSE3cbPbWSavTlLrYqChFLD3kp8I-Oddm4Mxtb_-Hj2_19OeaMqJvV4-2b_Qn-BAm_whC93QmrII_0IKm_wlKil03PRz6xt28jrrZn9VaOdeRe8cP_wK3H_onfZuRywLHbt6DiSip2DKvNnEhie9h-KHw%3D%3D&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQxKsJegQIXBAB&ictx=1",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "By owner",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=zouk+hotel+by+owner&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR-yh6q-Qm9tJwaxrUIpAS80MNffERnLFwsN7JGxXBpl8m_RlpMxFYMGdvVyKbAh8Amv-0jc5QKMpij7MlGobO3ceRk1lRH3pWK4MKvCo4uo6hCWvdZzm2HvtyjLGTvhUWaZrC5Ni80u_cnz3w9MwoGaumiX4&si=APYL9bu2z1LlDUdXvd5BPPSKmz2GpAANbACBv5Ut9cI52O08hxV0I8KrdaPjQ0L5v73o3NvJASZoz4KX-7seBYWFMmJrIHdCwyXwWrDK4bsfu1jYsqx3EWyc9PmHxmZ0sBek51vCIaVq&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQxKsJegQIXRAB&ictx=1",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "google_flights",
+            "google_reviews",
+            "third_party_reviews",
+            "knowledge_graph"
+          ],
+          "se_results_count": 466000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "zoukhotel.com",
+              "title": "Zouk Hotel, hotel intimo para parejas en Madrid",
+              "url": "https://zoukhotel.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://zoukhotel.com",
+              "website_name": "zoukhotel.com",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Zouk hotel, hotel discreto e intimo para parejas en Madrid con habitaciones por horas con jacuzzi y piscina privada. Reserva tu habitación desde 59 euros.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "zouk in Madrid from zoukhotel.com",
+                  "url": "https://zoukhotel.com/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-20bab0be3196:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "hotel discreto e intimo para parejas en Madrid"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Suites",
+                  "description": null,
+                  "url": "https://zoukhotel.com/suites/",
+                  "domain": "zoukhotel.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Tarifas",
+                  "description": null,
+                  "url": "https://zoukhotel.com/tarifas-hotel-zouk-madrid/",
+                  "domain": "zoukhotel.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Inicio",
+                  "description": null,
+                  "url": "https://zoukhotel.com/en/",
+                  "domain": "zoukhotel.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Hotel por Horas en Madrid",
+                  "description": null,
+                  "url": "https://zoukhotel.com/hotel-por-horas-madrid/",
+                  "domain": "zoukhotel.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "google_flights",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[4]",
+              "title": "People also search for",
+              "url": null,
+              "items": [
+                {
+                  "type": "google_flights_element",
+                  "description": "Love hotel Madrid",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Love+hotel+Madrid&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhFEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Zouk hotel Madrid",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Zouk+hotel+Madrid&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhDEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Moteles Madrid baratos",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Moteles+Madrid+baratos&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhCEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Loob hotel Madrid",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Loob+hotel+Madrid&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhHEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Rooms Madrid",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Rooms+Madrid&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhGEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Habitaciones para parejas por horas Madrid",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Habitaciones+para+parejas+por+horas+Madrid&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhEEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Hoteles con jacuzzi Madrid",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Hoteles+con+jacuzzi+Madrid&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhBEAE"
+                },
+                {
+                  "type": "google_flights_element",
+                  "description": "Hoteles por horas Madrid",
+                  "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=ES&glp=1&q=Hoteles+por+horas+Madrid&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQ1QJ6BAhAEAE"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]",
+              "title": "Zouk Hotel",
+              "subtitle": "2-star hotel",
+              "description": null,
+              "card_id": null,
+              "url": "https://www.zoukhotel.com/?utm_source=GMB&utm_medium=organic&utm_campaign=MyBusiness",
+              "image_url": null,
+              "logo_url": null,
+              "cid": "1604523145556308910",
+              "items": [
+                {
+                  "type": "knowledge_graph_images_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-20bab0be3196:1",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": "Map of Zouk Hotel",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-20bab0be3196:2",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": "https://www.google.com/local/place/fid/0xd4249853ee30bd9:0x1644694cbcc6b3ae/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3DlPPvMdc2Yf_VIHnGo88Ckw%26cb_client%3Dsearch.gws-prod.gps%26yaw%3D119.60347%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFmxQUHZNZGMyWWZfVklIbkdvODhDa3c%3D&sa=X&ved=2ahUKEwjOxLHU9JiNAxWtSvEDHSJ7H1YQpx96BAgUEA4",
+                      "domain": "www.google.com",
+                      "alt": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101533-9976-0139-0000-20bab0be3196:3",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_row_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "title": "Phone",
+                  "data_attrid": "kc:/local:alt phone",
+                  "text": "Phone : 918 77 18 20",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "918 77 18 20",
+                      "url": "https://www.google.com/#",
+                      "domain": "www.google.com",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_hotels_booking_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]",
+                  "title": "Compare prices",
+                  "date_from": null,
+                  "date_to": null,
+                  "data_attrid": "kc:/local:hotel booking",
+                  "items": [
+                    {
+                      "type": "knowledge_graph_hotels_booking_element",
+                      "source": "trivago.es",
+                      "description": null,
+                      "url": "https://www.google.com/aclk?sa%3Dl%26ai%3DDChcSEwiou7fU9JiNAxXbaEECHeuzLeIYABAFGgJ3cw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIqLu31PSYjQMV22hBAh3rsy3iEAoYASABEgIc3_D_BwE%26sig%3DAOD64_2uT9oVQoIsS-VVpBevMPR_7jofRQ%26adurl%26nis%3D4",
+                      "domain": "www.google.com",
+                      "price": {
+                        "current": 92,
+                        "regular": null,
+                        "max_value": null,
+                        "currency": "EUR",
+                        "is_price_range": false,
+                        "displayed_price": "€92"
+                      },
+                      "is_paid": true
+                    },
+                    {
+                      "type": "knowledge_graph_hotels_booking_element",
+                      "source": "Booking.com",
+                      "description": "Free cancellation until",
+                      "url": "https://www.google.com/aclk?sa%3Dl%26ai%3DDChcSEwiou7fU9JiNAxXbaEECHeuzLeIYABAEGgJ3cw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIqLu31PSYjQMV22hBAh3rsy3iEAoYAiABEgLJQfD_BwE%26sig%3DAOD64_356JOg3OrCE7igBA3YTT6npVlyUg%26adurl%26nis%3D4",
+                      "domain": "www.google.com",
+                      "price": {
+                        "current": 109,
+                        "regular": null,
+                        "max_value": null,
+                        "currency": "EUR",
+                        "is_price_range": false,
+                        "displayed_price": "€109"
+                      },
+                      "is_paid": true
+                    },
+                    {
+                      "type": "knowledge_graph_hotels_booking_element",
+                      "source": "Hotels.com",
+                      "description": "Free cancellation until",
+                      "url": "https://www.google.com/aclk?sa%3Dl%26ai%3DDChcSEwiou7fU9JiNAxXbaEECHeuzLeIYABAHGgJ3cw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIqLu31PSYjQMV22hBAh3rsy3iEAoYAyABEgIZgPD_BwE%26sig%3DAOD64_1Jnm82xgZ-Z_e4Jjq04JZapigjOQ%26adurl%26nis%3D4",
+                      "domain": "www.google.com",
+                      "price": {
+                        "current": 109,
+                        "regular": null,
+                        "max_value": null,
+                        "currency": "EUR",
+                        "is_price_range": false,
+                        "displayed_price": "€109"
+                      },
+                      "is_paid": true
+                    },
+                    {
+                      "type": "knowledge_graph_hotels_booking_element",
+                      "source": "Expedia.es",
+                      "description": "Free cancellation until",
+                      "url": "https://www.google.com/aclk?sa%3Dl%26ai%3DDChcSEwiou7fU9JiNAxXbaEECHeuzLeIYABADGgJ3cw%26co%3D1%26ase%3D2%26gclid%3DEAIaIQobChMIqLu31PSYjQMV22hBAh3rsy3iEAoYBCABEgJZffD_BwE%26sig%3DAOD64_2DPn18dXg_G_j0mnTB2pUb_PLdBA%26adurl%26nis%3D4",
+                      "domain": "www.google.com",
+                      "price": {
+                        "current": 109,
+                        "regular": null,
+                        "max_value": null,
+                        "currency": "EUR",
+                        "is_price_range": false,
+                        "displayed_price": "€109"
+                      },
+                      "is_paid": true
+                    },
+                    {
+                      "type": "knowledge_graph_hotels_booking_element",
+                      "source": "Zouk Hotel",
+                      "description": "Free cancellation until",
+                      "url": "https://reservas.zoukhotel.com/acinet2/ShoppingCenter/Search?gateway%3DnSZzigHXEMNBbTz0JxqxpTtoZFui2Qii%26rate_filter_type%3D1%26hotel_filter_id%3D77%26checkin%3D21/05/2025%26nights%3D1%26adults%3D2%26children%3D0%26lang%3Den%26isFrom%3DGOOGLE%26googleHotelId%3D77%26children_ages%3D",
+                      "domain": "reservas.zoukhotel.com",
+                      "price": {
+                        "current": 92,
+                        "regular": null,
+                        "max_value": null,
+                        "currency": "EUR",
+                        "is_price_range": false,
+                        "displayed_price": "€92"
+                      },
+                      "is_paid": false
+                    },
+                    {
+                      "type": "knowledge_graph_hotels_booking_element",
+                      "source": "trivago.es",
+                      "description": null,
+                      "url": "https://www.trivago.es/es/srl?search%3D100-154958;dr-20250521-20250522;rc-1-2%26adType%3Dgha_free%26cip%3D3414000000%26iDisp%3D41%26sLanguageLocale%3DES%26sCurrencyCode%3DEUR%26iGhaThemeId%3D1%26ghaDevice%3Ddesktop%26ghaDateType%3Ddefault%26ghaPrice%3D92.00%26ghaSite%3Dlocaluniversal%26ghaGroup%3D146944%26ghaArr%3D20250521%26ghaDep%3D20250522%26ghaABW%3D11%26ghaList%3D%26ghaCtx%3DCIAcEPBHGLXKpsvi6oaqWyDQicP7BSoiCiAwMDAwMDAxNzQ2ODYxMTY0MDZkNWQwMGFmNDM0YzYwYzIgMDAwMDAwMTc0Njg2MTE2NGZjMmQyZDQ1NTZlZjFjNjc4zroJ%26cipc%3Dsem",
+                      "domain": "www.trivago.es",
+                      "price": {
+                        "current": 92,
+                        "regular": null,
+                        "max_value": null,
+                        "currency": "EUR",
+                        "is_price_range": false,
+                        "displayed_price": "€92"
+                      },
+                      "is_paid": false
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_carousel_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "title": "Profiles",
+                  "data_attrid": "kc:/common/topic:social media presence",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "X (Twitter)",
+                      "subtitle": null,
+                      "url": "https://twitter.com/Zouk_Hotel",
+                      "domain": "twitter.com",
+                      "image_url": "https://ssl.gstatic.com/kpui/social/x_32x32.png",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/g-link[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Facebook",
+                      "subtitle": null,
+                      "url": "https://www.facebook.com/ZoukHotel",
+                      "domain": "www.facebook.com",
+                      "image_url": "https://ssl.gstatic.com/kpui/social/fb_32x32.png",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/g-link[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "X (Twitter)",
+                      "subtitle": null,
+                      "url": "https://twitter.com/zouk_hotel",
+                      "domain": "twitter.com",
+                      "image_url": "https://ssl.gstatic.com/kpui/social/x_32x32.png",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/g-link[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "LinkedIn",
+                      "subtitle": null,
+                      "url": "https://es.linkedin.com/in/antonio-gil-51a565b6",
+                      "domain": "es.linkedin.com",
+                      "image_url": "https://ssl.gstatic.com/kpui/social/linkedin_32x32.png",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/g-link[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/c-wiz[1]/c-data[1]",
+              "reviews_count": 714,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": 714,
+                "rating_max": 5
+              },
+              "place_id": "ChIJ2QvjPoVJQg0RrrPGvExpRBY",
+              "feature": "0xd4249853ee30bd9:0x1644694cbcc6b3ae",
+              "cid": "1604523145556308910",
+              "rectangle": null
+            },
+            {
+              "type": "third_party_reviews",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/c-wiz[1]/c-data[1]",
+              "reviews_count": 41,
+              "title": "Trip.com",
+              "url": "https://www.trip.com/hotels/detail?hotelid=9854881&Allianceid=810504&Sid=1394411&utm_medium=cpc&utm_campaign=HPA&utm_source=google#review",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.4,
+                "votes_count": 41,
+                "rating_max": 5
+              },
+              "rectangle": null
+            },
+            {
+              "type": "third_party_reviews",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/c-wiz[1]/c-data[1]",
+              "reviews_count": 378,
+              "title": "Tripadvisor",
+              "url": "https://www.tripadvisor.com/ShowUserReviews-g562644-d653195-r624702684?m=68573&staydates=2025_05_25_2025_05_26&uguests=1_2_0&supdv=desktop&supuc=ES&supul=en",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.3,
+                "votes_count": 378,
+                "rating_max": 5
+              },
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

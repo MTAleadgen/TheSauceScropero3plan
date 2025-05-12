@@ -1,0 +1,321 @@
+#!/usr/bin/env python3
+"""
+Properly formatted DataForSEO API calls using location_code instead of location_name
+"""
+import os
+import json
+import base64
+import requests
+import logging
+import psycopg2
+from psycopg2.extras import Json
+from pathlib import Path
+from dotenv import load_dotenv
+import time
+import hashlib
+from datetime import datetime, timezone
+
+# Load environment variables
+load_dotenv()
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Configuration
+DATAFORSEO_LOGIN = os.getenv("DATAFORSEO_LOGIN")
+DATAFORSEO_PASSWORD = os.getenv("DATAFORSEO_PASSWORD")
+DATABASE_URL = os.getenv("DATABASE_URL")
+DATA_RAW_DIR = "./data_raw/api_responses/fixed"
+
+# Ensure directory exists
+Path(DATA_RAW_DIR).mkdir(parents=True, exist_ok=True)
+
+# Correct location codes for cities
+# These are the numeric codes DataForSEO uses internally
+LOCATION_CODES = {
+    "New York": 2840,        # New York, NY, United States
+    "Los Angeles": 1013962,  # Los Angeles, CA, United States
+    "Chicago": 1016367,      # Chicago, IL, United States
+    "Miami": 1015116,        # Miami, FL, United States
+    "London": 1006886,       # London, England, United Kingdom
+    "Paris": 1006094,        # Paris, France
+    "Berlin": 1003854,       # Berlin, Germany
+    "Madrid": 1005493,       # Madrid, Spain
+    "Istanbul": 2348079,     # Istanbul, Turkey (added correct code)
+    "Rio de Janeiro": 2295657, # Rio de Janeiro, Brazil
+    "São Paulo": 2295663     # São Paulo, Brazil
+}
+
+def get_db_connection():
+    """Establish a connection to the PostgreSQL database."""
+    try:
+        conn = psycopg2.connect(DATABASE_URL)
+        logger.info("Database connection established.")
+        return conn
+    except psycopg2.Error as e:
+        logger.error(f"Database connection error: {e}")
+        return None
+
+def check_city_exists(db_conn, city_name):
+    """Check if the city exists in the metro table."""
+    try:
+        with db_conn.cursor() as cur:
+            cur.execute("SELECT geonameid, name FROM metro WHERE name = %s", (city_name,))
+            result = cur.fetchone()
+            if result:
+                logger.info(f"Found city in metro table: {city_name} with ID {result[0]}")
+                return result[0]  # Return the geonameid
+            else:
+                # Try a fuzzy match
+                logger.warning(f"City not found with exact name: {city_name}")
+                cur.execute("SELECT geonameid, name FROM metro WHERE name ILIKE %s LIMIT 1", (f"%{city_name}%",))
+                result = cur.fetchone()
+                if result:
+                    logger.info(f"Found city with fuzzy match: {result[1]} (ID: {result[0]})")
+                    return result[0]
+                else:
+                    logger.error(f"City not found in metro table: {city_name}")
+                    return None
+    except Exception as e:
+        logger.error(f"Error checking city: {e}")
+        return None
+
+def search_with_location_code(city_name, dance_style, location_code):
+    """Run a DataForSEO search using the proper location_code parameter."""
+    endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
+    
+    # Create auth header
+    auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+    headers = {
+        'Authorization': f'Basic {auth_header}',
+        'Content-Type': 'application/json'
+    }
+    
+    # Create the search task with location_code instead of location_name
+    query = f"{dance_style} in {city_name}"
+    data = [{
+        "keyword": query,
+        "location_code": location_code,  # Use location_code instead of location_name
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com"
+    }]
+    
+    try:
+        logger.info(f"Querying: '{query}' with location_code: {location_code}")
+        response = requests.post(endpoint, json=data, headers=headers)
+        response.raise_for_status()
+        result = response.json()
+        
+        # Save the response
+        city_slug = city_name.replace(" ", "_").lower()
+        style_slug = dance_style.replace(" ", "_").lower()
+        timestamp = int(time.time())
+        
+        raw_filename = f"{city_slug}_{style_slug}_{timestamp}_response.json"
+        raw_path = os.path.join(DATA_RAW_DIR, raw_filename)
+        
+        with open(raw_path, 'w', encoding='utf-8') as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+        logger.info(f"Saved raw API response to {raw_path}")
+        
+        return result, raw_path
+            
+    except Exception as e:
+        logger.error(f"Error querying {dance_style} in {city_name}: {e}")
+        return None, None
+
+def store_in_event_raw(db_conn, city_name, dance_style, raw_json, raw_file_path, metro_id):
+    """Store the API response in the event_raw table."""
+    if not db_conn:
+        logger.error("No database connection available.")
+        return False
+    
+    try:
+        # Create metadata dict
+        script_metadata = {
+            "script_city_name": city_name,
+            "script_dance_style": dance_style,
+            "script_file_type": "dataforseo_raw_response",
+            "original_file_name": os.path.basename(raw_file_path),
+            "original_file_path": raw_file_path
+        }
+        
+        # Get task_id from the response to use as source_event_id
+        task_id = None
+        if raw_json.get('tasks') and len(raw_json['tasks']) > 0:
+            task_id = raw_json['tasks'][0].get('id')
+        
+        # If no task_id, create a source_event_id based on city and dance style
+        if not task_id:
+            source_event_id_str = f"{city_name}_{dance_style}_{int(time.time())}"
+            source_event_id = hashlib.sha1(source_event_id_str.encode()).hexdigest()[:20]
+        else:
+            source_event_id = task_id
+        
+        # Add metadata to the raw_json
+        final_raw_json = dict(raw_json)
+        final_raw_json["_script_discovery_metadata"] = script_metadata
+        
+        # Insert into event_raw
+        with db_conn.cursor() as cur:
+            insert_query = """
+                INSERT INTO event_raw (source, source_event_id, metro_id, raw_json, discovered_at)
+                VALUES (%s, %s, %s, %s, %s)
+                ON CONFLICT (source, source_event_id) 
+                DO UPDATE SET raw_json = %s, discovered_at = %s
+                RETURNING id;
+            """
+            
+            now = datetime.now(timezone.utc)
+            
+            cur.execute(
+                insert_query, 
+                ('dataforseo_serp', source_event_id, metro_id, Json(final_raw_json), now, Json(final_raw_json), now)
+            )
+            
+            result = cur.fetchone()
+            if result:
+                logger.info(f"Successfully stored/updated event_raw record with id: {result[0]}")
+                db_conn.commit()
+                return True
+            else:
+                logger.warning("No id returned from insert/update operation")
+                db_conn.commit()
+                return False
+                
+    except Exception as e:
+        logger.error(f"Error storing event_raw: {e}")
+        if db_conn:
+            db_conn.rollback()
+        return False
+
+def check_event_raw_table(db_conn):
+    """Check the contents of the event_raw table."""
+    try:
+        with db_conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) FROM event_raw")
+            total_count = cur.fetchone()[0]
+            logger.info(f"Total records in event_raw: {total_count}")
+            
+            cur.execute("SELECT COUNT(*) FROM event_raw WHERE source = 'dataforseo_serp'")
+            dataforseo_count = cur.fetchone()[0]
+            logger.info(f"DataForSEO records in event_raw: {dataforseo_count}")
+            
+            if dataforseo_count > 0:
+                logger.info("Sample DataForSEO records:")
+                cur.execute("""
+                    SELECT id, source, source_event_id, metro_id, discovered_at 
+                    FROM event_raw 
+                    WHERE source = 'dataforseo_serp'
+                    ORDER BY id DESC
+                    LIMIT 5
+                """)
+                
+                # Print column names
+                col_names = [desc[0] for desc in cur.description]
+                logger.info(" | ".join(col_names))
+                
+                # Print results
+                for row in cur.fetchall():
+                    logger.info(" | ".join(str(v) for v in row))
+            
+            return True
+            
+    except Exception as e:
+        logger.error(f"Error checking event_raw table: {e}")
+        return False
+
+def main():
+    """Main function to fix DataForSEO API calls."""
+    logger.info("Starting DataForSEO API fix using location_code...")
+    
+    # Validate credentials before proceeding
+    if not DATAFORSEO_LOGIN or not DATAFORSEO_PASSWORD:
+        logger.error("DataForSEO credentials are missing in .env file")
+        logger.error("Please add DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD to your .env file")
+        return
+    
+    # Connect to database
+    db_conn = get_db_connection()
+    if not db_conn:
+        logger.error("Failed to connect to database. Exiting.")
+        return
+    
+    try:
+        # Process each city with known location code
+        cities_to_process = ["New York", "Los Angeles", "Chicago", "Miami", "London", "Paris", "Berlin", "Madrid", "Istanbul"]
+        dance_styles = ["salsa", "bachata", "kizomba", "zouk", "tango"]
+        
+        total_successful = 0
+        total_failed = 0
+        
+        for city in cities_to_process:
+            if city not in LOCATION_CODES:
+                logger.warning(f"No location code found for {city}. Skipping.")
+                continue
+                
+            location_code = LOCATION_CODES[city]
+            logger.info(f"Processing city: {city} (code: {location_code})")
+            
+            # Get metro_id for the city
+            metro_id = check_city_exists(db_conn, city)
+            if not metro_id:
+                logger.error(f"City {city} not found in metro table. Skipping.")
+                continue
+            
+            for dance_style in dance_styles:
+                logger.info(f"  Querying {dance_style} in {city}")
+                
+                # Make the API call with location_code
+                result, raw_path = search_with_location_code(city, dance_style, location_code)
+                
+                if result:
+                    # Check API response status
+                    if result.get('status_code') == 20000:
+                        # Check task status
+                        task_status = None
+                        if result.get('tasks') and len(result['tasks']) > 0:
+                            task_status = result['tasks'][0].get('status_code')
+                        
+                        if task_status == 20000:
+                            # Store in database
+                            if store_in_event_raw(db_conn, city, dance_style, result, raw_path, metro_id):
+                                total_successful += 1
+                                logger.info(f"✓ Successfully processed {dance_style} in {city}")
+                            else:
+                                total_failed += 1
+                                logger.error(f"✗ Failed to store {dance_style} in {city} in database")
+                        else:
+                            total_failed += 1
+                            task_message = result['tasks'][0].get('status_message', 'Unknown error')
+                            logger.error(f"✗ Task error for {dance_style} in {city}: {task_message}")
+                    else:
+                        total_failed += 1
+                        logger.error(f"✗ API error for {dance_style} in {city}: {result.get('status_message', 'Unknown error')}")
+                else:
+                    total_failed += 1
+                    logger.error(f"✗ Failed to query {dance_style} in {city}")
+                
+                # Respect API rate limits
+                time.sleep(1)
+        
+        # Check the event_raw table
+        logger.info("\nChecking event_raw table contents...")
+        check_event_raw_table(db_conn)
+        
+        logger.info(f"\nProcess completed. Successfully processed: {total_successful}, Failed: {total_failed}")
+        
+    except Exception as e:
+        logger.error(f"An error occurred during processing: {e}")
+    finally:
+        if db_conn:
+            db_conn.close()
+            logger.info("Database connection closed.")
+
+if __name__ == "__main__":
+    main() 

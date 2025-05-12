@@ -1,0 +1,206 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.8202 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100255-9976-0139-0000-fe5e163cd4e4",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.7791 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "dance events in new york",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "dance events in new york",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=dance%20events%20in%20new%20york&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:55:13 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "events",
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 270000000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "events",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Events",
+              "url": null,
+              "items": [
+                {
+                  "type": "events_element",
+                  "title": "New York City Ballet - All Balanchine II",
+                  "snippet": "May 10, 2:00\u202fPM David H. Koch Theater New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Schtick a Pole In It: Lady Gaga Edition",
+                  "snippet": "May 23, 8:00\u202fPM DROM New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Dance Gavin Dance",
+                  "snippet": "May 24, 6:00\u202fPM Pier 17 New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Dance Parade NYC \u2014 Xianix Barrera",
+                  "snippet": "May 17, 12:00\u202fPM Tompkins Square Park New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Dance Yourself Clean",
+                  "snippet": "May 10, 11:00\u202fPM Baby's All Right New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "NOT THAT INNOCENT [2000s DANCE PARTY]",
+                  "snippet": "May 10, 11:00\u202fPM DROM New York, NY $13",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Friday Salsa Socials - Lorenz Latin Dance Studio (Manhattan)",
+                  "snippet": "May 9, 9:00\u202fPM Lorenz Latin Dance Studio Manhattan New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "New York City Ballet -  A Midsummer Nights Dream",
+                  "snippet": "Jun 1, 3:00\u202fPM David H. Koch Theater New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "Bad Bunny Dance Night",
+                  "snippet": "May 9, 11:00\u202fPM The Sultan Room New York, NY",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "2025-May-13, Joyce Theater: Parsons Dance",
+                  "snippet": "May 12, 8:00\u202fPM The Joyce Theater New York, NY",
+                  "url": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "domain": "www.eventbrite.com",
+              "title": "Discover Dance Events & Activities in New York, NY",
+              "url": "https://www.eventbrite.com/d/ny--new-york/dance-events/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.eventbrite.com \u203a ... \u203a Dance Events",
+              "website_name": "Eventbrite",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dance events in New York, NY \u00b7 Conference \u00b7 Seminar \u00b7 Expo \u00b7 Convention \u00b7 Festival \u00b7 Performance \u00b7 Screening \u00b7 Gala \u00b7 Class \u00b7 Networking \u00b7 Party \u00b7 Rally\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Dance events in New York, NY"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "The Joyce Theater",
+                "Lincoln Center for the Performing...",
+                "New York City Center",
+                "The Ailey Studios",
+                "Irish Repertory Theatre",
+                "The High Line"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]",
+              "items": [
+                "Dance events in new york tonight",
+                "Hip hop dance events in new york",
+                "Dance events in new york today",
+                "Dance events in new york this weekend",
+                "Dance performances NYC today",
+                "Dance events NYC this weekend",
+                "Dance performances nyc 2025",
+                "Hip Hop dance shows NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

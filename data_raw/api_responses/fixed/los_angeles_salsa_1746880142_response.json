@@ -1,0 +1,383 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.4514 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101529-9976-0139-0000-f748f32f08b5",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.3465 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "salsa in Los Angeles",
+        "location_code": 1013962,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "salsa in Los Angeles",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1013962,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=salsa%20in%20Los%20Angeles&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRPaJ9xdx8KAEfQIRiVv3y_i",
+          "datetime": "2025-05-10 12:29:02 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+salsa+in+Los+Angeles&uds=ABqPDvwAP95je1zpgjhgArUJy9T20zghe4qG8F3qfkZtT-euxN0V3qTPUbMdOz6i0GFJu-WMh_33JWHkRh41eXISvIjOWSr5NLRvQa6OU7EEbHX-mrb0CMm9mfkgrgKu8eSHi0RTn_3wBtcYmRjodWgpUW7qgQ4qUQ97G-1bRG2pCake4fZHL20YlZUY3ym_ZnZzAV9FUZH7_JtRrvGdtk6uoA2u1_9QKAkEuv4KCTn6GQ-YA1c5kaXOUF2yC6RZT5bYZLxFY3qGnjKYQ-Etjj5-OTTaYw15b7WAMyrAx8MVKg5hI-xq5Y_OW7AiaQM0SZ_qHAhiVdycCt9hKaiWnNPuWeoPfTXieqM95c3zBb6HWnm3GMqehrnqPcTp3ryjeszplU7v-Z6qqNIIUR3gvYIcrp3bx5Ws74iuoinPKd3Ak4VW6k9YVtFLfbE7h7GUWQeI2q3aErIsy7qNJQqNKH_qUFYEsdY4SsG6OtHpYr927D5VEYcQaSo&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+salsa+in+Los+Angeles&uds=ABqPDvyLe-yt4qZIEOMmzgCGDns_GhtGj3nifwmDbQvI6qDKuCWcWzE5la-l9FPu9ATQ3qFLxkg17nNthGCGvvEJoOLXn057bqUcRdTJkoE5Fl9S8xt91dh3Cj9mYyHDwW7IccNe3AUAectvf-fCNSoJ-6Yw4JVMIWtTc57-j3Eij7KvtieorlBFXcoZ1Zf6abTr7P_ulFHcQ_mGo8X4jqZDuwT6pikE2cbyBIi74SGTsa9URcvnpATqpqzPhiXh6c0Rqy3p7ATz2gMF6MUaEbEZMU62WYAf6N-OcddMQBvE6IrJeva4kzyxgvBPdUeqjC2QOTBjZM0zyYcVsHeuqnW37ekJaeCchuBBAKpFQYO3Sb7JZlx40oGryYXQyKmHsX8BBVzx8NjHnWheYVu0GIbuh3e_FFaxRSl_MNBRj9jVGbkqjJRZFQi3qQv9W05ZYoCHUZBIn6x9EaI0D3Yrq-nc85_vqHNy6CUFtiEgRk7z4xLC4BApNnk&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+salsa+in+Los+Angeles&uds=ABqPDvxDX8MYwc3wNEH1clvwgDudymJKXRE2JOYA3S6bwkimLZorzTVaqcrzpXYLu7x9FLMTYw44biwA8NESZPirOeryrKbhlUHIDm29dLUki4_Isdul7d5_4JzheFhT17-Yohv4xbn8OZ_U-773vE2LGNr_W-e7ru7IXN3lpZU-SbKgTQqbsuIjDRwofUcDGYaCQK7TRMg8064TiOfWM_IDwOxf8D0YOVENSuHI8tSh4S7OFTWIZ9BdcyJxqBVBKcQVAAjc0b2UDEecNh8sxvqXA61NXtYad7FH11Y1xKEwwgIO6UCoYcPJRp2Xf5QA7r6dr1zm0jGCkL3THaHb9fkAHGTXQt_weO4vmWNVCecv6XwaIKnikHl0WdP-YFGhbPfTgEARWr61fae-Dd8y1SLBw8B9D_2xllhuPTI5Uzwh7D2N5FSHQrONOh5D9ae9IzHfQpofIJKkxSNteaxSfkM7mClfku19xYrplEGoXpHdWqU0KfLqBYs&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+salsa+in+Los+Angeles&uds=ABqPDvwqJFz7AphXnVDphOSj3jTzE_JHmRdBsU4DORwBbMAFvh-3cgtWGqX_MhgbD7pNGU_jGw8ms0Lf6xIK6IPwDiTGyF1sdTmhOBsOgc04f0F62mmMjI6_iGv5U70ChhUCFJV9qLah_d_9n-3WEDBVbLMPYn6KQ8shmfAFZ02KUN6AkTe_3DYxdjmE0urhdzvSlQinZPq2JypNPah4f5QSgQk2uFNOiq-kzGVt5HNxzOmLK2shT7mnjR5G5FLUTuukDf3E7oeNr1yLBPtDWdv_jBcApISUe9hL2Nb9Ijy8TB2XbCuDj_BYkJTM3FQclNmErpTnt73DlfJW0LyiSz1hXvnB-gdUzNoj2JfO5ePc3_DGYzqkDCKzUgHJrISfZauOjefk80Nj-RtVFgxlgPxpCwBaJu2zU19FVqRqvZAS3PxU2rt9pbhLrePSqeTen_mScUwNMOHdNdeyWcCFKLdLhIsvro6egFKFzEj3WPqsURaPZBcfqFU&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Vibe",
+                "url": null,
+                "domain": null,
+                "options": [
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Casual",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=casual+salsa+in+Los+Angeles&uds=ABqPDvwAP95je1zpgjhgArUJy9T20zghe4qG8F3qfkZtT-euxN0V3qTPUbMdOz6i0GFJu-WMh_33JWHkRh41eXISvIjOWSr5NLRvQa6OU7EEbHX-mrb0CMm9mfkgrgKu8eSHi0RTn_3wBtcYmRjodWgpUW7qgQ4qUQ97G-1bRG2pCake4fZHL20YlZUY3ym_ZnZzAV9FUZH7_JtRrvGdtk6uoA2u1_9QKAkEuv4KCTn6GQ-YA1c5kaXOUF2yC6RZT5bYZLxFY3qGnjKYQ-Etjj5-OTTaYw15b7WAMyrAx8MVKg5hI-xq5Y_OW7AiaQM0SZ_qHAhiVdycCt9hKaiWnNPuWeoPfTXieqM95c3zBb6HWnm3GMqehrnqPcTp3ryjeszplU7v-Z6qqNIIUR3gvYIcrp3bx5Ws74iuoinPKd3Ak4VW6k9YVtFLfbE7h7GUWQeI2q3aErIsy7qNJQqNKH_qUFYEsdY4SsG6OtHpYr927D5VEYcQaSo&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAD",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Cozy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=cozy+salsa+in+Los+Angeles&uds=ABqPDvyLe-yt4qZIEOMmzgCGDns_GhtGj3nifwmDbQvI6qDKuCWcWzE5la-l9FPu9ATQ3qFLxkg17nNthGCGvvEJoOLXn057bqUcRdTJkoE5Fl9S8xt91dh3Cj9mYyHDwW7IccNe3AUAectvf-fCNSoJ-6Yw4JVMIWtTc57-j3Eij7KvtieorlBFXcoZ1Zf6abTr7P_ulFHcQ_mGo8X4jqZDuwT6pikE2cbyBIi74SGTsa9URcvnpATqpqzPhiXh6c0Rqy3p7ATz2gMF6MUaEbEZMU62WYAf6N-OcddMQBvE6IrJeva4kzyxgvBPdUeqjC2QOTBjZM0zyYcVsHeuqnW37ekJaeCchuBBAKpFQYO3Sb7JZlx40oGryYXQyKmHsX8BBVzx8NjHnWheYVu0GIbuh3e_FFaxRSl_MNBRj9jVGbkqjJRZFQi3qQv9W05ZYoCHUZBIn6x9EaI0D3Yrq-nc85_vqHNy6CUFtiEgRk7z4xLC4BApNnk&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAE",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Trendy",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=trendy+salsa+in+Los+Angeles&uds=ABqPDvxDX8MYwc3wNEH1clvwgDudymJKXRE2JOYA3S6bwkimLZorzTVaqcrzpXYLu7x9FLMTYw44biwA8NESZPirOeryrKbhlUHIDm29dLUki4_Isdul7d5_4JzheFhT17-Yohv4xbn8OZ_U-773vE2LGNr_W-e7ru7IXN3lpZU-SbKgTQqbsuIjDRwofUcDGYaCQK7TRMg8064TiOfWM_IDwOxf8D0YOVENSuHI8tSh4S7OFTWIZ9BdcyJxqBVBKcQVAAjc0b2UDEecNh8sxvqXA61NXtYad7FH11Y1xKEwwgIO6UCoYcPJRp2Xf5QA7r6dr1zm0jGCkL3THaHb9fkAHGTXQt_weO4vmWNVCecv6XwaIKnikHl0WdP-YFGhbPfTgEARWr61fae-Dd8y1SLBw8B9D_2xllhuPTI5Uzwh7D2N5FSHQrONOh5D9ae9IzHfQpofIJKkxSNteaxSfkM7mClfku19xYrplEGoXpHdWqU0KfLqBYs&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAF",
+                    "domain": "www.google.com"
+                  },
+                  {
+                    "type": "refinement_chips_option",
+                    "title": "Romantic",
+                    "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=romantic+salsa+in+Los+Angeles&uds=ABqPDvwqJFz7AphXnVDphOSj3jTzE_JHmRdBsU4DORwBbMAFvh-3cgtWGqX_MhgbD7pNGU_jGw8ms0Lf6xIK6IPwDiTGyF1sdTmhOBsOgc04f0F62mmMjI6_iGv5U70ChhUCFJV9qLah_d_9n-3WEDBVbLMPYn6KQ8shmfAFZ02KUN6AkTe_3DYxdjmE0urhdzvSlQinZPq2JypNPah4f5QSgQk2uFNOiq-kzGVt5HNxzOmLK2shT7mnjR5G5FLUTuukDf3E7oeNr1yLBPtDWdv_jBcApISUe9hL2Nb9Ijy8TB2XbCuDj_BYkJTM3FQclNmErpTnt73DlfJW0LyiSz1hXvnB-gdUzNoj2JfO5ePc3_DGYzqkDCKzUgHJrISfZauOjefk80Nj-RtVFgxlgPxpCwBaJu2zU19FVqRqvZAS3PxU2rt9pbhLrePSqeTen_mScUwNMOHdNdeyWcCFKLdLhIsvro6egFKFzEj3WPqsURaPZBcfqFU&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQkbEKegQIKhAG",
+                    "domain": "www.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Tonight",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+in+los+angeles+tonight&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRewvedP6E73DGKs_vdafGCZd9GJMjL1WaNsKM19cIdfTulWRB6LS7Pb9UzlPSNnkT2-1xtRkZm1x1-llXVmvaWkdoNCZXjHLdu_IE_sBrdkGR9yEJXEGHeJUJsVYY2EsJPBsRd5-TYhOaXItJsQUDn5bVoFiR66QWLd_E-CZZ5lKU8M52S8Jta9dKNSw_C8RSxdqtK_HwLWpjtjcLAe3QWRRMU4U&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIJRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For beginners",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+in+los+angeles+for+beginners&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR4vT_jst3FNPSseSaNZzK_wFhWc-asho8zKjYaA_xObdzeFeJR6Vle6MbYsH_zFKXAEQdbiG-Utd2FYVt7RpPiDVwF4aVzQnvnMG0eRm9Ye6caAQmGN15fnD3fXuW1yn9tq9IYhsEnxzm7ttgoxLRnQl9YFykMb3VfuoBYHcQLUOuSEdC8BTGjaOVr00dw2d2JMuL1X2Gfnpp-6lF1vAexlZJhLcbrbkCQjGKOcf-enC2Fu24&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIIRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=salsa+in+Los+Angeles+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRsqKhQnq4B_yCtNxu6mJb7N8JbnnBKiS4uHrFJGsK5TZaplDk3yJEEni1Af8YmIXqreMhiGuPkuHnADavXa5UiYFW0VnZRBHeOiauMXZRGvooQtn6jKJcrO247Vp4ZpYv8Uw5uti20VbLDSyJKHczHbnTJQAPWN4zCZ5ypI0_Lz4IzTbt&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIIBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+salsa+in+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFRGYu7tdqK5HTNmPfdsbAeIDx2dV9G5qMj3eCf8uqSi2FpOxojUTSHona-tcJHukkjsF9uWAy3m6tmANHjB3aDooDf17MHQomi4vEfisEA11cY1810bYf8SW9M9dd6R8csZY5GY8NhqBslhVwI7Iwo1Z2nJoYQq_pgswS3B5wo1V203jTtY_8OVfr11Ao0jDrllppNmC0_uu6Thmz2UTDx9_hJdvKBsZWMOFkkqoFkoaK17M&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Accepts reservations",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=accepts+reservations+salsa+in+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR_FdVIp8_3rgu3DxNgkeQo_pu24RqTSfBymQLGu5JpaxphLD1WuWVMyGVJ64mDTS7XCvmJrHJ9I2IC7Rdxu8ppLLzuLamtpXfu_YXTcrb4UFnhnadj6F-UaR2w5j2DcFJQYjlpJQEtqTnTTLhcz8-RVNRv0YlsEio_hUxsqKGFoayJW4FJ-D7iNh6VW1Cw_O9RzwJylLLj5dtm5KQjr3ERKtzM5x5TiTZ7WZ7wjdcR7yYoNbfRdgpa1z607gp9WjGHRh6JQ&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIQBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Saturday",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+Saturday+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRXbpeEMey_Q4pR6vhuQVBurWvVPH1_tezRRhvpILI4oV_kI3843XRRE9mXhHGAl3_-mCHphh55q_BmiFehKGrN0V8bMd4SdUuPWHUSd6KG3wdpbXLHtZVf_Xc7_D415PZZaxH_2Kwx1UW_Kfi4-co9HecufN_vpIgWkeuDYRrOpoO8Nnrc6N4lYkBgiJgRHgpiO5Dovy__tlfAcxSqs9I62IdrLU4pJpoX59mcLUw-r8NXT47&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIRBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+salsa+in+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRJxuSIjs8nqhPLKBEpf2eAXEniIfEth8Vda8Ze7DPXyzUFmNcvgwnm-oBd-OYSKB53jPd6hWXdROkS0VTpQbKiPSVJwyoerqkIL0gduFuaVyEyjwQLpgmRc0BwkRywaJAA1nXOYP9UrYn94On-cWdyC2DtP7dzGC8kUUlMdYUbQLoN02W&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIQRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bachata",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Salsa+%26+Bachata+Los+Angeles&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRewvedP6E73DGKs_vdafGCZcFM8Ghg5Hg8FhT212hWwBKXeXtoPxz9FzIOZmI4TL5ygQCotoIj1YFpI5ULX0URs53DejYXofFKDjD0D49KeMYfGagqInDMCduHqSlQpCfCUZXgdEqiU0L-pcQh3D-rac8pnx8YxXt8IWr1mVoxd_BVAsGQrpfO2u9MudoqwPe9hwuh6uU4NTvOlVzs3OMgM4qsfwTNHIRLOwpBCsYD8z-dQnf&sa=X&ved=2ahUKEwjZ96TS85iNAxVGppUCHenLJOUQxKsJegQIQxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "local_pack",
+            "top_sights",
+            "related_searches"
+          ],
+          "se_results_count": 44800000,
+          "items_count": 6,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.danceus.org",
+              "title": "Los Angeles Salsa & Bachata Dancing Calendar",
+              "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.danceus.org › events › los-angeles-ca-salsa...",
+              "website_name": "DanceUs.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Los Angeles Salsa Calendar of Dance Events including Bachata, Kizomba, Zouk, Mambo, Merengue: latin parties, social, best salsa clubs, cuban salsa, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Los Angeles Salsa Calendar of Dance Events"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Friday, May 9",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#friday,may9",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Saturday, May 10",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#saturday,may10",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Sunday, May 11",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#sunday,may11",
+                  "domain": "www.danceus.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Monday, May 12",
+                  "description": null,
+                  "url": "https://www.danceus.org/events/salsa/los-angeles-ca-salsa-calendar/#monday,may12",
+                  "domain": "www.danceus.org"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+              "title": "The Granada LA",
+              "description": "Alhambra, CA \nClosed ⋅ Opens 6:30 PM \n\"This is an amazing place to dance Salsa , Bachata and other latin rhythms.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.3,
+                "votes_count": 165,
+                "rating_max": 5
+              },
+              "cid": "13526696710200972367",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[3]/div[1]/div[1]",
+              "title": "La Descarga",
+              "description": "1159 N Western Ave \nClosed ⋅ Opens 8 PM \n\"Free salsa classes every Tuesday at 8:30pm.\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 380,
+                "rating_max": 5
+              },
+              "cid": "10612763418850526766",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/div[1]",
+              "title": "Club Bahia",
+              "description": "1130 W Sunset Blvd \nClosed ⋅ Opens 8 PM \n\"We loved the music, specially salsa .\" \n",
+              "domain": null,
+              "phone": null,
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.8,
+                "votes_count": 345,
+                "rating_max": 5
+              },
+              "cid": "6490963482727665971",
+              "rectangle": null
+            },
+            {
+              "type": "top_sights",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "title": "Activities and tours",
+              "items": [
+                {
+                  "type": "top_sights_element",
+                  "title": "Salsa Dancing Class",
+                  "url": "https://www.groupon.com/deals/los-angeles-bachata-and-salsa-dance-academy?promoApplied=1&utm_source=google&source=&surface=search&funnel=cat&utm_medium=cpc&utm_campaign=us_dt_sea_ggl_txt_GTTD_sr_cbp_ch1_nbr_s*",
+                  "description": "Groupon",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Oceanfront Bar and Street Salsa Dancing",
+                  "url": "https://www.tripening.com/attractions/us-ca-santa-monica/152616-oceanfront-bar-and-street-salsa-dancing-?source=&language=en-US&currency=USD",
+                  "description": "Tripening",
+                  "rating": null
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "LA Venice Beach Walking Food Tour With Secret Food Tours",
+                  "url": "https://www.pelago.com/activity/p9dtpt45d-la-venice-beach-walking-food-tour-with-secret-food-tours-los-angeles/?utm_medium=ttd&utm_source=google&utm_surface=search&utm_funnel=cat&utm_ads_clk_src=&language=en-US&currency=USD&product_id=p9dtpt45d&option_id=bb733b03-3d47-4043-ad87-72dcbffd7bbe",
+                  "description": "Pelago",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 306,
+                    "rating_max": 5
+                  }
+                },
+                {
+                  "type": "top_sights_element",
+                  "title": "Los Angeles Dinner Cruise from Marina del Rey",
+                  "url": "https://www.viator.com/Santa-Monica/d32539/p-2540LAXDANCE?googlettd=true&src=papi&campaign=&surface=search&funnel=cat",
+                  "description": "Viator",
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3.9,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Salsa in los angeles tonight",
+                "Salsa in los angeles for beginners",
+                "Best salsa clubs in Los Angeles",
+                "Salsa Dancing Los Angeles tonight live",
+                "Salsa Dancing Los Angeles Friday",
+                "Salsa dancing Los Angeles Saturday",
+                "Salsa dancing Saturday Night Los Angeles",
+                "Salsa Dancing Los Angeles Wednesday"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

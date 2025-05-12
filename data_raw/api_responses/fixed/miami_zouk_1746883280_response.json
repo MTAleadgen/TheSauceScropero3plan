@@ -1,0 +1,306 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.8350 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101621-9976-0139-0000-290e1109f2e1",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.7973 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "zouk in Miami",
+        "location_code": 1015116,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "zouk in Miami",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1015116,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=zouk%20in%20Miami&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCRHByA6isNmIEWVPrd1x8pb_",
+          "datetime": "2025-05-10 13:21:19 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tickets",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Zouk+in+miami+tickets&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRL_9ldK_pvjHzGfJDrzZDSMlKK1qdrjMdy-6pHdy5tI7eRIqXkFi7fQlTqQ3rU5kHuNRF2QgoOdr6noaambV9bVSOetT6kAmYPdvQM7Xfpw4-tm9A2SKfWe_RTqtHdYjhN74fGL-X3GB6OhCJjZVqHZ_DDOwdq_nHoKfit6MJE9DkW7eKMSggEZt9qYyMSNJGzkESn9VoSpxnT_fgwMbXpEDK46A&sa=X&ved=2ahUKEwjAysGq_5iNAxWPLUQIHYvJCJwQxKsJegQIFxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=zouk+in+Miami+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRWrNFhn3QC4Cn-oVRaei2MIBtSOSFYAyksBd3D824E8WdDJXhS1rIJPV53YMYV2_grv4jTO4n5I2zV16cf_P-48g9RXRGKCLEpOLN9ViJVbV3NtI3oaJ1EykBf0m9SguBa-4hjTQ-FHJAR4dc6xPRb4fOe5fORF9rlDRdCcAnmyfyMn8o&sa=X&ved=2ahUKEwjAysGq_5iNAxWPLUQIHYvJCJwQxKsJegQIExAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Brazilian",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Brazilian+zouk+in+miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFrssNFLr58i4mcrsL5MfnSCxsBDOxaQH4Hn0xVDKHa-Uuv5GC6nD6Z2YbP-ET6kGRN_yaeK5FLAc6MidOM4YNe68O2Vq8rryTmgM8vugLh4K6M1oMgPhbdx6TW5beyVr4L9dvWGQodS0kVPMm7JSp1pJ2biGX8vM7CjmhQNVCDgOFtzWjlVCSwqkyP9UTrhofp220q7ld12HkiMzub6-Id5DIPU&sa=X&ved=2ahUKEwjAysGq_5iNAxWPLUQIHYvJCJwQxKsJegQIEBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+zouk+in+Miami&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR9do0v3J5MCCVLbpjk-L7u7zE2Ti6S8zDqyBVMH-VN4ERpHLZIF6EnZU75IZ2xTFGsSOY7C-8rD7azgHq3I4Hr3XwQ9LZuO0EE9HMeH9k9fh0rTxpIOpieSv6Oxif96Y462DIZa0Njkt62VRR65gpl0O5s_An3iaMhg703PIwiG2l0x5K&sa=X&ved=2ahUKEwjAysGq_5iNAxWPLUQIHYvJCJwQxKsJegQIDhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "events",
+            "local_pack",
+            "related_searches",
+            "google_reviews"
+          ],
+          "se_results_count": 970000,
+          "items_count": 7,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "MIAMI | Brazilian Zouk (@zoukunitedmiami)",
+              "url": "https://www.instagram.com/zoukunitedmiami/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3.6K+ followers",
+              "website_name": "Instagram · zoukunitedmiami",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Brazilian Zouk in North Miami. #Miamizouk #BrazilianZouk Group Classes | Private Lessons Samba | Br Zouk | Lambada 🏝 North Miami 👇🏼MORE INFO bit.ly/ZoukUnited",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "zouk in Miami from www.instagram.com",
+                  "url": "https://www.instagram.com/zoukunitedmiami/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101621-9976-0139-0000-290e1109f2e1:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Brazilian Zouk in North Miami"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "events",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Events",
+              "url": null,
+              "items": [
+                {
+                  "type": "events_element",
+                  "title": "New Zouk Edition @ Miami DFF",
+                  "snippet": "Aug 27, 8:00 PM The Restaurant at W South Beach Miami Beach, FL",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "May 14, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "May 21, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "May 28, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "Jun 4, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "Jun 11, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "Oct 1, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "Aug 27, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "Jun 18, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                },
+                {
+                  "type": "events_element",
+                  "title": "SENSUAL BACHATA & ZOUK LESSONS. SOCIAL DANCE AFTER, 100% RECOMMENDED!!",
+                  "snippet": "Sep 17, 8:30 PM Black Box Media Miami North Miami, FL $25",
+                  "url": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Zouk Miami: Zouk United Dance Studio",
+              "description": "North Miami, FL \nClosed ⋅ Opens 8 PM Mon \n\"The best place to dance Brazilian Zouk in USA.\" \n",
+              "domain": "bit.ly",
+              "phone": "(786) 307-2781",
+              "url": "https://bit.ly/ZoukUnited",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 14,
+                "rating_max": 5
+              },
+              "cid": "10497967985582230930",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "title": "Dance Awakening",
+              "description": "1791 SW 3rd Ave \nClosed ⋅ Opens 1 PM Sun \n\"There’s bachata, Brazilian zouk , salsa, and more.\" \n",
+              "domain": "www.danceawakening.org",
+              "phone": "(305) 979-4316",
+              "url": "http://www.danceawakening.org/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 61,
+                "rating_max": 5
+              },
+              "cid": "9952816914730187414",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "title": "ZoukMia",
+              "description": "North Miami Beach, FL \nTemporarily closed \n",
+              "domain": null,
+              "phone": "(305) 814-6662",
+              "url": null,
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 12,
+                "rating_max": 5
+              },
+              "cid": "3634920335175480897",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Zouk in miami tickets",
+                "Brazilian zouk in miami",
+                "Miami Zouk Festival 2025",
+                "Miami Beach Zouk Festival",
+                "4333 collins ave, miami beach, fl, united states,33140",
+                "Brazilian Zouk",
+                "Zouk festivals USA",
+                "Zouk Heat 2025"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJcbA2beWz2YgRkk0NJENGsJE",
+              "feature": "0x88d9b3e56d36b071:0x91b04643240d4d92",
+              "cid": "10497967985582230930",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "9.3989 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101530-9976-0139-0000-6b89f944329f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "9.3289 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "tango in Chicago",
+        "location_code": 1016367,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "tango in Chicago",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1016367,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=tango%20in%20Chicago&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCe3L9NA8LA6IEQDAwAmtpuCv",
+          "datetime": "2025-05-10 12:30:30 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=online+classes+tango+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRuXV5f0Vph2Ss_2Z9azh3D4YeTxbdDtAvDZtF7YVRxnear3VQh8Bt6mfoAlvcfPFJw9GvQccWB_UPlFs9b8Ew4RfMn5GDAHdLbhAKv1tIzqIZbmouPuy-gt2HUWHX33cYD-bbHi9Cxe9yZZPpWJYsf5O5YJg1vxuC6ClNbW546_C3RudfsEGM6A_xaT5NoVXWXmi7I_Ft7V9QIGDB7pgcX65d_Oahc1EYBcUSkH8axK21OFVv&sa=X&ved=2ahUKEwjE8JP885iNAxUBRTABHYTvBxsQxKsJegQIHhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=tango+in+Chicago+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRApqz4lLzC2T3SQ7iP_rQwxkDf21uMs1mylhIOdye8s6_t1Xsi3WmuVvEHK-1vltUFvqOb80jrrkir9G-VA3goUK60s7TJsVbtJgYcaDNrZCmaT7kYYhs28htaUKFQBMsHiep0ibO8_Idx02e0RiAuhhE39pNEP0tnpHqGwj0R0wUuLLJ&sa=X&ved=2ahUKEwjE8JP885iNAxUBRTABHYTvBxsQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Chicago+Tango+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRdv3-wMFuH3cnDbMXlRRSrwQENEPyGEmIHcpGOvgaL-bZ_-GlcnUGe2ylulNg4_XO6wRuGBMN7xZo5Uf_Q5gxUuJTTusEx8m-m3gxCCht8rLakH9Lf_1AHykTlOo5ivcGFhtQu0k95HPqfc6pVmJJX39cifAVSC3OB5Hb2u1yFGyJ2X8TZ7UyCdOY0-u3_ubLR5zMlbEZVkaR4IkcrD8eLWtexiw&sa=X&ved=2ahUKEwjE8JP885iNAxUBRTABHYTvBxsQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=top+rated+tango+in+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRPtuVj0u_OdllkxDbEQdhquiP_b9S5mPauCXSXVLdtJEXmR2k_CI3KJNvFl1uK0oT6ZD23HW7QiGvi41HMkFYi_kao5HlKw-gNjdeYX3_NwksUA1AhimXvIn4TMMZ4vV2hXtMF0lq99ufZP7aZVQW2u8MDLUdjD8fJFz_QacHzkB9r1aS&sa=X&ved=2ahUKEwjE8JP885iNAxUBRTABHYTvBxsQxKsJegQIGxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Argentine",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Argentine+tango+in+chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RR7w6KG9nzVYWb7U-fwTSfywpJAnemNDnbqZp7qUiCX7M6Z4JfYKq5pgrNb-3wz1WyraDcgYrDOs5iVCYSe-Ip-9QhuWygwLa4GgBWh4i1FsLQq-p5EM02tpphfMcAXGvMsuBMstvwYoZZ4o101kuxRDfC4naHcLrUELdSAkr1XzsLmfwQaqtSzqmNGMOD2znfLsb2fZPUJPEr02Y-9cm5yUNiqs0&sa=X&ved=2ahUKEwjE8JP885iNAxUBRTABHYTvBxsQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Tango mango",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=US&glp=1&q=Tango+mango+Chicago&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRRXCFo-XGTNUPrCI7aQOIK6RfX3EagdXUj2349QwOwVCFuYyknV7VS8fFxhimCyNrsWQo5p02TbQN-1lbwYDFLbm7xgPvzb5YwfoKuTWpv3SuWOxv_pVwN_43P9HaL5Nz8g6AOkFog6boK0Z7xMFrth5p2alN3s6T_cOh1-2hvHQvCOzupusDdJcSXbYSiHIMzCMnMy721SE4FtyCTadB5a5Ojxc&sa=X&ved=2ahUKEwjE8JP885iNAxUBRTABHYTvBxsQxKsJegQINRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 22900000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Tango Sur",
+              "description": "3763 N Southport Ave \nClosed ⋅ Opens 3 PM \n\"Cozy, warm, reasonably priced and great music.\" \n",
+              "domain": "tangosurgrill.com",
+              "phone": "(773) 477-5466",
+              "url": "https://tangosurgrill.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 3000,
+                "rating_max": 5
+              },
+              "cid": "9092690374958017479",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Artango Bar & Steakhouse",
+              "description": "4767 N Lincoln Ave \nClosed ⋅ Opens 4 PM \n\"Interactive musicians with the crowd.\" \n",
+              "domain": "www.artangosteakhouse.com",
+              "phone": "(872) 241-2176",
+              "url": "https://www.artangosteakhouse.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.3,
+                "votes_count": 1200,
+                "rating_max": 5
+              },
+              "cid": "16135845671296252414",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "TangoChicago",
+              "description": "7+ years in business · 735 W 35th St \nClosed ⋅ Opens 7:30 PM Fri \n",
+              "domain": "www.tangochicago.com",
+              "phone": "(312) 788-3408",
+              "url": "http://www.tangochicago.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2.5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "cid": "5011896079833394369",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Chicago Tango calendar",
+                "Tango mango Chicago",
+                "Tango classes Chicago",
+                "Chicago Tango Club",
+                "Tango Milonga near me",
+                "Tango Mango clothing",
+                "Oakland Tango",
+                "Chicago Tango Festival 2024"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

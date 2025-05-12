@@ -1,0 +1,189 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.2973 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05100254-9976-0139-0000-2545e013264c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.2596 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "latin dance in new york",
+        "location_name": "New York,New York,United States",
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "latin dance in new york",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1023191,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=latin%20dance%20in%20new%20york&num=1&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCTsIP9OlT8KJEWL-d-EGjwvI",
+          "datetime": "2025-05-09 23:54:14 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Traditional",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Traditional+latin+dance+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRiM-HfcqxoVlNp7sajnBpFa7MiksEdZQmRW5NektJ2EoB57tuChfdY4o9lhGvAakLR1HgpMTkiGSFgc79kv6DmG0nttUsPfWKa450GQ1kKis9Z5R1sKCPjvv8oTPoqGBQfoA_wXpgW7Kkz8corfIkScndjNzCX5kery9n9cQbCTooiqGfV1Mpdp42FC4atyPBuHGk8Qbifgm-_ZCvVpuh3jp0TFM&sa=X&ved=2ahUKEwiT3Iz3ypeNAxVRPEQIHY9xBLgQxKsJegQIHxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Open now",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=latin+dance+in+new+york+open+now&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRuMXvacPtWeb8nOuCvZoW5i20ymU_3qTbYHUerqPlSbdlGz8PjcysygeNcZZ3KhIkEWGnySu6B9PIw5WzA4DD8-3pykh-rkltP3fyrHZq5FnZb8URi6xTAiRDP5URftgzVGWxMqvpkrved8RTA_XWtgGVUNXqAhsY3dyBIE9KC7l5dDXD&sa=X&ved=2ahUKEwiT3Iz3ypeNAxVRPEQIHY9xBLgQxKsJegQIHBAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online classes",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=online+classes+latin+dance+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRMig7EtYo4Rsu7ScWtG0bDGBbPU4sCNFEoR7QLN2R-lX6NIC8yMxWy-qxvax5Q9CaEAZnuM7VSZctBoTAaWgAH32DCEIKXF-MJ13WgGrKpA1859kwYxQ6lbYsu2DRuSXd0p_1edd9rI0Sg0dTqEIejSxlOV3u5tBMZVhPYg3ChTT6gEMBQkAo2xqgM4axnOIc4JURARuu_628vf_LvUMQs08cC3PcEEO4877DpFzaDjvZBuQvWpUgd7ySi5JGauiac8_b2A&sa=X&ved=2ahUKEwiT3Iz3ypeNAxVRPEQIHY9xBLgQxKsJegQIHRAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Top rated",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=top+rated+latin+dance+in+new+york&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRf7ShjvcArfUdQiBruBJGToV1h5LfD5IB7ky-Vil3w7tpdzF6mi6DTr4507WGVh1pSb9XvxI4H0qcDN9TzLfv80q5uK71FZlr2DqU0rxgwyMxezi9Hh55GkWmMwbC-n9D9adXxVp3gSNSCsr9IWzFrMSxI-uKhDw8Cu6tY_rgaI5R-TKrL85uPneKGfaNeGJWA6bEVw&sa=X&ved=2ahUKEwiT3Iz3ypeNAxVRPEQIHY9xBLgQxKsJegQIGxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Calendar",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+New+York+calendar&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRmYsQI4FGKt1jXmZjGaVVxRElBM1ALdyFq5u7L0u9vQbVAg2O-yrDbF5gfBou636yhKylaVBmi31vYegg2fGhmIQhZnanYECEr228G_nnVUzzXOrefl9P5xQprUZvxBlKPPzLzKeCumvclMzOJ6DnyGAOCcJWy8kJF6QYFAE15N6Y-Hboew2lpi_C469jHAMMXcHej3M_6K7PWansQu5m5dFO3k6Do6fdxphto3WiqBrHgxsE&sa=X&ved=2ahUKEwiT3Iz3ypeNAxVRPEQIHY9xBLgQxKsJegQIGhAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "History",
+                "url": "https://www.google.com/search?num=1&sca_esv=218c1d1cd979ee0a&hl=en&gl=US&glp=1&q=Salsa+in+New+York+history&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRFRGYu7tdqK5HTNmPfdsbASJNYzJjhGaYvPnU_du07apsruWAVsyQzCf-u5YKwzq6onVhK_pXzzLr6snOEzKTqe9SxIiYf7QCVyevCw0bxv5qQ9kSpUtfBJdOHxCOm3g2Y0MJ1EY9NkRLGA8wA95N3d_yOLSLM13ht1zJb-J2IUO8g9KqSfFWo6oeCQpUgRflWeu5XP3llD9wvhNXm922tqrgi7zM5E50UTldCJYA7HKPHEIR&sa=X&ved=2ahUKEwiT3Iz3ypeNAxVRPEQIHY9xBLgQxKsJegQIOxAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "local_pack",
+            "related_searches"
+          ],
+          "se_results_count": 46600000,
+          "items_count": 4,
+          "items": [
+            {
+              "type": "local_pack",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Gonzalez y Gonzalez",
+              "description": "192 Mercer St \nOpen \u22c5 Closes 4\u202fAM \n\"Great atmosphere, live salsa , merengue , cumbia and bachata.\" \n",
+              "domain": "gygnyc.com",
+              "phone": "(844) 536-8637",
+              "url": "http://gygnyc.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.1,
+                "votes_count": 1900,
+                "rating_max": 5
+              },
+              "cid": "5911709644558449139",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+              "title": "Salsa Sabrosa",
+              "description": "410-412 8th Ave 4th Floor \nOpen \u22c5 Closes 11\u202fPM \n\"... would recommend Salsa Sabrosa to anyone that loves latin dancing !\" \n",
+              "domain": "salsasabrosaschool.com",
+              "phone": null,
+              "url": "https://salsasabrosaschool.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 269,
+                "rating_max": 5
+              },
+              "cid": "4932675944286440137",
+              "rectangle": null
+            },
+            {
+              "type": "local_pack",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]",
+              "title": "Sensual Movemnet New York | Bachata Sensual NYC | Bachata Classes | Bachata Dance Classes | Bachata Social",
+              "description": "7+ years in business \u00b7 224 W 35th St \nOpen \u22c5 Closes 11\u202fPM \n\"Amazing place to dance and learn Bachata to meet new people.\" \n",
+              "domain": "sensualmovementusa.com",
+              "phone": "(929) 376-8884",
+              "url": "https://sensualmovementusa.com/",
+              "is_paid": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 104,
+                "rating_max": 5
+              },
+              "cid": "17939223690208294838",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Traditional latin dance in new york",
+                "Salsa Dancing NYC tonight",
+                "Free Salsa dancing NYC",
+                "Salsa dancing NYC Saturday night",
+                "Latin dance classes NYC",
+                "Live Salsa NYC",
+                "Salsa New York calendar",
+                "Bachata Social NYC"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

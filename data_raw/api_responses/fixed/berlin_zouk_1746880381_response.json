@@ -1,0 +1,189 @@
+{
+  "version": "0.1.20250425",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.5123 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05101532-9976-0139-0000-cc54450f95e1",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.4433 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "zouk in Berlin",
+        "location_code": 1003854,
+        "language_name": "English",
+        "depth": 1,
+        "se_domain": "google.com",
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "zouk in Berlin",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 1003854,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=zouk%20in%20Berlin&num=1&hl=en&gl=DE&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQFZAz83TqhHEXA7XltGICEE",
+          "datetime": "2025-05-10 12:33:01 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Reviews",
+                "url": "https://www.google.com/search?num=1&sca_esv=30779fc3c9b7e9de&hl=en&gl=DE&glp=1&q=zouk+berlin+reviews&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRanzqBpQC199GujVMVX38r7ybQhD8FUwRXs_9NN4pQJYpDntl7VlXS18-vZ-S17Isu2PwiBXAgOhF3wKQH5dZKZGi6mfQ8qfX0nAQlncTcv7Q9tIoyMpXMZ1XoOpLgraXF7BRdCUhjiILP1OT6cdI2DlNHmM&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzcnQiSj2rYzP0EWDbaTwHexSc-mKMB6Oj4VH2UJ9CB9o9gKSSYdaGpo6MX6VBjR2sTprjxWpJrb4TfBCWx5nrZx87ETx&sa=X&ved=2ahUKEwjt8K7E9JiNAxUNmokEHRgVO9MQxKsJegQIDhAB&ictx=1",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "google_reviews",
+            "knowledge_graph"
+          ],
+          "se_results_count": 542000,
+          "items_count": 3,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.zouk-berlin.com",
+              "title": "Zouk Berlin",
+              "url": "http://www.zouk-berlin.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "http://www.zouk-berlin.com",
+              "website_name": "Zouk Berlin",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Hello! Welcome to Zouk Berlin! Berlin provides a dance scene that is the heart of a shared and much-loved hobby, namely, Brazilian Zouk.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "zouk in Berlin from www.zouk-berlin.com",
+                  "url": "http://www.zouk-berlin.com/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-cc54450f95e1:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Berlin provides a dance scene that is the heart of a shared and much-loved hobby"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]",
+              "title": "Zouk Berlin",
+              "subtitle": "Dance club in Berlin",
+              "description": null,
+              "card_id": null,
+              "url": "http://www.zouk-berlin.de/",
+              "image_url": null,
+              "logo_url": null,
+              "cid": "2803270758943933730",
+              "items": [
+                {
+                  "type": "knowledge_graph_images_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": "Map of Zouk Berlin",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-cc54450f95e1:1",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_carousel_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "title": "Profiles",
+                  "data_attrid": "kc:/common/topic:social media presence",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Facebook",
+                      "subtitle": null,
+                      "url": "https://www.facebook.com/ZoukersBerlin/",
+                      "domain": "www.facebook.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/05101532-9976-0139-0000-cc54450f95e1:2",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/g-link[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "google_reviews",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "position": "left",
+              "xpath": "/#document",
+              "reviews_count": 0,
+              "rating": null,
+              "place_id": "ChIJu_XCASlQqEcRIsUXJOc35yY",
+              "feature": "0x47a8502901c2f5bb:0x26e737e72417c522",
+              "cid": "2803270758943933730",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
