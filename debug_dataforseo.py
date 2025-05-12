@@ -16,28 +16,52 @@ endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
 
 # Create auth header
 auth_header = base64.b64encode(f"{DATAFORSEO_LOGIN}:{DATAFORSEO_PASSWORD}".encode()).decode()
+
+# STRICTLY control the headers - use only what's absolutely necessary
 headers = {
     'Authorization': f'Basic {auth_header}',
     'Content-Type': 'application/json'
 }
 
-# Try a completely generic query with no location at all
+# CORRECT DATA FORMAT: Include location_name as required by the API
+# The location_name parameter is crucial for specifying the geographic location
 data = [{
-    "keyword": "salsa dance",  # Generic query with no location 
-    "language_code": "en", 
+    "keyword": "salsa dance",
+    "location_name": "New York,United States",  # Required format: city,country
+    "language_name": "English",  # Using language_name instead of language_code
     "depth": 10,
     "se_domain": "google.com"
 }]
 
 print(f"Sending request with payload: {json.dumps(data, indent=2)}")
 
+# Enable HTTP request debugging
+requests_log = requests.packages.urllib3.add_stderr_logger()
+requests_log.setLevel("DEBUG")
+
 try:
-    # Make the API request
-    response = requests.post(endpoint, json=data, headers=headers)
+    # Make the API request with specifically controlled parameters
+    # Set all request parameters explicitly to avoid any default behaviors
+    session = requests.Session()
+    
+    # Create prepared request to see exactly what's being sent
+    req = requests.Request('POST', endpoint, headers=headers, json=data)
+    prepped = req.prepare()
+    
+    print("\nPrepared Request Headers:")
+    for key, value in prepped.headers.items():
+        if key.lower() != 'authorization':  # Don't print auth credentials
+            print(f"{key}: {value}")
+    
+    print("\nPrepared Request Body:")
+    print(prepped.body.decode() if isinstance(prepped.body, bytes) else prepped.body)
+    
+    # Make the actual request
+    response = session.send(prepped)
     response.raise_for_status()
     result = response.json()
     
-    print(f"API Response status: {result.get('status_code')} - {result.get('status_message')}")
+    print(f"\nAPI Response status: {result.get('status_code')} - {result.get('status_message')}")
     
     # Print task-level details
     for task in result.get('tasks', []):

@@ -1802,7 +1802,7 @@ def main():
         logger.warning("No cities have valid location_codes after enrichment. Cannot proceed with API tasks.")
     else:
         # Define search terms
-        broad_event_search_terms = ["dance", "dancing"]
+        broad_event_search_terms = ["salsa", "kizomba", "bachata", "zouk", "coast swing", "ballroom"]
         
         # 2. Submit batch tasks for broad event search terms
         all_task_ids = []

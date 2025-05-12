@@ -200,13 +200,14 @@ def get_dataforseo_results_for_dance_style(city_info, dance_style, dataforseo_lo
     all_urls_from_query = set()
     raw_api_response_json = None
     
-    # Format the search query to include city name in the query itself
-    query = f"{dance_style} in {city_info['name']}"
+    # Format the query - we'll keep location in the query but also use location_name parameter
+    query = f"{dance_style}"
     # Handle coast swing specially
     if dance_style == "coast swing":
-        query = f'"coast swing" in {city_info["name"]}'
+        query = f'"coast swing"'
     
-    # Add country to query for better results when no location code is available
+    # Get city and country information for the location_name parameter
+    city_name = city_info['name']
     country_code = city_info.get('country_code', '')
     country_name = ""
     if country_code:
@@ -220,13 +221,13 @@ def get_dataforseo_results_for_dance_style(city_info, dance_style, dataforseo_lo
             "ES": "Spain"
         }
         country_name = country_mapping.get(country_code, country_code)
-        if country_name:
-            if dance_style == "coast swing":
-                query = f'"coast swing" in {city_info["name"]}, {country_name}'
-            else:
-                query = f"{dance_style} in {city_info['name']}, {country_name}"
     
-    # DataForSEO API endpoint for Google Organic Search (updated from events)
+    # Format location_name as "city,country" as required by the API
+    location_name = city_name
+    if country_name:
+        location_name = f"{city_name},{country_name}"
+    
+    # DataForSEO API endpoint for Google Organic Search
     endpoint = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
     
     # Create auth header
@@ -236,16 +237,17 @@ def get_dataforseo_results_for_dance_style(city_info, dance_style, dataforseo_lo
         'Content-Type': 'application/json'
     }
     
-    # Create the search task with organic-specific parameters
-    # DO NOT INCLUDE ANY LOCATION PARAMETERS - they cause errors
+    # Create the search task with the CORRECT parameters
+    # IMPORTANT: location_name is required by the API
     data = [{
         "keyword": query,
-        "language_code": "en", # Use English for consistent results
-        "depth": RESULTS_PER_PAGE,  # Request 100 results
+        "location_name": location_name,  # Required parameter
+        "language_name": "English",      # Using language_name instead of language_code
+        "depth": RESULTS_PER_PAGE,       # Request 100 results
         "se_domain": "google.com"
     }]
     
-    logger.info(f"Querying: '{query}' in {city_info['name']} using organic endpoint")
+    logger.info(f"Querying: '{query}' with location_name='{location_name}' using organic endpoint")
     
     try:
         # Track metrics
@@ -274,13 +276,13 @@ def get_dataforseo_results_for_dance_style(city_info, dance_style, dataforseo_lo
                     if task_errors:
                         return all_urls_from_query, None
             else: # Log API error if not 20000
-                logger.error(f"DataForSEO API error for '{query}' in {city_info['name']}. Status: {result.get('status_code')}, Message: {result.get('status_message')}")
+                logger.error(f"DataForSEO API error for '{query}' in {location_name}. Status: {result.get('status_code')}, Message: {result.get('status_message')}")
                 serp_request_errors.labels(city=city_info['name'], dance_style=dance_style).inc()
                 return all_urls_from_query, raw_api_response_json
 
             # Process the results using the enhanced extraction
             if result.get('status_code') == 20000 and raw_api_response_json:  # Success code and valid data
-                logger.info(f"DataForSEO request successful for '{query}' in {city_info['name']}")
+                logger.info(f"DataForSEO request successful for '{query}' in {location_name}")
                 
                 # Extract URLs with the enhanced method
                 urls = extract_urls_from_result(result)
@@ -296,7 +298,7 @@ def get_dataforseo_results_for_dance_style(city_info, dance_style, dataforseo_lo
                 # Log per-style count to CSV logger
                 dance_stats_logger.info(f"{city_info['name']},{dance_style},{len(all_urls_from_query)}")
             else:
-                logger.error(f"DataForSEO API request failed for '{query}' in {city_info['name']}. Status: {response.status_code}")
+                logger.error(f"DataForSEO API request failed for '{query}' in {location_name}. Status: {response.status_code}")
                 serp_request_errors.labels(city=city_info['name'], dance_style=dance_style).inc()
                 # Return empty set and None if HTTP error before JSON parsing
                 return all_urls_from_query, None
@@ -893,9 +895,9 @@ def batch_organic_style_tasks(cities_df, specific_dance_styles, dataforseo_login
     for index, city_info in cities_df.iterrows():
         city_name = city_info['name']
         
-        # Add country to query for better location context
+        # Format location_name as "city,country" as required by the API
         country_code = city_info.get('country_code', '')
-        country_suffix = ""
+        country_name = ""
         if country_code:
             country_mapping = {
                 "US": "United States", 
@@ -907,33 +909,36 @@ def batch_organic_style_tasks(cities_df, specific_dance_styles, dataforseo_login
                 "ES": "Spain"
             }
             country_name = country_mapping.get(country_code, country_code)
-            if country_name:
-                country_suffix = f", {country_name}"
         
-        city_lang_code = city_info.get('language_code', 'en')
+        # Format location_name parameter
+        location_name = city_name
+        if country_name:
+            location_name = f"{city_name},{country_name}"
+        
         se_domain_for_api = "google.com"
         if country_code and country_code.lower() != "us":
             country_domain = country_code.lower()
             se_domain_for_api = f"google.{country_domain}" if country_domain not in ["gb", "uk"] else "google.co.uk"
 
         for style in specific_dance_styles:
-            # Include location in query, not API parameters
+            # Include style only in the keyword - location is in location_name
             if style == "coast swing": # Ensure quotes for multi-word style
-                query = f'"coast swing" in {city_name}{country_suffix}'
+                query = f'"coast swing"'
             else:
-                query = f"{style} in {city_name}{country_suffix}"
+                query = f"{style}"
 
-            tag_content = f"city_{city_info['geonameid']}_style_{style.replace(' ', '_')}_organic_lang_{city_lang_code}_run_{int(time.time())}"
+            tag_content = f"city_{city_info['geonameid']}_style_{style.replace(' ', '_')}_organic_run_{int(time.time())}"
 
+            # Use the CORRECT parameter format for the API
             task_payload = {
                 "keyword": query,
-                "language_code": city_lang_code,
-                "depth": 7,  # Number of SERP pages to crawl, aiming for ~70-100 results
+                "location_name": location_name,  # Required parameter
+                "language_name": "English",      # Using language_name instead of language_code
+                "depth": 7,                      # Number of SERP pages to crawl
                 "se_domain": se_domain_for_api,
                 "tag": tag_content 
             }
             
-            # IMPORTANT: Do NOT include any location parameters to avoid API errors
             post_data_array.append(task_payload)
     
     if not post_data_array:
@@ -1146,7 +1151,6 @@ def poll_task_results(task_ids_with_metadata_map, dataforseo_login, dataforseo_p
                                                         "api_task_info_context": {
                                                             "task_id": task_detail.get("id"),
                                                             "keyword": task_detail.get("data", {}).get("keyword"),
-                                                            "location_name": task_detail.get("data", {}).get("location_name"),
                                                             "language_code": task_detail.get("data", {}).get("language_code"),
                                                             "tag": task_detail.get("data", {}).get("tag")
                                                         }
@@ -1531,7 +1535,6 @@ def get_results_by_id_list(dataforseo_login, dataforseo_password, task_tags_with
                                                     "result_id": result_id,
                                                     "task_id": task_result.get("id"),
                                                     "keyword": task_detail.get("data", {}).get("keyword"),
-                                                    "location_name": task_detail.get("data", {}).get("location_name"),
                                                     "language_code": task_detail.get("data", {}).get("language_code"),
                                                     "tag": result_tag
                                                 }
